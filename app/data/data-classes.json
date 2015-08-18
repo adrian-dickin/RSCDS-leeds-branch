@@ -1,0 +1,104 @@
+{
+  "pageTitle": "Classes",
+  "scripts": [
+  	"headerScroll();"
+  ],
+  "classes": [ 
+  	{
+  		"day": "Monday",
+  		"level": "General",
+  		"teacher": ["Don Andrews"],
+  		"time": "13:45 - 15:45",
+  		"venue": [
+  			"Adel Methodist Church Hall",
+  			"Gainsborough Avenue",
+  			"LS16 7PQ"
+  		],
+  		"notes": []
+   	},
+  	{
+  		"day": "Monday",
+  		"level": "Advanced",
+  		"teacher": ["Catherine Livsey"],
+  		"time": "19:45 - 21:45",
+  		"venue": [
+  			"Calverley Conservative Club",
+  			"Victoria Street",
+  			"Calverley",
+  			"LS28 5PT"
+  		],
+  		"notes": []
+   	},
+  	{
+  		"day": "Tuesday",
+  		"level": "General",
+  		"teacher": ["Irene Dracup"],
+  		"time": "19:45 - 21:45",
+  		"venue": [
+  			"Adel Methodist Church Hall",
+  			"Gainsborough Avenue",
+  			"Leeds",
+  			"LS16 7PQ"
+  		],
+  		"notes": []
+   	},
+  	{
+  		"day": "Thursday",
+  		"level": "General",
+  		"teacher": ["Don Andrews"],
+  		"time": "14:00 - 16:00",
+  		"venue": [
+  			"St Margaret's Church Hall",
+  			"Queen's Rd",
+  			"Ilkley",
+  			"LS29 9QL"
+  		],
+  		"notes": []
+   	},	
+  	{
+  		"day": "Thursday",
+  		"level": "General",
+  		"teacher": ["Brenda Burnell","Stella Summers"],
+  		"time": "19:30 - 21:30",
+  		"venue": [
+  			"Lidgett Park Methodist Church Hall",
+  			"North Park Avenue",
+  			"LS8 1HG"
+  		],
+  		"notes": ["Continues throughout the year"]
+   	},  	
+  	{
+  		"day": "Friday",
+  		"level": "Children",
+  		"teacher": ["Brenda Burnell"],
+  		"time": "17:30 - 19:00",
+  		"venue": [
+  			"Hawksworth Wood Primary School",
+  			"Broadway",
+  			"Vesper Gate"
+  		],
+  		"notes": []
+   	},
+  	{
+  		"day": "Sunday - monthly",
+  		"level": "Experienced",
+  		"teacher": ["Catherine Livsey"],
+  		"time": "13:45 - 15:45",
+  		"venue": [
+  			"Askwith Village Hall",
+  			"Askwith",
+  			"LS21 2JB"
+  		],
+  		"notes": [
+  			"4th Oct 2015",
+  			"1st Nov 2015",
+  			"6th Dec 2015",
+  			"10th Jan 2016",
+  			"7th Feb 2016",
+  			"13th Mar 2016"
+  		]
+   	}
+   ]
+ }
+
+

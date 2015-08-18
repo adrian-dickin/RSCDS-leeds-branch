@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Events",
+  "scripts": [
+  	"headerScroll();",
+  	"expandPanel();"
+  ],
+  "events": [
+  	{
+  		"date": "19th Sept 2015",
+  		"event": "Leeds Branch Dance",
+  		"actor": "Band: Alan Ross Duo",
+  		"location-top": "St. Margaret's Church Hall",
+  		"location": [
+  			"Church Road",
+  			"Horsforth",
+  			"Leeds",
+  			"LS18 5LQ"
+  		]
+  	},
+  	{
+  		"date": "17th Oct 2015",
+  		"event": "Highland & Scottish National Day School",
+  		"actor": "Teacher: Catherine Livsey",
+  		"location-top": "Church Hill",
+  		"location": [
+  			"Off Leeds Road",
+  			"Bramhope",
+  			"LS16 9BA"
+  		]
+  	},
+  	{
+  		"date": "10th Nov 2015",
+  		"event": "Leeds Branch Dance",
+  		"actor": "Band: Alan Ross Duo",
+  		"location-top": "St. Margaret's Church Hall",
+  		"location": [
+  			"Church Road",
+  			"Horsforth",
+  			"Leeds",
+  			"LS18 5LQ"
+  		]
+  	}
+  ]  
+}

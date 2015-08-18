@@ -1,0 +1,12 @@
+{
+  "name": "RSCDS_Branch",
+  "version": "0.1.0",
+  "description": "Generate the static web site for the Leeds RSCDS branch",
+  "private": true,
+  "devDependencies": {
+    "assemble": "^0.4.42",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.13.0"
+  }
+}

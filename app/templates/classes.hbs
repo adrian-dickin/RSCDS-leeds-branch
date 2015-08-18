@@ -1,0 +1,44 @@
+<html lang="en">
+{{> header data-classes}}
+<body>
+{{> body}}
+
+{{> body_header}}
+
+<div class="heading-panel classTable">
+    <div class="heading-panel_heading-row ">
+    	<div class="col1">Day</div>
+    	<div class="col2">Class</div>
+    	<div class="col3">Teacher</div>
+    	<div class="col4">Time</div>
+    	<div class="col5">Venue</div>
+    	<div class="col6">Notes</div>
+    </div>
+    {{#each data-classes.classes}}
+	<div class="heading-panel_row">
+		<div class="col1">{{day}}</div>
+		<div class="col2">{{level}}</div>
+		<div class="col3">
+		{{#each teacher}}
+		  <div>{{this}}</div>
+		{{/each}}
+		</div>
+		<div class="col4">{{time}}</div>
+		<div class="col5">
+			{{#each venue}}
+			<div>{{this}}</div>
+			{{/each}}
+		</div>
+		<div class="col6">
+			{{#each notes}}
+			<div>{{this}}</div>
+			{{/each}}
+		</div>
+	</div>
+	{{/each}}
+
+</div>
+
+{{> footer data-classes}}
+</body>
+</html>

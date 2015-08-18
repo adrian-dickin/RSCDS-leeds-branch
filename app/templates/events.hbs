@@ -1,0 +1,43 @@
+<html lang="en">
+{{> header data-events}}
+<body>
+{{> body}}
+
+{{> body_header}}
+
+<div class="heading-panel eventsTable">
+    <div class="heading-panel_heading-row ">
+    	<div class="col1">Date</div>
+    	<div class="col2">Event</div>
+    	<div class="col3">Band/Teacher</div>
+    	<div class="col3">Location</div>
+    </div> 
+    {{#each data-events.events}}
+	<div class="heading-panel_row">
+	  		<div class="col1">{{date}}</div>
+	  		<div class="col2">
+	  		{{event}}
+	  		</div>
+	  		<div class="col3">
+	  		{{actor}}
+	  		</div>
+	  		<div class="col4">
+	  		    <div>{{location-top}}</div>
+	  			<div class="eventDetails" {{#if @first}} style="display: block" {{/if}}>
+	  			{{#each location}}  				
+	  				<div>{{this}}</div>
+	  			{{/each}}
+	  			</div>
+	  		</div>
+	  		<button class="details">
+	  		 details..
+	  		</button>
+	</div>
+	{{/each}}
+
+</div>
+
+
+{{> footer data-events}}
+</body>
+</html>
