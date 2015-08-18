@@ -1,9 +1,4 @@
 {
-  "pageTitle": "Events",
-  "scripts": [
-  	"headerScroll();",
-  	"expandPanel();"
-  ],
   "events": [
   	{
   		"date": "19th Sept 2015",

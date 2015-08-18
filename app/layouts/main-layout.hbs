@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>{{pageTitle}}</title>
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/site.js"></script>
+  <link rel="stylesheet" href="stylesheets/site.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  </style>
+</head>
+
+<body>
+	<div id="banner">
+	   <div class="logo"></div>
+		<div class="dance-scottish-logo"></div>
+		<div class="menu-text-bar">		
+			<div class="menu-text">Home</div>
+			<div class="menu-text">
+			About Us
+			</div>
+			<div class="menu-text">Classes</div>
+			<div class="menu-text">Events</div>
+			<div class="menu-text">Contact</div>
+		</div>
+	</div>
+
+<div style="margin-top: 180px">
+</div>
+
+{{> body  }} 
+
+<br/>
+<br/>
+<a href="#"><div class="facebook"></div></a>
+
+<script>
+$(document).ready(function() {
+    headerScroll();
+  	{{#each scripts}}
+  		{{this}} 
+  	{{/each}}
+ });
+</script>
+
+
+</body>
+</html>

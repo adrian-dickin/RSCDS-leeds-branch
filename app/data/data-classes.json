@@ -1,8 +1,4 @@
 {
-  "pageTitle": "Classes",
-  "scripts": [
-  	"headerScroll();"
-  ],
   "classes": [ 
   	{
   		"day": "Monday",
