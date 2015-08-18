@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 		  },
 		  site: {
 			src: ['app/templates/*.hbs'],
-			dest: 'dist'
+			dest: 'dist/'
 		  }
 		},
 		
