@@ -178,3 +178,22 @@
 	border-bottom: none;
 }
 
+h1, h2, h3, h4 {
+	color: #0070BA;
+}
+
+.body_text {
+	font-size: 14pt;
+	padding: 20px;
+}
+
+.column {
+	width: 230px;
+	display: inline-block;
+}
+.column_header {
+	width: 230px;
+	display: inline-block;
+	color: #0070BA;
+}
+
