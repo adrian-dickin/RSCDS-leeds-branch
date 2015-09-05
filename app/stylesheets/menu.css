@@ -71,9 +71,11 @@ ul.squarewhite li.level-0 ul {
     display: none;
   /*  margin:-5px 0 0 -1px;*/
     padding:0;
-    width:7em;
+    width:12em;
     background: #fff;
-    border: solid #cecece;
+    /*border: solid #cecece;*/
+    border: solid #B0C8EA;
+    border-radius: 0px 0px 8px 6px;
     border-width: 0px 1px 1px 1px;
     -webkit-box-shadow: 2px 3px 8px rgba(0,0,0,.22);
     -moz-box-shadow: 2px 3px 8px rgba(0,0,0,.22);
@@ -94,7 +96,8 @@ ul.squarewhite li.level-0 li {
 
 ul.squarewhite li.level-0 li.first,
 ul.squarewhite li.level-0 li.middle{
-    border-bottom:1px solid #cecece;
+    /*border-bottom:1px solid #cecece;*/
+    border-bottom:1px solid #B0C8EA;
 }
 ul.squarewhite li.level-0 li.last{
     border-bottom:none;
