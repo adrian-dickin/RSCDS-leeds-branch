@@ -16,7 +16,7 @@ function headerScroll() {
 	
 
 	
-	function changePage(newPage) {
+	/*function changePage(newPage) {
 		var parts = window.location.pathname.split('/');
 		parts[parts.length - 1] = newPage;
 		var newPathname = parts.join('/');
@@ -27,5 +27,5 @@ function headerScroll() {
 	
 	$('#menu-home').click(function() {
 		changePage('index.html');
-	});
+	});*/
 };

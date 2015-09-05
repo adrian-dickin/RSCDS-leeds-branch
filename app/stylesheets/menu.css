@@ -23,10 +23,13 @@ ul.squarewhite {
     box-shadow: 0 0 6px rgba(0,0,0,.12);
     color: #444444;
 }
-ul.squarewhite a {
+ul.squarewhite li a {
 	text-decoration: none;
 	cursor: pointer;
 	color: black;
+}
+ul.squarewhite li a.hover {
+	color: white;
 }
 
 ul.squarewhite li.level-0 {
@@ -61,7 +64,7 @@ ul.squarewhite li.level-0.hover {
     -o-box-shadow: 0 0 5px rgba(0,0,0,.22);
     box-shadow: 0 0 5px rgba(0,0,0,.22);
   /*  padding: 12px 30px 15px 30px;*/
-    color:black;
+   /* color:black;*/
 }
 ul.squarewhite li.level-0 ul {
     position:absolute;
@@ -101,6 +104,8 @@ ul.squarewhite li.level-0 li.hover{
     background-color:#0070BA;
     color:white;
 }
+
+
 ul.squarewhite li.level-1 ul {
     margin:0 0 0 -3px;    
 }

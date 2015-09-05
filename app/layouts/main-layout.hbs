@@ -6,6 +6,8 @@ menus:
     items:
       - page: about_branch
         name: History
+      - page: branch_members
+        name: Responsibilities
   - page: classes
     name: Classes
 ---
@@ -31,14 +33,14 @@ menus:
 			
 			{{#each menus}}
 				<li class="level-0" data-id="{{id}}">
-					{{#if page}} <a href="{{page}}.hbs">{{name}}</a>
+					{{#if page}} <a href="{{page}}.html">{{name}}</a>
 					{{else}} {{name}}
 					{{/if}}
 					{{#if items}}
 						<ul>
 						{{#each items}}
 							<li data-id="{{id}}">
-								{{#if page}} <a href="{{page}}.hbs">{{name}}</a>
+								{{#if page}} <a href="{{page}}.html">{{name}}</a>
 								{{else}} {{name}}
 								{{/if}}
 							</li>
