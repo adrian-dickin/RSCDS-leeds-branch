@@ -2,7 +2,7 @@
 menus:
   - page: index
     name: Home
-  - name: About Us
+  - name: About
     items:
       - page: about_branch
         name: History
@@ -10,6 +10,8 @@ menus:
         name: Responsibilities
   - page: classes
     name: Classes
+  - page: events
+    name: Events
 ---
 <html>
 <head>
@@ -32,14 +34,14 @@ menus:
 			<ul id="menu-events" class="squarewhite">
 			
 			{{#each menus}}
-				<li class="level-0" data-id="{{id}}">
+				<li class="level-0">
 					{{#if page}} <a href="{{page}}.html">{{name}}</a>
 					{{else}} {{name}}
 					{{/if}}
 					{{#if items}}
 						<ul>
 						{{#each items}}
-							<li data-id="{{id}}">
+							<li>
 								{{#if page}} <a href="{{page}}.html">{{name}}</a>
 								{{else}} {{name}}
 								{{/if}}
@@ -47,8 +49,7 @@ menus:
 						{{/each}}
 						</ul>
 					{{/if}}
-				</li>
-			
+				</li>	
 			{{/each}}
 			
 			</ul>
