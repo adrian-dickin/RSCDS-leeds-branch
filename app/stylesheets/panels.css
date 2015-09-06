@@ -123,34 +123,43 @@
 }
 .classTable .col1 {
     width: 100px;
+    padding-right: 4px;
 }
 .classTable .col2 {
     width: 100px;
+    padding-right: 4px;
 }
 .classTable .col3 {
     width: 200px;
+    padding-right: 4px;
 }
 .classTable .col4 {
-    width: 100px;
+    width: 140px;
+    padding-right: 4px;
 }
 .classTable .col5 {
     width: 300px;
+    padding-right: 4px;
 }
 .classTable .col6 {
     width: 300px;
 }
 
 .eventsTable .col1 {
-	width: 120px;
+	width: 140px;
+	padding-right: 4px;
 }
 .eventsTable .col2 {
 	width: 320px;
+	padding-right: 4px;
 }
 .eventsTable .col3 {
 	width: 280px;
+	padding-right: 4px;
 }
 .eventsTable .col4 {
 	width: 240px;
+	padding-right: 4px;
 }
 .eventsTable .col5 {
 	width: 200px;
@@ -159,8 +168,6 @@
 .heading-panel {
   	border-radius: 15px;
   	border: 4px solid #0070BA;
-  	margin-left: 32px;
-  	margin-right: 32px;
 }
 .heading-panel_heading-row {
 	background: #0070BA;

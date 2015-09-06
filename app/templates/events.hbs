@@ -2,45 +2,51 @@
 pageTitle: "Branch Events"
 scripts: []
 ---
-<div class="heading-panel eventsTable">
-    <div class="heading-panel_heading-row ">
-    	<div class="col1">Date</div>
-    	<div class="col2">Event</div>
-    	<div class="col3">Band/Teacher</div>
-    	<div class="col4">Location</div>
-    	<div class="col5">Details</div>
-    </div> 
-    {{#each data-events.events}}
-	<div class="heading-panel_row">
-	  		<div class="col1">{{date}}</div>
-	  		<div class="col2">
-	  		{{event}}
-	  		{{#if time}}
-	  		  <p> {{time}}</p>
-	  		{{/if}}
-	  		</div>
-	  		<div class="col3">
-	  		{{actor}}
-	  		{{#if actor2}}
-	  		<br/>{{actor2}}
-	  		{{/if}}
-	  		</div>
-	  		<div class="col4">
-	  		    <div>{{location-top}}</div>
-	  			<div>
-	  			{{#each location}}  				
-	  				<div>{{this}}</div>
-	  			{{/each}}
-	  			</div>
-	  		</div>
-	  		<div class="col5">
-	  		{{#if programme}}
-	  		<a href="http://www.rscdsleeds.org.uk/Socials/19Sept15.pdf">Programme</a> <br/>
-	  		{{/if}}
-	  		{{#if crib}}
-	  		<a href="http://www.rscdsleeds.org.uk/Socials/19Sept15.pdf">Crib with diagrams</a>
-	  		{{/if}}
-	  		</div>
+<div class='body_text'>
+	<div class="heading-panel eventsTable">
+		<div class="heading-panel_heading-row ">
+			<div class="col1">Date</div>
+			<div class="col2">Event</div>
+			<div class="col3">Band/Teacher</div>
+			<div class="col4">Location</div>
+			<div class="col5">Details</div>
+		</div> 
+		{{#each data-events.events}}
+		<div class="heading-panel_row">
+				<div class="col1">{{date}}</div>
+				<div class="col2">
+				{{event}}
+				{{#if time}}
+				  <p> {{time}}</p>
+				{{/if}}
+				</div>
+				<div class="col3">
+				{{actor}}
+				{{#if actor2}}
+				<br/>{{actor2}}
+				{{/if}}
+				</div>
+				<div class="col4">
+					<div>{{location-top}}</div>
+					<div>
+					{{#each location}}  				
+						<div>{{this}}</div>
+					{{/each}}
+					</div>
+				</div>
+				<div class="col5">
+				{{#if programme}}
+				<a href="{{programme}}">Programme</a> <br/>
+				{{/if}}
+				{{#if crib}}
+				<a href="{{crib}}">Crib with diagrams</a> <br/>
+				{{/if}}
+			
+				{{#each details}}
+					<div><a href="{{link}}">{{name}}</a></div>
+				{{/each}}
+				</div>
+		</div>
+		{{/each}}
 	</div>
-	{{/each}}
 </div>
