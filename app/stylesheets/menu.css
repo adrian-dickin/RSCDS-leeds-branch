@@ -76,6 +76,8 @@ ul.squarewhite li.level-0 ul {
     /*border: solid #cecece;*/
     border: solid #B0C8EA;
     border-radius: 0px 0px 8px 6px;
+    overflow: hidden;
+    
     border-width: 0px 1px 1px 1px;
     -webkit-box-shadow: 2px 3px 8px rgba(0,0,0,.22);
     -moz-box-shadow: 2px 3px 8px rgba(0,0,0,.22);

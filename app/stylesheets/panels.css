@@ -141,15 +141,18 @@
 }
 
 .eventsTable .col1 {
-	width: 200px;
+	width: 120px;
 }
 .eventsTable .col2 {
 	width: 320px;
 }
 .eventsTable .col3 {
-	width: 300px;
+	width: 280px;
 }
 .eventsTable .col4 {
+	width: 240px;
+}
+.eventsTable .col5 {
 	width: 200px;
 }
 
