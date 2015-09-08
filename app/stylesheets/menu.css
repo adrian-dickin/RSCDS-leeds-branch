@@ -1,7 +1,7 @@
 
 ul.squarewhite {
     margin:0;
-    padding:0;
+    /*padding:4px 0px 4px 0px;*/
     list-style:none;
     /*display:block;*/
     display: inline-block;
@@ -16,11 +16,11 @@ ul.squarewhite {
     height: 80px;
     background: #fff;
     border: 1px solid #cecece;*/
-  /*  margin-bottom: 17px;*/
+  /*  margin-bottom: 17px;
     -webkit-box-shadow: 0 0 6px rgba(0,0,0,.12);
     -moz-box-shadow: 0 0 6px rgba(0,0,0,.12);
     -o-box-shadow: 0 0 6px rgba(0,0,0,.12);
-    box-shadow: 0 0 6px rgba(0,0,0,.12);
+    box-shadow: 0 0 6px rgba(0,0,0,.12);*/
     color: #444444;
 }
 ul.squarewhite li a {
@@ -46,6 +46,8 @@ ul.squarewhite li.level-0 {
     
     border-top: 3px solid #B0C8EA;
     width: 6em;
+    
+    padding: 4px 0px 2px 0px;
         
     font-family: Helvetica, Arial, Verdana, sans-serif;
     font-size: 18px;
@@ -57,7 +59,6 @@ ul.squarewhite li.level-0.hover {
     /*border-top: 3px solid #000;
     border-bottom: 3px solid white;*/
     border-top: 3px solid #0070BA;
-    
     
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,.22);
     -moz-box-shadow: 0 0 5px rgba(0,0,0,.22);
@@ -71,7 +72,7 @@ ul.squarewhite li.level-0 ul {
     display: none;
   /*  margin:-5px 0 0 -1px;*/
     padding:0;
-    width:12em;
+    width:13em;
     background: #fff;
     /*border: solid #cecece;*/
     border: solid #B0C8EA;
@@ -88,7 +89,7 @@ ul.squarewhite li.level-0 li {
     position:relative;
     filter: none;
     color:#444444;
-    font-size: 16px;
+    font-size: 18px;
     display: block;
 
   /*  line-height: 28px;

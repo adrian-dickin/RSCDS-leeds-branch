@@ -171,6 +171,25 @@
   			"Ilkley",
   			"LS29 9QL"
   		]
+  	},
+  	{
+  		"date": "30th Jan 2016",
+  		"event": "Musicians' Workshop",
+  		"time": "10:00am - 4: 15pm",
+  		"actor": "Teacher: Keith Smith",
+  		"details": [
+  			{"name": "Register with Heather Foote", 
+  			 "linke": "mailto:heather@feete.org"}
+  		],
+  		"location-top": "Adel Methodist Church Hall",
+  		"location": [
+  			"Gainsborough Avenue",
+  			"Adel",
+  			"Leeds",
+  			"LS16 7PQ"
+  		]
+  		
+  		
   	}
   ]  
 }
