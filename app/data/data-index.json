@@ -1,6 +1,7 @@
 {
   "pageTitle": "RSCDS Leeds Branch",
   "scripts": [
+    "homeCarousel();",
   	"headerScroll();"
   ]
 }

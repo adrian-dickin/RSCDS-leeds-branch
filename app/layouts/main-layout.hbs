@@ -17,12 +17,13 @@ menus:
 ---
 <html>
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <title>{{pageTitle}}</title>
-  <script src="javascripts/vendor.js?t=080915-2000"></script>
-  <script src="javascripts/site.js?t=080915-2000"></script>
   <link rel="stylesheet" href="stylesheets/site.css?t=080915-2000">
+  <link rel="stylesheet" href="vendor/slick/slick.css">
+  <link rel="stylesheet" href="vendor/slick/slick-theme.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
   </style>
@@ -64,10 +65,11 @@ menus:
 
 {{> body  }} 
 
-<br/>
-<br/>
-<a href="http://www.facebook.com/pages/Rscds-Leeds-Branch/134876863288229?sk=wall"><div class="facebook"></div></a>
-
+<script src="vendor/jquery.js"></script>
+<script src="vendor/jquery.mnmenu.0.0.17.js"></script>
+<script src="javascripts/site.js?t=080915-2000"></script>
+<script src="vendor/slick/slick.min.js"></script> 
+  
 <script>
 $(document).ready(function() {
     headerScroll();

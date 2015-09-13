@@ -26,25 +26,26 @@ module.exports = function(grunt) {
 		},
 		
 		copy: {
-	/*	  vendor_javascript_files: {
-			src: ['app/vendor/jquery.js','app/vendor/jquery.mnmenu.0.0.17.js'],
-			dest: 'dist/javascripts/vendor.js',
-			flatten: true,
-			filter: 'isFile',
-		  },*/
+		  vendor_files: {
+		    expand: true,
+		    cwd: 'app/',
+			src: 'vendor/**',
+			dest: 'dist/',
+			filter: 'isFile'
+		  },
 		  image_files: {
 		    expand: true,
 			src: 'app/images/*.*',
 			dest: 'dist/images',
 			flatten: true,
-			filter: 'isFile',
+			filter: 'isFile'
 		  },		
 		},
 		concat: {
-			vendor_javascript_files: {
+			/*vendor_javascript_files: {
 			  src: ['app/vendor/jquery.js', 'app/vendor/jquery.mnmenu.0.0.17.js'],
 			  dest: 'dist/javascripts/vendor.js'
-			},
+			},*/
 			dist: {
 			  src: 'app/javascripts/*.js',
 			  dest: 'dist/javascripts/site.js',
