@@ -29,7 +29,7 @@
 
 #menu-button-bar {
 	width: 900px;
-	margin: 16px auto 64px auto;
+	margin: 64px auto 0px auto;
 }
 
 .menu-button {
@@ -82,15 +82,27 @@
 	background: #0070ba url("../images/News 2 White-sml.png") no-repeat 14px 10px;
 }
 
-.signup_area {
+.footer_area {
   	background: #B0C8EA;
   	padding: 8px;
   	position: fixed;
   	bottom: 0px;
   	left: 0px;
   	right: 0px;
+  	height: 90px;
 }
-.half-width-left {
+.footer-signup {
+	position: absolute;
+	right: 16px;
+	top: 8px;
+}
+.footer-social {
+	position: absolute;
+	left: 16px;
+	bottom: 8px;
+}
+
+/*.half-width-left {
 	display: inline-block;
 	width: 44%;
 	padding-right: 5%;
@@ -101,7 +113,7 @@
 	width: 44%;
 	padding-left: 5%;
 	vertical-align: top;
-}
+}*/
 .signup-button {
     color: #0070ba;
 	font-size: 16pt;
@@ -221,7 +233,7 @@ h3 {
 }
 
 #home-carousel {
-	 margin: 16px auto 0px auto;
+	 margin: 32px auto 0px auto;
 	 padding: 8px;
 	 width: 400px;
 	 height: 80px;
