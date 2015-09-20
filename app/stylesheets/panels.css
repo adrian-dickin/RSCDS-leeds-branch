@@ -52,7 +52,9 @@
 	vertical-align: top;
 	text-align: center;
 }
-
+.menu-button-wrapper a {
+	text-decoration: none;
+}
 
 .menu-shopping-button {
 	background:  url("../images/Shopping Basket Black-sml.png") no-repeat 11px 11px;

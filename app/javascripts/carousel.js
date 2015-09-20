@@ -1,3 +1,3 @@
 function homeCarousel() {
-	$('#home-carousel').slick({dots: true, arrows: true, autoplay: true, speed: 600});
+	$('#home-carousel').slick({dots: true, arrows: true, autoplay: true, speed: 1000});
 };
