@@ -164,23 +164,27 @@
 }
 
 .eventsTable .col1 {
-	width: 140px;
-	padding-right: 4px;
+	width: 13.3%;
+	/*padding-right: 4px;*/
 }
 .eventsTable .col2 {
-	width: 320px;
-	padding-right: 4px;
+	width: 25%;
+	/*padding-right: 4px;*/
 }
 .eventsTable .col3 {
-	width: 280px;
-	padding-right: 4px;
+	width: 20%;
+	/*padding-right: 4px;*/
 }
 .eventsTable .col4 {
-	width: 260px;
-	padding-right: 4px;
+	width: 25%;
+	/*padding-right: 4px;*/
 }
 .eventsTable .col5 {
-	width: 200px;
+	width: 16.7%;
+}
+
+.padRight {
+	padding-right: 4px;
 }
 
 .heading-panel {

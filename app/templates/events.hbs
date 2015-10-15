@@ -13,25 +13,33 @@ scripts: []
 		</div> 
 		{{#each data-events.events}}
 		<div class="heading-panel_row">
-				<div class="col1">{{date}}</div>
+				<div class="col1">
+					<div class="padRight">{{date}}</div>
+				</div>
 				<div class="col2">
-				{{event}}
-				{{#if time}}
-				  <p> {{time}}</p>
-				{{/if}}
+					<div class="padRight">
+						{{event}}
+						{{#if time}}
+						  <p> {{time}}</p>
+						{{/if}}
+					</div>
 				</div>
 				<div class="col3">
-				{{actor}}
-				{{#if actor2}}
-				<br/>{{actor2}}
-				{{/if}}
+					<div class="padRight">
+						{{actor}}
+						{{#if actor2}}
+						<br/>{{actor2}}
+						{{/if}}
+					</div>
 				</div>
 				<div class="col4">
-					<div>{{location-top}}</div>
-					<div>
-					{{#each location}}  				
-						<div>{{this}}</div>
-					{{/each}}
+					<div class="padRight">
+						<div>{{location-top}}</div>
+						<div>
+						{{#each location}}  				
+							<div>{{this}}</div>
+						{{/each}}
+						</div>
 					</div>
 				</div>
 				<div class="col5">

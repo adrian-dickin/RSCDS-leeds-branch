@@ -1,33 +1,6 @@
 {
   "events": [
   	{
-  		"date": "19th Sept 2015",
-  		"event": "Day School",
-  		"time": "10:00am - 4:15pm",
-  		"actor": "Teacher: Di Rooney",
-  		"actor2": "Music: Ian Slater ",
-  		"location-top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		]
-  	},
-  	{
-  		"date": "19th Sept 2015",
-  		"event": "Leeds Branch Dance",
-  		"actor": "Music: Alan Ross Duo",
-  		"programme": "http://my.strathspey.org/dd/list/2896/",
-  		"crib" : "http://www.rscdsleeds.org.uk/Socials/19Sept15.pdf",
-  		"location-top": "St. Margaret's Church Hall",
-  		"location": [
-  			"Church Road",
-  			"Horsforth",
-  			"Leeds",
-  			"LS18 5LQ"
-  		]
-  	},
-  	{
   		"date": "3rd Oct 2015",
   		"event": "Back to Basics Workshop",
   		"actor": "Teacher: Catherine Livsey",
