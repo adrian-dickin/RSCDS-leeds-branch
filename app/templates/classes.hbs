@@ -8,29 +8,39 @@ Fees are &pound;4.00 a class, term tickets are also available. <br />
 <br />
 <div class="heading-panel classTable">
     <div class="heading-panel_heading-row ">
-    	<div class="col1">Day</div>
-    	<div class="col2">Class</div>
-    	<div class="col3">Teacher</div>
-    	<div class="col4">Time</div>
-    	<div class="col5">Venue</div>
-    	<div class="col6">Notes</div>
+    	<div class="col1">
+    		<div class="padLeft padRight">
+    			Day
+    		</div>
+    	</div><!--
+	 --><div class="col2">Class</div><!--
+	 --><div class="col3">Teacher</div><!--
+	 --><div class="col4">Time</div><!--
+	 --><div class="col5">Venue</div><!--
+	 --><div class="col6">Notes</div>
     </div>
     {{#each data-classes.classes}}
 	<div class="heading-panel_row">
-		<div class="col1">{{day}}</div>
-		<div class="col2">{{level}}</div>
-		<div class="col3">
+		<div class="col1">
+			<div class="padLeft padRight">
+			 {{day}}
+			</div>
+		</div><!--
+	 --><div class="col2">
+	 		{{level}}
+	 	</div><!--
+	 --><div class="col3">
 		{{#each teacher}}
 		  <div>{{this}}</div>
 		{{/each}}
-		</div>
-		<div class="col4">{{time}}</div>
-		<div class="col5">
+		</div><!--
+	 --><div class="col4">{{time}}</div><!--
+	 --><div class="col5">
 			{{#each venue}}
 			<div>{{this}}</div>
 			{{/each}}
-		</div>
-		<div class="col6">
+		</div><!--
+	 --><div class="col6">
 			{{#each notes}}
 			<div>{{this}}</div>
 			{{/each}}
