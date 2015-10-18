@@ -7,25 +7,15 @@ function headerScroll() {
 		if (st > 128) {
 		   $('#banner').css({top: '-128px'});
 		   $('#banner').addClass('shadow_under');
+		   $('.banner-logo').css({opacity: 0});
 		} else {
 		   $('#banner').css({top: -st + 'px'});
 		   $('#banner').removeClass('shadow_under');
+		   
+		   $('.banner-logo').css({opacity: (1 - st/128)});
 		}
 	};
 	$(window).scroll(handler);
-	
 
-	
-	/*function changePage(newPage) {
-		var parts = window.location.pathname.split('/');
-		parts[parts.length - 1] = newPage;
-		var newPathname = parts.join('/');
-		console.log(window.location.pathname);
-		console.log(newPathname);
-		window.location.pathname = newPathname;
-	}
-	
-	$('#menu-home').click(function() {
-		changePage('index.html');
-	});*/
+	handler();
 };

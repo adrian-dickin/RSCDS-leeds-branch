@@ -5,3 +5,41 @@
 	display: inline-block;
 	margin: 8px 0px 8px 8px;
 }
+
+.signup-button {
+    color: #0070ba;
+	font-size: 16pt;
+	padding: 4px 8px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	margin-left: 8px;
+}
+
+.signup-email {
+	width: 220px;
+	font-size: 14pt;
+}
+
+.signup-block {
+	margin-top: 12px;
+}
+
+.footer_area {
+  	background: #B0C8EA;
+  	padding: 8px;
+  	position: fixed;
+  	bottom: 0px;
+  	left: 0px;
+  	right: 0px;
+  	height: 24px; 
+}
+/*.footer-signup {
+	position: absolute;
+	right: 16px;
+	top: 8px;
+}*/
+.footer-social {
+	position: absolute;
+	left: 16px;
+	bottom: 2px;
+}
