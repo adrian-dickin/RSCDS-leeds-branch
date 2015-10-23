@@ -1,68 +1,6 @@
 {
   "events": [
   	{
-  		"date": "3rd Oct 2015",
-  		"event": "Back to Basics Workshop",
-  		"actor": "Teacher: Catherine Livsey",
-  		"details": [
-  			{"name": "Form", 
-  			 "link": "http://www.rscdsleeds.org.uk/Documents/BacktoBasicsOct15.pdf"}
-  		],
-  		"location-top": "Adel Methodist Church Hall",
-  		"location": [
-  			"Gainsborough Avenue",
-  			"Adel",
-  			"Leeds",
-  			"LS16 7PQ"
-  		]
-  	},
-  	{
-  		"date": "10th Oct 2015",
-  		"event": "Back to Basics Workshop",
-  		"actor": "Teacher: Catherine Livsey", 		
-  		"location-top": "Adel Methodist Church Hall",
-  		"location": [
-  			"Gainsborough Avenue",
-  			"Adel",
-  			"Leeds",
-  			"LS16 7PQ"
-  		]
-  	},
-  	{
-  		"date": "17th Oct 2015",
-  		"event": "Highland & Scottish National Day School",
-  		"actor": "Teacher: Catherine Livsey",
-  		"details": [
-  			{"name": "Form", 
-  			 "link": "http://www.rscdsleeds.org.uk/Documents/HighlandOct15.pdf"}
-  		],
-  		"location-top": "Church Hill",
-  		"location": [
-  			"Off Leeds Road",
-  			"Bramhope",
-  			"LS16 9BA"
-  		]
-  	},
-  	{
-  		"date": "17th Oct 2015",
-  		"event": "Leeds AGM & Social Dance",
-  		"time": "AGM 7:00pm followed by dance",
-  		"actor": "Music: Phill Jones",
-  		"programme": "http://my.strathspey.org/dd/list/5239/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/17Oct15.pdf",
-  		"details": [
-  			{"name": "Agenda and Nomination form", 
-  			 "link": "http://www.rscdsleeds.org.uk/documents/AGMForm2015.pdf"}
-  		],
-  		"location-top": "St. Margaret's Church Hall",
-  		"location": [
-  			"Church Road",
-  			"Horsforth",
-  			"Leeds",
-  			"LS18 5LQ"
-  		]
-  	},
-  	{
   		"date": "24th Oct 2015",
   		"event": "Back to Basics Workshop",
   		"actor": "Teacher: Catherine Livsey",
@@ -84,6 +22,19 @@
   			"Adel",
   			"Leeds",
   			"LS16 7PQ"
+  		]
+  	},
+  	{
+  		"date": "31st Oct 2015",
+  		"event": "Leeds Club Dance",
+  		"time": "7:00pm - 10:30pm",
+  		"programme": "http://my.strathspey.org/dd/list/5476/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/31Oct15.pdf",
+  		"location-top": "Cookridge Village Hall",
+  		"location": [
+  			"Moseley Wood Ln",
+  			"Leeds",
+  			"LS16 7ER"
   		]
   	},
   	{
@@ -148,7 +99,7 @@
   	{
   		"date": "30th Jan 2016",
   		"event": "Musicians' Workshop",
-  		"time": "10:00am - 4: 15pm",
+  		"time": "10:00am - 4:15pm",
   		"actor": "Teacher: Keith Smith",
   		"details": [
   			{"name": "Register with Heather Foote", 
@@ -160,9 +111,31 @@
   			"Adel",
   			"Leeds",
   			"LS16 7PQ"
-  		]
-  		
-  		
+  		]		
+  	},
+  	{
+  		"date": "20th Feb 2016",
+  		"event": "Leeds Branch Dance",
+  		"time": "7:30pm - 10:00pm",
+  		"actor": "Music: Ian Slater",
+  		"location-top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		]		
+  	},
+  	{
+  		"date": "19th Mar 2016",
+  		"event": "Leeds Branch Dance",
+  		"time": "7:30pm - 10:00pm",
+  		"actor": "Music: Music: Neil Barron",
+  		"location-top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		]		
   	}
   ]  
 }
