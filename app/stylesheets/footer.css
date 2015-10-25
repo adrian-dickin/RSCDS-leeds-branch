@@ -3,7 +3,15 @@
 	width: 114px;
 	height: 21px;
 	display: inline-block;
-	margin: 8px 0px 8px 8px;
+}
+.facebook_wrapper {
+	margin-right: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.twitter_wrapper {
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .signup-button {
