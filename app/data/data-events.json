@@ -1,43 +1,6 @@
 {
   "events": [
   	{
-  		"date": "24th Oct 2015",
-  		"event": "Back to Basics Workshop",
-  		"actor": "Teacher: Catherine Livsey",
-  		"location-top": "Adel Methodist Church Hall",
-  		"location": [
-  			"Gainsborough Avenue",
-  			"Adel",
-  			"Leeds",
-  			"LS16 7PQ"
-  		]
-  	},
-  	{
-  		"date": "31st Oct 2015",
-  		"event": "Back to Basics Workshop",
-  		"actor": "Teacher: Catherine Livsey",
-  		"location-top": "Adel Methodist Church Hall",
-  		"location": [
-  			"Gainsborough Avenue",
-  			"Adel",
-  			"Leeds",
-  			"LS16 7PQ"
-  		]
-  	},
-  	{
-  		"date": "31st Oct 2015",
-  		"event": "Leeds Club Dance",
-  		"time": "7:00pm - 10:30pm",
-  		"programme": "http://my.strathspey.org/dd/list/5476/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/31Oct15.pdf",
-  		"location-top": "Cookridge Village Hall",
-  		"location": [
-  			"Moseley Wood Ln",
-  			"Leeds",
-  			"LS16 7ER"
-  		]
-  	},
-  	{
   		"date": "21st Nov 2015",
   		"event": "York/North Humberside 40th Anniversary Ball",
   		"time": "7:30pm",
@@ -102,8 +65,10 @@
   		"time": "10:00am - 4:15pm",
   		"actor": "Teacher: Keith Smith",
   		"details": [
-  			{"name": "Register with Heather Foote", 
-  			 "linke": "mailto:heather@feete.org"}
+  			{"name": "Details", 
+  			 "link": "pdf/Musician's Workshop Leaflet 16.pdf"},
+  			{"name": "Form", 
+  			 "link": "pdf/Rscds Musician's Workshop 2016.pdf"}
   		],
   		"location-top": "Adel Methodist Church Hall",
   		"location": [

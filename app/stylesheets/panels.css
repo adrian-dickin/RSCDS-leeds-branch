@@ -225,3 +225,8 @@ h4 {
   	border: 2px solid #0070BA;
   	padding: 8px;
 }
+
+.newsletter_name {
+	display: inline-block;
+	width: 8em;
+}
