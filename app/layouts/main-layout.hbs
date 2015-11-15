@@ -4,22 +4,26 @@ menus:
     name: Home
   - name: About
     items:
-      - page: about_branch
+      - page: about_branch.html
         name: History
-      - page: about_scottish
+      - page: about_scottish.html
         name: Scottish Country Dancing
-      - page: newsletters
+      - page: newsletters.html
         name: Newsletters
-      - page: branch_members
+      - page: branch_members.html
         name: Branch Responsibilities
   - name: Classes
     items:
-      - page: classes
+      - page: classes.html
         name: Branch Classes
-      - page: local
+      - page: local.html
         name: Local groups
-  - page: events
-    name: Events
+  - name: Events
+    items:
+      - page: events.html
+        name: Local Events
+      - page: http://whiterosefestival.uk/
+        name: White Rose Festival
   - page: resources
     name: Resources
 ---
@@ -55,7 +59,7 @@ menus:
 							<ul>
 							{{#each items}}
 								<li>
-									{{#if page}} <a href="{{page}}.html">{{name}}</a>
+									{{#if page}} <a href="{{page}}">{{name}}</a>
 									{{else}} {{name}}
 									{{/if}}
 								</li>
