@@ -16,7 +16,12 @@ scripts: []
 		{{#each data-events.events}}
 		<div class="heading-panel_row">
 				<div class="col1">
-					<div class="padLeft padRight">{{date}}</div>
+					<div class="padLeft padRight">
+					{{date}}
+					{{#if date2}}
+					<br/>{{date2}}<br/><br/>
+					{{/if}}
+					</div>
 				</div><!--
 				--><div class="col2">
 					<div class="padRight">

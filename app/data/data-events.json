@@ -16,6 +16,14 @@
   		]
   	},
   	{
+  		"date": "4th - 6th Dec",
+  		"date2": "2015",
+  		"event": "Malhamdale Weekend Course",
+  		"actor": "Teacher: Rachel Wilton",
+  		"actor2": "Music: Phill Jones",
+  		"location-top": "Newfield Hall, Malhamdale"
+  	},
+  	{
   		"date": "14th Dec 2015",
   		"event": "Adel Tea Dance",
   		"time": "1:45pm - 3:45pm",
@@ -105,6 +113,14 @@
   			"Leeds",
   			"LS16 5JT"
   		]		
+  	},
+  	{
+  		"date": "1st - 3rd Apr",
+  		"date2": "2016",
+  		"event": "Scarborough Weekend",
+  		"actor": "Teacher: Graham Donald",
+  		"actor2": "Music: George Meikle",
+  		"location-top": "Esplanade Hotel, Scarborough"
   	}
   ]  
 }
