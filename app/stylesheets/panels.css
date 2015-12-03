@@ -98,14 +98,14 @@
 
 .classTable,
 .eventsTable {
-  	min-width: 1260px;
+  	min-width: 1240px;
 }
 
 .classTable .col1 {
     width: 8%;
 }
 .classTable .col2 {
-    width: 9%;
+    width: 10%;
 }
 .classTable .col3 {
     width: 17%;
@@ -117,11 +117,11 @@
     width: 29%;
 }
 .classTable .col6 {
-    width: 25%;
+    width: 24%;
 }
 
 .eventsTable .col1 {
-	width: 13.3%;
+	width: 11%;
 	/*padding-right: 4px;*/
 }
 .eventsTable .col2 {
@@ -129,7 +129,7 @@
 	/*padding-right: 4px;*/
 }
 .eventsTable .col3 {
-	width: 20%;
+	width: 22.3%;
 	/*padding-right: 4px;*/
 }
 .eventsTable .col4 {

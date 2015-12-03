@@ -1,7 +1,8 @@
 {
   "events": [
   	{
-  		"date": "21st Nov 2015",
+  		"date": "21st Nov",
+  		"date2": "2015",
   		"event": "York/North Humberside 40th Anniversary Ball",
   		"time": "7:30pm",
   		"actor": "Music: Luke Brady Band",
@@ -24,7 +25,8 @@
   		"location-top": "Newfield Hall, Malhamdale"
   	},
   	{
-  		"date": "14th Dec 2015",
+  		"date": "14th Dec",
+  		"date2": "2015",
   		"event": "Adel Tea Dance",
   		"time": "1:45pm - 3:45pm",
   		"actor": "Music: Ian Slater",
@@ -39,7 +41,8 @@
   		]
   	},
   	{
-  		"date": "19th Dec 2015",
+  		"date": "19th Dec",
+  		"date2": "2015",
   		"event": "Joint Christmas Dance with Leeds SCDS",
   		"time": "7:00pm",
   		"actor": "Music: George Meikle and The Lothian Band",
@@ -53,14 +56,16 @@
   		]
   	},
   	{
-  		"date": "16th Jan 2016",
+  		"date": "16th Jan",
+  		"date2": "2016",
   		"event": "Social Dance",
   		"time": "7:30pm",
   		"actor": "Music: Ian Muir",
   		"location-top": "tbc"
   	},
   	{
-  		"date": "28th Jan 2016",
+  		"date": "28th Jan",
+  		"date2": "2016",
   		"event": "Burns Celebration Dance",
   		"time": "2:00pm - 4:00pm",
   		"actor": "Music: Ian Slater",
@@ -72,7 +77,8 @@
   		]
   	},
   	{
-  		"date": "30th Jan 2016",
+  		"date": "30th Jan",
+  		"date2": "2016",
   		"event": "Musicians' Workshop",
   		"time": "10:00am - 4:15pm",
   		"actor": "Teacher: Keith Smith",
@@ -91,7 +97,8 @@
   		]		
   	},
   	{
-  		"date": "20th Feb 2016",
+  		"date": "20th Feb",
+  		"date2": "2016",
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:00pm",
   		"actor": "Music: Ian Slater",
@@ -103,7 +110,8 @@
   		]		
   	},
   	{
-  		"date": "19th Mar 2016",
+  		"date": "19th Mar",
+  		"date2": "2016",
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:00pm",
   		"actor": "Music: Music: Neil Barron",
