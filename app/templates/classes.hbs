@@ -6,47 +6,43 @@ scripts: []
 Autumn term classes are from Monday 7th Sept 2015 to 14th Dec 2015. <br/>
 Fees are &pound;4.00 a class, term tickets are also available. <br />
 <br />
-<div class="heading-panel classTable">
-    <div class="heading-panel_heading-row ">
-    	<div class="col1">
-    		<div class="padLeft padRight">
-    			Day
-    		</div>
-    	</div><!--
-	 --><div class="col2">Class</div><!--
-	 --><div class="col3">Teacher</div><!--
-	 --><div class="col4">Time</div><!--
-	 --><div class="col5">Venue</div><!--
-	 --><div class="col6">Notes</div>
-    </div>
-    {{#each data-classes.classes}}
-	<div class="heading-panel_row">
-		<div class="col1">
-			<div class="padLeft padRight">
-			 {{day}}
-			</div>
-		</div><!--
-	 --><div class="col2">
-	 		{{level}}
-	 	</div><!--
-	 --><div class="col3">
-		{{#each teacher}}
-		  <div>{{this}}</div>
-		{{/each}}
-		</div><!--
-	 --><div class="col4">{{time}}</div><!--
-	 --><div class="col5">
-			{{#each venue}}
-			<div>{{this}}</div>
-			{{/each}}
-		</div><!--
-	 --><div class="col6">
-			{{#each notes}}
-			<div>{{this}}</div>
-			{{/each}}
-		</div>
-	</div>
-	{{/each}}
-</div>
+
+<div class="heading-panel">
+	<table class="tabular">
+		<thead>
+		    <th>Day</th>
+			<th>Class</th>
+			<th>Teacher</th>
+			<th>Time</th>
+			<th>Venue</th>
+			<th>Notes</th>
+		</thead>
+		<tbody>
+		    {{#each data-classes.classes}}
+		    <tr>
+		    	<td>{{day}}</td>
+		    	<td>{{level}}</td>
+		    	<td>
+		    	{{#each teacher}}
+				  <div>{{this}}</div>
+				{{/each}}
+		    	</td>
+		    	<td>{{time}}</td>
+		    	<td>
+		    	{{#each venue}}
+					<div>{{this}}</div>
+				{{/each}}
+		    	</td>
+		    	<td>
+				{{#each notes}}
+				<div>{{this}}</div>
+				{{/each}}
+		    	</td>
+		    </tr>
+		    {{/each}}
+		</tbody>
+	</table>
 
 </div>
+
+

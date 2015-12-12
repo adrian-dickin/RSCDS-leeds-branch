@@ -1,4 +1,4 @@
-function expandPanel() {
+/*function expandPanel() {
 	$('.details').click(function(event) {
 		event.stopPropagation();
 		$('.eventDetails:visible').slideUp();
@@ -14,4 +14,4 @@ function expandPanel() {
 		$('.eventDetails', row).slideDown();
 	});
 
-};
+};*/
