@@ -98,7 +98,7 @@
 
 .classTable,
 .eventsTable {
-  	min-width: 1240px;
+  	min-width: 1230px;
 }
 
 .classTable .col1 {
@@ -192,11 +192,11 @@ h4 {
 }
 
 .column {
-	width: 230px;
+	width: 240px;
 	display: inline-block;
 }
 .column_header {
-	width: 230px;
+	width: 240px;
 	display: inline-block;
 	color: #0070BA;
 }
@@ -244,4 +244,6 @@ h4 {
     border-radius: 3px;
     background: #0070BA;
     color: white;
+    float: right;
+    margin-right: 8px;
 }

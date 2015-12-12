@@ -1,30 +1,6 @@
 {
   "events": [
   	{
-  		"date": "21st Nov",
-  		"date2": "2015",
-  		"event": "York/North Humberside 40th Anniversary Ball",
-  		"time": "7:30pm",
-  		"actor": "Music: Luke Brady Band",
-  		"programme": "http://my.strathspey.org/dd/list/5240/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/21Nov15.pdf",
-  		"location-top": "Riley Smith Hall",
-  		"location": [
-  			"28 Westgate",
-  			"Tadcaster",
-  			"North Yorkshire",
-  			"LS24 9JB"
-  		]
-  	},
-  	{
-  		"date": "4th - 6th Dec",
-  		"date2": "2015",
-  		"event": "Malhamdale Weekend Course",
-  		"actor": "Teacher: Rachel Wilton",
-  		"actor2": "Music: Phill Jones",
-  		"location-top": "Newfield Hall, Malhamdale"
-  	},
-  	{
   		"date": "14th Dec",
   		"date2": "2015",
   		"event": "Adel Tea Dance",
