@@ -4,15 +4,15 @@ function headerScroll() {
 		var st = $(this).scrollTop();
 		var win = $(window).height();
 		var doc = $(document).height();
-		if (st > 128) {
-		   $('#banner').css({top: '-128px'});
+		if (st > 108) {
+		   $('#banner').css({top: '-108px'});
 		   $('#banner').addClass('shadow_under');
 		   $('.banner-logo').css({opacity: 0});
 		} else {
 		   $('#banner').css({top: -st + 'px'});
 		   $('#banner').removeClass('shadow_under');
 		   
-		   $('.banner-logo').css({opacity: (1 - st/128)});
+		   $('.banner-logo').css({opacity: (1 - st/108)});
 		}
 	};
 	$(window).scroll(handler);
