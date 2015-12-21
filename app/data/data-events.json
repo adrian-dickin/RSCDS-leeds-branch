@@ -1,43 +1,19 @@
 {
   "events": [
   	{
-  		"date": "14th Dec",
-  		"date2": "2015",
-  		"event": "Adel Tea Dance",
-  		"time": "1:45pm - 3:45pm",
-  		"actor": "Music: Ian Slater",
-  		"programme": "http://my.strathspey.org/dd/list/5800/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/14Dec15.pdf",
-  		"location-top": "Adel Methodist Church Hall",
-  		"location": [
-  			"Gainsborough Avenue",
-  			"Adel",
-  			"Leeds",
-  			"LS16 7PQ"
-  		]
-  	},
-  	{
-  		"date": "19th Dec",
-  		"date2": "2015",
-  		"event": "Joint Christmas Dance with Leeds SCDS",
-  		"time": "7:00pm",
-  		"actor": "Music: George Meikle and The Lothian Band",
-  		"programme": "http://my.strathspey.org/dd/list/5758/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/19Dec15.pdf",
-  		"location-top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		]
-  	},
-  	{
   		"date": "16th Jan",
   		"date2": "2016",
   		"event": "Social Dance",
   		"time": "7:30pm",
   		"actor": "Music: Ian Muir",
-  		"location-top": "tbc"
+  		"location-top": "Queens Hall",
+  		"location": [
+  		    "Immaculate Heart Church",
+  			"294 Harrogate Road",
+  			"Leeds",
+  			"LS17 6LE"
+  		],
+  		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds,+West+Yorkshire+LS17+6LE/@53.8385371,-1.5372916,17z/data=!4m2!3m1!1s0x48795bc2e4046d73:0xbf9fd50104b818ef"
   	},
   	{
   		"date": "28th Jan",
@@ -50,7 +26,8 @@
   			"Queens Road",
   			"Ilkley",
   			"LS29 9QL"
-  		]
+  		],
+  		"map": "https://www.google.co.uk/maps/place/Queen's+Rd,+Ilkley,+West+Yorkshire+LS29/@53.9214137,-1.828945,17z/data=!3m1!4b1!4m2!3m1!1s0x487bfae0e5448c6f:0x77e7ab7743da0a6e"
   	},
   	{
   		"date": "30th Jan",
@@ -70,7 +47,8 @@
   			"Adel",
   			"Leeds",
   			"LS16 7PQ"
-  		]		
+  		]	,
+  		"map": "https://www.google.co.uk/maps/place/2+Gainsborough+Ave,+Leeds,+West+Yorkshire+LS16+7PG/@53.8571813,-1.5921455,17z/data=!3m1!4b1!4m2!3m1!1s0x48795908216a1843:0xc53b42fdf3ce7c3f"	
   	},
   	{
   		"date": "20th Feb",
@@ -90,7 +68,7 @@
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:00pm",
-  		"actor": "Music: Music: Neil Barron",
+  		"actor": "Music: Neil Barron",
   		"location-top": "St Chad's Parish Centre",
   		"location": [
   			"Otley Road",
@@ -105,6 +83,36 @@
   		"actor": "Teacher: Graham Donald",
   		"actor2": "Music: George Meikle",
   		"location-top": "Esplanade Hotel, Scarborough"
+  	},
+  	
+  	{
+  		"date": "21st May",
+  		"date2": "2016",
+  		"event": "Leeds Branch Dance",
+  		"time": "7:30pm - 10:30pm",
+  		"actor": "Music: Alan Ross",
+  		"location-top": "tbc"
+  	},
+  	{
+  		"date": "18th June",
+  		"date2": "2016",
+  		"event": "Leeds Branch Dance",
+  		"time": "7:30pm - 10:00pm",
+  		"actor": "Music: Robert Whitehead Trio",
+  		"location-top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		]		
+  	},
+  	{
+  		"date": "17th Sep",
+  		"date2": "2016",
+  		"event": "Leeds Branch Dance",
+  		"time": "7:30pm - 10:30pm",
+  		"actor": "Music: tbc",
+  		"location-top": "tbc"
   	}
   ]  
 }

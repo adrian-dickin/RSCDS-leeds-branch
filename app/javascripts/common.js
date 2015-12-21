@@ -27,3 +27,19 @@ function handleEmailLinks() {
 		$(this).attr('href', 'mailto:' + email);
 	});
 }
+
+function handleMaps() {
+	$('.map-link').click(function() {
+		var map = $(this).attr('data-link');
+		window.open(map);
+	});
+}
+
+function eventLinks() {
+	$('#upcoming-events tr').click(function() {
+		var dataLink = $(this).attr('data-link');
+		//window.location = "events.html#" + dataLink;
+		window.location = "events.html";
+	});
+}
+

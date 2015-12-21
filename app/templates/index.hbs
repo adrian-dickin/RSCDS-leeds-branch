@@ -1,20 +1,22 @@
 ---
 pageTitle: "RSCDS Leeds Branch"
-scripts: []
+scripts: ["eventLinks();"]
+eventLinks:
+   - date: 16th Jan
+     name: Social Dance
+   - date: 28th Jan
+     name: Burns Celebration Dance
 ---
 
 <div id="upcoming-events">
 	<h2>Upcoming events</h2>
 	<table>
-		<tr>
-			<td>19th Dec</td><td>Joint Christmas Dance with Leeds SCD</td>
+	{{#each eventLinks}}
+		<tr data-link="{{anchor date}}">
+			<td>{{date}}</td>
+			<td>{{name}}</td>
 		</tr>
-		<tr>
-			<td>16th Jan</td><td>Social Dance</td>
-		</tr>
-		<tr>
-			<td>28th Jan</td><td>Burns Celebration Dance</td>
-		</tr>
+	{{/each}}
 	</table>
 </div>	
 
@@ -30,7 +32,7 @@ scripts: []
 	<div class="menu-button-wrapper">
 		<a href="events.html">
 		  <div class="menu-button menu-events-button"></div>
-		  <h3>Upcoming Branch Events</h3>
+		  <h3>Branch Events</h3>
 		</a>
 	</div>
 	

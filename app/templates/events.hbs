@@ -1,6 +1,6 @@
 ---
 pageTitle: "Branch Events"
-scripts: []
+scripts: ["handleMaps();" ]
 ---
 <div class='body_text'>
 
@@ -13,9 +13,9 @@ scripts: []
 				<th>Location</th>
 				<th>Details</th>
 			</thead>
-			<tbody>
+			<tbody id="events_body">
 			{{#each data-events.events}}
-				<tr>
+				<tr id="{{anchor date}}">
 					<td>
 						{{date}}
 						{{#if date2}}
@@ -40,6 +40,9 @@ scripts: []
 						{{#each location}}  				
 							<div>{{this}}</div>
 						{{/each}}
+						{{#if map}}
+						<div class='map-link' data-link="{{{map}}}">map</div>
+						{{/if}}
 						</div>
 					</td>
 					<td>

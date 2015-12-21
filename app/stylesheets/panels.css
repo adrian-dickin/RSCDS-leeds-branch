@@ -110,7 +110,7 @@
 	text-align: left;
 }
 .tabular td {
-	padding: 0px 0px 8px 8px;
+	padding: 8px 0px 8px 8px;
 	vertical-align: text-top;
 }
 
@@ -204,4 +204,18 @@ h4 {
 
 #upcoming-events {
 	margin-left: 246px;
+}
+
+a {
+	color: blue;
+}
+
+.map-link {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+#upcoming-events {
+	cursor: pointer;
 }
