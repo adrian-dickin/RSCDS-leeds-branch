@@ -1,5 +1,13 @@
 {
   "events": [
+  {
+    	"date": "29th Dec",
+  		"date2": "2015",
+  		"event": "Hogmany Dance",
+  		"time": "7:30pm - 10:30pm",
+  		"actor": "Music: Ian Slater",
+  		"location": ["St Columba's"]
+  },
   	{
   		"date": "16th Jan",
   		"date2": "2016",
@@ -13,6 +21,8 @@
   			"Leeds",
   			"LS17 6LE"
   		],
+  		"programme": "http://my.strathspey.org/dd/list/3258/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/16Jan16.pdf",
   		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds,+West+Yorkshire+LS17+6LE/@53.8385371,-1.5372916,17z/data=!4m2!3m1!1s0x48795bc2e4046d73:0xbf9fd50104b818ef"
   	},
   	{
@@ -27,6 +37,8 @@
   			"Ilkley",
   			"LS29 9QL"
   		],
+  		"programme": "http://my.strathspey.org/dd/list/5939/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/28Jan16.pdf",
   		"map": "https://www.google.co.uk/maps/place/Queen's+Rd,+Ilkley,+West+Yorkshire+LS29/@53.9214137,-1.828945,17z/data=!3m1!4b1!4m2!3m1!1s0x487bfae0e5448c6f:0x77e7ab7743da0a6e"
   	},
   	{
@@ -47,21 +59,55 @@
   			"Adel",
   			"Leeds",
   			"LS16 7PQ"
-  		]	,
+  		],
   		"map": "https://www.google.co.uk/maps/place/2+Gainsborough+Ave,+Leeds,+West+Yorkshire+LS16+7PG/@53.8571813,-1.5921455,17z/data=!3m1!4b1!4m2!3m1!1s0x48795908216a1843:0xc53b42fdf3ce7c3f"	
   	},
+  	
+  	{
+  		"date": "30th Jan",
+  		"date2": "2016",
+  		"event": "Club Dance",
+  		"time": "7:30pm - 10:30pm",
+  		"actor": "Music: Phil Jones",
+  		"programme": "http://my.strathspey.org/dd/list/5990/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/30Jan16.pdf",
+  		"location-top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
+  	},
+  	
   	{
   		"date": "20th Feb",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:00pm",
   		"actor": "Music: Ian Slater",
+  		"programme": "http://my.strathspey.org/dd/list/3259/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/20Feb16.pdf",
   		"location-top": "St Chad's Parish Centre",
   		"location": [
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
-  		]		
+  		],
+  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
+  	},
+  	{
+  		"date": "19th Mar",
+  		"date2": "2016",
+  		"event": "Children's Festival",
+  		"actor": "Music: Neil Barron",
+  		"location-top": "Grove Methodist Church Hall",
+  		"location": [
+  			"New Street",
+  			"Horsforth",
+  			"Leeds",
+  			"LS18 4BH"
+  		]
   	},
   	{
   		"date": "19th Mar",
@@ -74,7 +120,8 @@
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
-  		]		
+  		],
+  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
   	},
   	{
   		"date": "1st - 3rd Apr",
@@ -104,7 +151,8 @@
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
-  		]		
+  		],
+  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
   	},
   	{
   		"date": "17th Sep",

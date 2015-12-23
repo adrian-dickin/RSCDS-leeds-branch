@@ -64,7 +64,7 @@ ul.squarewhite li.level-0 li {
     color:#444444;
     font-size: 18px;
     display: block;
-    padding: 4px;
+    padding: 6px 4px 6px 4px;
 }
 
 ul.squarewhite li.level-0 li.first,
