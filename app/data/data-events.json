@@ -130,8 +130,7 @@
   		"actor": "Teacher: Graham Donald",
   		"actor2": "Music: George Meikle",
   		"location-top": "Esplanade Hotel, Scarborough"
-  	},
-  	
+  	}, 	
   	{
   		"date": "21st May",
   		"date2": "2016",
@@ -139,6 +138,17 @@
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Alan Ross",
   		"location-top": "tbc"
+  	},
+  	{
+  		"date": "23rd April",
+  		"date2": "2016",
+  		"event": "Highland and Scottish National Day Workshop",
+  		"actor": "Teacher: Catherine Livsey",
+  		"location-top": "St Giles Church Hall",
+  		"location": [
+  			"Bramhope",
+  			"LS16 9BA"
+  		]
   	},
   	{
   		"date": "18th June",
