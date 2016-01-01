@@ -1,13 +1,5 @@
 {
   "events": [
-  {
-    	"date": "29th Dec",
-  		"date2": "2015",
-  		"event": "Hogmany Dance",
-  		"time": "7:30pm - 10:30pm",
-  		"actor": "Music: Ian Slater",
-  		"location": ["St Columba's"]
-  },
   	{
   		"date": "16th Jan",
   		"date2": "2016",
@@ -49,9 +41,9 @@
   		"actor": "Teacher: Keith Smith",
   		"details": [
   			{"name": "Details", 
-  			 "link": "pdf/Musician's Workshop Leaflet 16.pdf"},
+  			 "link": "docs/Musician's Workshop Leaflet 16.pdf"},
   			{"name": "Form", 
-  			 "link": "pdf/Rscds Musician's Workshop 2016.pdf"}
+  			 "link": "docs/Rscds Musician's Workshop 2016.pdf"}
   		],
   		"location-top": "Adel Methodist Church Hall",
   		"location": [
