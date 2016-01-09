@@ -36,9 +36,8 @@ function handleMaps() {
 }
 
 function eventLinks() {
-	$('#upcoming-events tr').click(function() {
-		var dataLink = $(this).attr('data-link');
-		//window.location = "events.html#" + dataLink;
+	$('#upcoming-events tr.row-link').click(function() {
+		/*var dataLink = $(this).attr('data-link');*/
 		window.location = "events.html";
 	});
 }

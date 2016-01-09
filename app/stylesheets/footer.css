@@ -14,6 +14,13 @@
 	vertical-align: middle;
 }
 
+.webmaster_wrapper {
+	color: #0070ba;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+}
+
 .signup-button {
     color: #0070ba;
 	font-size: 16pt;

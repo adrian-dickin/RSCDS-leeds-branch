@@ -2,8 +2,16 @@
 pageTitle: "Who's who"
 scripts: ["handleEmailLinks();"]
 pageDescription: "Branch committee members and the branch constitution"
+teachers:
+   - name: Brenda Burnell
+     email: brenda.gunny@talktalk.net
+   - name: Catherine Livsey
+     email: cllivsey@gmail.com
+   - name: Donald Andrews
+     email: donald@hbandrews.fsnet.co.uk
+   - name: Irene Dracup
+     email: glyn.cup@virginmedia.com
 ---
-
 <div class='body_text'>
 <h1>Branch Responsibilities</h1>
 <h2>Branch Officers 2014/2015</h2>
@@ -51,12 +59,20 @@ pageDescription: "Branch committee members and the branch constitution"
 </div>
 
 <br />
+<h2>Teachers</h2>
+<a id="teachers" name="teachers"></a>
+{{#each teachers}}
+<div>
+	<div class="column">{{name}} {{{email email}}}</div>
+</div>
+{{/each}}
+
+<br />
 <h1>Branch Constitution</h1>
 The Branch Constitution is available in Microsoft Word format. <br />
 <a href="http://www.rscdsleeds.org.uk/BranchAdmin/Constitution2010.docx">The Branch Constitution 2010</a> 
 (Earlier versions: <a href="http://www.rscdsleeds.org.uk/BranchAdmin/Constitution2009.docx">2009</a>, 
 <a href="http://www.rscdsleeds.org.uk/BranchAdmin/Constitution2007.docx">2007</a>, 
 <a href="http://www.rscdsleeds.org.uk/BranchAdmin/Constitution2003.docx">2003</a>)
-
 
 </div>

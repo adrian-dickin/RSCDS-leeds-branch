@@ -28,7 +28,7 @@
 
 
 #menu-button-bar {
-	width: 900px;
+	width: 680px;
 	margin: 32px auto 0px auto;
 }
 
@@ -142,11 +142,11 @@ h4 {
 }
 
 .column {
-	width: 250px;
+	width: 260px;
 	display: inline-block;
 }
 .column_header {
-	width: 250px;
+	width: 260px;
 	display: inline-block;
 	color: #0070BA;
 }
@@ -200,11 +200,20 @@ h4 {
     margin-right: 8px;
 }
 
-
-
 #upcoming-events {
-	margin-left: 246px;
+	margin: 0px 246px 0px 246px;
 }
+#upcoming-events > table {
+	width: 100%;
+}
+#upcoming-events td {
+	vertical-align: top;
+}
+
+.row-link {
+	cursor: pointer;
+}
+
 
 a {
 	color: blue;
@@ -216,6 +225,3 @@ a {
 	cursor: pointer;
 }
 
-#upcoming-events {
-	cursor: pointer;
-}
