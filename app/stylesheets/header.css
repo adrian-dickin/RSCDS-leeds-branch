@@ -20,7 +20,7 @@ body {
 	height: 84px;
 	position: absolute;
 	top: 10px;
-	left: 246px;
+	left: 10%;
 }
 .dance-scottish-logo {
 	background: url("../images/Dance-Scottish-White-sml2.png");
@@ -28,7 +28,7 @@ body {
 	height: 49px;
 	position: absolute;
 	top: 45px;
-	right: 246px;
+	right: 10%;
 }
 
 

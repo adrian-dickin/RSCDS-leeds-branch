@@ -28,8 +28,8 @@
 
 
 #menu-button-bar {
-	width: 680px;
-	margin: 32px auto 0px auto;
+	width: 700px;
+	margin: 64px auto 64px auto;
 }
 
 .menu-button {
@@ -46,7 +46,7 @@
 
 .menu-button-wrapper {
 	color: #0070ba;
-	width: 200px;
+	width: 210px;
 	margin: 0px 10px 0px 10px;
 	display: inline-block;
 	vertical-align: top;
@@ -109,7 +109,7 @@
 	color: white;
 	text-align: left;
 }
-.tabular td {
+.heading-panel .tabular td {
 	padding: 8px 0px 8px 8px;
 	vertical-align: text-top;
 }
@@ -119,6 +119,15 @@
   	border: 4px solid #0070BA;
 }
 
+.light-heading-panel {
+  	border-radius: 15px;
+  	border: 2px solid #B0C8EA;
+}
+
+.light-heading-panel .tabular td {
+	padding: 4px 0px 4px 8px;
+	vertical-align: text-top;
+}
 
 h1, h2, h3, h4 {
 	color: #0070BA;
@@ -201,7 +210,9 @@ h4 {
 }
 
 #upcoming-events {
-	margin: 0px 246px 0px 246px;
+	/*margin: 0px 246px 0px 246px;*/
+	width: 80%;
+	margin: 0px 10% 0px 10%;
 }
 #upcoming-events > table {
 	width: 100%;
@@ -209,6 +220,15 @@ h4 {
 #upcoming-events td {
 	vertical-align: top;
 }
+
+#upcoming-events-left {
+	padding-right: 1%;
+}
+
+#upcoming-events-right {
+	padding-left: 1%;
+}
+
 
 .row-link {
 	cursor: pointer;
@@ -224,4 +244,5 @@ a {
 	color: blue;
 	cursor: pointer;
 }
+
 

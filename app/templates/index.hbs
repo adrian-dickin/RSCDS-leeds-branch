@@ -16,27 +16,33 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 <div id="upcoming-events">
 	<table>
 		<tr>
-			<td>
+			<td id="upcoming-events-left">
 				<h2>Upcoming events</h2>
-				<table>
-				{{#each eventLinks}}
-					<tr class="row-link" data-link="{{anchor date}}">
-						<td>{{date}} -</td>
-						<td>{{name}}</td>
-					</tr>
-				{{/each}}
-				</table>
+				<div class="light-heading-panel">
+					<table class="tabular">
+						<tbody>
+						{{#each eventLinks}}
+							<tr class="row-link" data-link="{{anchor date}}">
+								<td>{{date}}</td>
+								<td>{{name}}</td>
+							</tr>
+						{{/each}}
+						</tbody>
+					</table>
+				</div>
 			</td>
-			<td>
+			<td id="upcoming-events-right">
 				<h2>Special events</h2>
-				<table>
-				{{#each specialEventLinks}}
-					<tr class="row-link" data-link="{{anchor date}}">
-						<td>{{date}} -</td>
-						<td>{{name}}</td>
-					</tr>
-				{{/each}}
-				</table>
+				<div class="light-heading-panel">
+					<table class="tabular">
+					{{#each specialEventLinks}}
+						<tr class="row-link" data-link="{{anchor date}}">
+							<td>{{date}}</td>
+							<td>{{name}}</td>
+						</tr>
+					{{/each}}
+					</table>
+				</div>
 			</td>
 		</tr>
 	</table>
@@ -54,7 +60,7 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 	<div class="menu-button-wrapper">
 		<a href="events.html">
 		  <div class="menu-button menu-events-button"></div>
-		  <h3>Branch Events</h3>
+		  <h3>Local Events</h3>
 		</a>
 	</div>
 	
