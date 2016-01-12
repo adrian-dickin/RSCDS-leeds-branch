@@ -121,12 +121,22 @@
 
 .light-heading-panel {
   	border-radius: 15px;
-  	border: 2px solid #B0C8EA;
+  	border: 1px solid #B0C8EA;
 }
 
 .light-heading-panel .tabular td {
 	padding: 4px 0px 4px 8px;
 	vertical-align: text-top;
+}
+
+#class-overview {
+	margin-bottom: 16px;
+}
+
+#class-overview td {
+	vertical-align: text-top;
+	width: 400px;
+	padding-right: 16px;
 }
 
 h1, h2, h3, h4 {
@@ -148,6 +158,7 @@ h4 {
 .body_text {
 	font-size: 14pt;
 	padding: 20px;
+	min-width: 1060px;
 }
 
 .column {
@@ -223,10 +234,12 @@ h4 {
 
 #upcoming-events-left {
 	padding-right: 1%;
+	width: 50%;
 }
 
 #upcoming-events-right {
 	padding-left: 1%;
+	width: 50%;
 }
 
 
@@ -245,4 +258,8 @@ a {
 	cursor: pointer;
 }
 
+.classes-panel {
+	height: 132px;
+	padding: 6px 8px 6px 8px;
+}
 
