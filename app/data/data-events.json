@@ -1,23 +1,6 @@
 {
   "events": [
   	{
-  		"date": "16th Jan",
-  		"date2": "2016",
-  		"event": "Social Dance",
-  		"time": "7:30pm",
-  		"actor": "Music: Ian Muir",
-  		"location-top": "Queens Hall",
-  		"location": [
-  		    "Immaculate Heart Church",
-  			"294 Harrogate Road",
-  			"Leeds",
-  			"LS17 6LE"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/3258/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/16Jan16.pdf",
-  		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds,+West+Yorkshire+LS17+6LE/@53.8385371,-1.5372916,17z/data=!4m2!3m1!1s0x48795bc2e4046d73:0xbf9fd50104b818ef"
-  	},
-  	{
   		"date": "28th Jan",
   		"date2": "2016",
   		"event": "Burns Celebration Dance",
@@ -129,7 +112,7 @@
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Alan Ross",
-  		"location-top": "tbc"
+  		"location-top": "Otley Methodist Church Hall"
   	},
   	{
   		"date": "23rd April",

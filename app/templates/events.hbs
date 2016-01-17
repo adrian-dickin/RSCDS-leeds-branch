@@ -48,14 +48,14 @@ pageDescription: "Leeds RSCDS dancing events"
 					</td>
 					<td>
 						{{#if programme}}
-						<a href="{{programme}}" target="_blank">Programme</a> <br/>
+						<div class="detail"><a href="{{programme}}" target="_blank">Programme</a> </div>
 						{{/if}}
 						{{#if crib}}
-						<a href="{{crib}}">Crib with diagrams</a> <br/>
+						<div class="detail"><a href="{{crib}}">Crib with diagrams</a> </div>
 						{{/if}}
 			
 						{{#each details}}
-						<div>
+						<div class="detail">
 							<a href="{{link}}">{{name}}</a>
 						</div>
 						{{/each}}		

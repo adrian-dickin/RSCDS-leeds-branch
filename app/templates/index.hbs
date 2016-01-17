@@ -3,10 +3,10 @@ pageTitle: "RSCDS Leeds Branch"
 scripts: ["eventLinks();",
           "handleEmailLinks();"]
 eventLinks:
-   - date: 16th Jan
-     name: Social Dance
    - date: 28th Jan
      name: Burns Celebration Dance
+   - date: 30th Jan
+     name: Club Dance
 specialEventLinks:
    - date: 30th Jan
      name: Musicians' Workshop
@@ -22,9 +22,9 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 					<table class="tabular">
 						<tbody>
 						{{#each eventLinks}}
-							<tr class="row-link" data-link="{{anchor date}}">
+							<tr>
 								<td>{{date}}</td>
-								<td>{{name}}</td>
+								<td><a href="events.html">{{name}}</a></td>
 							</tr>
 						{{/each}}
 						</tbody>
@@ -36,9 +36,9 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 				<div class="light-heading-panel">
 					<table class="tabular">
 					{{#each specialEventLinks}}
-						<tr class="row-link" data-link="{{anchor date}}">
+						<tr>
 							<td>{{date}}</td>
-							<td>{{name}}</td>
+							<td><a href="events.html">{{name}}</a></td>
 						</tr>
 					{{/each}}
 					</table>
