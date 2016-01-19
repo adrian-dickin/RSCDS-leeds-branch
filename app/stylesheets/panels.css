@@ -232,14 +232,18 @@ h4 {
 	vertical-align: top;
 }
 
-#upcoming-events-left {
+#upcoming-branch-events {
 	padding-right: 1%;
-	width: 50%;
+	width: 33%;
 }
-
-#upcoming-events-right {
+#upcoming-other-events {
 	padding-left: 1%;
-	width: 50%;
+	padding-right: 1%;
+	width: 33%;
+}
+#upcoming-special-events {
+	padding-left: 1%;
+	width: 33%;
 }
 
 

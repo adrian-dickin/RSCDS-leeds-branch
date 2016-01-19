@@ -17,45 +17,6 @@
   		"map": "https://www.google.co.uk/maps/place/Queen's+Rd,+Ilkley,+West+Yorkshire+LS29/@53.9214137,-1.828945,17z/data=!3m1!4b1!4m2!3m1!1s0x487bfae0e5448c6f:0x77e7ab7743da0a6e"
   	},
   	{
-  		"date": "30th Jan",
-  		"date2": "2016",
-  		"event": "Musicians' Workshop",
-  		"time": "10:00am - 4:15pm",
-  		"actor": "Teacher: Keith Smith",
-  		"details": [
-  			{"name": "Details", 
-  			 "link": "docs/Musician's Workshop Leaflet 16.pdf"},
-  			{"name": "Form", 
-  			 "link": "docs/Rscds Musician's Workshop 2016.pdf"}
-  		],
-  		"location-top": "Adel Methodist Church Hall",
-  		"location": [
-  			"Gainsborough Avenue",
-  			"Adel",
-  			"Leeds",
-  			"LS16 7PQ"
-  		],
-  		"map": "https://www.google.co.uk/maps/place/2+Gainsborough+Ave,+Leeds,+West+Yorkshire+LS16+7PG/@53.8571813,-1.5921455,17z/data=!3m1!4b1!4m2!3m1!1s0x48795908216a1843:0xc53b42fdf3ce7c3f"	
-  	},
-  	
-  	{
-  		"date": "30th Jan",
-  		"date2": "2016",
-  		"event": "Club Dance",
-  		"time": "7:30pm - 10:30pm",
-  		"actor": "Music: Phil Jones",
-  		"programme": "http://my.strathspey.org/dd/list/5990/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/30Jan16.pdf",
-  		"location-top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
-  	},
-  	
-  	{
   		"date": "20th Feb",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
@@ -71,19 +32,7 @@
   		],
   		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
   	},
-  	{
-  		"date": "19th Mar",
-  		"date2": "2016",
-  		"event": "Children's Festival",
-  		"actor": "Music: Neil Barron",
-  		"location-top": "Grove Methodist Church Hall",
-  		"location": [
-  			"New Street",
-  			"Horsforth",
-  			"Leeds",
-  			"LS18 4BH"
-  		]
-  	},
+
   	{
   		"date": "19th Mar",
   		"date2": "2016",
@@ -98,14 +47,7 @@
   		],
   		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
   	},
-  	{
-  		"date": "1st - 3rd Apr",
-  		"date2": "2016",
-  		"event": "Scarborough Weekend",
-  		"actor": "Teacher: Graham Donald",
-  		"actor2": "Music: George Meikle",
-  		"location-top": "Esplanade Hotel, Scarborough"
-  	}, 	
+
   	{
   		"date": "21st May",
   		"date2": "2016",
@@ -114,17 +56,7 @@
   		"actor": "Music: Alan Ross",
   		"location-top": "Otley Methodist Church Hall"
   	},
-  	{
-  		"date": "23rd April",
-  		"date2": "2016",
-  		"event": "Highland and Scottish National Day Workshop",
-  		"actor": "Teacher: Catherine Livsey",
-  		"location-top": "St Giles Church Hall",
-  		"location": [
-  			"Bramhope",
-  			"LS16 9BA"
-  		]
-  	},
+
   	{
   		"date": "18th June",
   		"date2": "2016",
@@ -147,5 +79,84 @@
   		"actor": "Music: tbc",
   		"location-top": "tbc"
   	}
-  ]  
+  ],
+  
+"leeds-events": [
+  	{
+  		"date": "30th Jan",
+  		"date2": "2016",
+  		"event": "Club Dance",
+  		"time": "7:30pm - 10:30pm",
+  		"actor": "Music: Phil Jones",
+  		"programme": "http://my.strathspey.org/dd/list/5990/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/30Jan16.pdf",
+  		"location-top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
+  	}
+  ],
+  
+"special-events": [
+  	{
+  		"date": "30th Jan",
+  		"date2": "2016",
+  		"event": "Musicians' Workshop",
+  		"time": "10:00am - 4:15pm",
+  		"actor": "Teacher: Keith Smith",
+  		"details": [
+  			{"name": "Details", 
+  			 "link": "docs/Musician's Workshop Leaflet 16.pdf"},
+  			{"name": "Form", 
+  			 "link": "docs/Rscds Musician's Workshop 2016.pdf"}
+  		],
+  		"location-top": "Adel Methodist Church Hall",
+  		"location": [
+  			"Gainsborough Avenue",
+  			"Adel",
+  			"Leeds",
+  			"LS16 7PQ"
+  		],
+  		"map": "https://www.google.co.uk/maps/place/2+Gainsborough+Ave,+Leeds,+West+Yorkshire+LS16+7PG/@53.8571813,-1.5921455,17z/data=!3m1!4b1!4m2!3m1!1s0x48795908216a1843:0xc53b42fdf3ce7c3f"	
+  	},
+  	{
+  		"date": "19th Mar",
+  		"date2": "2016",
+  		"event": "Children's Festival",
+  		"actor": "Music: Neil Barron",
+  		"location-top": "Grove Methodist Church Hall",
+  		"location": [
+  			"New Street",
+  			"Horsforth",
+  			"Leeds",
+  			"LS18 4BH"
+  		]
+  	},
+  	{
+  		"date": "1st - 3rd Apr",
+  		"date2": "2016",
+  		"event": "Scarborough Weekend",
+  		"actor": "Teacher: Graham Donald",
+  		"actor2": "Music: George Meikle",
+  		"location-top": "Esplanade Hotel, Scarborough"
+  	},
+  	{
+  		"date": "23rd April",
+  		"date2": "2016",
+  		"event": "Highland and Scottish National Day Workshop",
+  		"actor": "Teacher: Catherine Livsey",
+  		"location-top": "St Giles Church Hall",
+  		"location": [
+  			"Bramhope",
+  			"LS16 9BA"
+  		],
+  		"details": [
+  			{"name": "Form", 
+  			 "link": "documents/Highland Day School Apr 16.pdf"}
+  		]
+  	}
+	]
 }

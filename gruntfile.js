@@ -6,7 +6,6 @@ module.exports = function(grunt) {
 			assets: 'assets',
 			partials: ['app/partials/**/*.hbs'],
 			data: 'app/data/*.json',
-		/*	layout: 'layouts/main-layout.hbs' */
 			flatten: true,
 			helpers: ['handlebars-helper-filehash', 'app/helpers/**.js']
 		  },

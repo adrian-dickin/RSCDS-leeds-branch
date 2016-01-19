@@ -5,19 +5,28 @@ scripts: ["eventLinks();",
 eventLinks:
    - date: 28th Jan
      name: Burns Celebration Dance
+   - date: 20th Feb
+     name: Branch Dance
+   - date: 19th Mar
+     name: Branch Dance
+leedsEventLinks:
    - date: 30th Jan
      name: Club Dance
 specialEventLinks:
    - date: 30th Jan
      name: Musicians' Workshop
+   - date: 19th Mar 
+     name: Children's Festival
+   - date: 1st - 3rd Apr
+     name: Scarborough Weekend
 pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 ---
 
 <div id="upcoming-events">
 	<table>
 		<tr>
-			<td id="upcoming-events-left">
-				<h2>Upcoming events</h2>
+			<td id="upcoming-branch-events">
+				<h2>Branch Events</h2>
 				<div class="light-heading-panel">
 					<table class="tabular">
 						<tbody>
@@ -31,14 +40,27 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 					</table>
 				</div>
 			</td>
-			<td id="upcoming-events-right">
-				<h2>Special events</h2>
+			<td id="upcoming-other-events">
+				<h2>Leeds events</h2>
+				<div class="light-heading-panel">
+					<table class="tabular">
+					{{#each leedsEventLinks}}
+						<tr>
+							<td>{{date}}</td>
+							<td><a href="leeds_events.html">{{name}}</a></td>
+						</tr>
+					{{/each}}
+					</table>
+				</div>
+			</td>			
+			<td id="upcoming-special-events">
+				<h2>Special Branch events</h2>
 				<div class="light-heading-panel">
 					<table class="tabular">
 					{{#each specialEventLinks}}
 						<tr>
 							<td>{{date}}</td>
-							<td><a href="events.html">{{name}}</a></td>
+							<td><a href="special_events.html">{{name}}</a></td>
 						</tr>
 					{{/each}}
 					</table>
@@ -60,7 +82,7 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 	<div class="menu-button-wrapper">
 		<a href="events.html">
 		  <div class="menu-button menu-events-button"></div>
-		  <h3>Local Events</h3>
+		  <h3>Branch Events</h3>
 		</a>
 	</div>
 	
