@@ -29,7 +29,7 @@
 
 #menu-button-bar {
 	width: 700px;
-	margin: 64px auto 64px auto;
+	margin: 48px auto 64px auto;
 }
 
 .menu-button {
@@ -271,3 +271,18 @@ a {
 	padding-bottom: 0.3em;
 }
 
+.cancelled {
+	text-decoration: line-through;
+}
+
+.important-news {
+	padding-top: 16px
+}
+.important-news h2 {
+	margin-top: 0px;
+	color: red;
+}
+
+.important-news .light-heading-panel {
+	padding: 8px;
+}

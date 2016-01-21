@@ -4,6 +4,18 @@
   		"date": "28th Jan",
   		"date2": "2016",
   		"event": "Burns Celebration Dance",
+  		"time": "re-scheduled to 5th Feb",
+  		"location-top": "St Margaret's Church",
+  		"location": [
+  		    "",
+  			"re-scheduled to 5th Feb"
+  		]
+  	},
+
+  	{
+  		"date": "5th Feb",
+  		"date2": "2016",
+  		"event": "Burns Celebration Dance",
   		"time": "2:00pm - 4:00pm",
   		"actor": "Music: Ian Slater",
   		"location-top": "St Margaret's Church",
@@ -15,7 +27,8 @@
   		"programme": "http://my.strathspey.org/dd/list/5939/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/28Jan16.pdf",
   		"map": "https://www.google.co.uk/maps/place/Queen's+Rd,+Ilkley,+West+Yorkshire+LS29/@53.9214137,-1.828945,17z/data=!3m1!4b1!4m2!3m1!1s0x487bfae0e5448c6f:0x77e7ab7743da0a6e"
-  	},
+  	},  	
+  	
   	{
   		"date": "20th Feb",
   		"date2": "2016",
@@ -156,6 +169,18 @@
   		"details": [
   			{"name": "Form", 
   			 "link": "documents/Highland Day School Apr 16.pdf"}
+  		]
+  	},
+  	{
+  		"date": "9th July",
+  		"date2": "2016",
+  		"event": "Leeds White Rose Festival",
+  		"actor": "Neil Hardie and his Scottish Dance Band",
+  		"location-top": "The Gateways School",
+  		"location": [
+  			"Harewood",
+  			"Leeds",
+  			"LS17 9LE"
   		]
   	}
 	]

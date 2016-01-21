@@ -4,6 +4,8 @@ scripts: ["eventLinks();",
           "handleEmailLinks();"]
 eventLinks:
    - date: 28th Jan
+     cancelled: Burns Celebration Dance
+   - date: 5th Feb
      name: Burns Celebration Dance
    - date: 20th Feb
      name: Branch Dance
@@ -33,7 +35,10 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 						{{#each eventLinks}}
 							<tr>
 								<td>{{date}}</td>
-								<td><a href="events.html">{{name}}</a></td>
+								<td>
+								{{#if name}}<a href="events.html">{{name}}</a>{{/if}}
+								{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+								</td>
 							</tr>
 						{{/each}}
 						</tbody>
@@ -41,7 +46,7 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 				</div>
 			</td>
 			<td id="upcoming-other-events">
-				<h2>Leeds events</h2>
+				<h2>Leeds Events</h2>
 				<div class="light-heading-panel">
 					<table class="tabular">
 					{{#each leedsEventLinks}}
@@ -54,7 +59,7 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 				</div>
 			</td>			
 			<td id="upcoming-special-events">
-				<h2>Special Branch events</h2>
+				<h2>Special Branch Events</h2>
 				<div class="light-heading-panel">
 					<table class="tabular">
 					{{#each specialEventLinks}}
@@ -64,6 +69,19 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 						</tr>
 					{{/each}}
 					</table>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="important-news">
+				<div class="light-heading-panel">
+					<!--table class="tabular">
+						<tr>
+							<td><h2>Important news</h2>ok there</td>
+							<td><a href="news.html">Karen Taylor, the Burns Celebration Dance</a></td>
+						</tr>
+					</table-->
+					<h2>Important news</h2> <a href="news.html">Karen Taylor, the Burns Celebration Dance</a>
 				</div>
 			</td>
 		</tr>
