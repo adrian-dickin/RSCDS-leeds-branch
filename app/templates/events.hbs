@@ -56,7 +56,12 @@ pageDescription: "Leeds Branch dancing events"
 			
 						{{#each details}}
 						<div class="detail">
+							{{#if external-link}}
+							<a href="{{external-link}}" target="_blank">{{name}}</a>
+							{{/if}}
+							{{#if link}}
 							<a href="{{link}}">{{name}}</a>
+							{{/if}}
 						</div>
 						{{/each}}		
 					</td>

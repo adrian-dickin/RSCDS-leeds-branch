@@ -54,3 +54,13 @@ body {
 	border-bottom: 1px solid #0070ba;
 	box-shadow: 0px 2px 3px white;
 }
+
+/* responsive changes */
+@media (max-width: 1200px) {
+	.logo {
+		left: 1%;
+	}
+	.dance-scottish-logo {
+		right: 1%;
+	}
+}

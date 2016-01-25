@@ -4,16 +4,16 @@
   		"date": "28th Jan",
   		"date2": "2016",
   		"event": "Burns Celebration Dance",
-  		"time": "re-scheduled to 5th Feb",
+  		"time": "re-scheduled to 4th Feb",
   		"location-top": "St Margaret's Church",
   		"location": [
   		    "",
-  			"re-scheduled to 5th Feb"
+  			"re-scheduled to 4th Feb"
   		]
   	},
 
   	{
-  		"date": "5th Feb",
+  		"date": "4th Feb",
   		"date2": "2016",
   		"event": "Burns Celebration Dance",
   		"time": "2:00pm - 4:00pm",
@@ -181,6 +181,10 @@
   			"Harewood",
   			"Leeds",
   			"LS17 9LE"
+  		],
+  		"details": [
+  			{"name": "Website", 
+  			 "external-link": "http://whiterosefestival.uk/"}
   		]
   	}
 	]

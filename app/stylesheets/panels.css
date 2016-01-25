@@ -28,7 +28,7 @@
 
 
 #menu-button-bar {
-	width: 700px;
+	width: 940px;
 	margin: 48px auto 64px auto;
 }
 
@@ -110,7 +110,7 @@
 	text-align: left;
 }
 .heading-panel .tabular td {
-	padding: 8px 0px 8px 8px;
+	padding: 8px 8px 8px 8px;
 	vertical-align: text-top;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .light-heading-panel .tabular td {
-	padding: 4px 0px 4px 8px;
+	padding: 4px 4px 4px 8px;
 	vertical-align: text-top;
 }
 
@@ -221,7 +221,6 @@ h4 {
 }
 
 #upcoming-events {
-	/*margin: 0px 246px 0px 246px;*/
 	width: 80%;
 	margin: 0px 10% 0px 10%;
 }
@@ -285,4 +284,12 @@ a {
 
 .important-news .light-heading-panel {
 	padding: 8px;
+}
+
+/* responsive changes */
+@media (max-width: 1200px) {
+	#upcoming-events {
+		width: 98%;
+		margin: 0px 1% 0px 1%;
+	}
 }
