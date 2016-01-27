@@ -33,7 +33,7 @@
   		"date": "20th Feb",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
-  		"time": "7:30pm - 10:00pm",
+  		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Ian Slater",
   		"programme": "http://my.strathspey.org/dd/list/3259/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/20Feb16.pdf",
@@ -50,7 +50,7 @@
   		"date": "19th Mar",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
-  		"time": "7:30pm - 10:00pm",
+  		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Neil Barron",
   		"location-top": "St Chad's Parish Centre",
   		"location": [
@@ -74,7 +74,7 @@
   		"date": "18th June",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
-  		"time": "7:30pm - 10:00pm",
+  		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Robert Whitehead Trio",
   		"location-top": "St Chad's Parish Centre",
   		"location": [
@@ -83,6 +83,24 @@
   			"LS16 5JT"
   		],
   		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
+  	},
+  	{
+  		"date": "9th July",
+  		"date2": "2016",
+  		"event": "Leeds White Rose Festival",
+  		"time": "7:00pm - 10:30pm",
+  		"actor": "Neil Hardie and his Scottish Dance Band",
+  		"location-top": "The Gateways School",
+  		"location": [
+  			"Harewood",
+  			"Leeds",
+  			"LS17 9LE"
+  		],
+  		"crib": "http://whiterosefestival.uk/wp-content/uploads/2015/11/FestivalEve.pdf", 		
+  		"details": [
+  			{"name": "Booking Form", 
+  			 "link": "http://whiterosefestival.uk/booking-form-for-evening-dance/"}
+  		]
   	},
   	{
   		"date": "17th Sep",
@@ -154,7 +172,13 @@
   		"event": "Scarborough Weekend",
   		"actor": "Teacher: Graham Donald",
   		"actor2": "Music: George Meikle",
-  		"location-top": "Esplanade Hotel, Scarborough"
+  		"location-top": "Esplanade Hotel, Scarborough",
+  		"details": [
+  			{"name": "Form 1", 
+  			 "link": "documents/Scarborough_2016-1.pdf"},
+  			{"name": "Form 2", 
+  			 "link": "documents/Scarborough_2016-2.pdf"}
+  		]
   	},
   	{
   		"date": "23rd April",
