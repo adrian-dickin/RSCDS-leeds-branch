@@ -1,18 +1,6 @@
 {
   "events": [
   	{
-  		"date": "28th Jan",
-  		"date2": "2016",
-  		"event": "Burns Celebration Dance",
-  		"time": "re-scheduled to 4th Feb",
-  		"location-top": "St Margaret's Church",
-  		"location": [
-  		    "",
-  			"re-scheduled to 4th Feb"
-  		]
-  	},
-
-  	{
   		"date": "4th Feb",
   		"date2": "2016",
   		"event": "Burns Celebration Dance",
