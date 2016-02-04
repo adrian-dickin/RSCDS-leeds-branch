@@ -1,28 +1,12 @@
 {
-  "events": [
-  	{
-  		"date": "4th Feb",
-  		"date2": "2016",
-  		"event": "Burns Celebration Dance",
-  		"time": "2:00pm - 4:00pm",
-  		"actor": "Music: Ian Slater",
-  		"location-top": "St Margaret's Church",
-  		"location": [
-  			"Queens Road",
-  			"Ilkley",
-  			"LS29 9QL"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/5939/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/28Jan16.pdf",
-  		"map": "https://www.google.co.uk/maps/place/Queen's+Rd,+Ilkley,+West+Yorkshire+LS29/@53.9214137,-1.828945,17z/data=!3m1!4b1!4m2!3m1!1s0x487bfae0e5448c6f:0x77e7ab7743da0a6e"
-  	},  	
-  	
+  "events": [  	
   	{
   		"date": "20th Feb",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Ian Slater",
+  		"actor2": "MC: Irene Dracup",
   		"programme": "http://my.strathspey.org/dd/list/3259/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/20Feb16.pdf",
   		"location-top": "St Chad's Parish Centre",
@@ -40,12 +24,15 @@
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Neil Barron",
+  		"actor2": "MC: Fiona Turnbull",
   		"location-top": "St Chad's Parish Centre",
   		"location": [
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
   		],
+  		"programme": "http://my.strathspey.org/dd/list/4640/", 
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/19Mar16.pdf",
   		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
   	},
 
@@ -102,45 +89,60 @@
   
 "leeds-events": [
   	{
-  		"date": "30th Jan",
+  		"date": "27th Feb",
   		"date2": "2016",
   		"event": "Club Dance",
-  		"time": "7:30pm - 10:30pm",
-  		"actor": "Music: Phil Jones",
-  		"programme": "http://my.strathspey.org/dd/list/5990/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/30Jan16.pdf",
+  		"event_desc": "Sponsored by Alec Green's Legacy",
+  		"time": "7:30pm - 10:45pm",
+  		"actor": "Music: Ian Slater",
+  		"actor2": "MC: Lesley Enoch",
   		"location-top": "St Chad's Parish Centre",
   		"location": [
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
   		],
+  		"programme": "http://my.strathspey.org/dd/list/1739/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-27Feb16.pdf", 		
   		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
+  	},
+  	{
+  		"date": "12th Mar",
+  		"date2": "2016",
+  		"event": "Club Dance",
+  		"time": "7:00pm - 10:00pm",
+  		"actor": "Music: recorded",
+  		"actor2": "MC: Gerry Yates",
+  		"location-top": "Cookridge Village Hall",
+  		"location": [
+  			"Moseley Wood Lane",
+  			"Cookridge",
+  			"Leeds",
+  			"LS16 7ER"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/1639/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-12Mar16.pdf", 
+		"map": "https://www.google.co.uk/maps/place/Cookridge+Village+Hall/@53.8600633,-1.6224897,17z/data=!3m1!4b1!4m2!3m1!1s0x4879585713bbad7d:0x654de03fc012b5a7"
+  	},
+  	{
+  		"date": "9th Apr",
+  		"date2": "2016",
+  		"event": "Club Walkthrough Dance",
+  		"time": "7:00pm - 10:00pm",
+  		"actor": "Music: recorded",
+  		"actor2": "MC: Malcolm Brown",
+  		"location-top": "Cookridge Village Hall",
+  		"location": [
+  			"Moseley Wood Lane",
+  			"Cookridge",
+  			"Leeds",
+  			"LS16 7ER"
+  		],
+		"map": "https://www.google.co.uk/maps/place/Cookridge+Village+Hall/@53.8600633,-1.6224897,17z/data=!3m1!4b1!4m2!3m1!1s0x4879585713bbad7d:0x654de03fc012b5a7"
   	}
   ],
   
 "special-events": [
-  	{
-  		"date": "30th Jan",
-  		"date2": "2016",
-  		"event": "Musicians' Workshop",
-  		"time": "10:00am - 4:15pm",
-  		"actor": "Teacher: Keith Smith",
-  		"details": [
-  			{"name": "Details", 
-  			 "link": "docs/Musician's Workshop Leaflet 16.pdf"},
-  			{"name": "Form", 
-  			 "link": "docs/Rscds Musician's Workshop 2016.pdf"}
-  		],
-  		"location-top": "Adel Methodist Church Hall",
-  		"location": [
-  			"Gainsborough Avenue",
-  			"Adel",
-  			"Leeds",
-  			"LS16 7PQ"
-  		],
-  		"map": "https://www.google.co.uk/maps/place/2+Gainsborough+Ave,+Leeds,+West+Yorkshire+LS16+7PG/@53.8571813,-1.5921455,17z/data=!3m1!4b1!4m2!3m1!1s0x48795908216a1843:0xc53b42fdf3ce7c3f"	
-  	},
   	{
   		"date": "19th Mar",
   		"date2": "2016",
@@ -169,9 +171,12 @@
   		]
   	},
   	{
-  		"date": "23rd April",
+  		"date": "23rd Apr",
   		"date2": "2016",
   		"event": "Highland and Scottish National Day Workshop",
+  		"times": [
+  		     {"time": "10:30am - 12:30pm", "desc": "Basic"},
+  		     {"time": "1:30pm - 3:30pm", "desc": "Intermediate/Advanced"}],
   		"actor": "Teacher: Catherine Livsey",
   		"location-top": "St Giles Church Hall",
   		"location": [
@@ -184,10 +189,10 @@
   		]
   	},
   	{
-  		"date": "9th July",
+  		"date": "9th Jul",
   		"date2": "2016",
   		"event": "Leeds White Rose Festival",
-  		"actor": "Neil Hardie and his Scottish Dance Band",
+  		"actor": "Music: Neil Hardie and his Scottish Dance Band",
   		"location-top": "The Gateways School",
   		"location": [
   			"Harewood",

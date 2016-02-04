@@ -114,6 +114,16 @@
 	vertical-align: text-top;
 }
 
+.summary {
+	table-layout: fixed;
+}
+.summary .col1 {
+	width: 30%;
+}
+.summary .col2 {
+	width: 70%;
+}
+
 .heading-panel {
   	border-radius: 15px;
   	border: 4px solid #0070BA;
@@ -287,9 +297,15 @@ a {
 }
 
 /* responsive changes */
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
 	#upcoming-events {
 		width: 98%;
 		margin: 0px 1% 0px 1%;
+	}
+}
+@media (max-width: 1400px) {
+	#upcoming-events {
+		width: 96%;
+		margin: 0px 2% 0px 2%;
 	}
 }

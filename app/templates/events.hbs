@@ -25,6 +25,9 @@ pageDescription: "Leeds Branch dancing events"
 					</td>
 					<td>
 						{{event}}
+						{{#if event_desc}}
+						  <br /> {{event_desc}}
+						{{/if}}
 						{{#if time}}
 						  <p> {{time}}</p>
 						{{/if}}

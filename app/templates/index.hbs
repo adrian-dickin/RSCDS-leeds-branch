@@ -3,22 +3,26 @@ pageTitle: "RSCDS Leeds Branch"
 scripts: ["eventLinks();",
           "handleEmailLinks();"]
 eventLinks:
-   - date: 4th Feb
-     name: Burns Celebration Dance
    - date: 20th Feb
      name: Branch Dance
    - date: 19th Mar
      name: Branch Dance
+   - date: 21st May
+     name: Branch Dance
 leedsEventLinks:
-   - date: 30th Jan
+   - date: 27th Feb
+     name: Club Dance
+   - date: 12th Mar
+     name: Club Dance
+   - date: 9th Apr
      name: Club Dance
 specialEventLinks:
-   - date: 30th Jan
-     name: Musicians' Workshop
    - date: 19th Mar 
      name: Children's Festival
    - date: 1st - 3rd Apr
      name: Scarborough Weekend
+   - date: 23rd Apr
+     name: Highland and Scottish National Day Workshop 
 pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 ---
 
@@ -28,7 +32,11 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 			<td id="upcoming-branch-events">
 				<h2>Branch Events</h2>
 				<div class="light-heading-panel">
-					<table class="tabular">
+					<table class="tabular summary">
+					  <colgroup>
+						<col class="col1">
+						<col class="col2">
+					  </colgroup>
 						<tbody>
 						{{#each eventLinks}}
 							<tr>
@@ -46,7 +54,11 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 			<td id="upcoming-other-events">
 				<h2>Leeds Events</h2>
 				<div class="light-heading-panel">
-					<table class="tabular">
+					<table class="tabular summary">
+					  <colgroup>
+						<col class="col1">
+						<col class="col2">
+					  </colgroup>
 					{{#each leedsEventLinks}}
 						<tr>
 							<td>{{date}}</td>
@@ -59,7 +71,11 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 			<td id="upcoming-special-events">
 				<h2>Special Branch Events</h2>
 				<div class="light-heading-panel">
-					<table class="tabular">
+					<table class="tabular summary">
+					  <colgroup>
+						<col class="col1">
+						<col class="col2">
+					  </colgroup>
 					{{#each specialEventLinks}}
 						<tr>
 							<td>{{date}}</td>
