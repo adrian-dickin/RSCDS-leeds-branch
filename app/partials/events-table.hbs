@@ -1,0 +1,75 @@
+<div class="heading-panel">
+	<table class="tabular">
+		<thead>
+			<th>Date</th>
+			<th>Event</th>
+			<th>Band/Teacher</th>
+			<th>Location</th>
+			<th>Details</th>
+		</thead>
+		<tbody id="events_body">
+		{{#each .}}
+			<tr id="{{anchor date}}">
+				<td>
+					{{date}}
+					{{#if date2}}
+					<br/>{{date2}}<br/><br/>
+					{{/if}}
+				</td>
+				<td>
+					<div>{{event}}</div>
+					{{#if event_desc}}
+					  <div>{{event_desc}}</div>
+					{{/if}}
+					{{#if time}}
+					   <div>{{time}}</div>
+					{{/if}}
+					{{#if times}}
+					  {{#each times}}
+						<br/>
+						<div>{{time}}</div>
+						<div>{{desc}}</div>
+					  {{/each}}
+					{{/if}}
+				</td>
+				<td>
+					{{actor}}
+					{{#if actor2}}
+					<br/>{{actor2}}
+					{{/if}}
+				</td>
+				<td>
+					<div>{{location-top}}</div>
+					<div>
+					{{#each location}}  				
+						<div>{{this}}</div>
+					{{/each}}
+					{{#if map}}
+					<div class='map-link' data-link="{{{map}}}">map</div>
+					{{/if}}
+					</div>
+				</td>
+				<td>
+					{{#if programme}}
+					<div class="detail"><a href="{{programme}}" target="_blank">Programme</a> </div>
+					{{/if}}
+					{{#if crib}}
+					<div class="detail"><a href="{{crib}}">Crib with diagrams</a> </div>
+					{{/if}}
+		
+					{{#each details}}
+					<div class="detail">
+						{{#if external-link}}
+						<a href="{{external-link}}" target="_blank">{{name}}</a>
+						{{/if}}
+						{{#if link}}
+						<a href="{{link}}">{{name}}</a>
+						{{/if}}
+					</div>
+					{{/each}}		
+				</td>
+			</tr>
+		{{/each}}
+		</tbody>
+	</table>
+</div>
