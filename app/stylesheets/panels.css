@@ -296,6 +296,14 @@ a {
 	padding: 8px;
 }
 
+.indent {
+	margin-left: 20px;
+}
+
+.block {
+	padding-bottom: 16px;
+}
+
 /* responsive changes */
 @media (max-width: 1280px) {
 	#upcoming-events {

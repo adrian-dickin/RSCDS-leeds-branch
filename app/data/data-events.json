@@ -139,7 +139,21 @@
   			"LS16 7ER"
   		],
 		"map": "https://www.google.co.uk/maps/place/Cookridge+Village+Hall/@53.8600633,-1.6224897,17z/data=!3m1!4b1!4m2!3m1!1s0x4879585713bbad7d:0x654de03fc012b5a7"
-  	}
+  	},
+  	{
+  		"date": "28th Dec",
+  		"date2": "2016",
+  		"event": "Hogmanay Dance",
+  		"event_desc": "Faith Supper, £5",
+  		"time": "7:30pm - 10:30pm",
+  		"actor": "Music: Ian Slater (accordion)",
+  		"location-top": "St Columba United Reformed Church",
+  		"location": [
+  			"70 Headingley Lane",
+  			"Leeds",
+  			"LS6 2DH"
+  		]
+  	}	
   ],
   
 "special-events": [

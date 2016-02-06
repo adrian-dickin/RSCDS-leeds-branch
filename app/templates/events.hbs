@@ -24,12 +24,19 @@ pageDescription: "Leeds Branch dancing events"
 						{{/if}}
 					</td>
 					<td>
-						{{event}}
+						<div>{{event}}</div>
 						{{#if event_desc}}
-						  <br /> {{event_desc}}
+						  <div>{{event_desc}}</div>
 						{{/if}}
 						{{#if time}}
-						  <p> {{time}}</p>
+						   <div>{{time}}</div>
+						{{/if}}
+						{{#if times}}
+						  {{#each times}}
+						  	<br/>
+							<div>{{time}}</div>
+							<div>{{desc}}</div>
+						  {{/each}}
 						{{/if}}
 					</td>
 					<td>
