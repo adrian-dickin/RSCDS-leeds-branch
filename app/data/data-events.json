@@ -42,7 +42,9 @@
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Alan Ross",
-  		"location-top": "Otley Methodist Church Hall"
+  		"location-top": "Otley Methodist Church Hall",
+  		"programme": "http://my.strathspey.org/dd/list/5758/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/21May16.pdf"
   	},
 
   	{
@@ -138,6 +140,8 @@
   			"Leeds",
   			"LS16 7ER"
   		],
+  		"programme": "http://my.strathspey.org/dd/list/1767/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-9Apr16.pdf",
 		"map": "https://www.google.co.uk/maps/place/Cookridge+Village+Hall/@53.8600633,-1.6224897,17z/data=!3m1!4b1!4m2!3m1!1s0x4879585713bbad7d:0x654de03fc012b5a7"
   	},
   	{
