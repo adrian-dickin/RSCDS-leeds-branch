@@ -145,8 +145,12 @@
 
 #class-overview td {
 	vertical-align: text-top;
-	width: 400px;
+/*	width: 400px;*/
+	width: 33.3%;
 	padding-right: 16px;
+}
+#class-overview td:last-child {
+	padding-right: 0px;
 }
 
 h1, h2, h3, h4 {
@@ -272,7 +276,7 @@ a {
 }
 
 .classes-panel {
-	height: 132px;
+	/*height: 148px;*/
 	padding: 6px 8px 6px 8px;
 }
 

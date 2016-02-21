@@ -1,24 +1,6 @@
 {
   "events": [  	
   	{
-  		"date": "20th Feb",
-  		"date2": "2016",
-  		"event": "Leeds Branch Dance",
-  		"time": "7:30pm - 10:30pm",
-  		"actor": "Music: Ian Slater",
-  		"actor2": "MC: Irene Dracup",
-  		"programme": "http://my.strathspey.org/dd/list/3259/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/20Feb16.pdf",
-  		"location-top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
-  	},
-
-  	{
   		"date": "19th Mar",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
@@ -42,27 +24,31 @@
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Alan Ross",
+  		"actor2": "MC: Betty Hagart",
   		"location-top": "Otley Methodist Church Hall",
   		"programme": "http://my.strathspey.org/dd/list/5758/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/21May16.pdf"
   	},
 
   	{
-  		"date": "18th June",
+  		"date": "18th Jun",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Robert Whitehead Trio",
+  		"actor2": "MC: Don Andrews",
   		"location-top": "St Chad's Parish Centre",
   		"location": [
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
   		],
+  		"programme": "http://my.strathspey.org/dd/list/2056/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/18Jun16.pdf",
   		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
   	},
   	{
-  		"date": "9th July",
+  		"date": "9th Jul",
   		"date2": "2016",
   		"event": "Leeds White Rose Festival",
   		"time": "7:00pm - 10:30pm",
