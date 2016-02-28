@@ -77,24 +77,6 @@
   
 "leeds-events": [
   	{
-  		"date": "27th Feb",
-  		"date2": "2016",
-  		"event": "Club Dance",
-  		"event_desc": "Sponsored by Alec Green's Legacy",
-  		"time": "7:30pm - 10:45pm",
-  		"actor": "Music: Ian Slater",
-  		"actor2": "MC: Lesley Enoch",
-  		"location-top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/1739/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-27Feb16.pdf", 		
-  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
-  	},
-  	{
   		"date": "12th Mar",
   		"date2": "2016",
   		"event": "Club Dance",
