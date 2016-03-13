@@ -77,24 +77,6 @@
   
 "leeds-events": [
   	{
-  		"date": "12th Mar",
-  		"date2": "2016",
-  		"event": "Club Dance",
-  		"time": "7:00pm - 10:00pm",
-  		"actor": "Music: recorded",
-  		"actor2": "MC: Gerry Yates",
-  		"location-top": "Cookridge Village Hall",
-  		"location": [
-  			"Moseley Wood Lane",
-  			"Cookridge",
-  			"Leeds",
-  			"LS16 7ER"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/1639/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-12Mar16.pdf", 
-		"map": "https://www.google.co.uk/maps/place/Cookridge+Village+Hall/@53.8600633,-1.6224897,17z/data=!3m1!4b1!4m2!3m1!1s0x4879585713bbad7d:0x654de03fc012b5a7"
-  	},
-  	{
   		"date": "9th Apr",
   		"date2": "2016",
   		"event": "Club Walkthrough Dance",
