@@ -143,7 +143,7 @@
 
 #class-overview td {
 	vertical-align: text-top;
-	width: 33.3%;
+	width: 50%;
 	padding-right: 16px;
 }
 #class-overview td:last-child {
@@ -169,7 +169,7 @@ h4 {
 .body_text {
 	font-size: 14pt;
 	padding: 20px;
-	min-width: 1060px;
+	min-width: 1024px;
 }
 
 .column {
@@ -233,8 +233,8 @@ h4 {
 
 #upcoming-events {
 	width: 80%;
-	min-width: 1060px;
-	margin: 0px 10% 0px 10%;
+	min-width: 1024px;
+	margin: 4% 10% 0px 10%;
 }
 #upcoming-events > table {
 	width: 100%;
@@ -305,22 +305,25 @@ a {
 @media (max-width: 1400px) {
 	#upcoming-events {
 		width: 96%;
-		margin: 0px 2% 0px 2%;
+		margin: 2% 2% 0px 2%;
 	}
 }
-@media (max-width: 1150px) {
+@media (max-width: 1024px) {
 	#upcoming-events {
-		width: 99%;
-		margin: 0px 0.5% 0px 0.5%;
+		margin: 0px 1px 0px 1px;
 	}
 	#upcoming-branch-events {
-		padding-right: 0.5%;
+		padding-right: 1px;
 	}
 	#upcoming-other-events {
-		padding-left: 0.5%;
-		padding-right: 0.5%;
+		padding-left: 1px;
+		padding-right: 1px;
 	}
 	#upcoming-special-events {
-		padding-left: 0.5%;
+		padding-left: 1px;
+	}
+	.body_text {
+		padding: 10px 2px 10px 2px;
+		min-width: 1020px;	
 	}
 }

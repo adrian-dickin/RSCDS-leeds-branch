@@ -1,24 +1,6 @@
 {
   "events": [  	
   	{
-  		"date": "19th Mar",
-  		"date2": "2016",
-  		"event": "Leeds Branch Dance",
-  		"time": "7:30pm - 10:30pm",
-  		"actor": "Music: Neil Barron",
-  		"actor2": "MC: Fiona Turnbull",
-  		"location-top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/4640/", 
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/19Mar16.pdf",
-  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
-  	},
-
-  	{
   		"date": "21st May",
   		"date2": "2016",
   		"event": "Leeds Branch Dance",
@@ -95,6 +77,26 @@
 		"map": "https://www.google.co.uk/maps/place/Cookridge+Village+Hall/@53.8600633,-1.6224897,17z/data=!3m1!4b1!4m2!3m1!1s0x4879585713bbad7d:0x654de03fc012b5a7"
   	},
   	{
+  		"date": "30th Apr",
+  		"date2": "2016",
+  		"event": "Harrogate Spring Dance",
+  		"event_desc": "£13 including light supper",
+  		"time": "7:30pm -",
+  		"actor": "Music: Marian Anderson & Her Scottish Dance Band",
+  		"location-top": "St John's School",
+  		"location": [
+  			"Stockwell Road",
+  			"Knaresborough",
+  			"HG5 0JN"
+  		],
+  		"programme": "http://www.harrogatesaltire.com/uploads/Crib-for-spring-dance-2016.pdf",
+  		"details": [
+  			{ "external-link": "http://www.harrogatesaltire.com/index.php?page=events",
+  			  "name": "Details" }
+  		],
+  		"map": "https://www.google.co.uk/maps/place/Knaresborough+St+Johns+C+of+E+Primary+School/@54.010082,-1.4658576,17z/data=!3m1!4b1!4m2!3m1!1s0x487952735f9d2a79:0x1a93827d56332b"
+  	},
+  	{
   		"date": "28th Dec",
   		"date2": "2016",
   		"event": "Hogmanay Dance",
@@ -111,19 +113,6 @@
   ],
   
 "special-events": [
-  	{
-  		"date": "19th Mar",
-  		"date2": "2016",
-  		"event": "Children's Festival",
-  		"actor": "Music: Neil Barron",
-  		"location-top": "Grove Methodist Church Hall",
-  		"location": [
-  			"New Street",
-  			"Horsforth",
-  			"Leeds",
-  			"LS18 4BH"
-  		]
-  	},
   	{
   		"date": "1st - 3rd Apr",
   		"date2": "2016",
