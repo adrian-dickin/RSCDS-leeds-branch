@@ -76,6 +76,25 @@
   		"crib": "http://www.rscdsleeds.org.uk/Socials/club-9Apr16.pdf",
 		"map": "https://www.google.co.uk/maps/place/Cookridge+Village+Hall/@53.8600633,-1.6224897,17z/data=!3m1!4b1!4m2!3m1!1s0x4879585713bbad7d:0x654de03fc012b5a7"
   	},
+  	
+  	{
+  		"date": "23rd Apr",
+  		"date2": "2016",
+  		"event": "Club Dance",
+  		"time": "7:30pm - ",
+  		"actor": "Music: Neill Baron",
+  		"actor2": "MC: Sheila Toft",
+  		"location-top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/1416/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-23Apr16.pdf",
+  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
+  	},
+  	
   	{
   		"date": "30th Apr",
   		"date2": "2016",
@@ -89,13 +108,51 @@
   			"Knaresborough",
   			"HG5 0JN"
   		],
-  		"programme": "http://www.harrogatesaltire.com/uploads/Crib-for-spring-dance-2016.pdf",
+  		"programme": "http://harrogatesaltire.com/wp-content/uploads/2016/03/Spring-Dance-crib-2016.docx",
   		"details": [
-  			{ "external-link": "http://www.harrogatesaltire.com/index.php?page=events",
+  			{ "external-link": "http://harrogatesaltire.com/events-news/",
   			  "name": "Details" }
   		],
   		"map": "https://www.google.co.uk/maps/place/Knaresborough+St+Johns+C+of+E+Primary+School/@54.010082,-1.4658576,17z/data=!3m1!4b1!4m2!3m1!1s0x487952735f9d2a79:0x1a93827d56332b"
+  	},	
+  	
+  	{
+  		"date": "14th May",
+  		"date2": "2016",
+  		"event": "Club Dance",
+  		"time": "7:30pm - ",
+  		"actor": "Music: Recorded plus Rob and Friends",
+  		"actor2": "MC: Lesley Enoch",
+  		"location-top": "Cookridge Village Hall",
+  		"location": [
+  			"Moseley Wood Ln",
+  			"Leeds",
+  			"LS16 7ER"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/3207/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-14May16.pdf",
+  		"map": "https://www.google.co.uk/maps/place/Cookridge+Village+Hall/@53.8600664,-1.622495,17z/data=!3m1!4b1!4m2!3m1!1s0x4879585713bbad7d:0x654de03fc012b5a7"
+  	}, 
+  	
+  	{
+  		"date": "27th May",
+  		"date2": "2016",
+  		"event": "Club Dance",
+  		"time": "7:30pm - ",
+  		"actor": "Music: Ian Slater",
+  		"actor2": "MC: Veronica Hughes",
+  		"location-top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/1749/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-27May16.pdf",
+  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
   	},
+  	
+  	
   	{
   		"date": "28th Dec",
   		"date2": "2016",
