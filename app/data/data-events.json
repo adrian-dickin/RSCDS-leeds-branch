@@ -171,20 +171,6 @@
   
 "special-events": [
   	{
-  		"date": "1st - 3rd Apr",
-  		"date2": "2016",
-  		"event": "Scarborough Weekend",
-  		"actor": "Teacher: Graham Donald",
-  		"actor2": "Music: George Meikle",
-  		"location-top": "Esplanade Hotel, Scarborough",
-  		"details": [
-  			{"name": "Form 1", 
-  			 "link": "documents/Scarborough_2016-1.pdf"},
-  			{"name": "Form 2", 
-  			 "link": "documents/Scarborough_2016-2.pdf"}
-  		]
-  	},
-  	{
   		"date": "23rd Apr",
   		"date2": "2016",
   		"event": "Highland and Scottish National Day Workshop",
@@ -217,6 +203,21 @@
   			{"name": "Website", 
   			 "external-link": "http://whiterosefestival.uk/"}
   		]
+  	},
+  	{
+  		"date": "28th - 30th Apr",
+  		"date2": "2017",
+  		"event": "Scarborough Weekend",
+  		"actor": "Teacher: Janet Johnston",
+  		"actor2": "Music: George Meikle",
+  		"location-top": "Esplanade Hotel, Scarborough",
+  		"details": [
+  			{"name": "Form 1", 
+  			 "link": "documents/Scarborough form p1.pdf"},
+  			{"name": "Form 2", 
+  			 "link": "documents/Scarborough form p2.pdf"}
+  		]
   	}
+
 	]
 }

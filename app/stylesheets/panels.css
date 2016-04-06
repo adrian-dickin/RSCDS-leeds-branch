@@ -169,7 +169,7 @@ h4 {
 .body_text {
 	font-size: 14pt;
 	padding: 20px;
-	min-width: 1024px;
+/*	min-width: 1024px;*/
 }
 
 .column {
@@ -233,8 +233,7 @@ h4 {
 
 #upcoming-events {
 	width: 80%;
-	min-width: 1024px;
-	margin: 4% 10% 0px 10%;
+	margin: 4% auto 0px auto;
 }
 #upcoming-events > table {
 	width: 100%;
@@ -301,16 +300,21 @@ a {
 	padding-bottom: 16px;
 }
 
+body {
+	min-width: 1024px;
+}
+
 /* responsive changes */
 @media (max-width: 1400px) {
 	#upcoming-events {
 		width: 96%;
-		margin: 2% 2% 0px 2%;
+		margin-top: 2%;
 	}
 }
 @media (max-width: 1024px) {
 	#upcoming-events {
-		margin: 0px 1px 0px 1px;
+		width: auto;
+		margin-top: 0px 1px 0px 1px;
 	}
 	#upcoming-branch-events {
 		padding-right: 1px;
@@ -324,6 +328,6 @@ a {
 	}
 	.body_text {
 		padding: 10px 2px 10px 2px;
-		min-width: 1020px;	
+	/*	min-width: 1020px;	*/
 	}
 }
