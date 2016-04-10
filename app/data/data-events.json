@@ -3,7 +3,7 @@
   	{
   		"date": "21st May",
   		"date2": "2016",
-  		"event": "Leeds Branch Dance",
+  		"event": "Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Alan Ross",
   		"actor2": "MC: Betty Hagart",
@@ -15,7 +15,7 @@
   	{
   		"date": "18th Jun",
   		"date2": "2016",
-  		"event": "Leeds Branch Dance",
+  		"event": "Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Robert Whitehead Trio",
   		"actor2": "MC: Don Andrews",
@@ -32,7 +32,7 @@
   	{
   		"date": "9th Jul",
   		"date2": "2016",
-  		"event": "Leeds White Rose Festival",
+  		"event": "White Rose Festival",
   		"time": "7:00pm - 10:30pm",
   		"actor": "Neil Hardie and his Scottish Dance Band",
   		"location-top": "The Gateways School",
@@ -50,7 +50,7 @@
   	{
   		"date": "17th Sep",
   		"date2": "2016",
-  		"event": "Leeds Branch Dance",
+  		"event": "Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: tbc",
   		"location-top": "tbc"
@@ -205,6 +205,20 @@
   		]
   	},
   	{
+  		"date": "2nd - 4th Dec",
+  		"date2": "2016",
+  		"event": "Malhamdale Weekend",
+  		"actor": "Teacher: Diane Rooney",
+  		"actor2": "Music: Phill Jones",
+  		"location-top": "Malhamdale",
+  		"details": [
+  			{"name": "Page 1", 
+  			 "link": "documents/malhamdale pg1 001.jpg"},
+  			{"name": "Page 2", 
+  			 "link": "documents/malhamdalepg2 001.jpg"}
+  		]
+  	},
+  	{
   		"date": "28th - 30th Apr",
   		"date2": "2017",
   		"event": "Scarborough Weekend",
@@ -218,6 +232,5 @@
   			 "link": "documents/Scarborough form p2.pdf"}
   		]
   	}
-
 	]
 }

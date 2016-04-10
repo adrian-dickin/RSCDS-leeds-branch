@@ -21,8 +21,8 @@ specialEventLinks:
      name: Highland and Scottish National Day Workshop 
    - date: 9th Jul
      name: Leeds White Rose Festival
-   - date: 28th - 30th Apr 2017 
-     name: Scarborough Weekend
+   - date: 2nd - 4th Dec
+     name: Malhamdale Weekend
 pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 ---
 
@@ -38,15 +38,15 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 						<col class="col2">
 					  </colgroup>
 						<tbody>
-						{{#each eventLinks}}
+						{{#list data-events.events}}
 							<tr>
 								<td>{{date}}</td>
 								<td>
-								{{#if name}}<a href="events.html">{{name}}</a>{{/if}}
+								{{#if event}}<a href="events.html">{{event}}</a>{{/if}}
 								{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
 								</td>
 							</tr>
-						{{/each}}
+						{{/list}}
 						</tbody>
 					</table>
 				</div>
@@ -59,12 +59,12 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 						<col class="col1">
 						<col class="col2">
 					  </colgroup>
-					{{#each leedsEventLinks}}
+					{{#list data-events.leeds-events}}
 						<tr>
 							<td>{{date}}</td>
-							<td><a href="leeds_events.html">{{name}}</a></td>
+							<td><a href="leeds_events.html">{{event}}</a></td>
 						</tr>
-					{{/each}}
+					{{/list}}
 					</table>
 				</div>
 			</td>			
@@ -76,12 +76,12 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 						<col class="col1">
 						<col class="col2">
 					  </colgroup>
-					{{#each specialEventLinks}}
+					{{#list data-events.special-events}}
 						<tr>
 							<td>{{date}}</td>
-							<td><a href="special_events.html">{{name}}</a></td>
+							<td><a href="special_events.html">{{event}}</a></td>
 						</tr>
-					{{/each}}
+					{{/list}}
 					</table>
 				</div>
 			</td>
