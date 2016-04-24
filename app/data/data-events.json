@@ -134,24 +134,6 @@
   
 "special-events": [
   	{
-  		"date": "23rd Apr",
-  		"date2": "2016",
-  		"event": "Highland and Scottish National Day Workshop",
-  		"times": [
-  		     {"time": "10:30am - 12:30pm", "desc": "Basic"},
-  		     {"time": "1:30pm - 3:30pm", "desc": "Intermediate/Advanced"}],
-  		"actor": "Teacher: Catherine Livsey",
-  		"location-top": "St Giles Church Hall",
-  		"location": [
-  			"Bramhope",
-  			"LS16 9BA"
-  		],
-  		"details": [
-  			{"name": "Form", 
-  			 "link": "documents/Highland Day School Apr 16.pdf"}
-  		]
-  	},
-  	{
   		"date": "9th Jul",
   		"date2": "2016",
   		"event": "Leeds White Rose Festival",
