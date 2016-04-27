@@ -25,76 +25,70 @@ specialEventLinks:
      name: Malhamdale Weekend
 pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 ---
-
+<script type="application/ld+json">[
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Organization",
+	  "name" : "Leeds RSCDS",
+	  "url" : "http://www.rscdsleeds.org.uk/",
+	  "sameAs" : [
+		"http://www.facebook.com/pages/Rscds-Leeds-Branch/134876863288229",
+		"https://twitter.com/RSCDSLeeds"
+	  ]
+	}
+</script>
 <div id="upcoming-events">
-	<table>
-		<tr>
-			<td id="upcoming-branch-events">
-				<h2>Branch Events</h2>
-				<div class="light-heading-panel">
-					<table class="tabular summary">
-					  <colgroup>
-						<col class="col1">
-						<col class="col2">
-					  </colgroup>
-						<tbody>
-						{{#list data-events.events}}
-							<tr>
-								<td>{{date}}</td>
-								<td>
-								{{#if event}}<a href="events.html">{{event}}</a>{{/if}}
-								{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-								</td>
-							</tr>
-						{{/list}}
-						</tbody>
-					</table>
-				</div>
-			</td>
-			<td id="upcoming-other-events">
-				<h2>Local Events</h2>
-				<div class="light-heading-panel">
-					<table class="tabular summary">
-					  <colgroup>
-						<col class="col1">
-						<col class="col2">
-					  </colgroup>
-					{{#list data-events.leeds-events}}
-						<tr>
-							<td>{{date}}</td>
-							<td><a href="leeds_events.html">{{event}}</a></td>
-						</tr>
-					{{/list}}
-					</table>
-				</div>
-			</td>			
-			<td id="upcoming-special-events">
-				<h2>Special Branch Events</h2>
-				<div class="light-heading-panel">
-					<table class="tabular summary">
-					  <colgroup>
-						<col class="col1">
-						<col class="col2">
-					  </colgroup>
-					{{#list data-events.special-events}}
-						<tr>
-							<td>{{date}}</td>
-							<td><a href="special_events.html">{{event}}</a></td>
-						</tr>
-					{{/list}}
-					</table>
-				</div>
-			</td>
-		</tr>
-		<!--tr>
-			<td colspan="3" class="important-news">
-				<div class="light-heading-panel">
-					<h2>Important news</h2>
-					<a href="news.html">20th February Branch Dance parking with tea, coffee and cake</a>
-				</div>
-			</td>
-		</tr-->
-	</table>
+
+
+<div class="home-event-table">
+	<div class="home-event-row">
+		<div class="home-event-cell">
+		    <h2>Branch Events</h2>
+			<table class="home-event-table-table">
+			{{#list data-events.events}}
+				<tr>
+					<td class="col1">{{date}}
+					</td>
+					<td class="col2">
+						{{#if event}}<a href="events.html">{{event}}</a>{{/if}}
+						{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+					</td>
+				</tr>
+			{{/list}}
+			</table>
+		</div>
+		<div class="home-event-cell">
+		    <h2>Local Events</h2>
+			<table class="home-event-table-table">
+			{{#list data-events.leeds-events}}
+				<tr>
+					<td class="col1">{{date}}
+					</td>
+					<td class="col2">
+						{{#if event}}<a href="events.html">{{event}}</a>{{/if}}
+						{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+					</td>
+				</tr>
+			{{/list}}
+			</table>
+		</div>
+		<div class="home-event-cell">
+		<h2>Special Branch Events</h2>
+			<table class="home-event-table-table">
+			{{#list data-events.special-events}}
+				<tr>
+					<td class="col1">{{date}}
+					</td>
+					<td class="col2">
+						{{#if event}}<a href="events.html">{{event}}</a>{{/if}}
+						{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+					</td>
+				</tr>
+			{{/list}}
+			</table>
+		</div>
+	</div>
+  </div>
 </div>
 
 

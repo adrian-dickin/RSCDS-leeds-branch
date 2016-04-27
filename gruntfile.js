@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 			partials: ['app/partials/**/*.hbs'],
 			data: 'app/data/*.json',
 			flatten: true,
-			helpers: ['handlebars-helper-filehash', 'app/helpers/**.js']
+			helpers: ['handlebars-helper-filehash', 'handlebars-helper-minify', 'app/helpers/**.js'],
 		  },
 		  site: {
 		  	options: {layout: 'app/layouts/main-layout.hbs' },
@@ -42,20 +42,18 @@ module.exports = function(grunt) {
 		  },		
 		},
 		concat: {
-			/*vendor_javascript_files: {
-			  src: ['app/vendor/jquery.js', 'app/vendor/jquery.mnmenu.0.0.17.js'],
-			  dest: 'dist/javascripts/vendor.js'
-			},*/
 			dist: {
 			  src: 'app/javascripts/*.js',
 			  dest: 'dist/javascripts/site.js',
 			},
-		}
+		},
+
 	});
 	
 	grunt.loadNpmTasks('assemble');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	grunt.registerTask('default', ['assemble', 'copy', 'concat', 'cssmin']);
+/*	grunt.loadNpmTasks('grunt-contrib-htmlmin');*/
+	grunt.registerTask('default', ['assemble', 'copy', 'concat',  'cssmin']);
 };

@@ -1,75 +1,99 @@
-<div class="heading-panel">
-	<table class="tabular">
-		<thead>
-			<th>Date</th>
-			<th>Event</th>
-			<th>Band/Teacher</th>
-			<th>Location</th>
-			<th>Details</th>
-		</thead>
-		<tbody id="events_body">
-		{{#each .}}
-			<tr id="{{anchor date}}">
-				<td>
-					<div>{{date}}</div>
-					{{#if date2}}
-					  <div>{{date2}}</div>
-					{{/if}}
-				</td>
-				<td>
-					<div>{{event}}</div>
-					{{#if event_desc}}
-					  <div>{{event_desc}}</div>
-					{{/if}}
-					{{#if time}}
-					   <div>{{time}}</div>
-					{{/if}}
-					{{#if times}}
-					  {{#each times}}
-						<br/>
-						<div>{{time}}</div>
-						<div>{{desc}}</div>
-					  {{/each}}
-					{{/if}}
-				</td>
-				<td>
-					<div>{{actor}}</div>
-					{{#if actor2}}
-					  <div>{{actor2}}</div>
-					{{/if}}
-				</td>
-				<td>
-					<div>{{location-top}}</div>
-					<div>
-					{{#each location}}  				
-						<div>{{this}}</div>
-					{{/each}}
-					{{#if map}}
-					<div class='map-link' data-link="{{{map}}}">map</div>
-					{{/if}}
-					</div>
-				</td>
-				<td>
-					{{#if programme}}
-					<div class="detail"><a href="{{programme}}" target="_blank">Programme</a> </div>
-					{{/if}}
-					{{#if crib}}
-					<div class="detail"><a href="{{crib}}">Crib with diagrams</a> </div>
-					{{/if}}
+<script type="application/ld+json">[
+{{#list .}}
+    {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "{{event}}",
+        "startDate": "{{startdate}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{location-top}}",
+			"address": {
+                "@type": "PostalAddress",
+                "addressLocality": "{{#each location}}{{this}}{{#unless @last}},{{/unless}}{{/each}}"
+            }
+        }
+    }{{#unless @last}},{{/unless}}
+{{/list}}
+]
+</script>
+
+{{#each .}}
+<div class="event-block">
+	<div class="event-header">
+		<h3>{{date}} {{#if date2}}{{date2}}{{/if}}</h3>
+	</div>
+
+	<div class="event-panel">
+		<div class="event-table">
+			<div class="event-row">
+				<div class="event-cell">
+					<table class="event-table-pair">
+						<tr>
+							<td>
+								<div>{{event}}</div>
+								{{#if event_desc}}
+								  <div>{{event_desc}}</div>
+								{{/if}}
+								{{#if time}}
+								   <div>{{time}}</div>
+								{{/if}}
+								{{#if times}}
+								  {{#each times}}
+									<br/>
+									<div>{{time}}</div>
+									<div>{{desc}}</div>
+								  {{/each}}
+								{{/if}}
+							</td>
+							<td>
+								<div>{{actor}}</div>
+								{{#if actor2}}
+								  <div>{{actor2}}</div>
+								{{/if}}
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="event-cell">
+					<table class="event-table-pair">
+						<tr>
+							<td>
+								<div>{{location-top}}</div>
+								<div>
+								{{#each location}}  				
+									<div>{{this}}</div>
+								{{/each}}
+								{{#if map}}
+								<div class='map-link' data-link="{{{map}}}">map</div>
+								{{/if}}
+							</td>
+							<td>
+								{{#if programme}}
+								<div class="detail"><a href="{{programme}}" target="_blank">Programme</a> 				</div>
+								{{/if}}
+								{{#if crib}}
+								<div class="detail"><a href="{{crib}}">Crib with diagrams</a> </div>
+								{{/if}}
 		
-					{{#each details}}
-					<div class="detail">
-						{{#if external-link}}
-						<a href="{{external-link}}" target="_blank">{{name}}</a>
-						{{/if}}
-						{{#if link}}
-						<a href="{{link}}">{{name}}</a>
-						{{/if}}
-					</div>
-					{{/each}}		
-				</td>
-			</tr>
-		{{/each}}
-		</tbody>
-	</table>
+								{{#each details}}
+								<div class="detail">
+									{{#if external-link}}
+									<a href="{{external-link}}" target="_blank">{{name}}</a>
+									{{/if}}
+									{{#if link}}
+									<a href="{{link}}">{{name}}</a>
+									{{/if}}
+								</div>
+								{{/each}}	
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+{{/each}}
+
+

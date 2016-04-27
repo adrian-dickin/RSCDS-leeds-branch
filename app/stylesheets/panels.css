@@ -232,7 +232,7 @@ h4 {
 }
 
 #upcoming-events {
-	width: 80%;
+	width: 90%;
 	margin: 4% auto 0px auto;
 }
 #upcoming-events > table {
@@ -300,11 +300,11 @@ a {
 	padding-bottom: 16px;
 }
 
-body {
+/*body {
 	min-width: 1024px;
-}
+}*/
 
-/* responsive changes */
+/* responsive changes 
 @media (max-width: 1400px) {
 	#upcoming-events {
 		width: 96%;
@@ -328,6 +328,160 @@ body {
 	}
 	.body_text {
 		padding: 10px 2px 10px 2px;
-	/*	min-width: 1020px;	*/
 	}
 }
+*/
+
+
+
+/* new CSS */
+.event-header {
+	padding-left: 8px;
+	border-bottom: 0px;
+}
+.event-panel {
+	padding-bottom: 12px;
+}
+
+.class-block,
+.event-block {
+	border-bottom: 1px solid #0070ba;
+	margin-bottom: 12px;
+}
+
+.class-table,
+.event-table {
+	display: table;
+	width: 100%;
+}
+.class-row,
+.event-row {
+	display: table-row;
+}
+
+.class-cell,
+.event-cell {
+	display: table-cell;
+	width: 50%;
+	padding: 4px;
+	vertical-align: top;
+}
+
+.class-table-pair,
+.event-table-pair {
+	width: 100%;
+}
+.class-table-pair td,
+.event-table-pair td {
+	vertical-align: top;
+	width: 50%;
+}
+
+.class-table-table,
+.event-table-table {
+	width: 100%;
+}
+.class-table-table td ,
+.event-table-table td {
+	vertical-align: top;
+	width: 50%;
+	padding-right: 8px;
+}
+
+
+.home-event-table {
+	display: table;
+	width: 100%;
+}
+.home-event-row {
+	display: table-row;
+}
+
+.home-event-cell {
+	display: table-cell;
+	width: 33%;
+	padding: 4px;
+	vertical-align: top;
+}
+
+.home-event-table-table {
+	width: 100%;
+}
+.home-event-table-table td {
+	vertical-align: top;
+	padding: 0px 8px 8px 0px;
+}
+
+.home-event-table-table .col1 {
+	width: 100px;
+}
+
+@media (max-width: 1024px) {
+	.class-cell,
+	.event-cell {
+		display: block;
+		width: 100%;
+	}
+	.home-event-cell {
+		display: block;
+		width: 100%;
+	}
+	
+	#menu-button-bar {
+		display: none;
+	}
+	
+	.home-event-table-table td {
+		padding: 0px 0px 8px 4px;
+	}
+	
+	#upcoming-events {
+		width: auto;
+		margin: 0px 0px 32px 1px;
+	}
+}
+
+.section .class-cell {
+	padding-bottom: 16px;
+	/*border-bottom: 1px solid #0070ba;~*/
+}
+.section {
+	border-bottom: 1px solid #0070ba;
+	padding-bottom : 24px;
+}
+
+/*.event-cell.col1 {
+	border-right: 1px solid #B0C8EA;
+}
+.event-cell.col2 {
+	border-right: 1px solid #B0C8EA;
+}
+.event-cell.col3 {
+	border-right: 1px solid #B0C8EA;
+}
+.event-cell.col4 {
+}
+/*
+.half {
+	width: 50%;
+	float: left;
+}
+
+.event-row {
+
+}
+
+table.event-table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 50%;
+	float: left;
+}
+table.event-table td {
+  padding: 4px;
+  width: 50%;
+}
+table.event-table td.col1 {
+  border-right: 3px solid #0070ba;
+}*/
+

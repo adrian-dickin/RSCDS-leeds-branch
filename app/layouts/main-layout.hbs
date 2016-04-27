@@ -36,49 +36,56 @@ menus:
   {{#if pageDescription}}
   <meta name="Description" content="{{{pageDescription}}}">
   {{/if}}
-  <!--meta name="viewport" content="width=1060, initial-scale=1.0"-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{pageTitle}}</title>
   <link rel="stylesheet" href="stylesheets/site.css?{{ fileHash 'dist/stylesheets/site.css' 10 }}">
-  <link rel="stylesheet" href="vendor/slick/slick.css">
-  <link rel="stylesheet" href="vendor/slick/slick-theme.css">
+
+  <link rel="stylesheet" href="vendor/sm-core-css.css">
+<link rel="stylesheet" href="vendor/sm-branch.css">
+  
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" type="image/png" href="images/favicon2.png" />
-  <style>
-  </style>
 </head>
 
 <body>
+{{#minify}}
 	<div id="banner">
 		<div class="banner-logo logo"></div>
 		<div class="banner-logo dance-scottish-logo"></div>
 		<div class="menu-text-bar-wrapper">
 			<div class="menu-text-bar">					
-				<ul id="menu-events" class="squarewhite">
-			
-				{{#each menus}}
-					<li class="level-0">
-						{{#if page}} <a href="{{page}}.html">{{name}}</a>
-						{{else}} {{name}}
-						{{/if}}
-						{{#if items}}
+
+				<div id="main-nav" role="navigation">
+				
+					<!-- Mobile menu toggle button (hamburger/x icon) -->
+					<input id="main-menu-state" type="checkbox" />
+					<label class="main-menu-btn" for="main-menu-state">
+					  <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+					</label>
+		
+					<ul id="main-menu" class="sm sm-mint">
+					{{#each menus}}
+						<li>{{#if page}} <a href="{{page}}.html">{{name}}</a>
+							{{/if}}
+							{{#if items}}
+							<a href="#">{{name}}</a>
 							<ul>
 							{{#each items}}
-								<li>
-									{{#if page}} <a href="{{page}}">{{name}}</a>
-									{{else}} {{name}}
-									{{/if}}
+								<li><a href="{{page}}">{{name}}</a>
 								</li>
 							{{/each}}
 							</ul>
-						{{/if}}
-					</li>	
-				{{/each}}
-			
-				</ul>
+							{{/if}}
+					{{/each}}
+					</ul>
+				</div>
 
 			</div>
 		</div>
 	</div>
+	
+	
+	
 
 <div style="height: 140px">
 </div>
@@ -86,9 +93,8 @@ menus:
 {{> body  }} 
 
 <script src="vendor/jquery.js"></script>
-<script src="vendor/jquery.mnmenu.0.0.17.js"></script>
+<script src="vendor/jquery.smartmenus.js"></script>
 <script src="javascripts/site.js?{{ fileHash 'dist/javascripts/site.js' 10 }}"></script>
-<script src="vendor/slick/slick.min.js"></script> 
   
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -103,16 +109,14 @@ menus:
 
 <script>
 $(document).ready(function() {
+	setupMenu();
     headerScroll();
-    
-    $('#menu-events').mnmenu();
-    
   	{{#each scripts}}
   		{{this}} 
   	{{/each}}
  });
 </script>
 
-
+{{/minify}}
 </body>
 </html>

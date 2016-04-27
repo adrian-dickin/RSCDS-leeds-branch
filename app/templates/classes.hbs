@@ -5,63 +5,66 @@ pageDescription: "Leeds RSCDS Branch classes"
 ---
 <div class='body_text'>
 
-<table id="class-overview">
-	<tr>
-		<td>
-			<h3>Summer Term 2016</h3>
-			<div class="light-heading-panel classes-panel">
+<div class="class-panel section">
+	<div class="class-table">
+		<div class="class-row">
+			<div class="class-cell">
+				<h3>Summer Term 2016</h3>
 				<div>W/C 4 Apr to W/C 4 Jul 2016</div>
 				<div><b>Fees:</b> &pound;4.00 per class </div>
 				<div>Multi Class term ticket £84 (14 weeks) </div>
 				<div>(&frac12; price for dancers in full time education)</div>
 			</div>
-		</td>
-		<td>
-			<h3>Facebook</h3>
-			<div class="light-heading-panel classes-panel">
-<div>The <a href="https://www.facebook.com/groups/1675335139346252/">Leeds Branch Classes</a> facebook group provides information on class changes, such as cancellations.</div>
-<div>To see updates click and request to join the group.</div>
+			<div class="class-cell">
+				<h3>Facebook</h3>
+				<div>The <a href="https://www.facebook.com/groups/1675335139346252/">Leeds Branch Classes</a> facebook group provides information on class changes, such as cancellations.</div>
+				<div>To see updates click and request to join the group.</div>
 			</div>
-		</td>
-	</tr>
-</table>
-
-<div class="heading-panel">
-	<table class="tabular">
-		<thead>
-		    <th>Day</th>
-			<th>Class</th>
-			<th>Teacher</th>
-			<th>Time</th>
-			<th>Venue</th>
-			<th>Notes</th>
-		</thead>
-		<tbody>
-		    {{#each data-classes.classes}}
-		    <tr>
-		    	<td>{{day}}</td>
-		    	<td>{{level}}</td>
-		    	<td>
-		    	{{#each teacher}}
-				  <div><a href="branch_members.html#teachers">{{this}}</a></div>
-				{{/each}}
-		    	</td>
-		    	<td>{{time}}</td>
-		    	<td>
-		    	{{#each venue}}
-					<div>{{this}}</div>
-				{{/each}}
-		    	</td>
-		    	<td>
-				{{#each notes}}
-				<div>{{this}}</div>
-				{{/each}}
-		    	</td>
-		    </tr>
-		    {{/each}}
-		</tbody>
-	</table>
-
+		</div>
+	</div>
 </div>
+
+{{#each data-classes.classes}}
+<div class="class-block">
+	<div class="class-panel">
+		<div class="class-table">
+			<div class="class-row">
+				<div class="class-cell">
+					<table class="class-table-pair">
+						<tr>
+							<td>
+							{{day}}: {{time}}
+							</td>
+							<td>
+								<div>{{level}}</div>
+								{{#each teacher}}
+								  <div><a href="branch_members.html#teachers">{{this}}</a></div>
+								{{/each}}
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="class-cell">
+					<table class="class-table-pair">
+						<tr>
+							<td>
+							{{#each venue}}
+								<div>{{this}}</div>
+							{{/each}}
+							</td>
+							<td>
+								{{#each notes}}
+								<div>{{this}}</div>
+								{{/each}}							
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{/each}}
+
 
 
