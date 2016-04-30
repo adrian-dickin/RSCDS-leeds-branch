@@ -9,9 +9,9 @@
   padding-right: 58px;
   color: #333333;
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: normal;
-  line-height: 17px;
+  line-height: 18px;
   text-decoration: none;
 }
 .sm-mint a.current {
@@ -49,14 +49,14 @@
 .sm-mint > li:first-child {
   border-top: 0;
 }
-.sm-mint ul {
+/*.sm-mint ul {
   background: #b0c8ea;
-}
+}*/
 .sm-mint ul a, .sm-mint ul a:hover, .sm-mint ul a:focus, .sm-mint ul a:active {
-  font-size: 14px;
-  border-left: 8px solid transparent;
+  font-size: 16px;
+  border-left: 16px solid transparent;
 }
-.sm-mint ul ul a,
+/*.sm-mint ul ul a,
 .sm-mint ul ul a:hover,
 .sm-mint ul ul a:focus,
 .sm-mint ul ul a:active {
@@ -79,7 +79,7 @@
 .sm-mint ul ul ul ul ul a:focus,
 .sm-mint ul ul ul ul ul a:active {
   border-left: 40px solid transparent;
-}
+}*/
 
 @media (min-width: 768px) {
   /* Switch to desktop layout
@@ -449,7 +449,7 @@
 		text-align: left;
 	}
     ul.sm.sm-mint {
-		border-bottom: 2px solid #b0c8ea;
+		border-bottom: 3px solid #b0c8ea;
 	}
 }
 

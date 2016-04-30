@@ -115,38 +115,18 @@ pageDescription: "Some of the Leeds RSCDS newsletters"
 
 <div class='body_text'>
 
-<div class="two_column">
 	<h1>Leeds Newsletters</h1>
 
-	<div class="heading-panel">
-		<table class="tabular">
-			<thead>
-				<th>Month</th>
-				<th>Year</th>
-				<th>Version</th>
-				<th>&nbsp;</th>
-			</thead>
-			<tbody>			
-				{{#each newsletters}}
-				<tr>
-					<td>
-						{{month}}
-					</td>
-					<td>
-						{{year}}
-					</td>
-					<td>
-						{{version}}
-					</td>
-					<td>
-						<a href="http://www.rscdsleeds.org.uk/Newsletter/{{{filename}}}">view</a>
-					</td>
-				</div>
-				{{/each}}
-			</tbody>
-		</table>
-	</div>
-</div>
+	<table class="newsletter-table">
+{{#each newsletters}}
+		<tr>
+			<td>{{month}}</td>
+			<td>{{year}}</td>
+			<td><a href="http://www.rscdsleeds.org.uk/Newsletter/{{{filename}}}">view</a></td>
+		</tr>
+{{/each}}
+	</table>			
+
 
 </div>
 
