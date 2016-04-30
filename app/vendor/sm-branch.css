@@ -449,7 +449,9 @@
 		text-align: left;
 	}
     ul.sm.sm-mint {
-		border-bottom: 3px solid #b0c8ea;
+    	border-left: 4px solid #b0c8ea;
+    	border-right: 4px solid #b0c8ea;
+		border-bottom: 4px solid #b0c8ea;
 	}
 }
 
