@@ -420,11 +420,11 @@ a {
 	.class-cell,
 	.event-cell {
 		display: block;
-		width: 100%;
+		width: auto;
 	}
 	.home-event-cell {
 		display: block;
-		width: 100%;
+		width: auto;
 	}
 	
 	#menu-button-bar {

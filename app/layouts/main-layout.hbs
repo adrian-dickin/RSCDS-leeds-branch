@@ -38,12 +38,6 @@ menus:
   {{/if}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{pageTitle}}</title>
-  <link rel="stylesheet" href="stylesheets/site.css?{{ fileHash 'dist/stylesheets/site.css' 10 }}">
-
-  <link rel="stylesheet" href="vendor/sm-core-css.css">
-<link rel="stylesheet" href="vendor/sm-branch.css">
-  
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" type="image/png" href="images/favicon2.png" />
 </head>
 
@@ -92,8 +86,12 @@ menus:
 
 {{> body  }} 
 
-<script src="vendor/jquery.js"></script>
-<script src="vendor/jquery.smartmenus.js"></script>
+<link rel="stylesheet" href="stylesheets/site.css?{{ fileHash 'dist/stylesheets/site.css' 10 }}">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="vendor/smartmenu.css">
+  
+<script src="vendor/jquery-1.12.3.min.js"></script>
+<script src="vendor/jquery.smartmenus.min.js"></script>
 <script src="javascripts/site.js?{{ fileHash 'dist/javascripts/site.js' 10 }}"></script>
   
 <script>

@@ -22,14 +22,20 @@ module.exports = function(grunt) {
 				  src: ['app/stylesheets/*.css'],
 				  dest: 'dist/stylesheets/site.css',
 				}]
-			  }
+			  },
+			vendor: {
+				files: [{
+					src: ['app/vendor/sm-core-css.css', 'app/vendor/sm-branch.css'],
+					dest: 'dist/vendor/smartmenu.css'
+				}]
+			}
 		},
 		
 		copy: {
 		  vendor_files: {
 		    expand: true,
 		    cwd: 'app/',
-			src: 'vendor/**',
+			src: 'vendor/jquery*',
 			dest: 'dist/',
 			filter: 'isFile'
 		  },
@@ -48,12 +54,15 @@ module.exports = function(grunt) {
 			},
 		},
 
+		clean: {
+			all: ['dist/*']
+		}
 	});
 	
 	grunt.loadNpmTasks('assemble');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-/*	grunt.loadNpmTasks('grunt-contrib-htmlmin');*/
-	grunt.registerTask('default', ['assemble', 'copy', 'concat',  'cssmin']);
+	grunt.loadNpmTasks('grunt-contrib-clean');
+	grunt.registerTask('default', ['clean', 'cssmin', 'copy', 'concat', 'assemble']);
 };
