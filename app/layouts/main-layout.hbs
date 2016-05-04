@@ -39,10 +39,40 @@ menus:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{pageTitle}}</title>
   <link rel="shortcut icon" type="image/png" href="images/favicon2.png" />
-</head>
-
-<body>
+  <style>
 {{#minify}}
+body {
+  	font-family: 'Open Sans', sans-serif; 
+  	padding: 0px;
+  	margin: 0px;
+}
+#banner {
+  	background: #0070BA;
+  	color: white;
+  	position: fixed;
+  	width: 100%;
+  	height: 130px;
+  	top: 0px;
+    z-index: 50;
+}
+.menu-text-bar-wrapper {
+  	position: absolute;
+  	top: 106px;
+  	width: 100%;
+}
+.menu-text-bar {
+  	text-align: center;
+  	vertical-align: top;
+  	background: #B0C8EA;
+}
+#main-nav {
+	display: none;
+}
+{{/minify}}
+  </style>
+</head>
+{{#minify}}
+<body>
 	<div id="banner">
 		<div class="banner-logo logo"></div>
 		<div class="banner-logo dance-scottish-logo"></div>
@@ -115,6 +145,7 @@ $(document).ready(function() {
  });
 </script>
 
-{{/minify}}
+
 </body>
+{{/minify}}
 </html>
