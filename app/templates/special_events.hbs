@@ -2,7 +2,32 @@
 pageTitle: "Special branch events"
 scripts: ["handleMaps();" ]
 pageDescription: "Leeds Branch Special Events, such as Scottish dancing day schools, Highland dancing day schools and the White Rose festival"
+jsonLd: |
+    <script type="application/ld+json">[
+    <%  
+    var events = data_events.special_events;
+    for(var i=0; i < events.length; i++) {
+    	var event = events[i];
+    %> {
+            "@context": "http://schema.org",
+            "@type": "Event",
+            "name": "<%=event.event%>",
+            "startDate": "<%=event.startdate%>",
+            "location": {
+                "@type": "Place",
+                "name": "<%=event.location_top%>",
+                <%if (event.location) {%>
+                  "address": "<%=event.location.join(',')%>"
+                <%}%>
+            }
+        }<%
+        if (i !== events.length - 1) {
+           %>,<%
+        }
+    }
+    %>]
+    </script>
 ---
 <div class='body_text'>
-{{>events-table data-events.special-events}}
+{{>events-table data_events.special_events}}
 </div>

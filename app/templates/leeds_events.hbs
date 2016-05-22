@@ -2,8 +2,32 @@
 pageTitle: "Local dance events"
 scripts: ["handleMaps();" ]
 pageDescription: "Local dances, such as at the Leeds Club, with cribs and details"
+jsonLd: |
+    <script type="application/ld+json">[
+    <%  
+    var events = data_events.leeds_events;
+    for(var i=0; i < events.length; i++) {
+    	var event = events[i];
+    %> {
+            "@context": "http://schema.org",
+            "@type": "Event",
+            "name": "<%=event.event%>",
+            "startDate": "<%=event.startdate%>",
+            "location": {
+                "@type": "Place",
+                "name": "<%=event.location_top%>",
+                <%if (event.location) {%>
+                  "address": "<%=event.location.join(',')%>"
+                <%}%>
+            }
+        }<%
+        if (i !== events.length - 1) {
+           %>,<%
+        }
+    }
+    %>]
+    </script>
 ---
-
 <div class='body_text'>
-{{>events-table data-events.leeds-events}}
+{{>events-table data_events.leeds_events}}
 </div>

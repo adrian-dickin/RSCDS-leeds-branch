@@ -3,19 +3,20 @@ pageTitle: "RSCDS Leeds Branch"
 scripts: ["eventLinks();",
           "handleEmailLinks();"]
 pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
+jsonLd: |
+    <script type="application/ld+json">[
+        {
+          "@context" : "http://schema.org",
+          "@type" : "Organization",
+          "name" : "Leeds RSCDS",
+          "url" : "http://www.rscdsleeds.org.uk/",
+          "sameAs" : [
+            "http://www.facebook.com/pages/Rscds-Leeds-Branch/134876863288229",
+            "https://twitter.com/RSCDSLeeds"
+          ]
+        }
+    </script>
 ---
-<script type="application/ld+json">[
-	{
-	  "@context" : "http://schema.org",
-	  "@type" : "Organization",
-	  "name" : "Leeds RSCDS",
-	  "url" : "http://www.rscdsleeds.org.uk/",
-	  "sameAs" : [
-		"http://www.facebook.com/pages/Rscds-Leeds-Branch/134876863288229",
-		"https://twitter.com/RSCDSLeeds"
-	  ]
-	}
-</script>
 <div id="upcoming-events">
 
 <div class="home-event-table">
@@ -23,7 +24,7 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 		<div class="home-event-cell">
 		    <h2>Branch Events</h2>
 			<table class="home-event-table-table">
-			{{#list data-events.events}}
+			{{#list data_events.events}}
 				<tr>
 					<td class="col1">{{date}}
 					</td>
@@ -38,7 +39,7 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 		<div class="home-event-cell">
 		    <h2>Local Events</h2>
 			<table class="home-event-table-table">
-			{{#list data-events.leeds-events}}
+			{{#list data_events.leeds_events}}
 				<tr>
 					<td class="col1">{{date}}
 					</td>
@@ -53,7 +54,7 @@ pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
 		<div class="home-event-cell">
 		<h2>Special Branch Events</h2>
 			<table class="home-event-table-table">
-			{{#list data-events.special-events}}
+			{{#list data_events.special_events}}
 				<tr>
 					<td class="col1">{{date}}
 					</td>

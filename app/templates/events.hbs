@@ -2,7 +2,32 @@
 pageTitle: "Branch dance events"
 scripts: ["handleMaps();" ]
 pageDescription: "Leeds Branch Scottish country dance events, including cribs and details"
+jsonLd: |
+    <script type="application/ld+json">[
+    <%  
+    var events = data_events.events;
+    for(var i=0; i < events.length; i++) {
+    	var event = events[i];
+    %> {
+            "@context": "http://schema.org",
+            "@type": "Event",
+            "name": "<%=event.event%>",
+            "startDate": "<%=event.startdate%>",
+            "location": {
+                "@type": "Place",
+                "name": "<%=event.location_top%>",
+                <%if (event.location) {%>
+                  "address": "<%=event.location.join(',')%>"
+                <%}%>
+            }
+        }<%
+        if (i !== events.length - 1) {
+           %>,<%
+        }
+    }
+    %>]
+    </script>
 ---
 <div class='body_text'>
-{{>events-table data-events.events}}
+{{>events-table data_events.events}}
 </div>
