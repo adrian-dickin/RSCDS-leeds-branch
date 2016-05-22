@@ -44,7 +44,8 @@
   		"event": "Branch Dance",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: tbc",
-  		"location_top": "tbc"
+  		"location_top": "tbc",
+  		"location": []
   	}
   ],
   
@@ -112,6 +113,7 @@
   		"actor": "Teacher: Diane Rooney",
   		"actor2": "Music: Phill Jones",
   		"location_top": "Malhamdale",
+  		"location": [],
   		"details": [
   			{"name": "Page 1", 
   			 "link": "documents/malhamdale pg1 001.jpg"},
@@ -127,6 +129,7 @@
   		"actor": "Teacher: Janet Johnston",
   		"actor2": "Music: George Meikle",
   		"location_top": "Esplanade Hotel, Scarborough",
+  		"location": [],
   		"details": [
   			{"name": "Form 1", 
   			 "link": "documents/Scarborough form p1.pdf"},

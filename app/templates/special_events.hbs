@@ -8,6 +8,8 @@ jsonLd: |
     var events = data_events.special_events;
     for(var i=0; i < events.length; i++) {
     	var event = events[i];
+    	var location = event.location;
+    	location.unshift(event.location_top);
     %> {
             "@context": "http://schema.org",
             "@type": "Event",
@@ -16,9 +18,7 @@ jsonLd: |
             "location": {
                 "@type": "Place",
                 "name": "<%=event.location_top%>",
-                <%if (event.location) {%>
-                  "address": "<%=event.location.join(',')%>"
-                <%}%>
+                "address": "<%=location.join(',')%>"
             }
         }<%
         if (i !== events.length - 1) {
