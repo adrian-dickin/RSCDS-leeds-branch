@@ -197,7 +197,6 @@ h4 {
 	margin-right: 8px;
 }
 
-
 .two_column {
 	display: inline-block;
 	width: 48%; 
@@ -459,4 +458,8 @@ a {
 .newsletter-table td {
 	padding: 4px 0px 4px 4px;
 	border-bottom: 1px solid lightGray;
+}
+
+.clearall {
+	clear: both;
 }
