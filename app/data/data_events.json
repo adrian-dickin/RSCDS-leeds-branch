@@ -43,33 +43,20 @@
   		"startdate": "2016-09-17T19:30",
   		"event": "Branch Dance",
   		"time": "7:30pm - 10:30pm",
-  		"actor": "Music: tbc",
-  		"location_top": "tbc",
-  		"location": []
-  	}
-  ],
-  
-"leeds_events": [  	  	
-  	{
-  		"date": "27th May",
-  		"date2": "2016",
-  		"startdate": "2016-05-27T19:30",
-  		"event": "Club Dance",
-  		"time": "7:30pm - ",
-  		"actor": "Music: Ian Slater",
-  		"actor2": "MC: Veronica Hughes",
+  		"actor": "Music: Susan MacFadyen",
+  		"actor2": "MC: Gerry Yates",
   		"location_top": "St Chad's Parish Centre",
   		"location": [
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
   		],
-  		"programme": "http://my.strathspey.org/dd/list/1749/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-27May16.pdf",
-  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
-  	},
-  	
-  	
+  		"programme": "http://my.strathspey.org/dd/list/3259/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/17Sep16.pdf"
+  	}
+  ],
+  
+"leeds_events": [  	
   	{
   		"date": "28th Dec",
   		"date2": "2016",
@@ -105,6 +92,27 @@
   			 "external-link": "http://whiterosefestival.uk/"}
   		]
   	},
+  	
+  	{
+  		"date": "17th Sep",
+  		"date2": "2016",
+  		"startdate": "2016-09-17T10:30",
+  		"event": "Day School",
+  		"times": [
+  		    {"time":"10.30am - 12.45pm", "desc":"Morning session"},
+  		    {"time":"2.00pm - 4.15pm", "desc":"Afternoon session"}
+  		 ],
+  		"actor2": "Music: Ian Slater",
+  		"actor": "Teacher: John Wilkinson",
+  		"location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		]
+  	},  	
+  	
+  	
   	{
   		"date": "2nd - 4th Dec",
   		"date2": "2016",
