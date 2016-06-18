@@ -56,12 +56,47 @@
   	}
   ],
   
-"leeds_events": [  	
+"leeds_events": [
+  	{
+  		"date": "25th Jun",
+  		"date2": "2016",
+  		"startdate": "2016-06-25T19:30",
+  		"event": "Club - Summer Special",
+  		"event_desc": "Faith Supper",
+  		"time": "7:30pm - 10:45pm",
+  		"actor": "Music: Neil Barron Duo",
+  		"actor2": "MC: Gerry Yates",
+  		"location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/4640/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-25Jun16.pdf"  			
+  	}, 	
+  	{
+  		"date": "24th Sep",
+  		"date2": "2016",
+  		"startdate": "2016-09-24T19:30",
+  		"event": "Club Dance",
+  		"time": "7:30pm - 10:45pm",
+  		"actor": "Music: George Meikle",
+  		"actor2": "MC: Don Andrews",
+  		"location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/2461/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-24Sep16.pdf"  			
+  	},  	  	
   	{
   		"date": "28th Dec",
   		"date2": "2016",
   		"startdate": "2016-12-28T19:30",
-  		"event": "Hogmanay Dance",
+  		"event": "Club - Hogmanay Dance",
   		"event_desc": "Faith Supper, £5",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Ian Slater (accordion)",
