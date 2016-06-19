@@ -144,6 +144,10 @@
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
+  		],
+  		"details": [
+  		    {"name": "form",
+  		     "link": "documents/Day school form Sep16.pdf"}
   		]
   	},  	
   	
