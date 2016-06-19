@@ -465,4 +465,8 @@
   #main-menu-state:not(:checked) ~ #main-menu {
     display: block;
   }
+  
+  #main-menu {
+  	margin-left: 140px;
+  }
 }
