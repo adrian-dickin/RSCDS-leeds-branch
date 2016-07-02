@@ -1,24 +1,6 @@
 {
   "events": [  	
   	{
-  		"date": "18th Jun",
-  		"date2": "2016",
-  		"startdate": "2016-06-18T19:30",
-  		"event": "Branch Dance",
-  		"time": "7:30pm - 10:30pm",
-  		"actor": "Music: Robert Whitehead Trio",
-  		"actor2": "MC: Don Andrews",
-  		"location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/2056/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/18Jun16.pdf",
-  		"map": "https://www.google.co.uk/maps/place/St+Chad's+Parish+Centre/@53.8285733,-1.5866888,17z/data=!4m6!1m3!3m2!1s0x4879590f445b7a19:0x212ab4dac15df26f!2sSt+Chad's+Parish+Centre!3m1!1s0x4879590f445b7a19:0x212ab4dac15df26f?hl=en"
-  	},
-  	{
   		"date": "9th Jul",
   		"date2": "2016",
   		"startdate": "2016-07-09T19:00",
@@ -94,25 +76,7 @@
   	}	
   ],
   
-"leeds_events": [
-  	{
-  		"date": "25th Jun",
-  		"date2": "2016",
-  		"startdate": "2016-06-25T19:30",
-  		"event": "Club - Summer Special",
-  		"event_desc": "Faith Supper",
-  		"time": "7:30pm - 10:45pm",
-  		"actor": "Music: Neil Barron Duo",
-  		"actor2": "MC: Gerry Yates",
-  		"location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/4640/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-25Jun16.pdf"  			
-  	}, 	
+"leeds_events": [	
   	{
   		"date": "24th Sep",
   		"date2": "2016",
