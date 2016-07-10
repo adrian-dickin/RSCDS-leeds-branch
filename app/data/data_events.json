@@ -1,25 +1,6 @@
 {
   "events": [  	
   	{
-  		"date": "9th Jul",
-  		"date2": "2016",
-  		"startdate": "2016-07-09T19:00",
-  		"event": "White Rose Festival",
-  		"time": "7:00pm - 10:30pm",
-  		"actor": "Neil Hardie and his Scottish Dance Band",
-  		"location_top": "The Gateways School",
-  		"location": [
-  			"Harewood",
-  			"Leeds",
-  			"LS17 9LE"
-  		],
-  		"crib": "http://whiterosefestival.uk/wp-content/uploads/2015/11/FestivalEve.pdf", 		
-  		"details": [
-  			{"name": "Booking Form", 
-  			 "link": "http://whiterosefestival.uk/booking-form-for-evening-dance/"}
-  		]
-  	},
-  	{
   		"date": "17th Sep",
   		"date2": "2016",
   		"startdate": "2016-09-17T19:30",
@@ -125,24 +106,7 @@
   	}	
   ],
   
-"special_events": [
-  	{
-  		"date": "9th Jul",
-  		"date2": "2016",
-  		"startdate": "2016-07-09",
-  		"event": "Leeds White Rose Festival",
-  		"actor": "Music: Neil Hardie and his Scottish Dance Band",
-  		"location_top": "The Gateways School",
-  		"location": [
-  			"Harewood",
-  			"Leeds",
-  			"LS17 9LE"
-  		],
-  		"details": [
-  			{"name": "Website", 
-  			 "external-link": "http://whiterosefestival.uk/"}
-  		]
-  	},  	
+"special_events": [	
   	{
   		"date": "17th Sep",
   		"date2": "2016",
