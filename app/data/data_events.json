@@ -136,7 +136,7 @@
   		"event": "Back to Basics Workshop",
   		"time": "2:30pm",
   		"actor": "Teacher: Catherine Livsey",
-  		"location-top": "Adel Methodist Church Hall",
+  		"location_top": "Adel Methodist Church Hall",
   		"location": [
   		    "Gainsborough Avenue",
   		    "Adel",
@@ -151,7 +151,7 @@
   		"event": "Back to Basics Workshop",
   		"time": "2:30pm",
   		"actor": "Teacher: Catherine Livsey",
-  		"location-top": "Adel Methodist Church Hall",
+  		"location_top": "Adel Methodist Church Hall",
   		"location": [
   		    "Gainsborough Avenue",
   		    "Adel",
@@ -166,7 +166,7 @@
   		"event": "Back to Basics Workshop",
   		"time": "2:30pm",
   		"actor": "Teacher: Catherine Livsey",
-  		"location-top": "Adel Methodist Church Hall",
+  		"location_top": "Adel Methodist Church Hall",
   		"location": [
   		    "Gainsborough Avenue",
   		    "Adel",
@@ -177,7 +177,7 @@
   	{
   		"date": "29th Oct (tbc)",
   		"date2": "2016",
-  		"startDate": "2016-10-29",
+  		"startdate": "2016-10-29T10:30",
   		"event": "Highland and Scottish National Workshop",
   		"actor": "Teacher: Catherine Livsey",
   		"location_top": "St Giles Church Hall",
@@ -194,7 +194,7 @@
   		"event": "Back to Basics Workshop",
   		"time": "2:30pm",
   		"actor": "Teacher: Catherine Livsey",
-  		"location-top": "Adel Methodist Church Hall",
+  		"location_top": "Adel Methodist Church Hall",
   		"location": [
   		    "Gainsborough Avenue",
   		    "Adel",
