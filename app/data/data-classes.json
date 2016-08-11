@@ -69,11 +69,12 @@
   		"day": "Friday",
   		"level": "Children",
   		"teacher": ["Brenda Burnell"],
-  		"time": "17:30 - 19:00",
+  		"time": "17:15 - 18:45",
   		"venue": [
   			"Hawksworth Wood Primary School",
   			"Broadway",
-  			"Vesper Gate"
+  			"Leeds",
+  			"LS5 3QE"
   		],
   		"notes": []
    	},
@@ -88,9 +89,16 @@
   			"LS21 2JB"
   		],
   		"notes": [
-  			"8 May",
-  			"5 June",
-  			"3 July"
+  			"Sep 25th",
+  			"Nov 13th",
+  			"Dec 11th",
+  			"Jan 8th",
+  			"Feb 5th",
+  			"Mar 12th",
+  			"Apr 2nd",
+  			"May 7th",
+  			"Jun 4th",
+  			"Jul 2nd"
   		]
    	}
    ]

@@ -175,11 +175,15 @@
   		]
   	}, 	
   	{
-  		"date": "29th Oct (tbc)",
+  		"date": "29th Oct",
   		"date2": "2016",
   		"startdate": "2016-10-29T10:30",
   		"event": "Highland and Scottish National Workshop",
   		"actor": "Teacher: Catherine Livsey",
+  		"times": [
+  		    {"time":"10:30am - 12:30pm", "desc":"Beginners & Intermediate"},
+  		    {"time":"1:30pm - 3:30pm", "desc":"Intermediate & Advanced"}
+  		 ],
   		"location_top": "St Giles Church Hall",
   		"location": [
   		    "Church Hill",
@@ -187,21 +191,6 @@
   		    "LS16 9BA"
   		]
   	},
-  	{
-  	    "date": "31st Oct",
-  	    "date2": "2016",
-  	    "startdate": "2016-10-31T14:30",
-  		"event": "Back to Basics Workshop",
-  		"time": "2:30pm",
-  		"actor": "Teacher: Catherine Livsey",
-  		"location_top": "Adel Methodist Church Hall",
-  		"location": [
-  		    "Gainsborough Avenue",
-  		    "Adel",
-  		    "Leeds",
-  		    "LS16 7PQ"
-  		]
-  	}, 	
   	{
   		"date": "2nd - 4th Dec",
   		"date2": "2016",
@@ -216,6 +205,20 @@
   			 "link": "documents/malhamdale pg1 001.jpg"},
   			{"name": "Page 2", 
   			 "link": "documents/malhamdalepg2 001.jpg"}
+  		]
+  	},
+  	{
+  		"date": "18th Feb",
+  		"date2": "2017",
+  		"startdate": "2017-02-18",
+  		"event": "Musicians’ Workshop",
+  		"actor": "Teacher: Nicol MacLaren",
+  		"location_top": "St Edmund’s Church Hall",
+  		"location": [
+  			"Lidgett Park Road",
+  			"Roundhay",
+  			"Leeds",
+  			"LS8 1JN"
   		]
   	},
   	{
