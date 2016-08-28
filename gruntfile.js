@@ -56,6 +56,14 @@ module.exports = function(grunt) {
 
 		clean: {
 			all: ['dist/*']
+		},
+		
+		sitemap: {
+			dist: {
+				pattern: ['dist/*.html'], 
+				siteRoot: 'dist/',
+				homepage: 'http://www.rscdsleeds.org.uk/'
+			}
 		}
 	});
 	
@@ -64,5 +72,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.registerTask('default', ['clean', 'cssmin', 'copy', 'concat', 'assemble']);
+	grunt.loadNpmTasks('grunt-sitemap');
+	grunt.registerTask('default', ['clean', 'cssmin', 'copy', 'concat', 'assemble', 'sitemap']);
 };

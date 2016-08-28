@@ -150,7 +150,7 @@
 	padding-right: 0px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
 	color: #0070BA;
 }
 h1 {
@@ -165,7 +165,12 @@ h3 {
 h4 {
 	margin: 18px 0px 6px 0px;
 }
-
+h5 {
+	margin: 12px 0px 6px 0px;
+}
+h6 {
+	margin: 10px 0px 6px 0px;
+}
 .body_text {
 	font-size: 14pt;
 	padding: 20px;
@@ -463,3 +468,8 @@ a {
 .clearall {
 	clear: both;
 }
+
+.center {
+	text-align: center;
+}
+

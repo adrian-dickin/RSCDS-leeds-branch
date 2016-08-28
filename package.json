@@ -12,6 +12,7 @@
     "grunt-contrib-cssmin": "^0.13.0",
     "handlebars-helper-filehash": "^1.0.0",
     "grunt-contrib-htmlmin": "^1.4.0",
-    "handlebars-helper-minify": "^0.1.3"
+    "handlebars-helper-minify": "^0.1.3",
+    "grunt-sitemap": "^1.2.1"
   }
 }
