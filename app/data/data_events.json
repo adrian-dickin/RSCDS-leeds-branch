@@ -35,6 +35,7 @@
   		"startdate": "2016-11-19T19:30",
   		"time": "7:30pm",
   		"event": "Leeds and York/North Humberside Joint Ball",
+  		"actor": "Music: Nicol McLaren Glencraig Band",
   		"location_top": "The Riley Smith Hall",
   		"location": [
   		    "Tadcaster",
@@ -54,7 +55,35 @@
   		    "294 Harrogate Road",
   		    "LS17 6LE"
   		]
-  	}	
+  	},  	
+  	{
+  		"date": "21st Jan",
+  		"date2": "2017",
+  		"startdate": "2016-12-17T19:30",
+  		"time": "7:30pm",
+  		"event": "Branch Dance",
+  		"actor": "Music: Neil Barron Duo",
+  		"location_top": "Queens Hall",
+  		"location": [
+  		    "Immaculate Heart Church",
+  		    "294 Harrogate Road",
+  		    "LS17 6LE"
+  		]
+  	},  	
+  	{
+  		"date": "18th Feb",
+  		"date2": "2017",
+  		"startdate": "2017-02-18",
+  		"event": "Branch Dance",
+  		"actor": "Music: Nicol MacLaren & Muscians' Workshop Participants",
+  		"location_top": "St Edmund’s Church Hall",
+  		"location": [
+  			"Lidgett Park Road",
+  			"Roundhay",
+  			"Leeds",
+  			"LS8 1JN"
+  		]
+  	}
   ],
   
 "leeds_events": [	
@@ -130,26 +159,11 @@
   		]
   	},
   	{
-  	    "date": "1st Oct",
-  	    "date2": "2016",
-  	    "startdate": "2016-10-01T14:30",
-  		"event": "Back to Basics Workshop",
-  		"time": "2:30pm",
-  		"actor": "Teacher: Catherine Livsey",
-  		"location_top": "Adel Methodist Church Hall",
-  		"location": [
-  		    "Gainsborough Avenue",
-  		    "Adel",
-  		    "Leeds",
-  		    "LS16 7PQ"
-  		]
-  	}, 
-  	{
   	    "date": "8th Oct",
   	    "date2": "2016",
   	    "startdate": "2016-10-08T14:30",
   		"event": "Back to Basics Workshop",
-  		"time": "2:30pm",
+  		"time": "2:30pm - 4:45pm",
   		"actor": "Teacher: Catherine Livsey",
   		"location_top": "Adel Methodist Church Hall",
   		"location": [
@@ -164,7 +178,7 @@
   	    "date2": "2016",
   	    "startdate": "2016-10-22T14:30",
   		"event": "Back to Basics Workshop",
-  		"time": "2:30pm",
+  		"time": "2:30pm - 4:45pm",
   		"actor": "Teacher: Catherine Livsey",
   		"location_top": "Adel Methodist Church Hall",
   		"location": [
