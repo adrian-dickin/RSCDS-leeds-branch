@@ -27,7 +27,9 @@
   		"location_top": "Otley Methodist Church Hall",
   		"location": [
   		    "Otley"
-  		]
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/8302/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/15Oct16.pdf"
   	},
   	{
   		"date": "19th Nov",
@@ -103,6 +105,37 @@
   		],
   		"programme": "http://my.strathspey.org/dd/list/2461/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/club-24Sep16.pdf"  			
+  	},
+  	{
+  		"date": "8th Oct",
+  		"date2": "2016",
+  		"startdate": "2016-10-08T19:00",
+  		"event": "Club Dance",
+  		"time": "7:00pm - 10:00pm",
+  		"actor": "Music: Recorded",
+  		"actor2": "MC: Alan Fox",
+  		"location_top": "Cookridge Village Hall",
+  		"location": [
+  			"Moseley Wood Lane",
+  			"Cookridge",
+  			"Leeds",
+  			"LS16 7ER"
+  		]			
+  	},  	
+  	{
+  		"date": "29th Oct",
+  		"date2": "2016",
+  		"startdate": "2016-10-29T19:30",
+  		"event": "Club Dance",
+  		"time": "7:30pm - 10:45pm",
+  		"actor": "Music: Neil Barron",
+  		"actor2": "MC: Lesley Enoch",
+  		"location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		] 			
   	},
   	{
   		"date": "17th Dec",
