@@ -120,7 +120,9 @@
   			"Cookridge",
   			"Leeds",
   			"LS16 7ER"
-  		]			
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/2054/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-8Oct16.pdf"  			
   	},  	
   	{
   		"date": "29th Oct",
@@ -135,7 +137,9 @@
   			"Otley Road",
   			"Leeds",
   			"LS16 5JT"
-  		] 			
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/2058/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-29Oct16.pdf"  				
   	},
   	{
   		"date": "17th Dec",
@@ -260,11 +264,8 @@
   		"location_top": "Malhamdale",
   		"location": [],
   		"details": [
-  			{"name": "Page 1", 
-  			 "link": "documents/malhamdale pg1 001.jpg"},
-  			{"name": "Page 2", 
-  			 "link": "documents/malhamdalepg2 001.jpg"}
-  		]
+  			{"name": "Form", 
+  			 "link": "documents/Malhamdale Form.pdf"}
   	},
   	{
   		"date": "18th Feb",
