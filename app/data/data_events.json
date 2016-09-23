@@ -255,19 +255,6 @@
   		]
   	},
   	{
-  		"date": "2nd - 4th Dec",
-  		"date2": "2016",
-  		"startdate": "2016-12-02",
-  		"event": "Malhamdale Weekend",
-  		"actor": "Teacher: Diane Rooney",
-  		"actor2": "Music: Phill Jones",
-  		"location_top": "Malhamdale",
-  		"location": [],
-  		"details": [
-  			{"name": "Form", 
-  			 "link": "documents/Malhamdale Form.pdf"}
-  	},
-  	{
   		"date": "18th Feb",
   		"date2": "2017",
   		"startdate": "2017-02-18",
@@ -279,6 +266,22 @@
   			"Roundhay",
   			"Leeds",
   			"LS8 1JN"
+  		]
+  	}
+	],
+	"weekend_events": [
+  	{
+  		"date": "2nd - 4th Dec",
+  		"date2": "2016",
+  		"startdate": "2016-12-02",
+  		"event": "Malhamdale Weekend",
+  		"actor": "Teacher: Diane Rooney",
+  		"actor2": "Music: Phill Jones",
+  		"location_top": "Malhamdale",
+  		"location": [],
+  		"details": [
+  			{"name": "Form", 
+  			 "link": "documents/Malhamdale Form.pdf"}
   		]
   	},
   	{

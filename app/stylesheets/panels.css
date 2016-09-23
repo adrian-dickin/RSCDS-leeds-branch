@@ -234,7 +234,7 @@ h6 {
     float: right;
     margin-right: 8px;
 }
-
+/*
 #upcoming-events {
 	width: 90%;
 	margin: 4% auto 0px auto;
@@ -258,7 +258,7 @@ h6 {
 #upcoming-special-events {
 	padding-left: 1%;
 	width: 33%;
-}
+}*/
 
 
 a {
@@ -393,9 +393,11 @@ a {
 }
 
 
+
 .home-event-table {
 	display: table;
-	width: 100%;
+	width: 80%;
+	margin: 0px auto 0px auto;
 }
 .home-event-row {
 	display: table-row;
@@ -403,7 +405,7 @@ a {
 
 .home-event-cell {
 	display: table-cell;
-	width: 33%;
+	width: 50%;
 	padding: 4px;
 	vertical-align: top;
 }
@@ -417,7 +419,7 @@ a {
 }
 
 .home-event-table-table .col1 {
-	width: 100px;
+	width: 120px;
 }
 
 @media (max-width: 1024px) {

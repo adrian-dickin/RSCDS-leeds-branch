@@ -18,58 +18,73 @@ jsonLd: |
     </script>
 ---
 <div id="upcoming-events">
-
-<div class="home-event-table">
-	<div class="home-event-row">
-		<div class="home-event-cell">
-		    <h2>Branch Events</h2>
-			<table class="home-event-table-table">
-			{{#list data_events.events}}
-				<tr>
-					<td class="col1">{{date}}
-					</td>
-					<td class="col2">
-						{{#if event}}<a href="events.html">{{event}}</a>{{/if}}
-						{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-					</td>
-				</tr>
-			{{/list}}
-			</table>
+	<div class="home-event-table">
+		<div class="home-event-row">
+			<div class="home-event-cell">
+				<h2>Branch Events</h2>
+				<table class="home-event-table-table">
+				{{#list data_events.events}}
+					<tr>
+						<td class="col1">{{date}}
+						</td>
+						<td class="col2">
+							{{#if event}}<a href="events.html">{{event}}</a>{{/if}}
+							{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+						</td>
+					</tr>
+				{{/list}}
+				</table>
+			</div>
+			<div class="home-event-cell">
+				<h2>Local Events</h2>
+				<table class="home-event-table-table">
+				{{#list data_events.leeds_events}}
+					<tr>
+						<td class="col1">{{date}}
+						</td>
+						<td class="col2">
+							{{#if event}}<a href="leeds_events.html">{{event}}</a>{{/if}}
+							{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+						</td>
+					</tr>
+				{{/list}}
+				</table>
+			</div>
 		</div>
-		<div class="home-event-cell">
-		    <h2>Local Events</h2>
-			<table class="home-event-table-table">
-			{{#list data_events.leeds_events}}
-				<tr>
-					<td class="col1">{{date}}
-					</td>
-					<td class="col2">
-						{{#if event}}<a href="leeds_events.html">{{event}}</a>{{/if}}
-						{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-					</td>
-				</tr>
-			{{/list}}
-			</table>
-		</div>
-		<div class="home-event-cell">
-		<h2>Special Branch Events</h2>
-			<table class="home-event-table-table">
-			{{#list data_events.special_events}}
-				<tr>
-					<td class="col1">{{date}}
-					</td>
-					<td class="col2">
-						{{#if event}}<a href="special_events.html">{{event}}</a>{{/if}}
-						{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-					</td>
-				</tr>
-			{{/list}}
-			</table>
+		<div class="home-event-row">
+			<div class="home-event-cell">
+				<h2>Day Events</h2>
+				<table class="home-event-table-table">
+				{{#list data_events.special_events}}
+					<tr>
+						<td class="col1">{{date}}
+						</td>
+						<td class="col2">
+							{{#if event}}<a href="special_events.html">{{event}}</a>{{/if}}
+							{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+						</td>
+					</tr>
+				{{/list}}
+				</table>
+			</div>
+			<div class="home-event-cell">
+				<h2>Weekend Events</h2>
+				<table class="home-event-table-table">
+				{{#list data_events.weekend_events}}
+					<tr>
+						<td class="col1">{{date}}
+						</td>
+						<td class="col2">
+							{{#if event}}<a href="weekend_events.html">{{event}}</a>{{/if}}
+							{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+						</td>
+					</tr>
+				{{/list}}
+				</table>
+			</div>
 		</div>
 	</div>
-  </div>
 </div>
-
 
 <div id="menu-button-bar">
 	<div class="menu-button-wrapper">
