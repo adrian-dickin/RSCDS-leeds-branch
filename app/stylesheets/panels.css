@@ -29,7 +29,7 @@
 
 #menu-button-bar {
 	width: 940px;
-	margin: 48px auto 64px auto;
+	margin: 28px auto 64px auto;
 }
 
 .menu-button {
@@ -47,7 +47,7 @@
 .menu-button-wrapper {
 	color: #0070ba;
 	width: 210px;
-	margin: 0px 10px 0px 10px;
+	margin: 20px 10px 0px 10px;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -432,7 +432,7 @@ a {
 	}
 	
 	#menu-button-bar {
-		display: none;
+		width: 470px;
 	}
 	
 	.home-event-table-table td {
