@@ -1,23 +1,6 @@
 {
   "events": [  	
   	{
-  		"date": "17th Sep",
-  		"date2": "2016",
-  		"startdate": "2016-09-17T19:30",
-  		"event": "Branch Dance",
-  		"time": "7:30pm - 10:30pm",
-  		"actor": "Music: Susan MacFadyen",
-  		"actor2": "MC: Gerry Yates",
-  		"location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/3259/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/17Sep16.pdf"
-  	},
-  	{
   		"date": "15th Oct",
   		"date2": "2016",
         "startdate": "2016-10-15T19:30",
@@ -40,9 +23,11 @@
   		"actor": "Music: Nicol McLaren Glencraig Band",
   		"location_top": "The Riley Smith Hall",
   		"location": [
+  		    "28 Westgate",
   		    "Tadcaster",
-  		    "LS24 9JB"
-  		]
+  		    "LS24 9AB"
+  		],
+  		"map": "https://www.google.co.uk/maps/place/Riley-Smith+Hall/@53.885156,-1.2664527,17z/data=!3m1!4b1!4m5!3m4!1s0x487947eb074b99af:0x830afd1104bf382a!8m2!3d53.885156!4d-1.264264"
   	},
   	{
   		"date": "17th Dec",
@@ -56,7 +41,8 @@
   		    "Immaculate Heart Church",
   		    "294 Harrogate Road",
   		    "LS17 6LE"
-  		]
+  		],
+  		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds+LS17+6LE/@53.8385789,-1.5384747,18.12z/data=!4m5!3m4!1s0x48795bc2e4046d73:0xbf9fd50104b818ef!8m2!3d53.8383341!4d-1.5368355"
   	},  	
   	{
   		"date": "21st Jan",
@@ -70,7 +56,8 @@
   		    "Immaculate Heart Church",
   		    "294 Harrogate Road",
   		    "LS17 6LE"
-  		]
+  		],
+  		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds+LS17+6LE/@53.8385789,-1.5384747,18.12z/data=!4m5!3m4!1s0x48795bc2e4046d73:0xbf9fd50104b818ef!8m2!3d53.8383341!4d-1.5368355"
   	},  	
   	{
   		"date": "18th Feb",
@@ -174,28 +161,6 @@
   
 "special_events": [	
   	{
-  		"date": "17th Sep",
-  		"date2": "2016",
-  		"startdate": "2016-09-17T10:30",
-  		"event": "Day School",
-  		"times": [
-  		    {"time":"10.30am - 12.45pm", "desc":"Morning session"},
-  		    {"time":"2.00pm - 4.15pm", "desc":"Afternoon session"}
-  		 ],
-  		"actor2": "Music: Ian Slater",
-  		"actor": "Teacher: John Wilkinson",
-  		"location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"details": [
-  		    {"name": "form",
-  		     "link": "documents/Day school form Sep16.pdf"}
-  		]
-  	},
-  	{
   	    "date": "8th Oct",
   	    "date2": "2016",
   	    "startdate": "2016-10-08T14:30",
@@ -209,6 +174,7 @@
   		    "Leeds",
   		    "LS16 7PQ"
   		],
+  		"map": "https://www.google.co.uk/maps/place/Adel+Pre-School/@53.856774,-1.5937282,17z/data=!3m1!4b1!4m5!3m4!1s0x487959a7b67c0fe3:0x829b198bc41f9196!8m2!3d53.856772!4d-1.59233",
   		"details": [
   			{"name": "Form", 
   			 "link": "documents/Rscds Leeds Branch Back to Basics Oct 16.pdf"}
@@ -228,6 +194,7 @@
   		    "Leeds",
   		    "LS16 7PQ"
   		],
+  		"map": "https://www.google.co.uk/maps/place/Adel+Pre-School/@53.856774,-1.5937282,17z/data=!3m1!4b1!4m5!3m4!1s0x487959a7b67c0fe3:0x829b198bc41f9196!8m2!3d53.856772!4d-1.59233",
   		"details": [
   			{"name": "Form", 
   			 "link": "documents/Rscds Leeds Branch Back to Basics Oct 16.pdf"}
@@ -255,20 +222,6 @@
   		]
   	},
   	{
-  		"date": "2nd - 4th Dec",
-  		"date2": "2016",
-  		"startdate": "2016-12-02",
-  		"event": "Malhamdale Weekend",
-  		"actor": "Teacher: Diane Rooney",
-  		"actor2": "Music: Phill Jones",
-  		"location_top": "Malhamdale",
-  		"location": [],
-  		"details": [
-  			{"name": "Form", 
-  			 "link": "documents/Malhamdale Form.pdf"}
-        ]
-    },
-  	{
   		"date": "18th Feb",
   		"date2": "2017",
   		"startdate": "2017-02-18",
@@ -280,6 +233,22 @@
   			"Roundhay",
   			"Leeds",
   			"LS8 1JN"
+  		]
+  	}
+	],
+	"weekend_events": [
+  	{
+  		"date": "2nd - 4th Dec",
+  		"date2": "2016",
+  		"startdate": "2016-12-02",
+  		"event": "Malhamdale Weekend",
+  		"actor": "Teacher: Diane Rooney",
+  		"actor2": "Music: Phill Jones",
+  		"location_top": "Malhamdale",
+  		"location": [],
+  		"details": [
+  			{"name": "Form", 
+  			 "link": "documents/Malhamdale Form.pdf"}
   		]
   	},
   	{

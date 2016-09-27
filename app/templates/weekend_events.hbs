@@ -1,11 +1,11 @@
 ---
-pageTitle: "Day Events"
+pageTitle: "Weekend dance events"
 scripts: ["handleMaps();" ]
-pageDescription: "Leeds Branch Special Events, such as Scottish dancing day schools, Highland dancing day schools and the White Rose festival"
+pageDescription: "Weekend schools"
 jsonLd: |
     <script type="application/ld+json">[
     <%  
-    var events = data_events.special_events;
+    var events = data_events.weekend_events;
     for(var i=0; i < events.length; i++) {
     	var event = events[i];
     	var location = event.location;
@@ -29,5 +29,5 @@ jsonLd: |
     </script>
 ---
 <div class='body_text'>
-{{>events-table data_events.special_events}}
+{{>events-table data_events.weekend_events}}
 </div>
