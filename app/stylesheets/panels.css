@@ -30,6 +30,7 @@
 #menu-button-bar {
 	width: 940px;
 	margin: 28px auto 64px auto;
+	text-align: center;
 }
 
 .menu-button {
@@ -234,31 +235,6 @@ h6 {
     float: right;
     margin-right: 8px;
 }
-/*
-#upcoming-events {
-	width: 90%;
-	margin: 4% auto 0px auto;
-}
-#upcoming-events > table {
-	width: 100%;
-}
-#upcoming-events td {
-	vertical-align: top;
-}
-
-#upcoming-branch-events {
-	padding-right: 1%;
-	width: 33%;
-}
-#upcoming-other-events {
-	padding-left: 1%;
-	padding-right: 1%;
-	width: 33%;
-}
-#upcoming-special-events {
-	padding-left: 1%;
-	width: 33%;
-}*/
 
 
 a {
@@ -303,39 +279,6 @@ a {
 .block {
 	padding-bottom: 16px;
 }
-
-/*body {
-	min-width: 1024px;
-}*/
-
-/* responsive changes 
-@media (max-width: 1400px) {
-	#upcoming-events {
-		width: 96%;
-		margin-top: 2%;
-	}
-}
-@media (max-width: 1024px) {
-	#upcoming-events {
-		width: auto;
-		margin-top: 0px 1px 0px 1px;
-	}
-	#upcoming-branch-events {
-		padding-right: 1px;
-	}
-	#upcoming-other-events {
-		padding-left: 1px;
-		padding-right: 1px;
-	}
-	#upcoming-special-events {
-		padding-left: 1px;
-	}
-	.body_text {
-		padding: 10px 2px 10px 2px;
-	}
-}
-*/
-
 
 
 /* new CSS */
@@ -446,6 +389,13 @@ a {
 		margin: 0px 0px 32px 1px;
 	}
 }
+
+@media (max-width: 450px) {
+	#menu-button-bar {
+		width: 320px;
+	}
+}
+
 
 .section .class-cell {
 	padding-bottom: 16px;
