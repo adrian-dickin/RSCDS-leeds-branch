@@ -75,25 +75,7 @@
   	}
   ],
   
-"leeds_events": [	
-  	{
-  		"date": "8th Oct",
-  		"date2": "2016",
-  		"startdate": "2016-10-08T19:00",
-  		"event": "Club Dance",
-  		"time": "7:00pm - 10:00pm",
-  		"actor": "Music: Recorded",
-  		"actor2": "MC: Alan Fox",
-  		"location_top": "Cookridge Village Hall",
-  		"location": [
-  			"Moseley Wood Lane",
-  			"Cookridge",
-  			"Leeds",
-  			"LS16 7ER"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/2054/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-08Oct16.pdf"
-  	},  	
+"leeds_events": [	 	
   	{
   		"date": "29th Oct",
   		"date2": "2016",
@@ -143,26 +125,6 @@
   ],
   
 "special_events": [	
-  	{
-  	    "date": "8th Oct",
-  	    "date2": "2016",
-  	    "startdate": "2016-10-08T14:30",
-  		"event": "Back to Basics Workshop",
-  		"time": "2:30pm - 4:45pm",
-  		"actor": "Teacher: Catherine Livsey",
-  		"location_top": "Adel Methodist Church Hall",
-  		"location": [
-  		    "Gainsborough Avenue",
-  		    "Adel",
-  		    "Leeds",
-  		    "LS16 7PQ"
-  		],
-  		"map": "https://www.google.co.uk/maps/place/Adel+Pre-School/@53.856774,-1.5937282,17z/data=!3m1!4b1!4m5!3m4!1s0x487959a7b67c0fe3:0x829b198bc41f9196!8m2!3d53.856772!4d-1.59233",
-  		"details": [
-  			{"name": "Form", 
-  			 "link": "documents/Rscds Leeds Branch Back to Basics Oct 16.pdf"}
-  		]
-  	},
   	{
   	    "date": "22nd Oct",
   	    "date2": "2016",
