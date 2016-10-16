@@ -1,20 +1,6 @@
 {
   "events": [  	
   	{
-  		"date": "15th Oct",
-  		"date2": "2016",
-        "startdate": "2016-10-15T19:30",
-        "time": "7:30pm - 10:30pm",
-  		"event": "AGM 6:45pm followed by Branch Dance",
-  		"actor": "Music: Phill Jones",
-  		"location_top": "Otley Methodist Church Hall",
-  		"location": [
-  		    "Otley"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/8302/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/15Oct16.pdf"
-  	},
-  	{
   		"date": "19th Nov",
   		"date2": "2016",
   		"startdate": "2016-11-19T19:30",
