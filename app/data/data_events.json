@@ -181,7 +181,11 @@
   		"location": [],
   		"details": [
   			{"name": "Form", 
-  			 "link": "documents/Malhamdale Form.pdf"}
+  			 "link": "documents/Malhamdale Form.pdf"},
+  			{"name": "Crib - Friday",
+  			 "link": "http://my.strathspey.org/dd/list/9095/"},
+  			{"name": "Crib - Saturday",
+  			 "link": "http://my.strathspey.org/dd/list/9097/"}
   		]
   	},
   	{
