@@ -45,6 +45,8 @@
   		    "294 Harrogate Road",
   		    "LS17 6LE"
   		],
+  		"programme": "http://my.strathspey.org/dd/list/2056/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/21Jan17.pdf",
   		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds+LS17+6LE/@53.8385789,-1.5384747,18.12z/data=!4m5!3m4!1s0x48795bc2e4046d73:0xbf9fd50104b818ef!8m2!3d53.8383341!4d-1.5368355"
   	},  	
   	{
@@ -59,7 +61,9 @@
   			"Roundhay",
   			"Leeds",
   			"LS8 1JN"
-  		]
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/3207/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/18Feb17.pdf"
   	}
   ],
   
