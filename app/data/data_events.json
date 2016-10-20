@@ -92,15 +92,18 @@
   		"date2": "2016",
   		"startdate": "2016-12-17T19:30",
   		"time": "7:30pm",
-  		"event": "Joint Christmas Dance with Leeds Branch",
+  		"event": "Joint Christmas Dance with Leeds SCDC",
   		"actor": "Music: George Meikle and the Lothian Band",
   		"location_top": "Queens Hall",
   		"location": [
   		    "Immaculate Heart Church",
   		    "294 Harrogate Road",
   		    "LS17 6LE"
-  		]
-  	},
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/3209/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/joint-leeds-club-and-branch-dance-17-december-2016.pdf",
+  		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds+LS17+6LE/@53.8385789,-1.5384747,18.12z/data=!4m5!3m4!1s0x48795bc2e4046d73:0xbf9fd50104b818ef!8m2!3d53.8383341!4d-1.5368355"
+  	}, 
   	{
   		"date": "28th Dec",
   		"date2": "2016",
