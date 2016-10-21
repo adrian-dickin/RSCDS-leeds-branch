@@ -18,6 +18,25 @@
   		"map": "https://www.google.co.uk/maps/place/Riley-Smith+Hall/@53.885156,-1.2664527,17z/data=!3m1!4b1!4m5!3m4!1s0x487947eb074b99af:0x830afd1104bf382a!8m2!3d53.885156!4d-1.264264"
   	},
   	{
+  		"date": "12th Dec",
+  		"date2": "2016",
+  		"startdate": "2016-12-12T13:45",
+  		"time": "1:45pm",
+  		"event": "Christmas Tea Dance",
+  		"actor": "Music: Ian Slater",
+  		"actor2": "MC: Don Andrews",
+  		"location_top": "Adel Methodist Church Hall",
+  		"location": [
+  		    "Gainsborough Avenue",
+  		    "Adel",
+  		    "Leeds",
+  		    "LS16 7PQ"
+  		],
+  		"map": "https://www.google.co.uk/maps/place/Adel+Pre-School/@53.856774,-1.5937282,17z/data=!3m1!4b1!4m5!3m4!1s0x487959a7b67c0fe3:0x829b198bc41f9196!8m2!3d53.856772!4d-1.59233",
+  		"programme": "http://my.strathspey.org/dd/list/1580/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-christmas-tea-dance-monday-12-december-2016.pdf"
+  	},
+  	{
   		"date": "17th Dec",
   		"date2": "2016",
   		"startdate": "2016-12-17T19:30",
