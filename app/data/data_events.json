@@ -88,6 +88,23 @@
   		"crib": "http://www.rscdsleeds.org.uk/Socials/club-29Oct16.pdf"	
   	},
   	{
+  		"date": "26th Nov",
+  		"date2": "2016",
+  		"startdate": "2016-11-26T19:30",
+  		"event": "Club Dance",
+  		"time": "7:30pm - 10:45pm",
+  		"actor": "Music: Phill Jones",
+  		"actor2": "MC: Alan Horsfall",
+  		"location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/3189/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-26Nov16.pdf"	
+  	},
+  	{
   		"date": "17th Dec",
   		"date2": "2016",
   		"startdate": "2016-12-17T19:30",
@@ -118,7 +135,25 @@
   			"Leeds",
   			"LS6 2DH"
   		]
-  	}	
+  	},
+  	{
+  		"date": "14th Jan",
+  		"date2": "2017",
+  		"startdate": "2017-01-14T19:00",
+  		"event": "Club Dance",
+  		"time": "7:00pm",
+  		"actor": "Music: recorded",
+  		"actor2": "MC: Helen Brown",
+  		"location_top": "Cookridge Village Hall",
+  		"location": [
+  			"Moseley Wood Lane",
+  			"Cookridge",
+  			"Leeds",
+  			"LS16 7ER"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/2883/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-14Jan17.pdf"	
+  	}
   ],
   
 "special_events": [	
