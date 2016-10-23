@@ -148,12 +148,14 @@
   		"event_desc": "Faith Supper, £5",
   		"time": "7:30pm - 10:30pm",
   		"actor": "Music: Ian Slater (accordion)",
+  		"actor2": "MC: Don Andrews",
   		"location_top": "St Columba United Reformed Church",
   		"location": [
   			"70 Headingley Lane",
   			"Leeds",
   			"LS6 2DH"
-  		]
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/3210/"
   	},
   	{
   		"date": "14th Jan",
