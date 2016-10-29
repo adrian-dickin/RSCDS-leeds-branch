@@ -90,23 +90,6 @@
   
 "leeds_events": [	 	
   	{
-  		"date": "29th Oct",
-  		"date2": "2016",
-  		"startdate": "2016-10-29T19:30",
-  		"event": "Club Dance",
-  		"time": "7:30pm - 10:45pm",
-  		"actor": "Music: Neil Barron",
-  		"actor2": "MC: Lesley Enoch",
-  		"location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/2058/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-29Oct16.pdf"	
-  	},
-  	{
   		"date": "26th Nov",
   		"date2": "2016",
   		"startdate": "2016-11-26T19:30",
@@ -179,47 +162,6 @@
   ],
   
 "special_events": [	
-  	{
-  	    "date": "22nd Oct",
-  	    "date2": "2016",
-  	    "startdate": "2016-10-22T14:30",
-  		"event": "Back to Basics Workshop",
-  		"time": "2:30pm - 4:45pm",
-  		"actor": "Teacher: Catherine Livsey",
-  		"location_top": "Adel Methodist Church Hall",
-  		"location": [
-  		    "Gainsborough Avenue",
-  		    "Adel",
-  		    "Leeds",
-  		    "LS16 7PQ"
-  		],
-  		"map": "https://www.google.co.uk/maps/place/Adel+Pre-School/@53.856774,-1.5937282,17z/data=!3m1!4b1!4m5!3m4!1s0x487959a7b67c0fe3:0x829b198bc41f9196!8m2!3d53.856772!4d-1.59233",
-  		"details": [
-  			{"name": "Form", 
-  			 "link": "documents/Rscds Leeds Branch Back to Basics Oct 16.pdf"}
-  		]
-  	}, 	
-  	{
-  		"date": "29th Oct",
-  		"date2": "2016",
-  		"startdate": "2016-10-29T10:30",
-  		"event": "Highland and Scottish National Workshop",
-  		"actor": "Teacher: Catherine Livsey",
-  		"times": [
-  		    {"time":"10:30am - 12:30pm", "desc":"Beginners & Intermediate"},
-  		    {"time":"1:30pm - 3:30pm", "desc":"Intermediate & Advanced"}
-  		 ],
-  		"details": [
-  			{"name": "Form", 
-  			 "link": "documents/Highland Day School Oct 16.pdf"}
-  		],
-  		"location_top": "St Giles Church Hall",
-  		"location": [
-  		    "Church Hill",
-  		    "Bramhope",
-  		    "LS16 9BA"
-  		]
-  	},
   	{
   		"date": "18th Feb",
   		"date2": "2017",
