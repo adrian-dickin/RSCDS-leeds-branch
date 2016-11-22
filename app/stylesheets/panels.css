@@ -425,3 +425,8 @@ a {
 	text-align: center;
 }
 
+.msg {
+	border: 1px solid red;
+	padding: 4px;
+}
+
