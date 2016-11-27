@@ -71,24 +71,30 @@
   	}
   ],
   
-"leeds_events": [	 	
-  	{
-  		"date": "26th Nov",
+"leeds_events": [  	
+   	{
+  		"date": "3rd Dec",
   		"date2": "2016",
-  		"startdate": "2016-11-26T19:30",
-  		"event": "Club Dance",
-  		"time": "7:30pm - 10:45pm",
-  		"actor": "Music: Phill Jones",
-  		"actor2": "MC: Alan Horsfall",
-  		"location_top": "St Chad's Parish Centre",
+  		"startdate": "2016-12-03T19:30",
+  		"event": "The Saltire's Winter Rant",
+  		"event_desc": "Faith supper",
+  		"time": "7:30pm",
+  		"actor": "Music: Ian Slater",
+  		"location_top": "Knaresborough St John's School",
   		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
+			"Stockwell Road",
+			"Knaresborough",
+			"HG5 0JN"
   		],
-  		"programme": "http://my.strathspey.org/dd/list/3189/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-26Nov16.pdf"	
-  	},
+  		"programme": "http://www.rscdsleeds.org.uk/Socials/Rant ticket-dec-2016.jpg",
+  		"details" : [
+  			{"link": "http://harrogatesaltire.com/wp-content/uploads/2016/11/Winter-Rant-2016-Crib.doc",
+  			 "name": "crib"},
+  			{"external-link": "http://harrogatesaltire.com/events-news/",
+  			 "name": "Harrogate Saltire event details"}
+  		]
+  	}, 	
+  	
   	{
   		"date": "17th Dec",
   		"date2": "2016",
