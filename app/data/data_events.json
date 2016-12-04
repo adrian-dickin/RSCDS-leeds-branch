@@ -1,5 +1,5 @@
 {
-  "events": [  	
+  "events": [
   	{
   		"date": "12th Dec",
   		"date2": "2016",
@@ -35,7 +35,7 @@
   		"programme": "http://my.strathspey.org/dd/list/3209/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/joint-leeds-club-and-branch-dance-17-december-2016.pdf",
   		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds+LS17+6LE/@53.8385789,-1.5384747,18.12z/data=!4m5!3m4!1s0x48795bc2e4046d73:0xbf9fd50104b818ef!8m2!3d53.8383341!4d-1.5368355"
-  	},  	
+  	},
   	{
   		"date": "21st Jan",
   		"date2": "2017",
@@ -52,7 +52,7 @@
   		"programme": "http://my.strathspey.org/dd/list/2056/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/21Jan17.pdf",
   		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds+LS17+6LE/@53.8385789,-1.5384747,18.12z/data=!4m5!3m4!1s0x48795bc2e4046d73:0xbf9fd50104b818ef!8m2!3d53.8383341!4d-1.5368355"
-  	},  	
+  	},
   	{
   		"date": "18th Feb",
   		"date2": "2017",
@@ -70,31 +70,8 @@
   		"crib": "http://www.rscdsleeds.org.uk/Socials/18Feb17.pdf"
   	}
   ],
-  
+
 "leeds_events": [  	
-   	{
-  		"date": "3rd Dec",
-  		"date2": "2016",
-  		"startdate": "2016-12-03T19:30",
-  		"event": "The Saltire's Winter Rant",
-  		"event_desc": "Faith supper",
-  		"time": "7:30pm",
-  		"actor": "Music: Ian Slater",
-  		"location_top": "Knaresborough St John's School",
-  		"location": [
-			"Stockwell Road",
-			"Knaresborough",
-			"HG5 0JN"
-  		],
-  		"programme": "http://www.rscdsleeds.org.uk/Socials/Rant ticket-dec-2016.jpg",
-  		"details" : [
-  			{"link": "http://harrogatesaltire.com/wp-content/uploads/2016/11/Winter-Rant-2016-Crib.doc",
-  			 "name": "crib"},
-  			{"external-link": "http://harrogatesaltire.com/events-news/",
-  			 "name": "Harrogate Saltire event details"}
-  		]
-  	}, 	
-  	
   	{
   		"date": "17th Dec",
   		"date2": "2016",
@@ -111,7 +88,7 @@
   		"programme": "http://my.strathspey.org/dd/list/3209/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/joint-leeds-club-and-branch-dance-17-december-2016.pdf",
   		"map": "https://www.google.co.uk/maps/place/294+Harrogate+Rd,+Leeds+LS17+6LE/@53.8385789,-1.5384747,18.12z/data=!4m5!3m4!1s0x48795bc2e4046d73:0xbf9fd50104b818ef!8m2!3d53.8383341!4d-1.5368355"
-  	}, 
+  	},
   	{
   		"date": "28th Dec",
   		"date2": "2016",
@@ -146,7 +123,7 @@
   			"LS16 7ER"
   		],
   		"programme": "http://my.strathspey.org/dd/list/2883/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-14Jan17.pdf"	
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-14Jan17.pdf"
   	},
   	{
   		"date": "28th Jan",
@@ -163,11 +140,11 @@
   			"LS16 5JT"
   		],
   		"programme": "http://my.strathspey.org/dd/list/2459/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-presidents-dance-28th-january-2017.pdf"	
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-presidents-dance-28th-january-2017.pdf"
   	}
   ],
-  
-"special_events": [	
+
+"special_events": [
   	{
   		"date": "18th Feb",
   		"date2": "2017",
@@ -194,7 +171,7 @@
   		"location_top": "Malhamdale",
   		"location": [],
   		"details": [
-  			{"name": "Form", 
+  			{"name": "Form",
   			 "link": "documents/Malhamdale Form.pdf"},
   			{"name": "Crib - Friday",
   			 "link": "http://my.strathspey.org/dd/list/9095/"},
@@ -212,9 +189,9 @@
   		"location_top": "Esplanade Hotel, Scarborough",
   		"location": [],
   		"details": [
-  			{"name": "Form 1", 
+  			{"name": "Form 1",
   			 "link": "documents/Scarborough form p1.pdf"},
-  			{"name": "Form 2", 
+  			{"name": "Form 2",
   			 "link": "documents/Scarborough form p2.pdf"}
   		]
   	}
