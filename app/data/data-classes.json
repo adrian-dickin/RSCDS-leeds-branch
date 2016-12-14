@@ -1,5 +1,5 @@
 {
-  "classes": [ 
+  "classes": [
   	{
   		"day": "Monday",
   		"level": "General",
@@ -50,13 +50,12 @@
   			"LS29 9QL"
   		],
   		"notes": [
-  			"14:30 start on third Thursday of each month",
-  			"Summer Term finishes at half term"]
-   	},	
+  			"14:30 start on third Thursday of each month"]
+   	},
   	{
   		"day": "Thursday",
   		"level": "General",
-  		"teacher": ["Brenda Burnell","Stella Summers"],
+  		"teacher": ["Brenda Burnell"],
   		"time": "19:30 - 21:30",
   		"venue": [
   			"Lidgett Park Methodist Church Hall",
@@ -64,7 +63,7 @@
   			"LS8 1HG"
   		],
   		"notes": ["Continues throughout the year"]
-   	},  	
+   	},
   	{
   		"day": "Friday",
   		"level": "Children",
@@ -89,8 +88,6 @@
   			"LS21 2JB"
   		],
   		"notes": [
-  			"Sep 25th",
-  			"Nov 13th",
   			"Dec 11th",
   			"Jan 8th",
   			"Feb 5th",
@@ -103,5 +100,3 @@
    	}
    ]
  }
-
-
