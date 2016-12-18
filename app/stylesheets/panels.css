@@ -205,7 +205,7 @@ h6 {
 
 .two_column {
 	display: inline-block;
-	width: 48%; 
+	width: 48%;
 	min-width: 424px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -375,15 +375,15 @@ a {
 		display: block;
 		width: auto;
 	}
-	
+
 	#menu-button-bar {
 		width: 470px;
 	}
-	
+
 	.home-event-table-table td {
 		padding: 0px 0px 8px 4px;
 	}
-	
+
 	#upcoming-events {
 		width: auto;
 		margin: 0px 0px 32px 1px;
@@ -430,3 +430,7 @@ a {
 	padding: 4px;
 }
 
+.scalable-image {
+  max-width: 100%;
+  height: auto;
+}
