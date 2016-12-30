@@ -1,79 +1,64 @@
 {{#each .}}
-<div class="event-block">
-	<div class="event-header">
-		<h3>{{date}} {{#if date2}}{{date2}}{{/if}}</h3>
-	</div>
-
-	<div class="event-panel">
-		<div class="event-table">
-			<div class="event-row">
-				<div class="event-cell">
-					<table class="event-table-pair">
-						<tr>
-							<td>
-								<div>{{event}}</div>
-								{{#if event_desc}}
-								  <div>{{event_desc}}</div>
-								{{/if}}
-								{{#if time}}
-								   <div>{{time}}</div>
-								{{/if}}
-								{{#if times}}
-								  {{#each times}}
-									<br/>
-									<div>{{time}}</div>
-									<div>{{desc}}</div>
-								  {{/each}}
-								{{/if}}
-							</td>
-							<td>
-								<div>{{actor}}</div>
-								{{#if actor2}}
-								  <div>{{actor2}}</div>
-								{{/if}}
-							</td>
-						</tr>
-					</table>
+  <ul class="list-group">
+		<li class="list-group-item">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+				  <h4 class="list-group-item-heading">{{date}} {{#if date2}}{{date2}}{{/if}}</h4>
+					<div>{{event}}</div>
+					{{#if event_desc}}
+						<div>{{event_desc}}</div>
+					{{/if}}
+					{{#if time}}
+						 <div>{{time}}</div>
+					{{/if}}
+					{{#if times}}
+						{{#each times}}
+						<br/>
+						<div>{{time}}</div>
+						<div>{{desc}}</div>
+						{{/each}}
+					{{/if}}
+					<div>&nbsp;</div>
 				</div>
-				<div class="event-cell">
-					<table class="event-table-pair">
-						<tr>
-							<td>
-								<div>{{location-top}}</div>
-								<div>
-								{{#each location}}  				
-									<div>{{this}}</div>
-								{{/each}}
-								{{#if map}}
-								<div class='map-link' data-link="{{{map}}}">map</div>
-								{{/if}}
-							</td>
-							<td>
-								{{#if programme}}
-								<div class="detail"><a href="{{programme}}" target="_blank">Programme</a> 				</div>
-								{{/if}}
-								{{#if crib}}
-								<div class="detail"><a href="{{crib}}">Crib with diagrams</a> </div>
-								{{/if}}
-		
-								{{#each details}}
-								<div class="detail">
-									{{#if external-link}}
-									<a href="{{external-link}}" target="_blank">{{name}}</a>
-									{{/if}}
-									{{#if link}}
-									<a href="{{link}}">{{name}}</a>
-									{{/if}}
-								</div>
-								{{/each}}	
-							</td>
-						</tr>
-					</table>
+				<div class="col-md-3 col-sm-6">
+					<div>{{actor}}</div>
+					{{#if actor2}}
+						<div>{{actor2}}</div>
+					{{/if}}
+					<div>&nbsp;</div>
+				</div>
+        <div class="clearfix visible-sm-block"></div>
+				<div class="col-md-3 col-sm-6">
+					<div>{{location-top}}</div>
+					<div>
+						{{#each location}}
+							<div>{{this}}</div>
+						{{/each}}
+						{{#if map}}
+						<button class='btn btn-primary btn-xs map-link' data-link="{{{map}}}">map</button>
+						{{/if}}
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					{{#if programme}}
+					<div class="detail"><a href="{{programme}}" target="_blank">Programme</a> 				</div>
+					{{/if}}
+					{{#if crib}}
+					<div class="detail"><a href="{{crib}}">Crib with diagrams</a> </div>
+					{{/if}}
+
+					{{#each details}}
+					<div class="detail">
+						{{#if external-link}}
+						<a href="{{external-link}}" target="_blank">{{name}}</a>
+						{{/if}}
+						{{#if link}}
+						<a href="{{link}}">{{name}}</a>
+						{{/if}}
+					</div>
+					{{/each}}
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
+		</li>
+	</ul>
 {{/each}}
-
-

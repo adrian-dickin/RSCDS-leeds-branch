@@ -5,63 +5,47 @@ pageDescription: "Leeds RSCDS Branch classes, teachers and the Facebook class gr
 ---
 <div class='body_text'>
 
-<div class="class-panel section">
-	<div class="class-table">
-		<div class="class-row">
-			<div class="class-cell">
-				<h3>Spring Term 2017</h3>
-				<div>W/C 9th Jan to W/C 3rd Apr 2017</div>
-				<div><b>Fees:</b> &pound;4.00 per class </div>
-				<div>Multi Class term ticket £52</div>
-				<div>(&frac12; price for those in full time education)</div>
-			</div>
-			<div class="class-cell">
-				<h3>Facebook</h3>
-				<div>The <a href="https://www.facebook.com/groups/1675335139346252/">Leeds Branch Classes</a> facebook group provides information on class changes, such as cancellations.</div>
-				<div>To see updates click and request to join the group.</div>
-			</div>
-		</div>
+
+<div class="row">
+	<div class="col-sm-6 bottom-gap">
+		<h3>Spring Term 2017</h3>
+		<div>W/C 9th Jan to W/C 3rd Apr 2017</div>
+		<div><b>Fees:</b> &pound;4.00 per class </div>
+		<div>Multi Class term ticket £52</div>
+		<div>(&frac12; price for those in full time education)</div>
+	</div>
+	<div class="col-sm-6 bottom-gap">
+		<h3>Facebook</h3>
+		<div>The <a href="https://www.facebook.com/groups/1675335139346252/">Leeds Branch Classes</a> facebook group provides information on class changes, such as cancellations.</div>
+		<div>To see updates click and request to join the group.</div>
 	</div>
 </div>
 
+
+<ul class="list-group">
 {{#each data-classes.classes}}
-<div class="class-block">
-	<div class="class-panel">
-		<div class="class-table">
-			<div class="class-row">
-				<div class="class-cell">
-					<table class="class-table-pair">
-						<tr>
-							<td>
-							{{day}}: {{time}}
-							</td>
-							<td>
-								<div>{{level}}</div>
-								{{#each teacher}}
-								  <div><a href="branch_members.html#teachers">{{this}}</a></div>
-								{{/each}}
-							</td>
-						</tr>
-					</table>
-				</div>
-				<div class="class-cell">
-					<table class="class-table-pair">
-						<tr>
-							<td>
-							{{#each venue}}
-								<div>{{this}}</div>
-							{{/each}}
-							</td>
-							<td>
-								{{#each notes}}
-								<div>{{this}}</div>
-								{{/each}}
-							</td>
-						</tr>
-					</table>
-				</div>
+	<li class="list-group-item">
+		<div class="row">
+			<div class="col-md-3 col-xs-6">
+				{{day}}: {{time}}
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div>{{level}}</div>
+				{{#each teacher}}
+					<div><a href="branch_members.html#teachers">{{this}}</a></div>
+				{{/each}}
+			</div>
+			<div class="col-md-3 col-xs-6">
+				{{#each venue}}
+					<div>{{this}}</div>
+				{{/each}}
+			</div>
+			<div class="col-md-3 col-xs-6">
+				{{#each notes}}
+				<div>{{this}}</div>
+				{{/each}}
 			</div>
 		</div>
-	</div>
-</div>
+	</li>
 {{/each}}
+</ul>

@@ -44,91 +44,91 @@ menus:
   <title>{{pageTitle}}</title>
   <link rel="shortcut icon" type="image/png" href="images/favicon2.png" />
   {{{jsonLd}}} <!--ok-->
-  <style>
-{{#minify}}
-body {
-  	font-family: 'Open Sans', sans-serif; 
-  	padding: 0px;
-  	margin: 0px;
-}
-#banner {
-  	background: #0070BA;
-  	color: white;
-  	position: fixed;
-  	width: 100%;
-  	height: 130px;
-  	top: 0px;
-    z-index: 50;
-}
-.menu-text-bar-wrapper {
-  	position: absolute;
-  	top: 106px;
-  	width: 100%;
-}
-.menu-text-bar {
-  	text-align: center;
-  	vertical-align: top;
-  	background: #B0C8EA;
-}
-#main-nav {
-	display: none;
-}
-{{/minify}}
-  </style>
 </head>
 {{#minify}}
 <body>
-	<div id="banner">
+	<!--div id="banner">
 		<div class="banner-logo logo"></div>
 		<div class="banner-logo dance-scottish-logo"></div>
 		<div class="menu-text-bar-wrapper">
-			<div class="menu-text-bar">					
+			<div class="menu-text-bar">
 
-				<div id="main-nav" role="navigation">
-				
-					<!-- Mobile menu toggle button (hamburger/x icon) -->
-					<input id="main-menu-state" type="checkbox" />
-					<label class="main-menu-btn" for="main-menu-state">
-					  <span class="main-menu-btn-icon"></span> Toggle main menu visibility
-					</label>
-		
-					<ul id="main-menu" class="sm sm-mint">
-					{{#each menus}}
-						<li>{{#if page}} <a href="{{page}}.html">{{name}}</a>
-							{{/if}}
-							{{#if items}}
-							<a href="#">{{name}}</a>
-							<ul>
-							{{#each items}}
-								<li><a href="{{page}}">{{name}}</a>
-								</li>
-							{{/each}}
-							</ul>
-							{{/if}}
-					{{/each}}
-					</ul>
-				</div>
+
 
 			</div>
 		</div>
-	</div>
-	
-	
-	
+	</div-->
 
-<div style="height: 140px">
+ <div class="container-fluid">
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+       <a class="navbar-brand" href="#">Leeds RSCDS</a>
+     </div>
+     <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        {{#each menus}}
+
+          {{#if page}}<li><a href="{{page}}.html">{{name}}</a></li>{{/if}}
+
+          {{#if items}}
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{name}} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                {{#each items}}
+                  <li><a href="{{page}}">{{name}}</a></li>
+                {{/each}}
+              </ul>
+            </li>
+          {{/if}}
+
+        {{/each}}
+      </ul>
+     </div>
+
+   </nav>
+
+
+
+  <div style="height: 68px">
+  </div>
+
+  {{> body  }}
+
+  <div style="height: 68px">
+  </div>
 </div>
 
-{{> body  }} 
+{{#if footer}}
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container-fluid" style="margin-top: 10px">
+    <div class="col-md-4">
+			<a href="http://www.facebook.com/pages/Rscds-Leeds-Branch/134876863288229?sk=wall"><div class="facebook"></div></a>
+		</div>
+		<div class="col-md-4">
+		  <a href="https://twitter.com/RSCDSLeeds" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @RSCDSLeeds</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
+    <div class="col-md-4 text-right">
+  	{{{email 'adrian@setandlink.org.uk'}}}
+  	</div>
+  </div>
 
-<link rel="stylesheet" href="stylesheets/site.css?{{ fileHash 'dist/stylesheets/site.css' 10 }}">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="vendor/smartmenu.css">
-  
+</nav>
+{{/if}}
+
+<link rel="stylesheet" href="vendor/bootstrap-3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheets/site.css">
+
 <script src="vendor/jquery-1.12.3.min.js"></script>
-<script src="vendor/jquery.smartmenus.min.js"></script>
+<script src="vendor/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script src="javascripts/site.js?{{ fileHash 'dist/javascripts/site.js' 10 }}"></script>
-  
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -142,10 +142,9 @@ body {
 
 <script>
 $(document).ready(function() {
-	setupMenu();
     headerScroll();
   	{{#each scripts}}
-  		{{this}} 
+  		{{this}}
   	{{/each}}
  });
 </script>

@@ -1,5 +1,6 @@
 ---
 pageTitle: "RSCDS Leeds Branch"
+footer: true
 scripts: ["eventLinks();",
           "handleEmailLinks();"]
 pageDescription: The Leeds branch of the Royal Scottish Country Dance Society.
@@ -17,119 +18,45 @@ jsonLd: |
         }
     </script>
 ---
-<div id="upcoming-events">
-	<div class="home-event-table">
-	    <!--div class="msg">
-        </div-->
-		<div class="home-event-row">
-			<div class="home-event-cell">
-				<h2>Branch Events</h2>
-				<table class="home-event-table-table">
-				{{#list data_events.events}}
-					<tr>
-						<td class="col1">{{date}}
-						</td>
-						<td class="col2">
-							{{#if event}}<a href="events.html">{{event}}</a>{{/if}}
-							{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-						</td>
-					</tr>
-				{{/list}}
-				</table>
-			</div>
-			<div class="home-event-cell">
-				<h2>Local Events</h2>
-				<table class="home-event-table-table">
-				{{#list data_events.leeds_events}}
-					<tr>
-						<td class="col1">{{date}}
-						</td>
-						<td class="col2">
-							{{#if event}}<a href="leeds_events.html">{{event}}</a>{{/if}}
-							{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-						</td>
-					</tr>
-				{{/list}}
-				</table>
-			</div>
-		</div>
-		<div class="home-event-row">
-			<div class="home-event-cell">
-				<h2>Day Events</h2>
-				<table class="home-event-table-table">
-				{{#list data_events.special_events}}
-					<tr>
-						<td class="col1">{{date}}
-						</td>
-						<td class="col2">
-							{{#if event}}<a href="special_events.html">{{event}}</a>{{/if}}
-							{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-						</td>
-					</tr>
-				{{/list}}
-				</table>
-			</div>
-			<div class="home-event-cell">
-				<h2>Weekend Events</h2>
-				<table class="home-event-table-table">
-				{{#list data_events.weekend_events}}
-					<tr>
-						<td class="col1">{{date}}
-						</td>
-						<td class="col2">
-							{{#if event}}<a href="weekend_events.html">{{event}}</a>{{/if}}
-							{{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-						</td>
-					</tr>
-				{{/list}}
-				</table>
-			</div>
-		</div>
-	</div>
+<div class="row">
+  {{>home-events title="Branch Events" events=data_events.events page="events.html"}}
+  {{>home-events title="Local Events" events=data_events.leeds_events page="leeds_events.html"}}
+</div>
+<div class="row">
+  {{>home-events title="Day Events" events=data_events.special_events page="special_events.html"}}
+  {{>home-events title="Weekend Events" events=data_events.weekend_events page="weekend_events.html"}}
 </div>
 
-<div id="menu-button-bar">
-	<div class="menu-button-wrapper">
-		<a href="about_scottish.html">
-			<div class="menu-button menu-dancers1-button"></div>
-			<h3>New to Scottish Dancing</h3>
-		</a>
-		What is Scottish Country Dancing and why take it up.
-	</div>
-	<div class="menu-button-wrapper">
-		<a href="events.html">
-		  <div class="menu-button menu-events-button"></div>
-		  <h3>Branch Events</h3>
-		</a>
-	</div>
-	
-	<div class="menu-button-wrapper">
-		<a href="white_rose_festival.html">
-		  <div class="menu-button menu-whiterose-button"></div>
-		  <h3>White Rose Festival</h3>
-		</a>
-	</div>	
-	
-	<div class="menu-button-wrapper">
-		<a href="http://rscdsleeds.uk/index.php" target="_blank">
-			<div class="menu-button menu-shopping-button"></div>
-			<h3>Branch Shop</h3>
-		</a>		
-	</div>
+<br />
+<br />
+
+<div class="row">
+  <div class="col-md-offset-2 col-md-2 col-sm-6 text-center bottom-gap2">
+    <a href="about_scottish.html">
+      <div class="menu-button menu-dancers1-button"></div>
+      <h4>New to Scottish Dancing</h4>
+    </a> What is Scottish Country Dancing and why take it up.
+  </div>
+  <div class="col-md-2 text-center col-sm-6 bottom-gap2">
+    <a href="events.html">
+      <div class="menu-button menu-events-button"></div>
+      <h4>Branch Events</h4>
+    </a>
+  </div>
+  <div class="clearfix visible-sm-block"></div>
+  <div class="col-md-2 text-center col-sm-6 bottom-gap2">
+    <a href="white_rose_festival.html">
+      <div class="menu-button menu-whiterose-button"></div>
+      <h4>White Rose Festival</h4>
+    </a>
+  </div>
+  <div class="col-md-2 text-center col-sm-6 bottom-gap2">
+    <a href="http://rscdsleeds.uk/index.php" target="_blank">
+      <div class="menu-button menu-shopping-button"></div>
+      <h4>Branch Shop</h4>
+    </a>
+  </div>
 </div>
 
-<div class="footer_area">
-	<div class="footer-social">
-		<div class="facebook_wrapper">
-			<a href="http://www.facebook.com/pages/Rscds-Leeds-Branch/134876863288229?sk=wall"><div class="facebook"></div></a>
-		</div>
-		<div class="twitter_wrapper">		
-		  <a href="https://twitter.com/RSCDSLeeds" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @RSCDSLeeds</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-		</div>
-	</div>
-	<div class="webmaster_wrapper">
-	{{{email 'adrian@setandlink.org.uk'}}}
-	</div>
+<div style="height: 68px">
 </div>
-

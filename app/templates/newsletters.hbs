@@ -129,19 +129,16 @@ newsletters:
 pageDescription: "Some of the Leeds RSCDS newsletters available to members"
 ---
 
-<div class='body_text'>
+<h1>Leeds Newsletters</h1>
+<ul class="list-group">
 
-	<h1>Leeds Newsletters</h1>
-
-	<table class="newsletter-table">
 {{#each newsletters}}
-		<tr>
-			<td>{{month}}</td>
-			<td>{{year}}</td>
-			<td><a href="http://www.rscdsleeds.org.uk/Newsletter/{{{filename}}}">view</a></td>
-		</tr>
+	<li class="list-group-item">
+    <div class="row">
+  		<div class="col-md-2 col-xs-4">{{month}}</div>
+  		<div class="col-md-2 col-xs-4">{{year}}</div>
+  		<div class="col-md-4 col-xs-4"><a href="http://www.rscdsleeds.org.uk/Newsletter/{{{filename}}}">view</a></div>
+    </div>
+	</li>
 {{/each}}
-	</table>
-
-
-</div>
+</ul>

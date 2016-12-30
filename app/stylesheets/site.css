@@ -1,0 +1,84 @@
+.bottom-gap {
+  margin-bottom: 10px;
+}
+.bottom-gap2 {
+  margin-bottom: 20px;
+}
+
+.facebook {
+	background: url("../images/FB-FindUsonFacebook-online-114.png");
+	width: 114px;
+	height: 21px;
+	display: inline-block;
+}
+
+.video-block {
+    float: left;
+    margin-right: 8px;
+}
+
+.scalable-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.menu-button {
+	margin: 8px auto 8px auto;
+	border-radius: 42px;
+	border: 2px solid #B0C8EA;
+	width: 84px;
+	height: 84px;
+}
+
+.menu-button:hover {
+	border: 2px solid #0070ba;
+}
+
+.menu-button-wrapper {
+	color: #0070ba;
+	width: 210px;
+	margin: 20px 10px 0px 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.menu-button-wrapper a {
+	text-decoration: none;
+}
+
+.menu-shopping-button {
+	background:  url("../images/Shopping Basket Black-sml.png") no-repeat 11px 11px;
+}
+.menu-shopping-button:hover {
+	background: #0070ba url("../images/Shopping Basket White-sml.png") no-repeat 11px 11px;
+}
+
+.menu-events-button {
+	background:  url("../images/Calendar Black-sml.png") no-repeat 10px 9px;
+}
+.menu-events-button:hover {
+	background: #0070ba url("../images/Calendar White-sml.png") no-repeat 10px 9px;
+}
+
+.menu-dancers1-button {
+	background: white url("../images/Dances 1 Black-sml.png") no-repeat 10px 13px;
+}
+.menu-dancers1-button:hover {
+	background: #0070ba url("../images/Dances 1 White-sml.png") no-repeat 10px 13px;
+}
+
+.menu-news-button {
+	background:  url("../images/News 2 Black-sml.png") no-repeat 14px 10px;
+}
+.menu-news-button:hover {
+	background: #0070ba url("../images/News 2 White-sml.png") no-repeat 14px 10px;
+}
+
+.menu-whiterose-button {
+	background: white url("../images/Dances 2 Black-sml.png") no-repeat 10px 13px;
+}
+.menu-whiterose-button:hover {
+	background: #0070ba url("../images/Dances 2 White-sml.png") no-repeat 10px 13px;
+}

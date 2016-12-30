@@ -1,0 +1,18 @@
+<div class="col-md-6">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">{{title}}</h3>
+    </div>
+    <div class="panel-body">
+      {{#list events}}
+        <div class="row">
+          <div class="col-xs-3">{{date}}</div>
+          <div class="col-xs-9">
+            {{#if event}}<a href="{{../../page}}">{{event}}</a>{{/if}}
+            {{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+          </div>
+        </div>
+      {{/list}}
+    </div>
+  </div>
+</div>

@@ -4,7 +4,7 @@ scripts: ["handleMaps();" ]
 pageDescription: "Weekend schools run by the Leeds RSCDS branch"
 jsonLd: |
     <script type="application/ld+json">[
-    <%  
+    <%
     var events = data_events.weekend_events;
     for(var i=0; i < events.length; i++) {
     	var event = events[i];
@@ -28,6 +28,4 @@ jsonLd: |
     %>]
     </script>
 ---
-<div class='body_text'>
 {{>events-table data_events.weekend_events}}
-</div>
