@@ -22,13 +22,7 @@ module.exports = function(grunt) {
 				  src: ['app/stylesheets/*.css'],
 				  dest: 'dist/stylesheets/site.css',
 				}]
-			  } /*,
-			vendor: {
-				files: [{
-					src: ['app/vendor/sm-core-css.css', 'app/vendor/sm-branch.css'],
-					dest: 'dist/vendor/smartmenu.css'
-				}]
-			}*/
+			  }
 		},
 		
 		copy: {

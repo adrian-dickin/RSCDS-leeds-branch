@@ -1,25 +1,3 @@
-function headerScroll() {
-	var handler = function() {
-		var banner = $('#banner').height();
-		var st = $(this).scrollTop();
-		var win = $(window).height();
-		var doc = $(document).height();
-		if (st > 108) {
-		   $('#banner').css({top: '-108px'});
-		   $('#banner').addClass('shadow_under');
-		   $('.banner-logo').css({opacity: 0});
-		} else {
-		   $('#banner').css({top: -st + 'px'});
-		   $('#banner').removeClass('shadow_under');
-		   
-		   $('.banner-logo').css({opacity: (1 - st/108)});
-		}
-	};
-	$(window).scroll(handler);
-
-	handler();
-};
-
 function handleEmailLinks() {
 	$('a.emailLink').click(function() {
 		var encodedEmail = $(this).attr('data-addr');
@@ -43,7 +21,7 @@ function eventLinks() {
 
 function setupMenu() {
   $('#main-menu').smartmenus();
-  	
+
   var $mainMenuState = $('#main-menu-state');
   if ($mainMenuState.length) {
     // animate mobile menu
