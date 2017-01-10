@@ -59,7 +59,7 @@
   		"date2": "2017",
   		"startdate": "2017-01-14T19:00",
   		"event": "Club Dance",
-  		"time": "7:00pm",
+  		"time": "7:00pm - 10:00pm",
   		"actor": "Music: recorded",
   		"actor2": "MC: Helen Brown",
   		"location_top": "Cookridge Village Hall",
@@ -88,7 +88,55 @@
   		],
   		"programme": "http://my.strathspey.org/dd/list/2459/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-presidents-dance-28th-january-2017.pdf"
-  	}
+  	},
+    {
+  		"date": "11th Feb",
+  		"date2": "2017",
+  		"startdate": "2017-02-11T19:00",
+  		"event": "Club Dance",
+  		"time": "7:00pm - 10:00pm",
+  		"actor": "Music: recorded",
+  		"actor2": "MC: Gerry Yates",
+  		"location_top": "St Chad's Parish Centre (Small Hall)",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+  		"programme": "http://my.strathspey.org/dd/list/1580/",
+  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-11Feb17.pdf"
+  	},
+    {
+      "date": "25th Feb",
+      "date2": "2017",
+      "startdate": "2017-02-25T19:30",
+      "event": "Club Dance",
+      "event_desc": "Sponsored by Alec Green’s Legacy",
+      "time": "7:30pm - 10:45pm",
+      "actor": "Music: Ian Slater",
+      "actor2": "MC: Irene Dracup",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "programme": "http://my.strathspey.org/dd/list/3259/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-25Feb17.pdf"
+    },
+    {
+      "date": "29th Dec",
+      "date2": "2017",
+      "startdate": "2017-12-29T19:30",
+      "event": "St Columba",
+      "event_desc": "Hogmanay Dance",
+      "location_top": "St Columba United Reformed Church",
+      "location": [
+        "70 Headingley Lane",
+        "Leeds",
+        "LS6 2DH"
+      ]
+    }
   ],
 
 "special_events": [
