@@ -152,7 +152,12 @@
   			"Roundhay",
   			"Leeds",
   			"LS8 1JN"
-  		]
+  		],
+      "details": [
+  			{"name": "Application form",
+  			 "link": "documents/Rscds Musician's day school 2017.pdf"}
+       ]
+
   	}
 	],
 	"weekend_events": [
