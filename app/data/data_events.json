@@ -55,24 +55,6 @@
 
 "leeds_events": [
   	{
-  		"date": "14th Jan",
-  		"date2": "2017",
-  		"startdate": "2017-01-14T19:00",
-  		"event": "Club Dance",
-  		"time": "7:00pm - 10:00pm",
-  		"actor": "Music: recorded",
-  		"actor2": "MC: Helen Brown",
-  		"location_top": "Cookridge Village Hall",
-  		"location": [
-  			"Moseley Wood Lane",
-  			"Cookridge",
-  			"Leeds",
-  			"LS16 7ER"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/2883/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-14Jan17.pdf"
-  	},
-  	{
   		"date": "28th Jan",
   		"date2": "2017",
   		"startdate": "2017-01-28T19:30",
