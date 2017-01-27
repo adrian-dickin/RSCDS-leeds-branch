@@ -16,8 +16,36 @@
   		],
   		"programme": "http://my.strathspey.org/dd/list/3207/",
   		"crib": "http://www.rscdsleeds.org.uk/Socials/18Feb17.pdf"
-  	}
-  ],
+  },
+  {
+      "date": "18th Mar",
+      "date2": "2017",
+      "startdate": "2017-03-18T19:30",
+      "time": "7:30pm",
+      "event": "Branch Dance",
+      "actor": "Music: Ian Slater",
+      "location_top": "Otley Methodist Church Hall",
+      "location": [
+          "Otley"
+      ]
+  },
+  {
+      "date": "20th May",
+      "date2": "2017",
+      "startdate": "2017-05-20T19:30",
+      "time": "7:30pm",
+      "event": "Branch Dance",
+      "actor": "Music: Ian Muir ",
+      "location_top": "St Edmund’s Church Hall",
+      "location": [
+        "Lidgett Park Road",
+        "Roundhay",
+        "Leeds",
+        "LS8 1JN"
+      ]
+  }
+
+],
 
 "leeds_events": [
   	{
