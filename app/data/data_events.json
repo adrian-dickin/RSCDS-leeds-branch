@@ -24,10 +24,14 @@
       "time": "7:30pm",
       "event": "Branch Dance",
       "actor": "Music: Ian Slater",
+      "actor2": "MC: Nicola Waugh and Heather Cooke",
       "location_top": "Otley Methodist Church Hall",
       "location": [
+          "(between Boroughgate and Walkergate)",
           "Otley"
-      ]
+      ],
+      "programme": "http://my.strathspey.org/dd/list/10374/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/18Mar17.pdf"
   },
   {
       "date": "20th May",
@@ -48,23 +52,6 @@
 ],
 
 "leeds_events": [
-  	{
-  		"date": "28th Jan",
-  		"date2": "2017",
-  		"startdate": "2017-01-28T19:30",
-  		"event": "Club Dance",
-  		"time": "7:30pm - 10:45pm",
-  		"actor": "Music: Alan Ross Duo",
-  		"actor2": "MC: Alice Smith",
-  		"location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/2459/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-presidents-dance-28th-january-2017.pdf"
-  	},
     {
   		"date": "11th Feb",
   		"date2": "2017",
