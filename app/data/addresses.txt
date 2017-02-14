@@ -39,10 +39,17 @@
       "HG5 0JN"
       ],
 
-      
+
       "location_top": "Queens Hall",
   		"location": [
   		    "Immaculate Heart Church",
   		    "294 Harrogate Road",
   		    "LS17 6LE"
+  		],
+
+      "location_top": "Cookridge Village Hall,",
+  		"location": [
+  		    "Moseley Wood Lane",
+  		    "Cookridge",
+  		    "LS16 7ER"
   		],

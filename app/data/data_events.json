@@ -109,6 +109,23 @@
       "crib": "http://www.rscdsleeds.org.uk/Socials/club-25Feb17.pdf"
     },
     {
+      "date": "11th Mar",
+      "date2": "2017",
+      "startdate": "2017-03-11T19:00",
+      "event": "Club Dance",
+      "time": "7:00pm",
+      "actor": "Music: recorded",
+      "actor2": "MC: Don Andrews",
+      "location_top": "Cookridge Village Hall,",
+  	  "location": [
+  		    "Moseley Wood Lane",
+  		    "Cookridge",
+  		    "LS16 7ER"
+  		],
+      "programme": "http://my.strathspey.org/dd/list/10564/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-11Mar17.pdf"
+    },
+    {
       "date": "29th Dec",
       "date2": "2017",
       "startdate": "2017-12-29T19:30",
@@ -158,7 +175,11 @@
   			{"name": "Form 1",
   			 "link": "documents/Scarborough form p1.pdf"},
   			{"name": "Form 2",
-  			 "link": "documents/Scarborough form p2.pdf"}
+  			 "link": "documents/Scarborough form p2.pdf"},
+        {"name": "Friday crib",
+         "external-link": "http://my.strathspey.org/dd/list/10595/"},
+        {"name": "Saturday crib",
+        "external-link": "http://my.strathspey.org/dd/list/10596/"}
   		]
   	},
     {
