@@ -7,6 +7,7 @@
       "time": "7:30pm",
   		"event": "Branch Dance",
   		"actor": "Music: Nicol MacLaren & Muscians' Workshop Participants",
+      "actor2": "MC: Don Andrews",
   		"location_top": "St Edmund’s Church Hall",
   		"location": [
   			"Lidgett Park Road",
@@ -73,23 +74,6 @@
 ],
 
 "leeds_events": [
-    {
-  		"date": "11th Feb",
-  		"date2": "2017",
-  		"startdate": "2017-02-11T19:00",
-  		"event": "Club Dance",
-  		"time": "7:00pm - 10:00pm",
-  		"actor": "Music: recorded",
-  		"actor2": "MC: Gerry Yates",
-  		"location_top": "St Chad's Parish Centre (Small Hall)",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/1580/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/club-11Feb17.pdf"
-  	},
     {
       "date": "25th Feb",
       "date2": "2017",
