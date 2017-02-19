@@ -1,23 +1,5 @@
 {
   "events": [
-  	{
-  		"date": "18th Feb",
-  		"date2": "2017",
-  		"startdate": "2017-02-18T19:30",
-      "time": "7:30pm",
-  		"event": "Branch Dance",
-  		"actor": "Music: Nicol MacLaren & Muscians' Workshop Participants",
-      "actor2": "MC: Don Andrews",
-  		"location_top": "St Edmund’s Church Hall",
-  		"location": [
-  			"Lidgett Park Road",
-  			"Roundhay",
-  			"Leeds",
-  			"LS8 1JN"
-  		],
-  		"programme": "http://my.strathspey.org/dd/list/3207/",
-  		"crib": "http://www.rscdsleeds.org.uk/Socials/18Feb17.pdf"
-  },
   {
       "date": "18th Mar",
       "date2": "2017",
@@ -126,21 +108,20 @@
 
 "special_events": [
   	{
-  		"date": "18th Feb",
+  		"date": "8th Jul",
   		"date2": "2017",
-  		"startdate": "2017-02-18",
-  		"event": "Musicians’ Workshop",
-  		"actor": "Teacher: Nicol MacLaren",
-  		"location_top": "St Edmund’s Church Hall",
+  		"startdate": "2017-07-08",
+  		"event": "White Rose Festival",
+  		"actor": "Music: Neil Hardie and his Scottish Dance Band",
+  		"location_top": "The Gateways School",
   		"location": [
-  			"Lidgett Park Road",
-  			"Roundhay",
+  			"Harewood",
   			"Leeds",
-  			"LS8 1JN"
+  			"LS17 9LE"
   		],
       "details": [
-  			{"name": "Application form",
-  			 "link": "documents/Rscds Musician's day school 2017.pdf"}
+  			{"name": "White Rose Festival website",
+  			 "external-link": "http://whiterosefestival.uk/"}
        ]
 
   	}
