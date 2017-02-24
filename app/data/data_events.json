@@ -91,6 +91,42 @@
       "programme": "http://my.strathspey.org/dd/list/10564/",
       "crib": "http://www.rscdsleeds.org.uk/Socials/club-11Mar17.pdf"
     },
+
+    {
+      "date": "25th Mar",
+      "date2": "2017",
+      "startdate": "2017-03-25T19:30",
+      "event": "Club Dance",
+      "time": "7:30pm",
+      "actor": "Music: Neil Barron",
+      "actor2": "MC: Alan Fox",
+      "location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+      "programme": "http://my.strathspey.org/dd/list/10780/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-25th-march-2017.pdf"
+    },
+    {
+      "date": "8th Apr",
+      "date2": "2017",
+      "startdate": "2017-04-08T19:00",
+      "event": "Club Dance",
+      "time": "7:00pm",
+      "actor": "Music: Recorded",
+      "actor2": "MC: Jan Robinson",
+      "location_top": "Cookridge Village Hall,",
+  		"location": [
+  		    "Moseley Wood Lane",
+  		    "Cookridge",
+  		    "LS16 7ER"
+  		],
+      "programme": "http://my.strathspey.org/dd/list/10783/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-8th-april-2017.pdf"
+    },
+
     {
       "date": "29th Dec",
       "date2": "2017",
