@@ -82,3 +82,28 @@
 .menu-whiterose-button:hover {
 	background: #0070ba url("../images/Dances 2 White-sml.png") no-repeat 10px 13px;
 }
+
+
+.calendar table {
+  border-collapse: collapse;
+  border: 1px solid green;
+}
+.calendar td {
+  width: 13%;
+  border: 1px solid #e0e0ff;
+  padding: 4px;
+  text-align: center;
+}
+.calendar td.first-column {
+  width: 9%;
+  font-size: 120%;
+  font-weight: bold;
+}
+.calendar td.shade {
+  background-color: #f0f0ff;
+}
+
+.calendar tr td.today {
+    background-color: #303090;
+    color: white;
+}

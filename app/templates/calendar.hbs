@@ -1,0 +1,52 @@
+---
+pageTitle: "Dancing calendar"
+scripts: []
+pageDescription: "Scottish Country Dancing calendar for the Leeds area"
+---
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Months</h3>
+      </div>
+      <table class="calendar" style="width: 100%">
+      {{#calendar}}
+        {{#each weeks}}
+        <tr>
+          {{#if @first}}
+            <td rowspan="{{../../numberOfWeeks}}" class="first-column">
+              {{#each ../../name}}
+                {{this}}<br>
+              {{/each}}
+            </td>
+          {{/if}}
+          {{#each this}}
+          <td class="{{#if shade}}shade{{/if}} {{#if today}}today{{/if}}" style="position: relative">
+            {{day}}
+            {{#if eventDetails.isBranch}}<div style="position: absolute; top:-2px; right:0px; font-weight: bold; color: red">B</div>{{/if}}
+            {{#if eventDetails.isLocal}}<div style="position: absolute; top:-2px; left:0px; font-weight: bold; color: red">L</div>{{/if}}
+          </td>
+          {{/each}}
+        </tr>
+        {{/each}}
+
+      {{/calendar}}
+      </table>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <ul class="list-group">
+      {{#calendarEvents}}
+  		<li class="list-group-item">
+  			<div class="row">
+          <div class="col-md-6">
+            <h4 class="list-group-item-heading">{{date}} {{date2}}</h4>
+          </div>
+        </div>
+      </li>
+      {{/calendarEvents}}
+    </ul>
+
+  </div>
+</div>

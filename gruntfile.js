@@ -33,6 +33,11 @@ module.exports = function(grunt) {
 			dest: 'dist/',
 			filter: 'isFile'
 		  },
+		  index_copy: {
+			src: 'dist/index.html',
+			dest: 'dist/index.htm',
+			filter: 'isFile'
+		  },
 		  image_files: {
 		    expand: true,
 			src: 'app/images/*.*',
@@ -41,6 +46,7 @@ module.exports = function(grunt) {
 			filter: 'isFile'
 		  },		
 		},
+		
 		concat: {
 			dist: {
 			  src: 'app/javascripts/*.js',
@@ -67,5 +73,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-sitemap');
-	grunt.registerTask('default', ['clean', 'cssmin', 'copy', 'concat', 'assemble', 'sitemap']);
+	grunt.registerTask('default', ['clean', 'cssmin', 'concat', 'assemble', 'copy', 'sitemap']);
 };
