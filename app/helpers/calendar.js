@@ -41,6 +41,7 @@ module.exports.register = function(Handlebars) {
       },
 
       getDateStr: function(year, month, day) {
+          month++;
           var monthStr = (month < 10) ? '0'+month: ''+month;
           var dayStr = (day < 10) ? '0'+day: ''+day;
           return `${year}-${monthStr}-${dayStr}`;
@@ -170,6 +171,10 @@ module.exports.register = function(Handlebars) {
           if (event.isLocal) {
             entry.isLocal = true;
           }
+          if (event.isSpecial) {
+            entry.isSpecial = true;
+          }
+          //TODO weekend
         });
       //  console.log(this._eventMap);
 

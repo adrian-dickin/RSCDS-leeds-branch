@@ -21,10 +21,15 @@ pageDescription: "Scottish Country Dancing calendar for the Leeds area"
             </td>
           {{/if}}
           {{#each this}}
-          <td class="{{#if shade}}shade{{/if}} {{#if today}}today{{/if}}" style="position: relative">
+          <td class="{{#if shade}}shade{{/if}} {{#if today}}today{{/if}}">
+            <div style="float: left; font-size: 80%; width: 16px; min-height: 10px; color: red; font-weight: bold">
+              {{#if eventDetails.isLocal}}L<br>{{/if}}
+            </div>
             {{day}}
-            {{#if eventDetails.isBranch}}<div style="position: absolute; top:-2px; right:0px; font-weight: bold; color: red">B</div>{{/if}}
-            {{#if eventDetails.isLocal}}<div style="position: absolute; top:-2px; left:0px; font-weight: bold; color: red">L</div>{{/if}}
+            <div style="float: right; font-size: 80%; width: 16px; min-height: 10px; color: red; font-weight: bold">
+              {{#if eventDetails.isBranch}}B<br>{{/if}}
+              {{#if eventDetails.isSpecial}}S<br>{{/if}}
+            </div>
           </td>
           {{/each}}
         </tr>
@@ -42,6 +47,14 @@ pageDescription: "Scottish Country Dancing calendar for the Leeds area"
   			<div class="row">
           <div class="col-md-6">
             <h4 class="list-group-item-heading">{{date}} {{date2}}</h4>
+            <div style="position: absolute; left: 2px; top: -2px; color: red; font-size: 80%; font-weight: bold">
+              {{#if isLocal}}L<br>{{/if}}
+              {{#if isBranch}}B<br>{{/if}}
+              {{#if isSpecial}}S<br>{{/if}}
+            </div>
+          </div>
+          <div class="col-md-6">
+              {{event}}
           </div>
         </div>
       </li>
