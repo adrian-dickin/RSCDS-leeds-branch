@@ -1,15 +1,26 @@
 ---
 pageTitle: "Dancing calendar"
-scripts: []
+scripts: ['showToday();',
+          'calendarPopovers();']
 pageDescription: "Scottish Country Dancing calendar for the Leeds area"
 ---
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-7">
     <div class="panel panel-primary">
       <div class="panel-heading">
         <h3 class="panel-title">Months</h3>
       </div>
-      <table class="calendar" style="width: 100%">
+      <table class="calendar">
+        <tr style="color: white; background: #2fa4e7">
+          <th class="first-column"></th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
       {{#calendar}}
         {{#each weeks}}
         <tr>
@@ -21,15 +32,16 @@ pageDescription: "Scottish Country Dancing calendar for the Leeds area"
             </td>
           {{/if}}
           {{#each this}}
-          <td class="{{#if shade}}shade{{/if}} {{#if today}}today{{/if}}">
-            <div style="float: left; font-size: 80%; width: 16px; min-height: 10px; color: red; font-weight: bold">
-              {{#if eventDetails.isLocal}}L<br>{{/if}}
-            </div>
-            {{day}}
-            <div style="float: right; font-size: 80%; width: 16px; min-height: 10px; color: red; font-weight: bold">
-              {{#if eventDetails.isBranch}}B<br>{{/if}}
-              {{#if eventDetails.isSpecial}}S<br>{{/if}}
-            </div>
+          <td id="{{dayId}}" class="{{#if shade}}shade{{/if}}">
+            <div class="day">{{day}}</div>
+            {{#if eventDetails.hasEvent}}
+              <button class="btn btn-primary btn-xs pull-left" data-toggle="popover" data-id="{{eventDetails.key}}" data-html="true">
+                {{#if eventDetails.isLocal}}L{{/if}}
+                {{#if eventDetails.isBranch}}B{{/if}}
+                {{#if eventDetails.isSpecial}}S{{/if}}
+                {{#if eventDetails.isWeekend}}W{{/if}}
+              </button>
+            {{/if}}
           </td>
           {{/each}}
         </tr>
@@ -40,20 +52,20 @@ pageDescription: "Scottish Country Dancing calendar for the Leeds area"
     </div>
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-5">
     <ul class="list-group">
       {{#calendarEvents}}
   		<li class="list-group-item">
   			<div class="row">
-          <div class="col-md-6">
-            <h4 class="list-group-item-heading">{{date}} {{date2}}</h4>
-            <div style="position: absolute; left: 2px; top: -2px; color: red; font-size: 80%; font-weight: bold">
-              {{#if isLocal}}L<br>{{/if}}
-              {{#if isBranch}}B<br>{{/if}}
-              {{#if isSpecial}}S<br>{{/if}}
-            </div>
+          <div class="col-xs-7">
+            <h4 class="list-group-item-heading">
+              {{#if isLocal}}<span class="badge">L</span>{{/if}}
+              {{#if isBranch}}<span class="badge">B</span>{{/if}}
+              {{#if isSpecial}}<span class="badge">S</span>{{/if}}
+              {{#if isWeekend}}<span class="badge">W</span>{{/if}}
+              {{date}} {{date2}}</h4>
           </div>
-          <div class="col-md-6">
+          <div class="col-xs-5">
               {{event}}
           </div>
         </div>
@@ -63,3 +75,5 @@ pageDescription: "Scottish Country Dancing calendar for the Leeds area"
 
   </div>
 </div>
+
+{{{eventsData}}}

@@ -18,3 +18,31 @@ function eventLinks() {
 		window.location = "events.html";
 	});
 }
+
+function showToday() {
+	var now = new Date();
+	var day = now.getDate();
+	var month = now.getMonth() + 1;
+	var id = "#day-" + day + "-" + month;
+	$(id).addClass('today');
+}
+
+function calendarPopovers() {
+	$(function () {
+	  $('[data-toggle="popover"]').popover({
+			trigger: "focus",
+			title: "Events",
+			content: function() {
+				var id = $(this).attr('data-id');
+				var eventData = events[id];
+				var html = '';
+				eventData.forEach(function(event) {
+					html += `<div>${event.name}<div>`;
+				});
+				console.log(eventData);
+				return html;
+				//events
+			}
+		})
+	});
+}

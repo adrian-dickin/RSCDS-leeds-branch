@@ -7,7 +7,7 @@
       "time": "7:30pm",
       "event": "Branch Dance",
       "actor": "Music: Ian Slater",
-      "actor2": "MC: Nicola Waugh and Heather Cooke",
+      "actor2": "MC: Nicola Waugh and Heather Cook",
       "location_top": "Otley Methodist Church Hall",
       "location": [
           "(between Boroughgate and Walkergate)",
@@ -56,24 +56,6 @@
 ],
 
 "leeds_events": [
-    {
-      "date": "11th Mar",
-      "date2": "2017",
-      "startdate": "2017-03-11T19:00",
-      "event": "Club Dance",
-      "time": "7:00pm",
-      "actor": "Music: recorded",
-      "actor2": "MC: Don Andrews",
-      "location_top": "Cookridge Village Hall,",
-  	  "location": [
-  		    "Moseley Wood Lane",
-  		    "Cookridge",
-  		    "LS16 7ER"
-  		],
-      "programme": "http://my.strathspey.org/dd/list/10564/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/club-11Mar17.pdf"
-    },
-
     {
       "date": "25th Mar",
       "date2": "2017",
@@ -137,6 +119,18 @@
         "LS18 4BH"
       ]
     },
+    {
+      "date": "8th Apr",
+      "date2": "2017",
+      "startdate": "2017-04-08",
+      "event": "Highland Day School",
+      "location_top": "St Giles Church Hall",
+  		"location": [
+  		    "Church Hill",
+  		    "Bramhope",
+  		    "LS16 9BA"
+  		]
+    },
   	{
   		"date": "8th Jul",
   		"date2": "2017",
@@ -160,6 +154,7 @@
   		"date": "28th - 30th Apr",
   		"date2": "2017",
   		"startdate": "2017-04-28",
+      "days": 3,
   		"event": "Scarborough Weekend",
   		"actor": "Teacher: Janet Johnston",
   		"actor2": "Music: George Meikle",
@@ -180,6 +175,7 @@
       "date": "1st - 3rd Dec",
       "date2": "2017",
       "startdate": "2017-12-01",
+      "days": 3,
       "event": "Malhamdale Weekend",
       "actor": "Teacher: William Williamson",
       "actor2": "Music: Màrtainn Skene",

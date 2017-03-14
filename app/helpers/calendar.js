@@ -47,9 +47,12 @@ module.exports.register = function(Handlebars) {
           return `${year}-${monthStr}-${dayStr}`;
       },
 
-      generate: function(year, month, nMonths) {
-          console.log(year, month, nMonths);
+      getEventDetails: function(year, month, dayInMonth) {
+        var dateStr = this.getDateStr(year, month, dayInMonth);
+        return this._eventMap.get(dateStr);
+      },
 
+      generate: function(year, month, nMonths) {
           var months = [];
           var monthOfWeeks = [];
 
@@ -59,21 +62,37 @@ module.exports.register = function(Handlebars) {
           var dayInMonth = 1 - monthDetails.dayInWeek;
           var i;
 
-          for(i = 0; i < 7; i++, dayInMonth++) {
-              if (dayInMonth > 0) {
-                  week[i].day = dayInMonth;
+          // First week
+          var monthShade = true;
+          for(i = 0; i < 7; i++, dayInMonth++, monthDetails.dayInWeek++) {
+              if (monthDetails.dayInWeek > 6) {
+                monthDetails.dayInWeek = 0;
               }
+              if (dayInMonth > 0) {
+                  var eventDetails = this.getEventDetails(monthDetails.year, monthDetails.month, dayInMonth);
+                  var dayId = `day-${dayInMonth}-${monthDetails.month+1}`;
+                  if (eventDetails) {
+                    eventDetails.dow = dayInMonth;
+                  }
+                  week[i] = {day: dayInMonth, dayId: dayId, shade: monthShade, eventDetails: eventDetails};
+              }
+              console.log(`--pre-- ${dayInMonth}`);
           }
           monthOfWeeks.push(week);
 
           var changedMonth;
-          var monthShade = true;
+
           for(var monthCount = 0; monthCount < 3; monthCount++) {
+              console.log(`month ${monthCount}`);
               changedMonth = false;
               var monthName = this.getMonthName(monthDetails.month);
               while (! changedMonth) {
                   week = this._newWeek();
-                  for(i = 0; i < 7; i++, dayInMonth++) {
+                  for(i = 0; i < 7; i++, dayInMonth++, monthDetails.dayInWeek++) {
+                      if (monthDetails.dayInWeek++ > 6) {
+                        monthDetails.dayInWeek = 0;
+                      }
+                      /*console.log(`--main-- ${dayInMonth}`);*/
                       if (dayInMonth > monthDetails.daysInMonth) {
                           dayInMonth = 1;
                           monthDetails = this.getMonthDetails({year: monthDetails.year, month: monthDetails.month + 1});
@@ -81,56 +100,72 @@ module.exports.register = function(Handlebars) {
                           monthShade = ! monthShade;
                       }
 
-                      var dateStr = this.getDateStr(monthDetails.year, monthDetails.month, dayInMonth);
-                      console.log(dateStr);
-                      console.log(this._eventMap.get(dateStr));
-
-                      var eventDetails = this._eventMap.get(dateStr);
-
-                      week[i] = {day: dayInMonth, shade: monthShade, eventDetails: eventDetails};
+                      var eventDetails = this.getEventDetails(monthDetails.year, monthDetails.month, dayInMonth);
+                      if (eventDetails) {
+                        eventDetails.dow = dayInMonth;
+                      }
+                      var dayId = `day-${dayInMonth}-${monthDetails.month+1}`;
+                      week[i] = {day: dayInMonth, dayId: dayId, shade: monthShade, eventDetails: eventDetails};
                   }
-                  if (dayInMonth > monthDetails.daysInMonth) {
-                      changedMonth = true;
-                  }
-
                   monthOfWeeks.push(week);
               }
               months.push({ name: monthName,
-              weeks: monthOfWeeks,
-              numberOfWeeks: monthOfWeeks.length });
+                  weeks: monthOfWeeks,
+                  numberOfWeeks: monthOfWeeks.length });
               monthOfWeeks = [];
           }
-
-        /*  var i, j;
-          for (j = 0; j < months.length; j++) {
-              var month = months[j];
-              console.log(month.name);
-              for(i = 0; i < month.weeks.length; i++) {
-                  var week = month.weeks[i].map(function(day) { return day.day; });
-                  console.log(week.join(', '));
-              }
-
-          }*/
 
           return months;
       },
 
       calcCalendar: function() {
-
-          var now = Date.now();
+          var now = /*new Date(2017, 4, 1); */  Date.now();
           var day = new Date(now);
           day.setDate(1);
 
-      //    console.log(day);
           return this.generate(day.getFullYear(), day.getMonth(), 1);
+      },
 
-  /*        var template = Handlebars.compile($('#calendar-month-template').html());
-          var html = template({months: months});
-          $('#calendar-table').html(html);*/
+      copyFlag: function(entry, event, field) {
+        if (event[field]) {
+          entry[field] = true;
+        }
+      },
+      copyFlags: function(entry, event) {
+          this.copyFlag(entry, event, 'isBranch');
+          this.copyFlag(entry, event, 'isLocal');
+          this.copyFlag(entry, event, 'isSpecial');
+          this.copyFlag(entry, event, 'isWeekend');
+          entry.hasEvent = true; // event.isBranch || event.isLocal || event.isSpecial || event.isWeekend;
+      },
+
+      getEventMapEntry: function(key) {
+        var entry;
+        if (! this._eventMap.has(key)) {
+          entry = { details: [] };
+          this._eventMap.set(key, entry);
+        } else {
+          entry = this._eventMap.get(key);
+        }
+        entry.key = key;
+        return entry;
+      },
+
+      setWeekend: function(event) {
+        var year = parseInt(event.startdate.substr(0, 4));
+        var month = parseInt(event.startdate.substr(5, 2)) - 1;
+        var day = parseInt(event.startdate.substr(8, 2)) + 1;
+        for (var i = 1; i < event.days; i++) {
+          var key = this.getDateStr(year, month, day);
+          var entry = this.getEventMapEntry(key);
+          entry.isWeekend = true;
+          entry.hasEvent = true;
+          entry.details.push({name: event.event});
+          day++;
+        }
       },
 
       getMergedEvents: function(events) {
-        console.log('getMergedEvents ' + this._mergedEvents);
         if (this._mergedEvents) {
           return this._mergedEvents;
         }
@@ -157,76 +192,58 @@ module.exports.register = function(Handlebars) {
 
         this._eventMap = new Map();
         this._mergedEvents.forEach(event => {
-          var entry;
           var key = event.startdate.substr(0, 10);
-          if (! this._eventMap.has(key)) {
-            entry = {};
-            this._eventMap.set(key, entry);
-          } else {
-            entry = this._eventMap.get(key);
+          var entry = this.getEventMapEntry(key);
+          entry.details.push({name: event.event});
+          console.log(entry);
+          this.copyFlags(entry, event);
+          if (event.isWeekend) {
+            this.setWeekend(event);
           }
-          if (event.isBranch) {
-            entry.isBranch = true;
-          }
-          if (event.isLocal) {
-            entry.isLocal = true;
-          }
-          if (event.isSpecial) {
-            entry.isSpecial = true;
-          }
-          //TODO weekend
         });
-      //  console.log(this._eventMap);
-
         return this._mergedEvents;
       }
-
   };
 
 
   console.log('loaded. .. ' + events);
-//  calendar.init();
-
-  /* Merge calendars */
-
-
 
   Handlebars.registerHelper('calendar', function(options) {
-    //console.log(options);
-    console.log('----*------------ ');
-  /*  console.log(options.data_events);
-  for(var t in options) {
-    console.log(t);
-  }
-    console.log('++++++ ++++');
-    for(var t in options.data) {
-      console.log(t);
-    }
-    console.log('+++ +++ ++++');
-    for(var t in options.data.root) {
-      console.log(t);
-    }
-    console.log('+++ ++ + ++++');
-    for(var t in options.data.root.data_events) {
-      console.log(t);
-    }*/
-//    console.log(this.data.data_events.events.length);
-    //console.log();  leeds_events
     var i;
     var html = '';
-    //console.log(this);
     var allEvents = events.getMergedEvents(options.data.root.data_events);
-//    console.log(allEvents);
-    console.log(allEvents.length);
 
     var calendar = events.calcCalendar();
-//    console.log(calendar);
     for(i = 0; i < calendar.length; i++) {
-    //  console.log(i);
       html += options.fn(calendar[i]);
     }
 
 	  return html;
+  });
+
+//
+  Handlebars.registerHelper('eventsData', function(options) {
+    console.log('aaa');
+    /*for(var i=0; i < events._eventMap.length; i++) {
+      console.log(events._eventMap[i]);
+    }*/
+    /*for(var ev of events._eventMap) {
+      console.log(ev);
+      console.log(ev.key);
+      console.log(ev.value);
+    }*/
+    var eventList = [];
+    console.log('-----');
+    events._eventMap.forEach((value, key) => {
+    //  var list = value.reduce((acc, val) => acc);
+      console.log(value);
+      var jsonValue = JSON.stringify(value.details);
+      eventList.push(`'${key}': ${jsonValue}`);
+    });
+    var eventListList = eventList.join();
+    var script = `<script>var events = { ${eventListList} }; </script>`;
+    console.log(script);
+    return script;
   });
 
 
@@ -235,7 +252,6 @@ module.exports.register = function(Handlebars) {
       var html = '';
       var allEvents = events.getMergedEvents(options.data.root.data_events);
       for(i = 0; i < allEvents.length; i++) {
-      //  console.log(i);
         html += options.fn(allEvents[i]);
       }
 
