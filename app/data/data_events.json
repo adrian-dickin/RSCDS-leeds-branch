@@ -1,22 +1,6 @@
 {
   "events": [
   {
-      "date": "18th Mar",
-      "date2": "2017",
-      "startdate": "2017-03-18T19:30",
-      "time": "7:30pm",
-      "event": "Branch Dance",
-      "actor": "Music: Ian Slater",
-      "actor2": "MC: Nicola Waugh and Heather Cook",
-      "location_top": "Otley Methodist Church Hall",
-      "location": [
-          "(between Boroughgate and Walkergate)",
-          "Otley"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/10374/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/18Mar17.pdf"
-  },
-  {
       "date": "20th May",
       "date2": "2017",
       "startdate": "2017-05-20T19:30",
@@ -108,28 +92,20 @@
 
 "special_events": [
     {
-      "date": "18th Mar",
-      "date2": "2017",
-      "startdate": "2017-03-18",
-      "event": "Children’s Festival",
-      "location_top": "The Grove Methodist Church",
-      "location": [
-        "Horsforth",
-        "Leeds",
-        "LS18 4BH"
-      ]
-    },
-    {
       "date": "8th Apr",
       "date2": "2017",
       "startdate": "2017-04-08",
       "event": "Highland Day School",
+      "actor": "Teacher: Catherine Livsey",
       "location_top": "St Giles Church Hall",
   		"location": [
   		    "Church Hill",
   		    "Bramhope",
   		    "LS16 9BA"
-  		]
+  		],
+      "details": [
+        {"name": "Form",
+         "link": "documents/Highland Day School Apr 17.pdf"}]
     },
   	{
   		"date": "8th Jul",
