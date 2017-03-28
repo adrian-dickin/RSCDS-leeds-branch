@@ -41,23 +41,6 @@
 
 "leeds_events": [
     {
-      "date": "25th Mar",
-      "date2": "2017",
-      "startdate": "2017-03-25T19:30",
-      "event": "Club Dance",
-      "time": "7:30pm",
-      "actor": "Music: Neil Barron",
-      "actor2": "MC: Alan Fox",
-      "location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-      "programme": "http://my.strathspey.org/dd/list/10780/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-25th-march-2017.pdf"
-    },
-    {
       "date": "8th Apr",
       "date2": "2017",
       "startdate": "2017-04-08T19:00",
