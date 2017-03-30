@@ -46,18 +46,34 @@
       "startdate": "2017-04-08T19:00",
       "event": "Club Dance",
       "time": "7:00pm",
-      "actor": "Music: Recorded",
-      "actor2": "MC: Jan Robinson",
-      "location_top": "Cookridge Village Hall,",
+      "actor": "Cancelled",
+      "location_top": "Cancelled,",
   		"location": [
-  		    "Moseley Wood Lane",
-  		    "Cookridge",
-  		    "LS16 7ER"
   		],
       "programme": "http://my.strathspey.org/dd/list/10783/",
       "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-8th-april-2017.pdf"
     },
-
+    {
+      "date": "29th Apr",
+      "date2": "2017",
+      "startdate": "2017-04-29T19:30",
+      "time": "7:30pm",
+      "event": "Club Dance",
+      "actor": "Music: Neil Barron",
+      "actor2": "MC: Gerry Yates",
+      "details": [
+        {"link": "http://www.rscdsleeds.org.uk/Socials/Crib 29 April 2017 (03)[1800].doc",
+         "name": "Crib Sheet"},
+        {"link": "http://www.rscdsleeds.org.uk/Socials/Club Programme 29 April 2017 (03).doc",
+         "name": "Programme"}
+      ],
+      "location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		]
+    },
     {
       "date": "29th Dec",
       "date2": "2017",
