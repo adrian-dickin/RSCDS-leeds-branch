@@ -29,10 +29,16 @@ function showToday() {
 
 function calendarPopovers() {
 	$(function () {
+		console.log('calendarPopovers');
+		console.log($('[data-toggle="popover"]').length);
 	  $('[data-toggle="popover"]').popover({
 			trigger: "focus",
 			title: "Events",
+			placement: "auto",
+			html: true,
+			viewport: '.calendar',
 			content: function() {
+				console.log('content');
 				var id = $(this).attr('data-id');
 				var eventData = events[id];
 				var html = '';

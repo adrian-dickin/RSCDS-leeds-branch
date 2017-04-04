@@ -35,12 +35,12 @@ pageDescription: "Scottish Country Dancing calendar for the Leeds area"
           <td id="{{dayId}}" class="{{#if shade}}shade{{/if}}">
             <div class="day">{{day}}</div>
             {{#if eventDetails.hasEvent}}
-              <button class="btn btn-primary btn-xs pull-left" data-toggle="popover" data-id="{{eventDetails.key}}" data-html="true">
+              <a class="btn btn-primary btn-xs pull-left" role="button" data-toggle="popover" data-id="{{eventDetails.key}}">
                 {{#if eventDetails.isLocal}}L{{/if}}
                 {{#if eventDetails.isBranch}}B{{/if}}
                 {{#if eventDetails.isSpecial}}S{{/if}}
                 {{#if eventDetails.isWeekend}}W{{/if}}
-              </button>
+              </a>
             {{/if}}
           </td>
           {{/each}}
