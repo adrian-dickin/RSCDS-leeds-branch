@@ -45,13 +45,10 @@
       "date2": "2017",
       "startdate": "2017-04-08T19:00",
       "event": "Club Dance - cancelled",
-      "time": "7:00pm",
       "actor": "Cancelled",
       "location_top": "Cancelled,",
   		"location": [
-  		],
-      "programme": "http://my.strathspey.org/dd/list/10783/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-8th-april-2017.pdf"
+  		]
     },
     {
       "date": "29th Apr",
@@ -78,18 +75,9 @@
       "date": "13th May",
       "date2": "2017",
       "startdate": "2017-05-13T19:00",
-      "time": "7:00pm",
-      "event": "Club Dance",
-      "actor": "Music: Recorded and Rob & Friends (Hands Across)",
-      "actor2": "MC: Lesley Enoch",
-      "location_top": "Cookridge Village Hall,",
-  		"location": [
-  		    "Moseley Wood Lane",
-  		    "Cookridge",
-  		    "LS16 7ER"
-  		],
-      "programme": "http://my.strathspey.org/dd/list/10873/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-may-13th-2017.pdf"
+      "event": "Club Dance - cancelled",
+      "location_top": "Cancelled",
+      "location": []
     },
     {
       "date": "27th May",
