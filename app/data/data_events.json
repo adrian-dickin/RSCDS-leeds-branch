@@ -41,16 +41,6 @@
 
 "leeds_events": [
     {
-      "date": "8th Apr",
-      "date2": "2017",
-      "startdate": "2017-04-08T19:00",
-      "event": "Club Dance - cancelled",
-      "actor": "Cancelled",
-      "location_top": "Cancelled,",
-  		"location": [
-  		]
-    },
-    {
       "date": "29th Apr",
       "date2": "2017",
       "startdate": "2017-04-29T19:30",
@@ -112,22 +102,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "8th Apr",
-      "date2": "2017",
-      "startdate": "2017-04-08",
-      "event": "Highland Day School",
-      "actor": "Teacher: Catherine Livsey",
-      "location_top": "St Giles Church Hall",
-  		"location": [
-  		    "Church Hill",
-  		    "Bramhope",
-  		    "LS16 9BA"
-  		],
-      "details": [
-        {"name": "Form",
-         "link": "documents/Highland Day School Apr 17.pdf"}]
-    },
   	{
   		"date": "8th Jul",
   		"date2": "2017",
