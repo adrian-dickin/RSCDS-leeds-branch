@@ -19,7 +19,7 @@
       "crib": "http://www.rscdsleeds.org.uk/Socials/20May17.pdf"
   },
   {
-      "date": "17th June",
+      "date": "17th Jun",
       "date2": "2017",
       "startdate": "2017-06-17T19:30",
       "time": "7:30pm",
@@ -156,7 +156,25 @@
   			{"name": "White Rose Festival website",
   			 "external-link": "http://whiterosefestival.uk/"}
        ]
-  	}
+  	},
+    {
+      "date": "16th Sep",
+      "date2": "2017",
+      "startdate": "2017-09-16",
+      "event": "Leeds Branch Day School",
+      "actor": "Music: Ian Slater",
+      "actor2": "Teacher: Deb Lees",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "details": [
+  			{"name": "Form",
+  			 "link": "documents/Rscds Leeds day school 2017.pdf"}
+       ]
+    }
 	],
 	"weekend_events": [
   	{
