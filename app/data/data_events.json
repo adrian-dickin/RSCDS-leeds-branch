@@ -35,52 +35,26 @@
       ],
       "programme": "http://my.strathspey.org/dd/list/10441/",
       "crib": "http://www.rscdsleeds.org.uk/Socials/17Jun17.pdf"
+  },
+  {
+    "date": "8th Jul",
+    "date2": "2017",
+    "startdate": "2017-07-08T19:00",
+    "time": "7:00pm",
+    "event": "White Rose Festival Evening Dance",
+    "actor": "Music: Neil Hardie and his Scottish Dance Band",
+    "location_top": "The Gateways School",
+    "location": [
+      "Harewood",
+      "Leeds",
+      "LS17 9LE"
+    ],
+    "crib": "http://whiterosefestival.uk/wp-content/uploads/2017/01/white-rose-festival-2017-evening-dance.pdf"
   }
 
 ],
 
 "leeds_events": [
-    {
-      "date": "29th Apr",
-      "date2": "2017",
-      "startdate": "2017-04-29T19:30",
-      "time": "7:30pm",
-      "event": "Club Dance",
-      "actor": "Music: Neil Barron",
-      "actor2": "MC: Gerry Yates",
-      "details": [
-        {"link": "http://www.rscdsleeds.org.uk/Socials/Crib 29 April 2017 (03)[1800].doc",
-         "name": "Crib Sheet"},
-        {"link": "http://www.rscdsleeds.org.uk/Socials/Club Programme 29 April 2017 (03).doc",
-         "name": "Programme"}
-      ],
-      "location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		]
-    },
-
-    {
-      "date": "29th Apr",
-      "date2": "2017",
-      "startdate": "2017-04-29T19:30",
-      "time": "7:30pm",
-      "event": "Saltire SCDC Spring Dance",
-      "event_desc": "£15 - supper of bread, cheese and pate with dessert",
-      "actor": "Music: David Oswald and his band",
-      "details": [
-        {"external-link": "http://harrogatesaltire.com/events-news/",
-         "name": "Details"}
-      ],
-      "location_top": "St Johns School",
-      "location": [
-        "Knaresborough",
-        "HG5 0JN"
-      ]
-    },
-
     {
       "date": "13th May",
       "date2": "2017",
@@ -177,27 +151,6 @@
     }
 	],
 	"weekend_events": [
-  	{
-  		"date": "28th - 30th Apr",
-  		"date2": "2017",
-  		"startdate": "2017-04-28",
-      "days": 3,
-  		"event": "Scarborough Weekend",
-  		"actor": "Teacher: Janet Johnston",
-  		"actor2": "Music: George Meikle",
-  		"location_top": "Esplanade Hotel, Scarborough",
-  		"location": [],
-  		"details": [
-  			{"name": "Form 1",
-  			 "link": "documents/Scarborough form p1.pdf"},
-  			{"name": "Form 2",
-  			 "link": "documents/Scarborough form p2.pdf"},
-        {"name": "Friday crib",
-         "external-link": "http://my.strathspey.org/dd/list/10595/"},
-        {"name": "Saturday crib",
-        "external-link": "http://my.strathspey.org/dd/list/10596/"}
-  		]
-  	},
     {
       "date": "1st - 3rd Dec",
       "date2": "2017",
