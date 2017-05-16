@@ -50,8 +50,31 @@
       "LS17 9LE"
     ],
     "crib": "http://whiterosefestival.uk/wp-content/uploads/2017/01/white-rose-festival-2017-evening-dance.pdf"
+  },
+  {
+    "date": "16th Sep",
+    "date2": "2017",
+    "startdate": "2017-09-16",
+    "event": "Branch Dance",
+    "actor": "Music: Susan MacFadyen Band",
+    "actor2": "MC: Helen Brown",
+    "location_top": "",
+    "location": []
+  },
+  {
+    "date": "21st Oct",
+    "date2": "2017",
+    "startdate": "2017-10-21",
+    "event": "Branch Dance",
+    "actor": "Music: Alan Ross Trio",
+    "location_top": "St Edmund's Parish Church",
+    "location": [
+      "15 North Park Avenue",
+      "Roundhay",
+      "Leeds",
+      "LS8 1EJ"
+    ]
   }
-
 ],
 
 "leeds_events": [
@@ -140,6 +163,19 @@
   			{"name": "Form",
   			 "link": "documents/Rscds Leeds day school 2017.pdf"}
        ]
+    },
+    {
+      "date": "14th Oct",
+      "date2": "2017",
+      "startdate": "2017-10-14",
+      "event": "Highland Day School",
+      "actor": "Teacher: Catherine Livsey",
+      "location_top": "St Giles Church Hall",
+  		"location": [
+  		    "Church Hill",
+  		    "Bramhope",
+  		    "LS16 9BA"
+  		]
     }
 	],
 	"weekend_events": [

@@ -53,3 +53,12 @@
   		    "Cookridge",
   		    "LS16 7ER"
   		],
+
+      "location_top": "St Edmund's Parish Church",
+      "location": [
+        "15 North Park Avenue",
+        "Roundhay",
+        "Leeds",
+        "LS8 1EJ"
+      ],
+      
