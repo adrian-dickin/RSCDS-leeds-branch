@@ -54,12 +54,17 @@
   {
     "date": "16th Sep",
     "date2": "2017",
-    "startdate": "2017-09-16",
+    "startdate": "2017-09-16T19:30",
+    "time": "7:30pm",
     "event": "Branch Dance",
     "actor": "Music: Susan MacFadyen Band",
     "actor2": "MC: Helen Brown",
-    "location_top": "",
-    "location": []
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ]
   },
   {
     "date": "21st Oct",

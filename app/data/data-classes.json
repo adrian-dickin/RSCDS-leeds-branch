@@ -14,7 +14,7 @@
    	},
   	{
   		"day": "Monday",
-  		"level": "Advanced",
+  		"level": "Experienced",
   		"teacher": ["Catherine Livsey"],
   		"time": "19:45 - 21:45",
   		"venue": [
@@ -88,7 +88,6 @@
   			"LS21 2JB"
   		],
   		"notes": [
-  			"May 7th",
   			"Jun 4th",
   			"Jul 2nd"
   		]
