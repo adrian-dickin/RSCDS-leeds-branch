@@ -1,24 +1,6 @@
 {
   "events": [
   {
-      "date": "20th May",
-      "date2": "2017",
-      "startdate": "2017-05-20T19:30",
-      "time": "7:30pm",
-      "event": "Branch Dance",
-      "actor": "Music: Ian Muir ",
-      "actor2": "MC: Betty Hagart",
-      "location_top": "St Edmund's Parish Church",
-      "location": [
-        "15 North Park Avenue",
-        "Roundhay",
-        "Leeds",
-        "LS8 1EJ"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/10442/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/20May17.pdf"
-  },
-  {
       "date": "17th Jun",
       "date2": "2017",
       "startdate": "2017-06-17T19:30",
