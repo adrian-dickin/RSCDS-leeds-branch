@@ -66,23 +66,6 @@
 
 "leeds_events": [
     {
-      "date": "27th May",
-      "date2": "2017",
-      "startdate": "2017-05-27T19:30",
-      "time": "7:30pm",
-      "event": "Club Dance",
-      "actor": "Music: Ian Slater",
-      "actor2": "MC: Veronica Hughes",
-      "location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-      "programme": "http://my.strathspey.org/dd/list/10783/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-may-27th-2017.pdf"
-    },
-    {
       "date": "24th June",
       "date2": "2017",
       "startdate": "2017-06-24T19:30",
