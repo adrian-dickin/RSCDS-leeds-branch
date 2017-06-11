@@ -163,6 +163,23 @@
         {"name": "Form",
          "link": "documents/Malhamdale form 2017.docx"}
       ]
+    },
+    {
+      "date": "23rd - 25th Mar",
+      "date2": "2018",
+      "startdate": "2018-03-23",
+      "event": "Scarborough Weekend",
+      "actor": "Teacher: John Wilkinson",
+      "actor2": "Music: George Meikle",
+      "location_top": "Esplanade Hotel",
+      "location": [
+         "Belmont Road",
+         "Scarborough",
+         "YO11 2AA"],
+      "details": [
+        {"name": "Form",
+         "link": "documents/Scarborough form 2018.docx"}
+      ]
     }
 	]
 }
