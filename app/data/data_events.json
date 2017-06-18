@@ -1,24 +1,6 @@
 {
   "events": [
   {
-      "date": "17th Jun",
-      "date2": "2017",
-      "startdate": "2017-06-17T19:30",
-      "time": "7:30pm",
-      "event": "Branch Dance",
-      "actor": "Music: David Oswald Trio",
-      "actor2": "MC: Helen Freer",
-      "location_top": "Corpus Christi Catholic College",
-      "location": [
-        "Neville Road",
-        "Halton Moor",
-        "Leeds",
-        "LS9 0TT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/10441/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/17Jun17.pdf"
-  },
-  {
     "date": "8th Jul",
     "date2": "2017",
     "startdate": "2017-07-08T19:00",

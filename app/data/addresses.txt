@@ -61,4 +61,11 @@
         "Leeds",
         "LS8 1EJ"
       ],
-      
+
+      "location_top": "Corpus Christi Catholic College",
+      "location": [
+        "Neville Road",
+        "Halton Moor",
+        "Leeds",
+        "LS9 0TT"
+        
