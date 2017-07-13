@@ -1,21 +1,6 @@
 {
   "events": [
   {
-    "date": "8th Jul",
-    "date2": "2017",
-    "startdate": "2017-07-08T19:00",
-    "time": "7:00pm",
-    "event": "White Rose Festival Evening Dance",
-    "actor": "Music: Neil Hardie and his Scottish Dance Band",
-    "location_top": "The Gateways School",
-    "location": [
-      "Harewood",
-      "Leeds",
-      "LS17 9LE"
-    ],
-    "crib": "http://whiterosefestival.uk/wp-content/uploads/2017/01/white-rose-festival-2017-evening-dance.pdf"
-  },
-  {
     "date": "16th Sep",
     "date2": "2017",
     "startdate": "2017-09-16T19:30",
@@ -48,24 +33,6 @@
 
 "leeds_events": [
     {
-      "date": "24th June",
-      "date2": "2017",
-      "startdate": "2017-06-24T19:30",
-      "time": "7:30pm",
-      "event": "Club Dance",
-      "event_desc": "Summer Special, with Faith Supper",
-      "actor": "Music: Robert Whitehead Duo",
-      "actor2": "MC: Helen Brown",
-      "location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-      "programme": "http://my.strathspey.org/dd/list/11531/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-24th-june-2017.pdf"
-    },
-    {
       "date": "29th Dec",
       "date2": "2017",
       "startdate": "2017-12-29T19:30",
@@ -81,23 +48,6 @@
   ],
 
 "special_events": [
-  	{
-  		"date": "8th Jul",
-  		"date2": "2017",
-  		"startdate": "2017-07-08",
-  		"event": "White Rose Festival",
-  		"actor": "Music: Neil Hardie and his Scottish Dance Band",
-  		"location_top": "The Gateways School",
-  		"location": [
-  			"Harewood",
-  			"Leeds",
-  			"LS17 9LE"
-  		],
-      "details": [
-  			{"name": "White Rose Festival website",
-  			 "external-link": "http://whiterosefestival.uk/"}
-       ]
-  	},
     {
       "date": "16th Sep",
       "date2": "2017",
