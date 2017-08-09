@@ -96,7 +96,11 @@
   		    "Church Hill",
   		    "Bramhope",
   		    "LS16 9BA"
-  		]
+  		],
+      "details": [
+        {"name": "Form",
+         "link": "documents/Highland_Day_School_Oct_17.pdf"}
+       ]
     }
 	],
 	"weekend_events": [
