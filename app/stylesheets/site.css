@@ -132,6 +132,11 @@ table.calendar {
   font-size: 120%;
 }
 
+.info-block {
+  padding: 12px;
+  border-radius: 16px;
+}
+
 /*@media (max-width: 767px) {
   div.container-fluid {
     padding-left: 0px;
