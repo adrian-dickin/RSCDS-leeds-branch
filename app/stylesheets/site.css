@@ -22,7 +22,10 @@
     height: auto;
 }
 
-
+.navbar-fixed-bottom {
+  color: white;
+  font-size: 80%;
+}
 
 .menu-button {
 	margin: 8px auto 8px auto;

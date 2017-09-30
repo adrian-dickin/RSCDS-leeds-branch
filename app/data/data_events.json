@@ -54,23 +54,6 @@
 
 "leeds_events": [
   {
-    "date": "23rd Sep",
-    "date2": "2017",
-    "startdate": "2017-09-23T19:30",
-    "event": "Club Dance",
-    "event_desc": "AGM at 6.45pm",
-    "actor": "Music: George Meikle",
-    "actor2": "MC: Alan Horsfall",
-    "location_top": "St Chad's Parish Centre",
-    "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/10564/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-23rd-september-2017.pdf"
-  },
-  {
     "date": "25th Nov",
     "date2": "2017",
     "startdate": "2017-11-25T19:30",
