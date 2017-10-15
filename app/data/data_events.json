@@ -102,23 +102,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "14th Oct",
-      "date2": "2017",
-      "startdate": "2017-10-14",
-      "event": "Highland Day School",
-      "actor": "Teacher: Catherine Livsey",
-      "location_top": "St Giles Church Hall",
-  		"location": [
-  		    "Church Hill",
-  		    "Bramhope",
-  		    "LS16 9BA"
-  		],
-      "details": [
-        {"name": "Form",
-         "link": "documents/Highland_Day_School_Oct_17.pdf"}
-       ]
-    },
   {
     "date": "24th Feb",
     "date2": "2018",
