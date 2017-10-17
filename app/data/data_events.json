@@ -39,6 +39,24 @@
     "map": "https://www.google.co.uk/maps/@54.0001517,-0.9950311,18.34z"
   },
   {
+    "date": "11th Dec",
+    "date2": "2017",
+    "startdate": "2017-12-11",
+    "event": "Christmas Tea Dance",
+    "actor": "Music: Ian Slater",
+    "actor2": "MC: Don Andrews",
+    "location_top": "Adel Methodist Church Hall",
+    "location": [
+        "Gainsborough Avenue",
+        "Adel",
+        "Leeds",
+        "LS16 7PQ"
+    ],
+    "programme": "http://my.strathspey.org/dd/list/13502/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/christmas-tea-dance-2017.pdf",
+    "map": "https://www.google.co.uk/maps/place/Adel+Pre-School/@53.856774,-1.5937282,17z/data=!3m1!4b1!4m5!3m4!1s0x487959a7b67c0fe3:0x829b198bc41f9196!8m2!3d53.856772!4d-1.59233"
+  },
+  {
     "date": "16th Dec",
     "date2": "2017",
     "startdate": "2017-12-16",
@@ -94,14 +112,19 @@
       "date": "29th Dec",
       "date2": "2017",
       "startdate": "2017-12-29T19:30",
+      "time": "7:30pm",
       "event": "St Columba",
       "event_desc": "Hogmanay Dance",
+      "actor": "Music: Ian Slater",
+      "actor2": "MC: Don Andrews",
       "location_top": "St Columba United Reformed Church",
       "location": [
         "70 Headingley Lane",
         "Leeds",
         "LS6 2DH"
-      ]
+      ],
+      "programme": "http://my.strathspey.org/dd/list/2883/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/hogmany-dance-29-december-2017.pdf"
     }
   ],
 
