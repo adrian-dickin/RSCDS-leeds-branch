@@ -1,27 +1,6 @@
 {
   "events": [
   {
-    "date": "21st Oct",
-    "date2": "2017",
-    "startdate": "2017-10-21T19:30",
-    "times": [
-      {"time": "18:45", "desc": "AGM"},
-      {"time": "19:30", "desc": "Dance"}
-    ],
-    "event": "Branch Dance and AGM",
-    "actor": "Music: Alan Ross",
-    "actor2": "MC: Maureen Haynes",
-    "location_top": "St Edmund's Parish Church",
-    "location": [
-      "15 North Park Avenue",
-      "Roundhay",
-      "Leeds",
-      "LS8 1EJ"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/2056/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-21-october-2017.pdf"
-  },
-  {
     "date": "11th Nov",
     "date2": "2017",
     "startdate": "2017-11-11",
