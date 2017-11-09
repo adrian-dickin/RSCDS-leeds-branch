@@ -14,7 +14,10 @@
       "YO32 9UT"
     ],
     "programme": "http://www.rscdsyork.com/prog2.html",
-    "crib": "http://www.rscdsyork.com/pdf_files/crib_joint017.pdf",
+    "details": [
+      { "external-link": "http://www.rscdsyork.com/pdf_files/crib_joint017.pdf",
+      "name": "Crib" }
+    ],
     "map": "https://www.google.co.uk/maps/@54.0001517,-0.9950311,18.34z"
   },
   {
