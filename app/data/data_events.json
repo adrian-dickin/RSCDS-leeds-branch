@@ -1,26 +1,6 @@
 {
   "events": [
   {
-    "date": "11th Nov",
-    "date2": "2017",
-    "startdate": "2017-11-11",
-    "event": "York Joint Ball",
-    "actor": "Music: Scott Band",
-    "location_top": "Stockton On The Forest Village Hall",
-    "location": [
-      "Sandy Lane",
-      "Stockton On The Forest",
-      "York",
-      "YO32 9UT"
-    ],
-    "programme": "http://www.rscdsyork.com/prog2.html",
-    "details": [
-      { "external-link": "http://www.rscdsyork.com/pdf_files/crib_joint017.pdf",
-      "name": "Crib" }
-    ],
-    "map": "https://www.google.co.uk/maps/@54.0001517,-0.9950311,18.34z"
-  },
-  {
     "date": "11th Dec",
     "date2": "2017",
     "startdate": "2017-12-11",
