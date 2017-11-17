@@ -68,6 +68,8 @@
         "Halton Moor",
         "Leeds",
         "LS9 0TT"
+      ],
+      "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
 
         "location_top": "Stockton On The Forest Village Hall",
         "location": [
