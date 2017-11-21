@@ -51,6 +51,39 @@
     "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313",
     "programme": "http://my.strathspey.org/dd/list/14048/",
     "crib": "http://www.rscdsleeds.org.uk/Socials/branch-dance-20th-jan-2018.pdf"
+  },
+  {
+    "date": "17th Feb",
+    "date2": "2018",
+    "startdate": "2017-02-17T19:30",
+    "event": "Branch Dance",
+    "actor": "Music: Ian Slater",
+    "actor2": "MC: Catherine Livsey",
+    "location_top": "Corpus Christi Catholic College",
+    "location": [
+      "Neville Road",
+      "Halton Moor",
+      "Leeds",
+      "LS9 0TT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313",
+    "programme": "http://my.strathspey.org/dd/list/14077/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-february-2018.pdf"
+  },
+  {
+    "date": "17th Mar",
+    "date2": "2018",
+    "startdate": "2017-03-17T19:30",
+    "event": "Branch Dance",
+    "actor": "Music: Matthew MacLennan",
+    "location_top": "Corpus Christi Catholic College",
+    "location": [
+      "Neville Road",
+      "Halton Moor",
+      "Leeds",
+      "LS9 0TT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
   }
 ],
 
