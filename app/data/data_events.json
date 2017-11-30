@@ -89,20 +89,24 @@
 
 "leeds_events": [
   {
-    "date": "25th Nov",
+    "date": "9th Dec",
     "date2": "2017",
-    "startdate": "2017-11-25T19:30",
-    "event": "Club Dance",
-    "actor": "Music: Màrtainn Skene",
-    "actor2": "MC: Helen Brown",
-    "location_top": "St Chad's Parish Centre",
+    "startdate": "2017-12-09T19:30",
+    "event": "Harrogate Saltire SCD Club Winter Rant",
+    "event_desc": "a walk through dance, £12 with a faith supper",
+    "actor": "Music: Robert Whitehead and the Danelaw",
+    "location_top": "Knaresborough St John's School",
     "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
+      "Stockwell Road",
+      "Knaresborough",
+      "HG5 0JN"
     ],
-    "programme": "http://my.strathspey.org/dd/list/10780/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-25th-november-2017.pdf"
+    "details": [
+      {"external-link": "http://harrogatesaltire.com/events-news/",
+       "name": "Events"},
+      {"external-link": "http://harrogatesaltire.com/wp-content/uploads/2017/10/Winter-Rant-2017-crib.pdf",
+       "name": "Minicrib"}
+    ]
   },
   {
     "date": "16th Dec",
