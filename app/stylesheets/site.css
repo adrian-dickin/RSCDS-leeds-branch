@@ -86,6 +86,24 @@
 	background: #0070ba url("../images/Dances 2 White-sml.png") no-repeat 10px 13px;
 }
 
+#logo-row {
+    overflow: hidden;
+}
+
+.branch-logo {
+	background: url("../images/RSCDS-Leeds-White-Logo-sml2.png");
+  width: 130px;
+  height: 84px;
+  float: left;
+  margin: 4px 8px 4px 15px;
+}
+.scottish-logo {
+  background: url("../images/Dance-Scottish-White-sml2.png");
+  width: 130px;
+  height: 49px;
+  float: right;
+  margin: 20px 15px 4px 4px;
+}
 
 table.calendar {
   border-collapse: collapse;
