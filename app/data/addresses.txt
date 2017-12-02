@@ -13,7 +13,8 @@
   		    "Church Hill",
   		    "Bramhope",
   		    "LS16 9BA"
-  		]
+  		],
+      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481"
 
 
   		"location_top": "St Chad's Parish Centre",

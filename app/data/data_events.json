@@ -84,6 +84,36 @@
       "LS9 0TT"
     ],
     "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
+  },
+  {
+    "date": "19th May",
+    "date2": "2018",
+    "startdate": "2017-05-19T19:30",
+    "event": "Branch Dance",
+    "actor": "Music: Ian Muir",
+    "location_top": "Corpus Christi Catholic College",
+    "location": [
+      "Neville Road",
+      "Halton Moor",
+      "Leeds",
+      "LS9 0TT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
+  },
+  {
+    "date": "16th Jun",
+    "date2": "2018",
+    "startdate": "2017-06-16T19:30",
+    "event": "Branch Dance",
+    "actor": "Music: Robert Whitehead",
+    "location_top": "Corpus Christi Catholic College",
+    "location": [
+      "Neville Road",
+      "Halton Moor",
+      "Leeds",
+      "LS9 0TT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
   }
 ],
 
@@ -164,7 +194,21 @@
       {"name": "Form",
        "link": "documents/Rscds Musician's day school 2018.pdf"}
      ]
-  }
+  },
+  {
+      "date": "8th Apr",
+      "date2": "2018",
+      "startdate": "2018-04-28",
+      "event": "Highland Day School",
+      "actor": "Teacher: Catherine Livsey",
+      "location_top": "St Giles Church Hall",
+  		"location": [
+  		    "Church Hill",
+  		    "Bramhope",
+  		    "LS16 9BA"
+  		],
+      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481"
+    }
 ],
 	"weekend_events": [
     {
