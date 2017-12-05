@@ -212,28 +212,10 @@
 ],
 	"weekend_events": [
     {
-      "date": "1st - 3rd Dec",
-      "date2": "2017",
-      "startdate": "2017-12-01",
-      "days": 3,
-      "event": "Malhamdale Weekend",
-      "actor": "Teacher: William Williamson",
-      "actor2": "Music: Màrtainn Skene",
-      "location_top": "Malhamdale",
-      "location": [],
-      "details": [
-        {"name": "Form",
-         "link": "documents/Malhamdale form 2017.docx"},
-        {"name": "Friday Crib",
-         "external-link": "http://my.strathspey.org/dd/list/12713/"},
-        {"name": "Saturday Crib",
-         "external-link": "http://my.strathspey.org/dd/list/12714/"}
-      ]
-    },
-    {
       "date": "23rd - 25th Mar",
       "date2": "2018",
       "startdate": "2018-03-23",
+      "days": 3,
       "event": "Scarborough Weekend",
       "actor": "Teacher: John Wilkinson",
       "actor2": "Music: George Meikle",
@@ -245,6 +227,21 @@
       "details": [
         {"name": "Form",
          "link": "documents/Scarborough form 2018.docx"}
+      ]
+    },
+    {
+      "date": "30th Nov - 2nd Dec",
+      "date2": "2018",
+      "startdate": "2018-11-30",
+      "days": 3,
+      "event": "Malhamdale Weekend",
+      "actor": "Teacher: Sue Porter",
+      "actor2": "Music: Ian Robertson",
+      "location_top": "Malhamdale",
+      "location": [],
+      "details": [
+        {"name": "Form",
+         "link": "documents/Malhamdale form 2018.docx"}
       ]
     }
 	]
