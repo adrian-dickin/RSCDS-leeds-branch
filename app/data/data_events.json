@@ -100,24 +100,6 @@
 ],
 "leeds_events": [
     {
-      "date": "29th Dec",
-      "date2": "2017",
-      "startdate": "2017-12-29T19:30",
-      "time": "7:30pm",
-      "event": "St Columba",
-      "event_desc": "Hogmanay Dance",
-      "actor": "Music: Ian Slater",
-      "actor2": "MC: Don Andrews",
-      "location_top": "St Columba United Reformed Church",
-      "location": [
-        "70 Headingley Lane",
-        "Leeds",
-        "LS6 2DH"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/2883/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/hogmany-dance-29-december-2017.pdf"
-    },
-    {
       "date": "27th Jan",
       "date2": "2018",
       "startdate": "2018-01-27T19:30",
@@ -132,7 +114,7 @@
         "LS16 5JT"
       ],
       "programme": "http://my.strathspey.org/dd/list/1580/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/club-27-january-2018.pdf"      
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-27-january-2018.pdf"
     },
     {
       "date": "24th Feb",
@@ -148,7 +130,9 @@
         "Otley Road",
         "Leeds",
         "LS16 5JT"
-      ]
+      ],
+      "programme": "http://my.strathspey.org/dd/list/10564/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-24th-february-2018.pdf"
     },
     {
       "date": "24th Mar",
@@ -163,7 +147,9 @@
         "Otley Road",
         "Leeds",
         "LS16 5JT"
-      ]
+      ],
+      "programme": "http://my.strathspey.org/dd/list/10780/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-24th-march-2018.pdf"  
     }
   ],
 
