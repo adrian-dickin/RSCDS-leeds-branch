@@ -3,7 +3,6 @@ function headerScroll() {
 		var st = $(this).scrollTop();
 		var win = $(window).height();
 		var doc = $(document).height();
-		console.log(st);
 		if (st > 92) {
 		   $('#logo-row').css({height: '0px', opacity: 0});
 		  // $('.banner-logo').css({opacity: 0});
@@ -49,8 +48,6 @@ function showToday() {
 
 function calendarPopovers() {
 	$(function () {
-		console.log('calendarPopovers');
-		console.log($('[data-toggle="popover"]').length);
 	  $('[data-toggle="popover"]').popover({
 			trigger: "focus",
 			title: "Events",
@@ -58,14 +55,12 @@ function calendarPopovers() {
 			html: true,
 			viewport: '.calendar',
 			content: function() {
-				console.log('content');
 				var id = $(this).attr('data-id');
 				var eventData = events[id];
 				var html = '';
 				eventData.forEach(function(event) {
 					html += `<div>${event.name}<div>`;
 				});
-				console.log(eventData);
 				return html;
 				//events
 			}

@@ -5,7 +5,7 @@ module.exports.register = function(Handlebars) {
     var encodeEmail = emailAddr.replace('@', '\xAB').replace('a', '\xA9').replace('e', '\xAA').replace('.', '\xAC');
     var parts = emailAddr.split('@');
     var emailBody = '<span>'+parts[0] + '</span>&#64;<span>' + parts[1] + '</span>';
-    var safeEmail = '<a href="" class="brn btn-primary btn-xs emailLink" data-addr="' + encodeEmail + '">' + msg + '</a>';
+    var safeEmail = '<a href="" class="btn btn-primary btn-xs emailLink" data-addr="' + encodeEmail + '">' + msg + '</a>';
     return safeEmail;
   }
 

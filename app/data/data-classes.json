@@ -3,7 +3,7 @@
   	{
   		"day": "Monday",
   		"level": "General",
-  		"teacher": ["Don Andrews"],
+  		"teacher": [{"name": "Don Andrews", "email": "donaldhbandrews@gmail.com"}],
   		"time": "13:45 - 15:45",
   		"venue": [
   			"Adel Methodist Church Hall",
@@ -15,7 +15,7 @@
   	{
   		"day": "Monday",
   		"level": "Experienced",
-  		"teacher": ["Catherine Livsey"],
+  		"teacher": [{"name": "Catherine Livsey", "email": "cllivsey@gmail.com"}],
   		"time": "19:45 - 21:45",
   		"venue": [
   			"Calverley Conservative Club",
@@ -28,7 +28,7 @@
   	{
   		"day": "Tuesday",
   		"level": "General",
-  		"teacher": ["Irene Dracup"],
+  		"teacher": [{"name": "Irene Dracup", "email": "glyn.cup@virginmedia.com"}],
   		"time": "19:45 - 21:45",
   		"venue": [
   			"Adel Methodist Church Hall",
@@ -41,7 +41,7 @@
   	{
   		"day": "Thursday",
   		"level": "General",
-  		"teacher": ["Don Andrews"],
+  		"teacher": [{"name": "Don Andrews", "email": "donaldhbandrews@gmail.com"}],
   		"time": "14:00 - 16:00",
   		"venue": [
   			"St Margaret's Church Hall",
@@ -55,7 +55,7 @@
   	{
   		"day": "Thursday",
   		"level": "General",
-  		"teacher": ["Brenda Burnell"],
+  		"teacher": [{"name": "Brenda Burnell", "email": "brenda.gunny@talktalk.net"}],
   		"time": "19:30 - 21:30",
   		"venue": [
   			"Lidgett Park Methodist Church Hall",
@@ -67,7 +67,7 @@
   	{
   		"day": "Friday",
   		"level": "Children",
-  		"teacher": ["Brenda Burnell"],
+  		"teacher": [{"name": "Brenda Burnell", "email": "brenda.gunny@talktalk.net"}],
   		"time": "17:15 - 18:45",
   		"venue": [
   			"Hawksworth Wood Primary School",
@@ -80,7 +80,7 @@
   	{
   		"day": "Sunday - monthly",
   		"level": "Experienced",
-  		"teacher": ["Catherine Livsey"],
+  		"teacher": [{"name": "Catherine Livsey", "email": "cllivsey@gmail.com"}],
   		"time": "13:45 - 15:45",
   		"venue": [
   			"Askwith Village Hall",
@@ -88,7 +88,6 @@
   			"LS21 2JB"
   		],
   		"notes": [
-        "7th Jan",
         "4th Feb",
         "4th Mar",
         "8th Apr",
