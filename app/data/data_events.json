@@ -82,23 +82,6 @@
 ],
 "leeds_events": [
     {
-      "date": "27th Jan",
-      "date2": "2018",
-      "startdate": "2018-01-27T19:30",
-      "time": "7:30pm",
-      "event": "Club Dance",
-      "actor": "Music: Alan Ross",
-      "actor2": "MC: Irene Dracup",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/1580/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/club-27-january-2018.pdf"
-    },
-    {
       "date": "24th Feb",
       "date2": "2018",
       "startdate": "2018-02-24T19:30",
