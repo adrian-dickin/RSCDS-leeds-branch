@@ -24,6 +24,7 @@
     "startdate": "2018-03-17T19:30",
     "event": "Branch Dance",
     "actor": "Music: Matthew MacLennan",
+    "actor2": "MC: Debbie Crossley",
     "location_top": "Corpus Christi Catholic College",
     "location": [
       "Neville Road",
@@ -31,7 +32,12 @@
       "Leeds",
       "LS9 0TT"
     ],
-    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
+    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313",
+    "details": [
+      {"external-link": "http://my.strathspey.org/dd/list/15247/", "name": "Programme"},
+      {"link": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-17th-march-2018.pdf", "name": "Crib"},
+      {"link": "http://www.rscdsleeds.org.uk/Socials/A%20couple%20of%20Keepers.pdf", "name": "Missing crib"}
+    ]
   },
   {
     "date": "19th May",
