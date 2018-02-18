@@ -1,24 +1,6 @@
 {
   "events": [
   {
-    "date": "17th Feb",
-    "date2": "2018",
-    "startdate": "2018-02-17T19:30",
-    "event": "Branch Dance",
-    "actor": "Music: Ian Slater",
-    "actor2": "MC: Catherine Livsey",
-    "location_top": "Corpus Christi Catholic College",
-    "location": [
-      "Neville Road",
-      "Halton Moor",
-      "Leeds",
-      "LS9 0TT"
-    ],
-    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313",
-    "programme": "http://my.strathspey.org/dd/list/14077/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-february-2018.pdf"
-  },
-  {
     "date": "17th Mar",
     "date2": "2018",
     "startdate": "2018-03-17T19:30",
@@ -145,18 +127,23 @@
      ]
   },
   {
-      "date": "8th Apr",
+      "date": "28th Apr",
       "date2": "2018",
       "startdate": "2018-04-28",
       "event": "Highland Day School",
       "actor": "Teacher: Catherine Livsey",
+      "note": "Corrected date, added form",
       "location_top": "St Giles Church Hall",
   		"location": [
   		    "Church Hill",
   		    "Bramhope",
   		    "LS16 9BA"
   		],
-      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481"
+      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
+      "details": [{
+        "name": "Form",
+        "link": "documents/Highland Day School Apr 18.pdf"
+      }]
     }
 ],
 	"weekend_events": [
