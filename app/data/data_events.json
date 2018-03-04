@@ -125,7 +125,24 @@
          "YO11 2AA"],
       "details": [
         {"name": "Form",
-         "link": "documents/Scarborough form 2018.docx"}
+         "link": "documents/Scarborough form 2018.docx"
+        },
+        {
+         "name": "Friday Programme",
+         "external-link": "http://my.strathspey.org/dd/list/15555/"
+        },
+        {
+         "name": "Friday Crib with diagrams",
+         "link": "http://www.rscdsleeds.org.uk/Socials/scarborough-friday-23rd-march-2018.pdf"
+        },
+        {
+         "name": "Saturday Programme",
+         "external-link": "http://my.strathspey.org/dd/list/15556/"
+       },
+       {
+        "name": "Saturday Crib with diagrams",
+        "link": "http://www.rscdsleeds.org.uk/Socials/scarborough-saturday-24th-march-2018.pdf"
+       }
       ]
     },
     {
