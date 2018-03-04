@@ -70,24 +70,6 @@
 ],
 "leeds_events": [
     {
-      "date": "24th Feb",
-      "date2": "2018",
-      "startdate": "2018-02-24T19:30",
-      "time": "7:30pm",
-      "event": "Club - Presidents Dance",
-      "event_desc": "Faith Supper",
-      "actor": "Music: Robert Whitehead Duo",
-      "actor2": "MC: Alice Smith",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/10564/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/club-24th-february-2018.pdf"
-    },
-    {
       "date": "24th Mar",
       "date2": "2018",
       "startdate": "2018-03-24T19:30",
@@ -107,25 +89,6 @@
   ],
 
 "special_events": [
-  {
-    "date": "24th Feb",
-    "date2": "2018",
-    "startdate": "2018-02-24",
-    "event": "Musician's Day School",
-    "actor": "Teacher: Jeremy Hill",
-    "location_top": "Adel Methodist Church Hall",
-    "location": [
-        "Gainsborough Avenue",
-        "Adel",
-        "Leeds",
-        "LS16 7PQ"
-    ],
-    "map": "https://www.google.co.uk/maps/place/Adel+Pre-School/@53.856774,-1.5937282,17z/data=!3m1!4b1!4m5!3m4!1s0x487959a7b67c0fe3:0x829b198bc41f9196!8m2!3d53.856772!4d-1.59233",
-    "details": [
-      {"name": "Form",
-       "link": "documents/Rscds Musician's day school 2018.pdf"}
-     ]
-  },
   {
       "date": "28th Apr",
       "date2": "2018",

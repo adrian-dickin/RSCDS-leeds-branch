@@ -17,11 +17,11 @@ function headerScroll() {
 };
 
 function handleEmailLinks() {
-	$('a.emailLink').click(function() {
+	$('a.emailLink').each(function() {
 		var encodedEmail = $(this).attr('data-addr');
 		var email = encodedEmail.replace('\xAA', 'e').replace('\xA9', 'a').replace('\xAB', '@').replace('\xAC', '.');
 		$(this).attr('href', 'mailto:' + email);
-	});
+	})
 }
 
 function handleMaps() {
