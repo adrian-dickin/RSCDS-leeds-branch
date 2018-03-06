@@ -85,6 +85,26 @@
       ],
       "programme": "http://my.strathspey.org/dd/list/10780/",
       "crib": "http://www.rscdsleeds.org.uk/Socials/club-24th-march-2018.pdf"
+    },
+    {
+      "date": "24th May",
+      "date2": "2018",
+      "startdate": "2018-05-24T14:00",
+      "time": "2:00pm - 4:00pm",
+      "event": "A Spring Fling for Ilkley",
+      "event_desc": "Faith Tea",
+      "actor": "Music: Ian Slater",
+      "actor2": "MC: Don Andrews",
+      "location_top": "St Margaret’s Church Hall",
+      "location": [
+        "Queen’s Rd",
+        "Ilkley",
+        "LS29 9QL"
+      ],
+      "details": [{
+        "name": "Details",
+        "link": "http://www.rscdsleeds.org.uk/Socials/A Spring Fling for Ilkley.pdf"
+      }]
     }
   ],
 

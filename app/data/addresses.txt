@@ -88,4 +88,11 @@
           "LS17 9LE"
         ],
         "map": "https://www.google.co.uk/maps/place/Leeds+Rd,+Harewood,+Leeds+LS17+9LE/@53.8920682,-1.5172038,14.66z/data=!4m5!3m4!1s0x48795a7f3ac555f9:0x97f3d865763ba114!8m2!3d53.8991889!4d-1.5102019",
+
+        "location_top": "St Margaret’s Church Hall",
+        "location": [
+          "Queen’s Rd",
+          "Ilkley",
+          "LS29 9QL"
+        ],
         

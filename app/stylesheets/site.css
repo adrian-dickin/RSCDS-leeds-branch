@@ -168,13 +168,7 @@ table.calendar {
   border-radius: 12px;
 }
 
-/*@media (max-width: 767px) {
-  div.container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .row {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}*/
+.indent {
+  margin-top: 8px;
+  margin-left: 24px;
+}
