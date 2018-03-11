@@ -104,6 +104,11 @@
       "details": [{
         "name": "Details",
         "link": "http://www.rscdsleeds.org.uk/Socials/A Spring Fling for Ilkley.pdf"
+      },
+      {"name": "Programme",
+       "link": "http://my.strathspey.org/dd/list/15912/"},
+      {"name": "Crib with diagrams",
+       "link": "http://www.rscdsleeds.org.uk/Socials/a-spring-fling-for-ilkley.pdf"
       }]
     }
   ],
@@ -115,7 +120,7 @@
       "startdate": "2018-04-28",
       "event": "Highland Day School",
       "actor": "Teacher: Catherine Livsey",
-      "note": "Corrected date, added form",
+      "note": "Open for booking",
       "location_top": "St Giles Church Hall",
   		"location": [
   		    "Church Hill",
@@ -127,6 +132,24 @@
         "name": "Form",
         "link": "documents/Highland Day School Apr 18.pdf"
       }]
+    },
+    {
+      "date": "14th Jul",
+      "date2": "2018",
+      "startdate": "2018-07-14",
+      "event": "White Rose Festival",
+      "actor": "Music: Marian Anderson and her band",
+      "note": "Open for booking",
+      "location_top": "The Gateways School",
+      "location": [
+        "Harewood",
+        "Leeds",
+        "LS17 9LE"
+      ],
+      "details": [
+  			{"name": "White Rose Festival website",
+  			 "external-link": "http://whiterosefestival.uk/"}
+       ]
     }
 ],
 	"weekend_events": [

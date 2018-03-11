@@ -7,11 +7,22 @@
       {{#list events}}
         <div class="row">
           <div class="col-xs-3">{{date}}</div>
-          <div class="col-xs-9">
-            {{#if event}}<a href="{{../../page}}">{{event}}</a>{{/if}}
-            {{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
-            {{#if note}}<div class="home-note">{{note}}</div>{{/if}}
-          </div>
+
+          {{#if note}}
+            <div class="col-xs-5">
+              {{#if event}}<a href="{{../../../page}}">{{event}}</a>{{/if}}
+              {{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+            </div>
+            <div class="col-xs-4">
+              <div class="home-note">{{note}}</div>
+            </div>
+          {{else}}
+            <div class="col-xs-9">
+              {{#if event}}<a href="{{../../../page}}">{{event}}</a>{{/if}}
+              {{#if cancelled}}<div class="cancelled">{{cancelled}}</div>{{/if}}
+            </div>
+          {{/if}}
+
         </div>
       {{/list}}
     </div>

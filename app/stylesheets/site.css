@@ -159,7 +159,8 @@ table.calendar {
 }
 
 .home-note {
-  margin-left: 20px;
+  margin: 4px 0px 4px 20px;
+  font-size: 12px;
   display: inline-block;
   padding: 2px 4px;
   color: gray;
