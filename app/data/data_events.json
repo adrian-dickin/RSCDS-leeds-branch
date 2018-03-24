@@ -53,7 +53,7 @@
       "date2": "2018",
       "startdate": "2018-03-24T19:30",
       "time": "7:30pm",
-      "event": "Club Dance",
+      "event": "Leeds Club",
       "actor": "Music: Neil Barron",
       "actor2": "MC: Veronica Hughes",
       "location_top": "St Chad's Parish Centre",
@@ -64,6 +64,42 @@
       ],
       "programme": "http://my.strathspey.org/dd/list/10780/",
       "crib": "http://www.rscdsleeds.org.uk/Socials/club-24th-march-2018.pdf"
+    },
+    {
+      "date": "21st Apr",
+      "date2": "2018",
+      "startdate": "2018-04-21T19:30",
+      "time": "7:30pm",
+      "event": "Leeds Club",
+      "event_desc": "Party Dance",
+      "actor": "Music: Hands Across",
+      "actor2": "MC: Patricia Lynch, Alice Smith and Lesley Enoch",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "programme": "http://my.strathspey.org/dd/list/10873/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-21st-april-2018.pdf"
+    },
+    {
+      "date": "28th Apr",
+      "date2": "2018",
+      "startdate": "2018-04-28",
+      "event": "Harrogate Saltire",
+      "event_desc": "Spring Dance",
+      "actor": "Music: Susan MacFadyen trio",
+      "location_top": "Knaresborough St John's School",
+      "location": [
+        "Stockwell Road",
+        "Knaresborough",
+        "HG5 0JN"
+      ],
+      "details": [{
+        "name": "Details and crib",
+        "link": "http://harrogatesaltire.com/events-news/"
+      }]
     },
     {
       "date": "24th May",
@@ -89,6 +125,41 @@
       {"name": "Crib with diagrams",
        "link": "http://www.rscdsleeds.org.uk/Socials/a-spring-fling-for-ilkley.pdf"
       }]
+    },
+    {
+      "date": "26th May",
+      "date2": "2018",
+      "startdate": "2018-05-26T19:30",
+      "time": "7:30pm",
+      "event": "Leeds Club",
+      "actor": "Music: Ian Slater",
+      "actor2": "MC: Malcolm Brown",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "programme": "http://my.strathspey.org/dd/list/11531/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-26th-may-2018.pdf"
+    },
+    {
+      "date": "30th June",
+      "date2": "2018",
+      "startdate": "2018-06-30T19:30",
+      "time": "7:30pm",
+      "event": "Leeds Club",
+      "event_desc": "Summer Special - faith supper",
+      "actor": "Music: Neil Barron Duo",
+      "actor2": "MC: Don Andrews",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "programme": "http://my.strathspey.org/dd/list/10564/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-30th-june-2018.pdf"
     }
   ],
 
