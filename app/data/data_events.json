@@ -53,42 +53,6 @@
 ],
 "leeds_events": [
     {
-      "date": "21st Apr",
-      "date2": "2018",
-      "startdate": "2018-04-21T19:30",
-      "time": "7:30pm",
-      "event": "Leeds Club",
-      "event_desc": "Party Dance",
-      "actor": "Music: Hands Across",
-      "actor2": "MC: Patricia Lynch, Alice Smith and Lesley Enoch",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/10873/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/club-21st-april-2018.pdf"
-    },
-    {
-      "date": "28th Apr",
-      "date2": "2018",
-      "startdate": "2018-04-28",
-      "event": "Harrogate Saltire",
-      "event_desc": "Spring Dance",
-      "actor": "Music: Susan MacFadyen trio",
-      "location_top": "Knaresborough St John's School",
-      "location": [
-        "Stockwell Road",
-        "Knaresborough",
-        "HG5 0JN"
-      ],
-      "details": [{
-        "name": "Details and crib",
-        "link": "http://harrogatesaltire.com/events-news/"
-      }]
-    },
-    {
       "date": "24th May",
       "date2": "2018",
       "startdate": "2018-05-24T14:00",
@@ -127,8 +91,16 @@
         "Leeds",
         "LS16 5JT"
       ],
-      "programme": "http://my.strathspey.org/dd/list/11531/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/club-26th-may-2018.pdf"
+      "details": [{
+        "name": "Programme",
+        "link": "http://my.strathspey.org/dd/list/11531/"
+        }, {
+        "name": "Crib with diagrams",
+        "link": "http://www.rscdsleeds.org.uk/Socials/club-26th-may-2018.pdf"
+        }, {
+        "name": "Friday Class crib",
+        "link": "http://www.rscdsleeds.org.uk/Socials/Friday Class (Me).doc"  
+        }]
     },
     {
       "date": "30th June",
@@ -151,25 +123,6 @@
   ],
 
 "special_events": [
-  {
-      "date": "28th Apr",
-      "date2": "2018",
-      "startdate": "2018-04-28",
-      "event": "Highland Day School",
-      "actor": "Teacher: Catherine Livsey",
-      "note": "Open for booking",
-      "location_top": "St Giles Church Hall",
-  		"location": [
-  		    "Church Hill",
-  		    "Bramhope",
-  		    "LS16 9BA"
-  		],
-      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
-      "details": [{
-        "name": "Form",
-        "link": "documents/Highland Day School Apr 18.pdf"
-      }]
-    },
     {
       "date": "14th Jul",
       "date2": "2018",
