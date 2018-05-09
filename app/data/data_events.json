@@ -99,7 +99,7 @@
         "link": "http://www.rscdsleeds.org.uk/Socials/club-26th-may-2018.pdf"
         }, {
         "name": "Friday Class crib",
-        "link": "http://www.rscdsleeds.org.uk/Socials/Friday Class (Me).doc"  
+        "link": "http://www.rscdsleeds.org.uk/Socials/Friday Class (Me).doc"
         }]
     },
     {
@@ -140,6 +140,24 @@
   			{"name": "White Rose Festival website",
   			 "external-link": "http://whiterosefestival.uk/"}
        ]
+    },
+    {
+      "date": "15th Sep",
+      "date2": "2018",
+      "startdate": "2018-09-15",
+      "event": "Leeds Branch Day School",
+      "actor": "Teacher: Rachel Shankland",
+      "actor2": "Music: Ian Slater",
+      "location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+      "details": [
+        {"name": "Form",
+         "link": "documents/Rscds Leeds day school 2018.pdf"}
+      ]
     }
 ],
 	"weekend_events": [
