@@ -4,6 +4,7 @@
     "date": "19th May",
     "date2": "2018",
     "startdate": "2018-05-19T19:30",
+    "time": "7:30pm",
     "event": "Branch Dance",
     "actor": "Music: Ian Muir",
     "location_top": "Corpus Christi Catholic College",
@@ -21,6 +22,7 @@
     "date": "16th Jun",
     "date2": "2018",
     "startdate": "2018-06-16T19:30",
+    "time": "7:30pm",
     "event": "Branch Dance",
     "actor": "Music: Robert Whitehead",
     "location_top": "Corpus Christi Catholic College",
@@ -49,6 +51,22 @@
     "map": "https://www.google.co.uk/maps/place/Leeds+Rd,+Harewood,+Leeds+LS17+9LE/@53.8920682,-1.5172038,14.66z/data=!4m5!3m4!1s0x48795a7f3ac555f9:0x97f3d865763ba114!8m2!3d53.8991889!4d-1.5102019",
     "programme": "http://my.strathspey.org/dd/list/5758/",
     "crib": "http://www.rscdsleeds.org.uk/Socials/white-rose-festival-evening-dance-2018.pdf"
+  },
+  {
+    "date": "15th Sep",
+    "date2": "2018",
+    "startdate": "2018-09-15T19:30",
+    "time": "7:30pm",
+    "event": "Branch Dance",
+    "actor": "Music: Susan MacFadyen",
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "programme": "http://my.strathspey.org/dd/list/17004/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-15th-september-2018.pdf"
   }
 ],
 "leeds_events": [
