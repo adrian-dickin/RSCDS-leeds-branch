@@ -1,24 +1,6 @@
 {
   "events": [
   {
-    "date": "19th May",
-    "date2": "2018",
-    "startdate": "2018-05-19T19:30",
-    "time": "7:30pm",
-    "event": "Branch Dance",
-    "actor": "Music: Ian Muir",
-    "location_top": "Corpus Christi Catholic College",
-    "location": [
-      "Neville Road",
-      "Halton Moor",
-      "Leeds",
-      "LS9 0TT"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/16338/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-19th-may-2018.pdf",
-    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
-  },
-  {
     "date": "16th Jun",
     "date2": "2018",
     "startdate": "2018-06-16T19:30",
@@ -70,56 +52,6 @@
   }
 ],
 "leeds_events": [
-    {
-      "date": "24th May",
-      "date2": "2018",
-      "startdate": "2018-05-24T14:00",
-      "time": "2:00pm - 4:00pm",
-      "event": "A Spring Fling for Ilkley",
-      "event_desc": "Faith Tea",
-      "actor": "Music: Ian Slater",
-      "actor2": "MC: Don Andrews",
-      "location_top": "St Margaret’s Church Hall",
-      "location": [
-        "Queen’s Rd",
-        "Ilkley",
-        "LS29 9QL"
-      ],
-      "details": [{
-        "name": "Details",
-        "link": "http://www.rscdsleeds.org.uk/Socials/A Spring Fling for Ilkley.pdf"
-      },
-      {"name": "Programme",
-       "link": "http://my.strathspey.org/dd/list/15912/"},
-      {"name": "Crib with diagrams",
-       "link": "http://www.rscdsleeds.org.uk/Socials/a-spring-fling-for-ilkley.pdf"
-      }]
-    },
-    {
-      "date": "26th May",
-      "date2": "2018",
-      "startdate": "2018-05-26T19:30",
-      "time": "7:30pm",
-      "event": "Leeds Club",
-      "actor": "Music: Ian Slater",
-      "actor2": "MC: Malcolm Brown",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "details": [{
-        "name": "Programme",
-        "link": "http://my.strathspey.org/dd/list/11531/"
-        }, {
-        "name": "Crib with diagrams",
-        "link": "http://www.rscdsleeds.org.uk/Socials/club-26th-may-2018.pdf"
-        }, {
-        "name": "Friday Class crib",
-        "link": "http://www.rscdsleeds.org.uk/Socials/Friday Class (Me).doc"
-        }]
-    },
     {
       "date": "30th June",
       "date2": "2018",
