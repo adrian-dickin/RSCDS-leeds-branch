@@ -49,6 +49,18 @@
     ],
     "programme": "http://my.strathspey.org/dd/list/17004/",
     "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-15th-september-2018.pdf"
+  },
+  {
+    "date": "15th Dec",
+    "date2": "2018",
+    "startdate": "2018-012-15",
+    "event": "Joint Club and Branch Christmas Dance",
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ]
   }
 ],
 "leeds_events": [
@@ -69,6 +81,18 @@
       ],
       "programme": "http://my.strathspey.org/dd/list/10564/",
       "crib": "http://www.rscdsleeds.org.uk/Socials/club-30th-june-2018.pdf"
+    },
+    {
+      "date": "15th Dec",
+      "date2": "2018",
+      "startdate": "2018-012-15",
+      "event": "Joint Club and Branch Christmas Dance",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ]
     }
   ],
 
