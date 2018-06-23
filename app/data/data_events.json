@@ -1,24 +1,6 @@
 {
   "events": [
   {
-    "date": "16th Jun",
-    "date2": "2018",
-    "startdate": "2018-06-16T19:30",
-    "time": "7:30pm",
-    "event": "Branch Dance",
-    "actor": "Music: Robert Whitehead",
-    "location_top": "Corpus Christi Catholic College",
-    "location": [
-      "Neville Road",
-      "Halton Moor",
-      "Leeds",
-      "LS9 0TT"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/16616/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-16th-june-2018.pdf",
-    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
-  },
-  {
     "date": "14th Jul",
     "date2": "2018",
     "startDate": "2018-07-14",
