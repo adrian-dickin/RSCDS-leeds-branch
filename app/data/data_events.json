@@ -130,6 +130,21 @@
         {"name": "Form",
          "link": "documents/Malhamdale form 2018.docx"}
       ]
+    },
+    {
+      "date": "22nd Mar - 24th Mar",
+      "date2": "2019",
+      "startdate": "2019-03-22",
+      "days": 3,
+      "event": "Scarborough Weekend",
+      "actor": "Teacher: Di Rooney",
+      "actor2": "Music: George Meikle",
+      "location_top": "Esplanade Hotel",
+      "location": ["Scarborough"],
+      "details": [
+        {"name": "Form",
+         "link": "documents/Scarborough form 2019.pdf"}
+      ]
     }
 	]
 }
