@@ -1,22 +1,6 @@
 {
   "events": [
   {
-    "date": "14th Jul",
-    "date2": "2018",
-    "startDate": "2018-07-14",
-    "event": "White Rose Festival Evening Dance",
-    "actor": "Music: Marian Anderson and her band",
-    "location_top": "The Gateways School",
-    "location": [
-      "Harewood",
-      "Leeds",
-      "LS17 9LE"
-    ],
-    "map": "https://www.google.co.uk/maps/place/Leeds+Rd,+Harewood,+Leeds+LS17+9LE/@53.8920682,-1.5172038,14.66z/data=!4m5!3m4!1s0x48795a7f3ac555f9:0x97f3d865763ba114!8m2!3d53.8991889!4d-1.5102019",
-    "programme": "http://my.strathspey.org/dd/list/5758/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/white-rose-festival-evening-dance-2018.pdf"
-  },
-  {
     "date": "15th Sep",
     "date2": "2018",
     "startdate": "2018-09-15T19:30",
@@ -47,24 +31,6 @@
 ],
 "leeds_events": [
     {
-      "date": "30th June",
-      "date2": "2018",
-      "startdate": "2018-06-30T19:30",
-      "time": "7:30pm",
-      "event": "Leeds Club",
-      "event_desc": "Summer Special - faith supper",
-      "actor": "Music: Neil Barron Duo",
-      "actor2": "MC: Don Andrews",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/10564/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/club-30th-june-2018.pdf"
-    },
-    {
       "date": "15th Dec",
       "date2": "2018",
       "startdate": "2018-012-15",
@@ -79,23 +45,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "14th Jul",
-      "date2": "2018",
-      "startdate": "2018-07-14",
-      "event": "White Rose Festival",
-      "actor": "Music: Marian Anderson and her band",
-      "location_top": "The Gateways School",
-      "location": [
-        "Harewood",
-        "Leeds",
-        "LS17 9LE"
-      ],
-      "details": [
-  			{"name": "White Rose Festival website",
-  			 "external-link": "http://whiterosefestival.uk/"}
-       ]
-    },
     {
       "date": "15th Sep",
       "date2": "2018",
