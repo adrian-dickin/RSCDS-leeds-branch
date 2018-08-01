@@ -17,9 +17,24 @@
     "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-15th-september-2018.pdf"
   },
   {
+    "date" : "17th Nov",
+    "date2": "2018",
+    "startdate": "2018-11-17T19:30",
+    "time": "7:30pm",
+    "event": "Joint Ball with York RSCDS",
+    "location_top": "The Riley Smith Hall",
+    "location": [
+        "28 Westgate",
+        "Tadcaster",
+        "LS24 9AB"
+    ],
+    "map": "https://www.google.co.uk/maps/place/Riley-Smith+Hall/@53.885156,-1.2664527,17z/data=!3m1!4b1!4m5!3m4!1s0x487947eb074b99af:0x830afd1104bf382a!8m2!3d53.885156!4d-1.264264"
+
+  },
+  {
     "date": "15th Dec",
     "date2": "2018",
-    "startdate": "2018-012-15",
+    "startdate": "2018-12-15",
     "event": "Joint Club and Branch Christmas Dance",
     "location_top": "St Chad's Parish Centre",
     "location": [
@@ -33,7 +48,7 @@
     {
       "date": "15th Dec",
       "date2": "2018",
-      "startdate": "2018-012-15",
+      "startdate": "2018-12-15",
       "event": "Joint Club and Branch Christmas Dance",
       "location_top": "St Chad's Parish Centre",
       "location": [
