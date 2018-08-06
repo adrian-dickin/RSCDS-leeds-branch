@@ -64,19 +64,7 @@
   		],
   		"notes": ["Continues throughout the year"]
    	},
-  	{
-  		"day": "Friday",
-  		"level": "Children",
-  		"teacher": [{"name": "Brenda Burnell", "email": "brenda.gunny@talktalk.net"}],
-  		"time": "17:15 - 18:45",
-  		"venue": [
-  			"Hawksworth Wood Primary School",
-  			"Broadway",
-  			"Leeds",
-  			"LS5 3QE"
-  		],
-  		"notes": []
-   	},
+
   	{
   		"day": "Sunday - monthly",
   		"level": "Experienced",
@@ -88,9 +76,7 @@
   			"LS21 2JB"
   		],
   		"notes": [
-        "3rd Jun",
-        "8th Jul",
-        ""
+        "TBC"
   		]
    	}
    ]
