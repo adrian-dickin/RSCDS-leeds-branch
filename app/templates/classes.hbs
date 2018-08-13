@@ -38,6 +38,9 @@ pageDescription: "Leeds RSCDS Branch classes, teachers and the Facebook class gr
 				{{/each}}
 			</div>
 			<div class="col-md-3 col-xs-6">
+				{{#if details}}
+				<a href="{{details.link}}">{{details.name}}</a>
+				{{/if}}
 				{{#each notes}}
 				<div>{{this}}</div>
 				{{/each}}

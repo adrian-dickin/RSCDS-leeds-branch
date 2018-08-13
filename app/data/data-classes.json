@@ -67,17 +67,58 @@
 
   	{
   		"day": "Sunday - monthly",
-  		"level": "Experienced",
+  		"level": "Workshop",
   		"teacher": [{"name": "Catherine Livsey", "email": "cllivsey@gmail.com"}],
-  		"time": "13:45 - 15:45",
+  		"time": "13:30 - 16:00",
   		"venue": [
   			"Askwith Village Hall",
   			"Askwith",
   			"LS21 2JB"
   		],
+      "details": {
+        "name": "Workshop details",
+        "link": "sunday_workshop.html"
+      },
   		"notes": [
-        "TBC"
+        "14th Oct 2018",
+        "25th Nov 2018",
+        "7th Apr 2019",
+        "5th May 2019",
+        "2nd Jun 2019",
+        "7th Jul 2019"
   		]
    	}
-   ]
+  ],
+  "sunday-workshop": [
+    {
+      "date": "14th Oct 2018",
+      "description": ["will be for newer dancers (although everyone is welcome) and will cover reels and corners. "]
+    },
+    {
+      "date": "25th Nov 2018",
+      "description":["for all dancers with a good knowledge of basic formations.",
+        "We will look at formations in book 52 eg Strathspey Poussette, Corner chain progression, Hello-goodbye poussette plus others time allowing.",
+        "We will dance the dances too."]
+    },
+    {
+      "date": "7th Apr 2009",
+      "description": ["will be for experienced dances with a good knowledge of formations and technique.",
+        "We will work on Demonstration dances, eg Lord of Gondor by Iain Boyd. "]
+    },
+    {
+      "date": "5th May 2009",
+      "description": ["will be for experienced dances with a good knowledge of formations and technique.",
+      "We will work on Demonstration dances eg The Border Reiver’s Reel by Roy Clowes."]
+    },
+    {
+      "date": "2nd Jun 2009",
+      "description": ["White Rose Festival dances, mainly the massed dances, but may cover some demonstration, highland and evening dances, time allowing.",
+        "It is not just for Leeds team dancers or dancers taking part in the white Rose Festival, all dancers welcome with a good knowledge of basic formations."]
+    },
+    {
+      "date": "7th Jul 2009",
+      "description": ["White Rose Festival dances, mainly the massed dances, but may cover some demonstration, highland and evening dances, time allowing.",
+        "It is not just for Leeds team dancers or dancers taking part in the white Rose Festival, all dancers welcome with a good knowledge of basic formations."]
+    }
+  ]
  }

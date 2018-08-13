@@ -1,0 +1,40 @@
+---
+pageTitle: "Sunday Workshop"
+scripts: ["handleEmailLinks();"]
+pageDescription: "Leeds Sunday Workshop"
+---
+<h2 class="bottom-gap2">New Sunday Afternoon Workshops</h2>
+<div class="row">
+  <div class="col-md-3 col-sm-6 bottom-gap2">
+    Sundays 1.30pm to 4pm with juice break<br>
+   Askwith Village Hall, Askwith, LS21 2JB
+ </div>
+ <div class="col-md-9 col-sm-6 bottom-gap2">
+   Teacher: Catherine Livsey {{{email 'info@dancingscottish.com'}}}
+ </div>
+</div>
+
+<p class="bottom-gap2">After consultation with dancers attending the Sunday class I decided it was time to change things this year.
+I will be running series of short workshops on tricks and tips to enhance dancing skills.<br>
+Yes there will be some work on technique and a little step practice, but the main aim is to enable you to
+dance more effectively, so dancing becomes easier and therefore more enjoyable. It will be about ease of
+movement, arm and hand movements that can help you get into place and freeing up space so you can move within
+the set. I also guarantee we will have a lot of fun in the process.<br>
+So come and give it a go. If there is anything, like a formation you would like me to cover, please come and chat to me or email me.</p>
+
+<ul class="list-group">
+{{#each data-classes.sunday-workshop}}
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <h4 class="list-group-item-heading">{{date}}</h4>
+      </div>
+      <div class="col-md-9 col-sm-6">
+        {{#each description}}
+          <div>{{this}}</div>
+        {{/each}}
+      </div>
+    </div>
+  </li>
+{{/each}}
+</ul>
