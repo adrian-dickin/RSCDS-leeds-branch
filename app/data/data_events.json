@@ -20,8 +20,11 @@
     "date" : "20th Oct",
     "date2": "2018",
     "startdate": "2018-10-20T19:30",
-    "time": "7:30pm",
-    "event": "Branch Dance",
+    "time": "7:30pm (AGM 6:45pm)",
+    "event": "AGM/Branch Dance",
+    "event_desc": "All dances will be recapped",
+    "actor": "Music: Alan Ross Duo",
+    "actor2": "MC: Maureen Haynes",
     "location_top": "Corpus Christi Catholic College",
     "location": [
       "Neville Road",
@@ -38,6 +41,7 @@
     "date2": "2018",
     "startdate": "2018-11-17T19:30",
     "time": "7:30pm",
+    "actor": "Music: Marian Anderson Trio",
     "event": "Joint Ball with York RSCDS",
     "location_top": "The Riley Smith Hall",
     "location": [
@@ -110,6 +114,19 @@
       "details": [
           {"name": "Form",
            "link": "documents/Highland Day School Oct 18.pdf"}
+      ]
+    },
+    {
+      "date": "16th Mar",
+      "date2": "2019",
+      "startdate": "2019-03-16",
+      "event": "Musician's Day School",
+      "actor": "Teacher: Ian Muir",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
       ]
     }
 ],
