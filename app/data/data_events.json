@@ -146,7 +146,15 @@
       "location": [],
       "details": [
         {"name": "Form",
-         "link": "documents/Malhamdale form 2018.docx"}
+         "link": "documents/Malhamdale form 2018.docx"},
+        {"name": "Fri Programme",
+         "link": "http://my.strathspey.org/dd/list/18255/"},
+        {"name": "Fri Crib with Diagrams",
+         "link": "documents/malhamdale-2018-friday-30th-november.pdf"},
+        {"name": "Sat Programme",
+         "link": "http://my.strathspey.org/dd/list/18256/"},
+        {"name": "Sat Crib with Diagrams",
+         "link": "documents/malhamdale-2018-saturday-1st-december.pdf"}
       ]
     },
     {
