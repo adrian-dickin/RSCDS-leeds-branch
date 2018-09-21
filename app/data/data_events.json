@@ -1,23 +1,6 @@
 {
   "events": [
   {
-    "date": "15th Sep",
-    "date2": "2018",
-    "startdate": "2018-09-15T19:30",
-    "time": "7:30pm",
-    "event": "Branch Dance",
-    "actor": "Music: Susan MacFadyen",
-    "actor2": "MC: Irene Dracup",
-    "location_top": "St Chad's Parish Centre",
-    "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/17004/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-15th-september-2018.pdf"
-  },
-  {
     "date" : "20th Oct",
     "date2": "2018",
     "startdate": "2018-10-20T19:30",
@@ -70,6 +53,21 @@
 ],
 "leeds_events": [
     {
+      "date": "29th Sep",
+      "date2": "2018",
+      "startdate": "2018-09-29",
+      "actor": "Music: George Meikle",
+      "actor2": "MC: Veronica Hughes",
+      "event": "Club Dance",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "crib": "http://www.rscdsleeds.org.uk/Socials/Club Crib 29-September-2018.pdf"
+    },
+    {
       "date": "15th Dec",
       "date2": "2018",
       "startdate": "2018-12-15",
@@ -85,24 +83,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "15th Sep",
-      "date2": "2018",
-      "startdate": "2018-09-15",
-      "event": "Leeds Branch Day School",
-      "actor": "Teacher: Rachel Shankland",
-      "actor2": "Music: Ian Slater",
-      "location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-      "details": [
-        {"name": "Form",
-         "link": "documents/Rscds Leeds day school 2018.pdf"}
-      ]
-    },
     {
       "date": "6th Oct",
       "date2": "2018",
