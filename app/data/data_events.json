@@ -41,14 +41,17 @@
     "date": "15th Dec",
     "date2": "2018",
     "startdate": "2018-12-15",
-    "actor": "MC: Jan Robinson",
+    "actor2": "MC: Jan Robinson",
+    "actor": "Music: George Meikle",
     "event": "Joint Club and Branch Christmas Dance",
     "location_top": "St Chad's Parish Centre",
     "location": [
       "Otley Road",
       "Leeds",
       "LS16 5JT"
-    ]
+    ],
+    "programme": "http://my.strathspey.org/dd/list/18555/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/christmas-dance-15th-december-2018.pdf"
   }
 ],
 "leeds_events": [
@@ -71,14 +74,17 @@
       "date": "15th Dec",
       "date2": "2018",
       "startdate": "2018-12-15",
-      "actor": "MC: Jan Robinson",
+      "actor2": "MC: Jan Robinson",
+      "actor": "Music: George Meikle",
       "event": "Joint Club and Branch Christmas Dance",
       "location_top": "St Chad's Parish Centre",
       "location": [
         "Otley Road",
         "Leeds",
         "LS16 5JT"
-      ]
+      ],
+      "programme": "http://my.strathspey.org/dd/list/18555/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/christmas-dance-15th-december-2018.pdf"
     }
   ],
 
