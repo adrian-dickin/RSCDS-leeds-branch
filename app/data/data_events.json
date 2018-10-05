@@ -56,21 +56,6 @@
 ],
 "leeds_events": [
     {
-      "date": "29th Sep",
-      "date2": "2018",
-      "startdate": "2018-09-29",
-      "actor": "Music: George Meikle",
-      "actor2": "MC: Veronica Hughes",
-      "event": "Club Dance",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "crib": "http://www.rscdsleeds.org.uk/Socials/Club Crib 29-September-2018.pdf"
-    },
-    {
       "date": "15th Dec",
       "date2": "2018",
       "startdate": "2018-12-15",
@@ -126,7 +111,7 @@
       "date": "30th Nov - 2nd Dec",
       "date2": "2018",
       "startdate": "2018-11-30",
-      "days": 3,
+      "enddate": "2018-12-02",
       "event": "Malhamdale Weekend",
       "actor": "Teacher: Sue Porter",
       "actor2": "Music: Ian Robertson",
@@ -149,7 +134,7 @@
       "date": "22nd Mar - 24th Mar",
       "date2": "2019",
       "startdate": "2019-03-22",
-      "days": 3,
+      "enddate": "2019-03-24",
       "event": "Scarborough Weekend",
       "actor": "Teacher: Di Rooney",
       "actor2": "Music: George Meikle",

@@ -7,18 +7,30 @@ jsonLd: |
     <%
     var events = data_events.special_events;
     for(var i=0; i < events.length; i++) {
-    	var event = events[i];
-    	var location = event.location;
-    	location.unshift(event.location_top);
+      var event = events[i];
+      var location = event.location;
+      location.unshift(event.location_top);
+      if (event.enddate === undefined) {
+        event.enddate = event.startdate;
+      }
     %> {
             "@context": "http://schema.org",
             "@type": "Event",
             "name": "<%=event.event%>",
+            "description": "<%=event.event%>",
             "startDate": "<%=event.startdate%>",
+            "endDate": "<%=event.enddate%>",
             "location": {
                 "@type": "Place",
                 "name": "<%=event.location_top%>",
                 "address": "<%=location.join(',')%>"
+            },
+            "offers": {
+                "@type": "Offer"
+            },
+            "performer": {
+                "@type": "PerformingGroup",
+                "name": "<%=event.actor%>"
             }
         }<%
         if (i !== events.length - 1) {

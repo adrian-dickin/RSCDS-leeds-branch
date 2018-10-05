@@ -4,15 +4,15 @@
   "description": "Generate the static web site for the Leeds RSCDS branch",
   "private": true,
   "devDependencies": {
-    "grunt-assemble": "^0.5.0",
     "grunt": "^1.0.0",
+    "grunt-assemble": "^0.5.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.2",
-    "handlebars-helper-filehash": "^1.0.0",
     "grunt-contrib-htmlmin": "^2.0.0",
-    "handlebars-helper-minify": "^0.1.3",
-    "grunt-sitemap": "^1.2.1"
+    "grunt-sitemap": "^1.2.1",
+    "handlebars-helper-filehash": "^1.0.0",
+    "handlebars-helper-minify": "^0.1.3"
   }
 }
