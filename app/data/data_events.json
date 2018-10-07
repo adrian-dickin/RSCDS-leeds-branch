@@ -75,21 +75,37 @@
 
 "special_events": [
     {
-      "date": "6th Oct",
+      "date": "14th Oct",
       "date2": "2018",
-      "startdate": "2018-10-06",
-      "event": "Highland Day School",
+      "startdate": "2018-10-14",
+      "event": "Sunday Workshop",
       "actor": "Teacher: Catherine Livsey",
-      "location_top": "St Giles Church Hall",
-  		"location": [
-  		    "Church Hill",
-  		    "Bramhope",
-  		    "LS16 9BA"
-  		],
-      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
+      "actor_details": "will be for newer dancers (although everyone is welcome) and will cover reels and corners.",
+      "location_top": "Askwith Village Hall",
+      "location": [
+        "Askwith",
+        "LS21 2JB"
+      ],
       "details": [
-          {"name": "Form",
-           "link": "documents/Highland Day School Oct 18.pdf"}
+        {"name": "details",
+         "link": "sunday_workshop.html"}
+      ]
+    },
+    {
+      "date": "25th Nov",
+      "date2": "2018",
+      "startdate": "2018-11-25",
+      "event": "Sunday Workshop",
+      "actor": "Teacher: Catherine Livsey",
+      "actor_details": "for all dancers with a good knowledge of basic formations. We will look at formations in book 52 eg Strathspey Poussette, Corner chain progression, Hello-goodbye poussette plus others time allowing. We will dance the dances too.",
+      "location_top": "Askwith Village Hall",
+      "location": [
+        "Askwith",
+        "LS21 2JB"
+      ],
+      "details": [
+        {"name": "details",
+         "link": "sunday_workshop.html"}
       ]
     },
     {
@@ -103,6 +119,74 @@
         "Otley Road",
         "Leeds",
         "LS16 5JT"
+      ]
+    },
+    {
+      "date": "7th Apr",
+      "date2": "2019",
+      "startdate": "2019-04-07",
+      "event": "Sunday Workshop",
+      "actor": "Teacher: Catherine Livsey",
+      "actor_details": "will be for experienced dances with a good knowledge of formations and technique. We will work on Demonstration dances, eg Lord of Gondor by Iain Boyd.",
+      "location_top": "Askwith Village Hall",
+      "location": [
+        "Askwith",
+        "LS21 2JB"
+      ],
+      "details": [
+        {"name": "details",
+         "link": "sunday_workshop.html"}
+      ]
+    },
+    {
+      "date": "5th May",
+      "date2": "2019",
+      "startdate": "2019-05-05",
+      "event": "Sunday Workshop",
+      "actor": "Teacher: Catherine Livsey",
+      "actor_details": "will be for experienced dances with a good knowledge of formations and technique. We will work on Demonstration dances eg The Border Reiver’s Reel by Roy Clowes.",
+      "location_top": "Askwith Village Hall",
+      "location": [
+        "Askwith",
+        "LS21 2JB"
+      ],
+      "details": [
+        {"name": "details",
+         "link": "sunday_workshop.html"}
+      ]
+    },
+    {
+      "date": "2nd Jun",
+      "date2": "2019",
+      "startdate": "2019-06-02",
+      "event": "Sunday Workshop",
+      "actor": "Teacher: Catherine Livsey",
+      "actor_details": "White Rose Festival dances, mainly the massed dances, but may cover some demonstration, highland and evening dances, time allowing. It is not just for Leeds team dancers or dancers taking part in the white Rose Festival, all dancers welcome with a good knowledge of basic formations.",
+      "location_top": "Askwith Village Hall",
+      "location": [
+        "Askwith",
+        "LS21 2JB"
+      ],
+      "details": [
+        {"name": "details",
+         "link": "sunday_workshop.html"}
+      ]
+    },
+    {
+      "date": "7th Jul",
+      "date2": "2019",
+      "startdate": "2019-07-07",
+      "event": "Sunday Workshop",
+      "actor": "Teacher: Catherine Livsey",
+      "actor_details": "White Rose Festival dances, mainly the massed dances, but may cover some demonstration, highland and evening dances, time allowing. It is not just for Leeds team dancers or dancers taking part in the white Rose Festival, all dancers welcome with a good knowledge of basic formations.",
+      "location_top": "Askwith Village Hall",
+      "location": [
+        "Askwith",
+        "LS21 2JB"
+      ],
+      "details": [
+        {"name": "details",
+         "link": "sunday_workshop.html"}
       ]
     }
 ],

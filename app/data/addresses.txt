@@ -95,4 +95,10 @@
           "Ilkley",
           "LS29 9QL"
         ],
-        
+
+
+        "location_top": "Askwith Village Hall",
+        "location": [
+          "Askwith",
+          "LS21 2JB"
+        ]

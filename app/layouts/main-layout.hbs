@@ -42,12 +42,18 @@ menus:
   {{/if}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{pageTitle}}</title>
+  <style>
+  .initial-fade {
+    opacity: 0.1;
+    transition: opacity 0.3s;
+  }
+  </style>
   <link rel="shortcut icon" type="image/png" href="images/favicon2.png" />
   {{{jsonLd}}}
 </head>
 {{#minify}}
 <body>
- <div class="container-fluid">
+ <div class="container-fluid initial-fade">
    <nav class="navbar navbar-inverse navbar-fixed-top">
      <div id="logo-row" class="clearfix">
        <div class="branch-logo"></div>
