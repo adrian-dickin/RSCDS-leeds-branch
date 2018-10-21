@@ -99,21 +99,27 @@ menus:
 </div>
 
 {{#if footer}}
-<nav class="navbar navbar-default navbar-fixed-bottom">
+<nav id="footer" class="navbar navbar-default navbar-fixed-bottom">
   <div class="container-fluid" style="margin-top: 10px">
-    <div class="col-sm-3 col-xs-12">
+    <div class="col-sm-3 col-xs-12 xs-pad-b1">
 			<a href="http://www.facebook.com/pages/Rscds-Leeds-Branch/134876863288229?sk=wall"><div class="facebook"></div></a>
 		</div>
-		<div class="col-sm-3 col-xs-12">
+		<div class="col-sm-3 col-xs-12 xs-pad-b1">
 		  <a href="https://twitter.com/RSCDSLeeds" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @RSCDSLeeds</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		</div>
-    <div class="col-sm-3 col-xs-6">
-      Registered Charity No. 1072452
+    <div class="col-sm-3 col-xs-12 xs-pad-b1">
+      Registered Charity No. <a target="_blank" class="btn btn-primary btn-xs"
+         href="http://apps.charitycommission.gov.uk/Showcharity/RegisterOfCharities/CharityWithoutPartB.aspx?RegisteredCharityNumber=1072452&SubsidiaryNumber=0">1072452</a>
     </div>
-    <div class="col-sm-3 col-xs-6 text-right">
-  	{{{emailWithLabel 'adrian@setandlink.org.uk' 'Email us'}}}
-  	</div>
+    <div class="col-sm-3 col-xs-12">
+      <a target="_blank" class="btn btn-primary btn-xs pull-left"
+         href="https://rscdsleeds.us14.list-manage.com/subscribe?u=292af2b7869298300bf9ea46a&id=8bf7f9e3e9">Subscribe
+      </a>
+      <div class="pull-right">
+    	{{{emailWithLabel 'webmaster@rscdsleeds.org.uk' 'Email us'}}}
+    	</div>
+    </div>
   </div>
 
 </nav>

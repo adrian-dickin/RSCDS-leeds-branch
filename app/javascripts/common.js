@@ -5,14 +5,11 @@ function headerScroll() {
 		var doc = $(document).height();
 		if (st > 92) {
 		   $('#logo-row').css({height: '0px', opacity: 0});
-		  // $('.banner-logo').css({opacity: 0});
 		} else {
 		   $('#logo-row').css({height: (92 - st) + 'px', opacity: (1 - st/92)});
-		  // $('.banner-logo').css({opacity: (1 - st/92)});
 		}
 	};
 	$(window).scroll(handler);
-
 	handler();
 };
 

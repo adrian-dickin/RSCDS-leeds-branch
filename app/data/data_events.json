@@ -1,26 +1,6 @@
 {
   "events": [
   {
-    "date" : "20th Oct",
-    "date2": "2018",
-    "startdate": "2018-10-20T19:30",
-    "time": "7:30pm (AGM 6:45pm)",
-    "event": "AGM/Branch Dance",
-    "event_desc": "All dances will be recapped",
-    "actor": "Music: Alan Ross Duo",
-    "actor2": "MC: Maureen Haynes",
-    "location_top": "Corpus Christi Catholic College",
-    "location": [
-      "Neville Road",
-      "Halton Moor",
-      "Leeds",
-      "LS9 0TT"
-    ],
-    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313",
-    "programme": "http://my.strathspey.org/dd/list/17893/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-20th-october-2018.pdf"
-  },
-  {
     "date" : "17th Nov",
     "date2": "2018",
     "startdate": "2018-11-17T19:30",
@@ -74,23 +54,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "14th Oct",
-      "date2": "2018",
-      "startdate": "2018-10-14",
-      "event": "Sunday Workshop",
-      "actor": "Teacher: Catherine Livsey",
-      "actor_details": "will be for newer dancers (although everyone is welcome) and will cover reels and corners.",
-      "location_top": "Askwith Village Hall",
-      "location": [
-        "Askwith",
-        "LS21 2JB"
-      ],
-      "details": [
-        {"name": "details",
-         "link": "sunday_workshop.html"}
-      ]
-    },
     {
       "date": "25th Nov",
       "date2": "2018",
