@@ -38,12 +38,33 @@
     "date2": "2019",
     "startdate": "2019-01-19",
     "event": "Branch Dance",
-    "location_top": "",
+    "actor": "Music: Neil Barron Duo",
+    "actor2": "MC: Alan Horsfall",
+    "location_top": "St Chad's Parish Centre",
     "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
     ],
     "programme": "http://my.strathspey.org/dd/list/19002/",
     "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-19th-january-2019.pdf"
-  }
+  },
+  {
+    "date": "16th Mar",
+    "date2": "2019",
+    "startdate": "2019-03-16",
+    "event": "Branch Musician's Day Dance",
+    "actor2": "MC: Don Andrews",
+    "actor": "Music: Ian Muir & Musicians’ Day band",
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "programme": "http://my.strathspey.org/dd/list/19081/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-musicians-day-dance-16th-march-2019.pdf"  
+   }
 ],
 "leeds_events": [
     {
