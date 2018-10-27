@@ -102,3 +102,10 @@
           "Askwith",
           "LS21 2JB"
         ]
+
+        "location_top": "West Park United Reformed Church",
+        "location": [
+          "317 Spen Lane",
+          "Leeds",
+          "LS16 5BD"
+        ]

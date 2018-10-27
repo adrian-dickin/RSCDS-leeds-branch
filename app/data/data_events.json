@@ -18,6 +18,22 @@
     "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-york-and-n-humberside-joint-ball-17th-november-2018.pdf"
   },
   {
+    "date": "10th Dec",
+    "date2": "2018",
+    "startdate": "2018-12-10",
+    "actor2": "MC: Don Andrews",
+    "actor": "Music: Ian Slater",
+    "event": "Adel Tea Dance",
+    "event_desc": "Faith tea",
+    "location_top": "Adel Methodist Church Hall",
+    "location": [
+        "Gainsborough Avenue",
+        "Adel",
+        "Leeds",
+        "LS16 7PQ"
+    ]
+  },
+  {
     "date": "15th Dec",
     "date2": "2018",
     "startdate": "2018-12-15",
@@ -63,7 +79,7 @@
       "LS16 5JT"
     ],
     "programme": "http://my.strathspey.org/dd/list/19081/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-musicians-day-dance-16th-march-2019.pdf"  
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-musicians-day-dance-16th-march-2019.pdf"
    }
 ],
 "leeds_events": [
@@ -96,6 +112,21 @@
       ],
       "programme": "http://my.strathspey.org/dd/list/18555/",
       "crib": "http://www.rscdsleeds.org.uk/Socials/christmas-dance-15th-december-2018.pdf"
+    },
+    {
+      "date": "27th Dec",
+      "date2": "2018",
+      "startdate": "2018-12-27",
+      "actor2": "MC: Don Andrews",
+      "actor": "Music: Ian Slater",
+      "event_desc": "Faith Supper",
+      "event": "St Columba SC Dancers' Hogmanay Dance",
+      "location_top": "West Park United Reformed Church",
+      "location": [
+        "317 Spen Lane",
+        "Leeds",
+        "LS16 5BD"
+      ]
     }
   ],
 
