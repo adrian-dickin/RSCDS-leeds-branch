@@ -178,12 +178,27 @@ table.calendar {
     opacity: 1.0;
 }
 
-.xs-pad-b1 {
-    padding-bottom: 8px;
+.xs-pad-footer {
+    height: 32px;
+}
+
+.text-xs-right {
+  text-align: right;
 }
 
 @media (min-width: 768px) {
   .xs-pad-b1 {
     padding-bottom: 0px;
+  }
+  .text-xs-right {
+    text-align: left;
+  }
+  .text-sm-right {
+    text-align: right;
+  }
+}
+@media (min-width: 992px) {
+  .text-sm-right {
+    text-align: left;
   }
 }
