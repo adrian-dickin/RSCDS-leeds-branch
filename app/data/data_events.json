@@ -31,7 +31,11 @@
         "Adel",
         "Leeds",
         "LS16 7PQ"
-    ]
+    ],
+    "details": [
+      {"name": "details",
+       "link": "documents/Tea dance2018.pdf"}
+     ]
   },
   {
     "date": "15th Dec",
@@ -66,6 +70,20 @@
     "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-19th-january-2019.pdf"
   },
   {
+    "date": "16th Feb",
+    "date2": "2019",
+    "startdate": "2019-02-16",
+    "event": "Branch Dance",
+    "actor": "Music: Ian Slater",
+    "location_top": "Corpus Christi Catholic College",
+    "location": [
+      "Neville Road",
+      "Halton Moor",
+      "Leeds",
+      "LS9 0TT"
+    ]
+  },
+  {
     "date": "16th Mar",
     "date2": "2019",
     "startdate": "2019-03-16",
@@ -98,6 +116,20 @@
       "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-nov-24-second-draft.pdf"
     },
     {
+      "date": "1st Dec",
+      "date2": "2018",
+      "startdate": "2018-12-01T19:30",
+      "actor": "Music: Matthew McLennan duo",
+      "event": "Harrogate Saltire Winter Rant",
+      "event_desc": "£12 Faith Supper",
+      "location_top": "St Johns School",
+      "location": ["Knaresborough", "HG5 0JN"],
+      "details": [
+        {"name": "details",
+         "external-link": "http://harrogatesaltire.com/events-news/"}
+      ]
+    },
+    {
       "date": "15th Dec",
       "date2": "2018",
       "startdate": "2018-12-15",
@@ -126,6 +158,35 @@
         "317 Spen Lane",
         "Leeds",
         "LS16 5BD"
+      ]
+    },
+    {
+      "date": "25th Jan",
+      "date2": "2019",
+      "startdate": "2019-01-25",
+      "event": "Harrogate Saltire Burns Night Ceilidh",
+      "location_top": "St Johns School",
+      "location": [
+        "Knaresborough", "HG5 0JN"
+      ],
+      "details": [
+        {"name": "details",
+         "external-link": "http://harrogatesaltire.com/events-news/"}
+      ]
+    },
+    {
+      "date": "13th Apr",
+      "date2": "2019",
+      "startdate": "2019-04-13",
+      "event": "Harrogate Saltire Spring Dance",
+      "actor": "Music: Marion Anderson and her band",
+      "location_top": "St Johns School",
+      "location": [
+        "Knaresborough", "HG5 0JN"
+      ],
+      "details": [
+        {"name": "details",
+         "external-link": "http://harrogatesaltire.com/events-news/"}
       ]
     }
   ],
