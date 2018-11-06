@@ -34,7 +34,11 @@
     ],
     "details": [
       {"name": "details",
-       "link": "documents/Tea dance2018.pdf"}
+       "link": "documents/Tea dance2018.pdf"},
+      {"name": "Programme",
+       "external-link": "http://my.strathspey.org/dd/list/19318/"},
+      {"name": "Crib with diagrams",
+       "link": "http://www.rscdsleeds.org.uk/Socials/adel-christmas-tea-dance-10th-december-2018.pdf"}
      ]
   },
   {
