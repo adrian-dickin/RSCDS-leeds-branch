@@ -28,7 +28,7 @@
     "date": "15th Dec",
     "date2": "2018",
     "startdate": "2018-12-15",
-    "actor2": "MC: Jan Robinson",
+    "actor2": "MC: Jan & Geoff Robinson",
     "actor": "Music: George Meikle",
     "event": "Joint Club and Branch Christmas Dance",
     "location_top": "St Chad's Parish Centre",
@@ -68,7 +68,9 @@
       "Halton Moor",
       "Leeds",
       "LS9 0TT"
-    ]
+    ],
+    "programme": "http://my.strathspey.org/dd/list/19811/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-16th-february-2019.pdf"
   },
   {
     "date": "16th Mar",
@@ -89,38 +91,10 @@
 ],
 "leeds_events": [
     {
-      "date": "24th Nov",
-      "date2": "2018",
-      "startdate": "2018-11-24",
-      "event": "Club Dance",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/17999/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-nov-24-second-draft.pdf"
-    },
-    {
-      "date": "1st Dec",
-      "date2": "2018",
-      "startdate": "2018-12-01T19:30",
-      "actor": "Music: Matthew McLennan duo",
-      "event": "Harrogate Saltire Winter Rant",
-      "event_desc": "£12 Faith Supper",
-      "location_top": "St Johns School",
-      "location": ["Knaresborough", "HG5 0JN"],
-      "details": [
-        {"name": "details",
-         "external-link": "http://harrogatesaltire.com/events-news/"}
-      ]
-    },
-    {
       "date": "15th Dec",
       "date2": "2018",
       "startdate": "2018-12-15",
-      "actor2": "MC: Jan Robinson",
+      "actor2": "MC: Jan & Geoff Robinson",
       "actor": "Music: George Meikle",
       "event": "Joint Club and Branch Christmas Dance",
       "location_top": "St Chad's Parish Centre",
@@ -184,23 +158,6 @@
 
 "special_events": [
     {
-      "date": "25th Nov",
-      "date2": "2018",
-      "startdate": "2018-11-25",
-      "event": "Sunday Workshop",
-      "actor": "Teacher: Catherine Livsey",
-      "actor_details": "for all dancers with a good knowledge of basic formations. We will look at formations in book 52 eg Strathspey Poussette, Corner chain progression, Hello-goodbye poussette plus others time allowing. We will dance the dances too.",
-      "location_top": "Askwith Village Hall",
-      "location": [
-        "Askwith",
-        "LS21 2JB"
-      ],
-      "details": [
-        {"name": "details",
-         "link": "sunday_workshop.html"}
-      ]
-    },
-    {
       "date": "16th Mar",
       "date2": "2019",
       "startdate": "2019-03-16",
@@ -211,6 +168,10 @@
         "Otley Road",
         "Leeds",
         "LS16 5JT"
+      ],
+      "details": [
+        {"name": "Form",
+        "external-link": "documents/Rscds Musician's day school form 2019.pdf"}
       ]
     },
     {
@@ -283,29 +244,6 @@
     }
 ],
 	"weekend_events": [
-    {
-      "date": "30th Nov - 2nd Dec",
-      "date2": "2018",
-      "startdate": "2018-11-30",
-      "enddate": "2018-12-02",
-      "event": "Malhamdale Weekend",
-      "actor": "Teacher: Sue Porter",
-      "actor2": "Music: Ian Robertson",
-      "location_top": "Malhamdale",
-      "location": [],
-      "details": [
-        {"name": "Form",
-         "link": "documents/Malhamdale form 2018.docx"},
-        {"name": "Fri Programme",
-         "link": "http://my.strathspey.org/dd/list/18255/"},
-        {"name": "Fri Crib with Diagrams",
-         "link": "documents/malhamdale-2018-friday-30th-november.pdf"},
-        {"name": "Sat Programme",
-         "link": "http://my.strathspey.org/dd/list/18256/"},
-        {"name": "Sat Crib with Diagrams",
-         "link": "documents/malhamdale-2018-saturday-1st-december.pdf"}
-      ]
-    },
     {
       "date": "22nd Mar - 24th Mar",
       "date2": "2019",
