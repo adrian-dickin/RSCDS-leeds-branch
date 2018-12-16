@@ -1,46 +1,6 @@
 {
   "events": [
   {
-    "date": "10th Dec",
-    "date2": "2018",
-    "startdate": "2018-12-10",
-    "actor2": "MC: Don Andrews",
-    "actor": "Music: Ian Slater",
-    "event": "Adel Tea Dance",
-    "event_desc": "Faith tea",
-    "location_top": "Adel Methodist Church Hall",
-    "location": [
-        "Gainsborough Avenue",
-        "Adel",
-        "Leeds",
-        "LS16 7PQ"
-    ],
-    "details": [
-      {"name": "details",
-       "link": "documents/Tea dance2018.pdf"},
-      {"name": "Programme",
-       "external-link": "http://my.strathspey.org/dd/list/19318/"},
-      {"name": "Crib with diagrams",
-       "link": "http://www.rscdsleeds.org.uk/Socials/adel-christmas-tea-dance-10th-december-2018.pdf"}
-     ]
-  },
-  {
-    "date": "15th Dec",
-    "date2": "2018",
-    "startdate": "2018-12-15",
-    "actor2": "MC: Jan & Geoff Robinson",
-    "actor": "Music: George Meikle",
-    "event": "Joint Club and Branch Christmas Dance",
-    "location_top": "St Chad's Parish Centre",
-    "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/18555/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/christmas-dance-15th-december-2018.pdf"
-  },
-  {
     "date": "19th Jan",
     "date2": "2019",
     "startdate": "2019-01-19",
@@ -90,22 +50,6 @@
    }
 ],
 "leeds_events": [
-    {
-      "date": "15th Dec",
-      "date2": "2018",
-      "startdate": "2018-12-15",
-      "actor2": "MC: Jan & Geoff Robinson",
-      "actor": "Music: George Meikle",
-      "event": "Joint Club and Branch Christmas Dance",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/18555/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/christmas-dance-15th-december-2018.pdf"
-    },
     {
       "date": "27th Dec",
       "date2": "2018",
@@ -256,8 +200,23 @@
       "location": ["Scarborough"],
       "details": [
         {"name": "Form",
+         "link": "documents/Malhamdale form 2019.pdf"}
+      ]
+    },
+    {
+      "date": "29th Nov - 1st Dec",
+      "date2": "2019",
+      "startdate": "2019-11-29",
+      "enddate": "2019-12-01",
+      "event": "Malhamdale Weekend",
+      "actor": "Teacher: Ruby Wilkinson",
+      "actor2": "Music: Alan Ross ",
+      "location_top": "Newfield Hall",
+      "location": ["Skipton"],
+      "details": [
+        {"name": "Form",
          "link": "documents/Scarborough form 2019.pdf"}
       ]
-    }
-	]
+  	}
+  ]
 }
