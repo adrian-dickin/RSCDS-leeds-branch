@@ -65,6 +65,24 @@
       ]
     },
     {
+      "date": "26th Jan",
+      "date2": "2019",
+      "startdate": "2019-01-26",
+      "event" : "Leeds Club Dance",
+      "actor": "Music: Alan Ross",
+      "actor2": "MC: Don Andrews",
+      "location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+      "details": [
+        {"name": "Programme",
+         "external-link": "http://www.rscdsleeds.org.uk/Socials/Programme Nov-January 2018.pdf"}
+      ]
+    },
+    {
       "date": "13th Apr",
       "date2": "2019",
       "startdate": "2019-04-13",
