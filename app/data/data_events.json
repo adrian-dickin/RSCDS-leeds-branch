@@ -3,7 +3,8 @@
   {
     "date": "19th Jan",
     "date2": "2019",
-    "startdate": "2019-01-19",
+    "startdate": "2019-01-19T19:30",
+    "time": "7:30pm",
     "event": "Branch Dance",
     "actor": "Music: Neil Barron Duo",
     "actor2": "MC: Alan Horsfall",
@@ -19,7 +20,8 @@
   {
     "date": "16th Feb",
     "date2": "2019",
-    "startdate": "2019-02-16",
+    "startdate": "2019-02-16T19:30",
+    "time": "7:30pm",
     "event": "Branch Dance",
     "actor": "Music: Ian Slater",
     "location_top": "Corpus Christi Catholic College",
@@ -67,7 +69,8 @@
     {
       "date": "26th Jan",
       "date2": "2019",
-      "startdate": "2019-01-26",
+      "startdate": "2019-01-26T19:30",
+      "time": "7:30pm",
       "event" : "Leeds Club Dance",
       "actor": "Music: Alan Ross",
       "actor2": "MC: Don Andrews",
@@ -80,6 +83,40 @@
       "details": [
         {"name": "Programme",
          "external-link": "http://www.rscdsleeds.org.uk/Socials/Programme Nov-January 2018.pdf"}
+      ]
+    },
+    {
+      "date": "23rd Feb",
+      "date2": "2019",
+      "startdate": "2019-02-23T19:30",
+      "time": "7:30pm",
+      "event" : "Leeds SCDC President's Dance",
+      "event_desc": "Faith Supper (Finger food only please)",
+      "actor": "Music: Robert Whitehead Duo",
+      "actor2": "MC: Alan Fox",
+      "location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		]
+    },
+    {
+      "date": "30th Mar",
+      "date2": "2019",
+      "startdate": "2019-03-30T19:30",
+      "time": "7:30pm",
+      "event" : "Leeds SCDC",
+      "actor2": "MC: Malcolm Brown",
+      "location_top": "St Chad's Parish Centre",
+  		"location": [
+  			"Otley Road",
+  			"Leeds",
+  			"LS16 5JT"
+  		],
+      "details": [
+        {"name": "Programme",
+         "external-link": "http://www.rscdsleeds.org.uk/Socials/Leeds SCD CLUB March 2019 Sources.doc"}
       ]
     },
     {
@@ -120,7 +157,8 @@
     {
       "date": "7th Apr",
       "date2": "2019",
-      "startdate": "2019-04-07",
+      "startdate": "2019-04-07T13:30",
+      "time": "1.30pm",
       "event": "Sunday Workshop",
       "actor": "Teacher: Catherine Livsey",
       "actor_details": "will be for experienced dances with a good knowledge of formations and technique. We will work on Demonstration dances, eg Lord of Gondor by Iain Boyd.",
@@ -137,7 +175,8 @@
     {
       "date": "5th May",
       "date2": "2019",
-      "startdate": "2019-05-05",
+      "startdate": "2019-05-05T13:30",
+      "time": "1.30pm",
       "event": "Sunday Workshop",
       "actor": "Teacher: Catherine Livsey",
       "actor_details": "will be for experienced dances with a good knowledge of formations and technique. We will work on Demonstration dances eg The Border Reiver’s Reel by Roy Clowes.",
@@ -154,7 +193,8 @@
     {
       "date": "2nd Jun",
       "date2": "2019",
-      "startdate": "2019-06-02",
+      "startdate": "2019-06-02T13:30",
+      "time": "1.30pm",
       "event": "Sunday Workshop",
       "actor": "Teacher: Catherine Livsey",
       "actor_details": "White Rose Festival dances, mainly the massed dances, but may cover some demonstration, highland and evening dances, time allowing. It is not just for Leeds team dancers or dancers taking part in the white Rose Festival, all dancers welcome with a good knowledge of basic formations.",
@@ -171,7 +211,8 @@
     {
       "date": "7th Jul",
       "date2": "2019",
-      "startdate": "2019-07-07",
+      "startdate": "2019-07-07T13:30",
+      "time": "1.30pm",
       "event": "Sunday Workshop",
       "actor": "Teacher: Catherine Livsey",
       "actor_details": "White Rose Festival dances, mainly the massed dances, but may cover some demonstration, highland and evening dances, time allowing. It is not just for Leeds team dancers or dancers taking part in the white Rose Festival, all dancers welcome with a good knowledge of basic formations.",
