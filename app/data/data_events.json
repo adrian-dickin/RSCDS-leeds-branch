@@ -1,23 +1,6 @@
 {
   "events": [
   {
-    "date": "19th Jan",
-    "date2": "2019",
-    "startdate": "2019-01-19T19:30",
-    "time": "7:30pm",
-    "event": "Branch Dance",
-    "actor": "Music: Neil Barron Duo",
-    "actor2": "MC: Alan Horsfall",
-    "location_top": "St Chad's Parish Centre",
-    "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/19002/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-19th-january-2019.pdf"
-  },
-  {
     "date": "16th Feb",
     "date2": "2019",
     "startdate": "2019-02-16T19:30",
@@ -54,39 +37,6 @@
 ],
 "leeds_events": [
     {
-      "date": "25th Jan",
-      "date2": "2019",
-      "startdate": "2019-01-25",
-      "event": "Harrogate Saltire Burns Night Ceilidh",
-      "location_top": "St Johns School",
-      "location": [
-        "Knaresborough", "HG5 0JN"
-      ],
-      "details": [
-        {"name": "details",
-         "external-link": "http://harrogatesaltire.com/events-news/"}
-      ]
-    },
-    {
-      "date": "26th Jan",
-      "date2": "2019",
-      "startdate": "2019-01-26T19:30",
-      "time": "7:30pm",
-      "event" : "Leeds Club Dance",
-      "actor": "Music: Alan Ross",
-      "actor2": "MC: Don Andrews",
-      "location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-      "details": [
-        {"name": "Programme",
-         "external-link": "http://www.rscdsleeds.org.uk/Socials/Programme Nov-January 2018.pdf"}
-      ]
-    },
-    {
       "date": "23rd Feb",
       "date2": "2019",
       "startdate": "2019-02-23T19:30",
@@ -116,10 +66,8 @@
   			"Leeds",
   			"LS16 5JT"
   		],
-      "details": [
-        {"name": "Programme",
-         "external-link": "http://www.rscdsleeds.org.uk/Socials/Leeds SCD CLUB March 2019 Sources.doc"}
-      ]
+      "programme": "http://my.strathspey.org/dd/list/3984/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-30-march-2019.pdf"
     },
     {
       "date": "13th Apr",
@@ -186,7 +134,11 @@
    		    "Bramhope",
    		    "LS16 9BA"
    		],
-      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481"
+      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
+      "details": [
+        {"name": "details",
+         "link": "documents/Highland Day School 27.4.19.pdf"}
+      ]
     },
     {
       "date": "5th May",
@@ -244,21 +196,6 @@
     }
 ],
 	"weekend_events": [
-    {
-      "date": "22nd Mar - 24th Mar",
-      "date2": "2019",
-      "startdate": "2019-03-22",
-      "enddate": "2019-03-24",
-      "event": "Scarborough Weekend",
-      "actor": "Teacher: Di Rooney",
-      "actor2": "Music: George Meikle",
-      "location_top": "Esplanade Hotel",
-      "location": ["Scarborough"],
-      "details": [
-        {"name": "Form",
-         "link": "documents/Scarborough form 2019.pdf"}
-      ]
-    },
     {
       "date": "29th Nov - 1st Dec",
       "date2": "2019",
