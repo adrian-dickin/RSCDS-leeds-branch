@@ -1,0 +1,48 @@
+---
+pageTitle: "Email Newsletters"
+scripts: []
+pageDescription: "Some of the Leeds RSCDS email newsletter archive available to members"
+newsletters:
+   - id: h28e08a888c
+     date: 13/01/2019
+     name: Leeds Branch Updates - Jan 2019
+   - id: 4745525223
+     date: 07/12/2018
+     name: Seasons Greetings and dates for your diary -  December 2018
+   - id: dfd86b28cc
+     date: 31/10/2018
+     name: Dates for your diary - November and December 2018
+   - id: f900fe510d
+     date: 13/10/2018
+     name: AGM and Joint Ball
+   - id: a0c82f150f
+     date: 18/09/2018
+     name: Dates for your diary - October 2018
+   - id: 452afab098
+     date: 03/09/2018
+     name: Dates for your diary - September 2018
+   - id: 12e91ee0b0
+     date: 19/08/2018
+     name: Branch shop report and survey - August 2018
+   - id: dbcf38c06e
+     date: 10/08/2018
+     name: Latest newsletter and some dates for your diary - August 2018
+   - id: 35ff86d1c4
+     date: 25/05/2018
+     name: Latest newsletter and some dates for your diary -  May 2018
+   - id: 99106c90f3
+     date: 25/01/2018
+     name: Dance to Celebrate Betty Chater's life
+---
+
+<h1>Leeds Email Newsletters</h1>
+<ul class="list-group">
+{{#each newsletters}}
+  <li class="list-group-item">
+    <div class="row">
+  		<div class="col-md-8 col-xs-12"><a href="https://us14.campaign-archive.com/?u=292af2b7869298300bf9ea46a&id={{{id}}}">{{name}}</a></div>
+      <div class="col-md-4 col-xs-12">{{date}}</div>
+    </div>
+  </li>
+{{/each}}
+</ul>
