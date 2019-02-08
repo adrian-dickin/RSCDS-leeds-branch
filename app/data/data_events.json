@@ -33,7 +33,27 @@
     ],
     "programme": "http://my.strathspey.org/dd/list/19081/",
     "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-musicians-day-dance-16th-march-2019.pdf"
-   }
+  },
+  {
+    "date": "16th May",
+    "date2": "2019",
+    "startdate": "2019-05-16T14:30",
+    "time": "2:30pm - 4:00pm",
+    "event": "A spring fling for Ilkley 2019",
+    "event_desc": "Faith tea",
+    "actor": "Music: Ian Slater - Accordion",
+    "actor2": "MC: Don Andrews",
+    "location_top": "St Margaret’s Church Hall",
+    "location": [
+      "Queen’s Rd",
+      "Ilkley",
+      "LS29 9QL"
+    ],
+    "details": [
+      {"name": "details",
+       "link": "Socials/Spring fling 2019.pdf"}
+    ]
+  }
 ],
 "leeds_events": [
     {
