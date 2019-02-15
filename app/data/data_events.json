@@ -51,7 +51,11 @@
     ],
     "details": [
       {"name": "details",
-       "link": "Socials/Spring fling 2019.pdf"}
+       "link": "Socials/Spring fling 2019.pdf"},
+      {"name": "Programme",
+       "link": "http://my.strathspey.org/dd/list/21006/"},
+      {"name": "Crib with diagrams",
+       "link": "http://www.rscdsleeds.org.uk/Socials/a-spring-fling-for-ilkley-2019.pdf"}
     ]
   }
 ],
@@ -105,6 +109,23 @@
         {"name": "details",
          "external-link": "http://harrogatesaltire.com/events-news/"}
       ]
+    },
+    {
+      "date": "25th May",
+      "date2": "2019",
+      "startdate": "2019-05-25T19:30",
+      "time": "7:30pm",
+      "event": "Leeds SCDC",
+      "actor": "Music: Ian Slater",
+      "actor2": "MC: Alan Horsfall",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "programme": "http://my.strathspey.org/dd/list/10780/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-25th-may2019.pdf"
     }
   ],
 

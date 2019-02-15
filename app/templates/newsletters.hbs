@@ -2,6 +2,10 @@
 pageTitle: "Newsletters"
 scripts: []
 newsletters:
+   - filename: Newsletter%20Feb%2019.pdf
+     month: February
+     year: 2019
+     version: 92
    - filename: Newsletter%20Aug%2018.pdf
      month: August
      year: 2018
@@ -160,12 +164,21 @@ pageDescription: "Some of the Leeds RSCDS newsletters available to members"
 <h1>Leeds Newsletters</h1>
 <ul class="list-group">
 
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-2 col-xs-3"><b>Month</b></div>
+  		<div class="col-md-2 col-xs-3"><b>Year</b></div>
+      <div class="col-md-2 col-xs-3"><b>Issue</b></div>
+  		<div class="col-md-4 col-xs-3"></div>
+    </div>
+  </li>
 {{#each newsletters}}
 	<li class="list-group-item">
     <div class="row">
-  		<div class="col-md-2 col-xs-4">{{month}}</div>
-  		<div class="col-md-2 col-xs-4">{{year}}</div>
-  		<div class="col-md-4 col-xs-4"><a href="http://www.rscdsleeds.org.uk/Newsletter/{{{filename}}}">view</a></div>
+  		<div class="col-md-2 col-xs-3">{{month}}</div>
+  		<div class="col-md-2 col-xs-3">{{year}}</div>
+      <div class="col-md-2 col-xs-3">{{version}}</div>
+  		<div class="col-md-4 col-xs-3"><a href="http://www.rscdsleeds.org.uk/Newsletter/{{{filename}}}">view</a></div>
     </div>
 	</li>
 {{/each}}
