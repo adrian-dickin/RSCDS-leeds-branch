@@ -1,24 +1,6 @@
 {
   "events": [
   {
-    "date": "16th Feb",
-    "date2": "2019",
-    "startdate": "2019-02-16T19:30",
-    "time": "7:30pm",
-    "event": "Branch Dance",
-    "actor": "Music: Ian Slater",
-    "actor2": "MC: Nicola Waugh & Katie Husband",
-    "location_top": "Corpus Christi Catholic College",
-    "location": [
-      "Neville Road",
-      "Halton Moor",
-      "Leeds",
-      "LS9 0TT"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/19811/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-16th-february-2019.pdf"
-  },
-  {
     "date": "16th Mar",
     "date2": "2019",
     "startdate": "2019-03-16",
@@ -57,6 +39,38 @@
       {"name": "Crib with diagrams",
        "link": "http://www.rscdsleeds.org.uk/Socials/a-spring-fling-for-ilkley-2019.pdf"}
     ]
+  },
+  {
+    "date": "18th May",
+    "date2": "2019",
+    "startdate": "2019-05-18T19:30",
+    "time": "7:30pm",
+    "event": "Branch Dance",
+    "actor": "Music: Ian Robertson",
+    "location_top": "Corpus Christi Catholic College",
+    "location": [
+      "Neville Road",
+      "Halton Moor",
+      "Leeds",
+      "LS9 0TT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
+  },
+  {
+    "date": "15th June",
+    "date2": "2019",
+    "startdate": "2019-06-15T19:30",
+    "time": "7:30pm",
+    "event": "Branch Dance",
+    "actor": "Music: Robert Whitehead Trio",
+    "location_top": "Corpus Christi Catholic College",
+    "location": [
+      "Neville Road",
+      "Halton Moor",
+      "Leeds",
+      "LS9 0TT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
   }
 ],
 "leeds_events": [
