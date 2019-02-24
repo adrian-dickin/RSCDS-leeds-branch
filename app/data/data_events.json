@@ -75,24 +75,6 @@
 ],
 "leeds_events": [
     {
-      "date": "23rd Feb",
-      "date2": "2019",
-      "startdate": "2019-02-23T19:30",
-      "time": "7:30pm",
-      "event" : "Leeds SCDC President's Dance",
-      "event_desc": "Faith Supper (Finger food only please)",
-      "actor": "Music: Robert Whitehead Duo",
-      "actor2": "MC: Alan Fox",
-      "location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-      "programme": "http://my.strathspey.org/dd/list/3189/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-dance-23-february-2019.pdf"
-    },
-    {
       "date": "30th Mar",
       "date2": "2019",
       "startdate": "2019-03-30T19:30",
