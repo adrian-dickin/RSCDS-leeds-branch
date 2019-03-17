@@ -1,22 +1,6 @@
 {
   "events": [
   {
-    "date": "16th Mar",
-    "date2": "2019",
-    "startdate": "2019-03-16",
-    "event": "Branch Musician's Day Dance",
-    "actor2": "MC: Don Andrews",
-    "actor": "Music: Ian Muir & Musicians’ Day band",
-    "location_top": "St Chad's Parish Centre",
-    "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/19081/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-musicians-day-dance-16th-march-2019.pdf"
-  },
-  {
     "date": "16th May",
     "date2": "2019",
     "startdate": "2019-05-16T14:30",
@@ -54,6 +38,8 @@
       "Leeds",
       "LS9 0TT"
     ],
+    "programme": "http://my.strathspey.org/dd/list/21627/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-18th-may-2019.pdf",
     "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
   },
   {
@@ -107,6 +93,22 @@
       ]
     },
     {
+      "date": "27th Apr",
+      "date2": "2019",
+      "startdate": "2019-04-27",
+      "event": "Leeds SCDC",
+      "actor": "Music: Neil Barron",
+      "actor2": "MC: Patricia Lynch and Lesley Enoch",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "programme": "http://my.strathspey.org/dd/list/5800/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-27-april-2019.pdf"
+    },
+    {
       "date": "25th May",
       "date2": "2019",
       "startdate": "2019-05-25T19:30",
@@ -144,23 +146,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "16th Mar",
-      "date2": "2019",
-      "startdate": "2019-03-16",
-      "event": "Musician's Day School",
-      "actor": "Teacher: Ian Muir",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "details": [
-        {"name": "Form",
-        "external-link": "documents/Rscds Musician's day school form 2019.pdf"}
-      ]
-    },
     {
       "date": "7th Apr",
       "date2": "2019",
