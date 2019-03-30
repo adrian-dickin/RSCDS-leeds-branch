@@ -62,23 +62,6 @@
 ],
 "leeds_events": [
     {
-      "date": "30th Mar",
-      "date2": "2019",
-      "startdate": "2019-03-30T19:30",
-      "time": "7:30pm",
-      "event" : "Leeds SCDC",
-      "actor": "Music: Leonard Brown",
-      "actor2": "MC: Malcolm Brown",
-      "location_top": "St Chad's Parish Centre",
-  		"location": [
-  			"Otley Road",
-  			"Leeds",
-  			"LS16 5JT"
-  		],
-      "programme": "http://my.strathspey.org/dd/list/3984/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-30-march-2019.pdf"
-    },
-    {
       "date": "13th Apr",
       "date2": "2019",
       "startdate": "2019-04-13",
