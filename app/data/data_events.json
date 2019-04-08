@@ -32,16 +32,15 @@
     "event": "Branch Dance",
     "actor": "Music: Ian Robertson",
     "actor2": "MC: Betty Hagart",
-    "location_top": "Corpus Christi Catholic College",
+    "location_top": "West Park United Reformed Church",
     "location": [
-      "Neville Road",
-      "Halton Moor",
+      "Memorial Drive",
+      "Meanwood",
       "Leeds",
-      "LS9 0TT"
+      "LS6 4LF"
     ],
     "programme": "http://my.strathspey.org/dd/list/21627/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-18th-may-2019.pdf",
-    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-18th-may-2019.pdf"
   },
   {
     "date": "15th June",
@@ -50,14 +49,13 @@
     "time": "7:30pm",
     "event": "Branch Dance",
     "actor": "Music: Robert Whitehead Trio",
-    "location_top": "Corpus Christi Catholic College",
+    "location_top": "West Park United Reformed Church",
     "location": [
-      "Neville Road",
-      "Halton Moor",
+      "Memorial Drive",
+      "Meanwood",
       "Leeds",
-      "LS9 0TT"
-    ],
-    "map": "https://www.google.co.uk/maps/place/Corpus+Christi+Catholic+College/@53.7972128,-1.4873921,16.49z/data=!4m5!3m4!1s0x48795c8dbe015ca3:0x260af98a87849a31!8m2!3d53.796703!4d-1.485313"
+      "LS6 4LF"
+    ]
   }
 ],
 "leeds_events": [
@@ -130,24 +128,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "7th Apr",
-      "date2": "2019",
-      "startdate": "2019-04-07T13:30",
-      "time": "1.30pm",
-      "event": "Sunday Workshop",
-      "actor": "Teacher: Catherine Livsey",
-      "actor_details": "will be for experienced dances with a good knowledge of formations and technique. We will work on Demonstration dances, eg Lord of Gondor by Iain Boyd.",
-      "location_top": "Askwith Village Hall",
-      "location": [
-        "Askwith",
-        "LS21 2JB"
-      ],
-      "details": [
-        {"name": "details",
-         "link": "sunday_workshop.html"}
-      ]
-    },
     {
       "date": "27th Apr",
       "date2": "2019",

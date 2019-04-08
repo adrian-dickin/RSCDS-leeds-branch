@@ -109,3 +109,11 @@
           "Leeds",
           "LS16 5BD"
         ]
+
+        "location_top": "West Park United Reformed Church",
+        "location": [
+          "Memorial Drive",
+          "Meanwood",
+          "Leeds",
+          "LS6 4LF"
+        ]
