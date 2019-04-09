@@ -32,7 +32,8 @@
     "event": "Branch Dance",
     "actor": "Music: Ian Robertson",
     "actor2": "MC: Betty Hagart",
-    "location_top": "West Park United Reformed Church",
+    "alert": "Venue change",
+    "location_top": "Holy Trinity Church Community Hall",
     "location": [
       "Memorial Drive",
       "Meanwood",
@@ -49,7 +50,9 @@
     "time": "7:30pm",
     "event": "Branch Dance",
     "actor": "Music: Robert Whitehead Trio",
-    "location_top": "West Park United Reformed Church",
+    "actor2": "MC: Jan and Geoff Robinson",
+    "alert": "Venue change",
+    "location_top": "Holy Trinity Church Community Hall",
     "location": [
       "Memorial Drive",
       "Meanwood",

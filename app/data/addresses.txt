@@ -110,7 +110,7 @@
           "LS16 5BD"
         ]
 
-        "location_top": "West Park United Reformed Church",
+        "location_top": "Holy Trinity Church Community Hall",
         "location": [
           "Memorial Drive",
           "Meanwood",

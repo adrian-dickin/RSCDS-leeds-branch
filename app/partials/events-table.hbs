@@ -35,6 +35,9 @@
 				</div>
         <div class="clearfix visible-sm-block"></div>
 				<div class="col-md-3 col-sm-6">
+          {{#if alert}}
+            <div class="note">{{alert}}</div>
+          {{/if}}
 					<div>{{location-top}}</div>
 					<div>
 						{{#each location}}
