@@ -63,21 +63,6 @@
 ],
 "leeds_events": [
     {
-      "date": "13th Apr",
-      "date2": "2019",
-      "startdate": "2019-04-13",
-      "event": "Harrogate Saltire Spring Dance",
-      "actor": "Music: Marion Anderson and her band",
-      "location_top": "St Johns School",
-      "location": [
-        "Knaresborough", "HG5 0JN"
-      ],
-      "details": [
-        {"name": "details",
-         "external-link": "http://harrogatesaltire.com/events-news/"}
-      ]
-    },
-    {
       "date": "27th Apr",
       "date2": "2019",
       "startdate": "2019-04-27",
