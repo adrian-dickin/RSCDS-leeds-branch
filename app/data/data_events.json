@@ -58,7 +58,26 @@
       "Meanwood",
       "Leeds",
       "LS6 4LF"
-    ]
+    ],
+    "programme": "http://my.strathspey.org/dd/list/22292/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-15th-june-2019.pdf"
+  },
+  {
+    "date": "13th July",
+    "date2": "2019",
+    "startdate": "2019-06-15T19:00",
+    "time": "7:00pm",
+    "event": "White Rose Festival Evening Dance",
+    "actor": "Music: Marian Anderson and her band",
+    "location_top": "The Gateways School",
+    "location": [
+      "Harewood",
+      "Leeds",
+      "LS17 9LE"
+    ],
+    "map": "https://www.google.co.uk/maps/place/Leeds+Rd,+Harewood,+Leeds+LS17+9LE/@53.8920682,-1.5172038,14.66z/data=!4m5!3m4!1s0x48795a7f3ac555f9:0x97f3d865763ba114!8m2!3d53.8991889!4d-1.5102019",
+    "programme": "http://my.strathspey.org/dd/list/22293/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/white-rose-festival-evening-dance-13th-july-2019.pdf"
   }
 ],
 "leeds_events": [
