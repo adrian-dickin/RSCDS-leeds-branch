@@ -41,7 +41,8 @@
       "LS6 4LF"
     ],
     "programme": "http://my.strathspey.org/dd/list/21627/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-18th-may-2019.pdf"
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-18th-may-2019.pdf",
+    "map": "https://www.google.com/maps/place/Memorial+Dr,+Leeds+LS6+4LF/@53.8303405,-1.5697784,17z/data=!3m1!4b1!4m5!3m4!1s0x487959435b7cc22f:0x6e94ebacabdfb93e!8m2!3d53.8303374!4d-1.5675897"
   },
   {
     "date": "15th June",
@@ -60,7 +61,8 @@
       "LS6 4LF"
     ],
     "programme": "http://my.strathspey.org/dd/list/22292/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-15th-june-2019.pdf"
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-15th-june-2019.pdf",
+    "map": "https://www.google.com/maps/place/Memorial+Dr,+Leeds+LS6+4LF/@53.8303405,-1.5697784,17z/data=!3m1!4b1!4m5!3m4!1s0x487959435b7cc22f:0x6e94ebacabdfb93e!8m2!3d53.8303374!4d-1.5675897"
   },
   {
     "date": "13th July",
@@ -81,22 +83,6 @@
   }
 ],
 "leeds_events": [
-    {
-      "date": "27th Apr",
-      "date2": "2019",
-      "startdate": "2019-04-27",
-      "event": "Leeds SCDC",
-      "actor": "Music: Neil Barron",
-      "actor2": "MC: Patricia Lynch and Lesley Enoch",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/5800/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-27-april-2019.pdf"
-    },
     {
       "date": "25th May",
       "date2": "2019",
@@ -135,24 +121,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "27th Apr",
-      "date2": "2019",
-      "startdate": "2019-04-27",
-      "event": "Highland Day School",
-      "actor": "Teacher: Catherine Livsey",
-      "location_top": "St Giles Church Hall",
-   		"location": [
-   		    "Church Hill",
-   		    "Bramhope",
-   		    "LS16 9BA"
-   		],
-      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
-      "details": [
-        {"name": "details",
-         "link": "documents/Highland Day School 27.4.19.pdf"}
-      ]
-    },
     {
       "date": "5th May",
       "date2": "2019",
