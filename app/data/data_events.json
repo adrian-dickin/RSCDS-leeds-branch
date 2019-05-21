@@ -1,50 +1,6 @@
 {
   "events": [
   {
-    "date": "16th May",
-    "date2": "2019",
-    "startdate": "2019-05-16T14:30",
-    "time": "2:30pm - 4:00pm",
-    "event": "A spring fling for Ilkley 2019",
-    "event_desc": "Faith tea",
-    "actor": "Music: Ian Slater - Accordion",
-    "actor2": "MC: Don Andrews",
-    "location_top": "St Margaret’s Church Hall",
-    "location": [
-      "Queen’s Rd",
-      "Ilkley",
-      "LS29 9QL"
-    ],
-    "details": [
-      {"name": "details",
-       "link": "Socials/Spring fling 2019.pdf"},
-      {"name": "Programme",
-       "link": "http://my.strathspey.org/dd/list/21006/"},
-      {"name": "Crib with diagrams",
-       "link": "http://www.rscdsleeds.org.uk/Socials/a-spring-fling-for-ilkley-2019.pdf"}
-    ]
-  },
-  {
-    "date": "18th May",
-    "date2": "2019",
-    "startdate": "2019-05-18T19:30",
-    "time": "7:30pm",
-    "event": "Branch Dance",
-    "actor": "Music: Ian Robertson",
-    "actor2": "MC: Betty Hagart",
-    "alert": "Venue change",
-    "location_top": "Holy Trinity Church Community Hall",
-    "location": [
-      "Memorial Drive",
-      "Meanwood",
-      "Leeds",
-      "LS6 4LF"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/21627/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-18th-may-2019.pdf",
-    "map": "https://www.google.com/maps/place/Memorial+Dr,+Leeds+LS6+4LF/@53.8303405,-1.5697784,17z/data=!3m1!4b1!4m5!3m4!1s0x487959435b7cc22f:0x6e94ebacabdfb93e!8m2!3d53.8303374!4d-1.5675897"
-  },
-  {
     "date": "15th June",
     "date2": "2019",
     "startdate": "2019-06-15T19:30",
@@ -121,24 +77,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "5th May",
-      "date2": "2019",
-      "startdate": "2019-05-05T13:30",
-      "time": "1.30pm",
-      "event": "Sunday Workshop",
-      "actor": "Teacher: Catherine Livsey",
-      "actor_details": "will be for experienced dances with a good knowledge of formations and technique. We will work on Demonstration dances eg The Border Reiver’s Reel by Roy Clowes.",
-      "location_top": "Askwith Village Hall",
-      "location": [
-        "Askwith",
-        "LS21 2JB"
-      ],
-      "details": [
-        {"name": "details",
-         "link": "sunday_workshop.html"}
-      ]
-    },
     {
       "date": "2nd Jun",
       "date2": "2019",
