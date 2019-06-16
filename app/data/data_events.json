@@ -1,26 +1,6 @@
 {
   "events": [
   {
-    "date": "15th June",
-    "date2": "2019",
-    "startdate": "2019-06-15T19:30",
-    "time": "7:30pm",
-    "event": "Branch Dance",
-    "actor": "Music: Robert Whitehead Trio",
-    "actor2": "MC: Jan and Geoff Robinson",
-    "alert": "Venue change",
-    "location_top": "Holy Trinity Church Community Hall",
-    "location": [
-      "Memorial Drive",
-      "Meanwood",
-      "Leeds",
-      "LS6 4LF"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/22292/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-15th-june-2019.pdf",
-    "map": "https://www.google.com/maps/place/Memorial+Dr,+Leeds+LS6+4LF/@53.8303405,-1.5697784,17z/data=!3m1!4b1!4m5!3m4!1s0x487959435b7cc22f:0x6e94ebacabdfb93e!8m2!3d53.8303374!4d-1.5675897"
-  },
-  {
     "date": "13th July",
     "date2": "2019",
     "startdate": "2019-06-15T19:00",
@@ -39,23 +19,6 @@
   }
 ],
 "leeds_events": [
-    {
-      "date": "25th May",
-      "date2": "2019",
-      "startdate": "2019-05-25T19:30",
-      "time": "7:30pm",
-      "event": "Leeds SCDC",
-      "actor": "Music: Ian Slater",
-      "actor2": "MC: Alan Horsfall",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/10780/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-25th-may2019.pdf"
-    },
     {
       "date": "29th June",
       "date2": "2019",
@@ -77,24 +40,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "2nd Jun",
-      "date2": "2019",
-      "startdate": "2019-06-02T13:30",
-      "time": "1.30pm",
-      "event": "Sunday Workshop",
-      "actor": "Teacher: Catherine Livsey",
-      "actor_details": "White Rose Festival dances, mainly the massed dances, but may cover some demonstration, highland and evening dances, time allowing. It is not just for Leeds team dancers or dancers taking part in the white Rose Festival, all dancers welcome with a good knowledge of basic formations.",
-      "location_top": "Askwith Village Hall",
-      "location": [
-        "Askwith",
-        "LS21 2JB"
-      ],
-      "details": [
-        {"name": "details",
-         "link": "sunday_workshop.html"}
-      ]
-    },
     {
       "date": "7th Jul",
       "date2": "2019",
