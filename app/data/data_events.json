@@ -38,6 +38,7 @@
     "startdate": "2019-10-19T19:00",
     "time": "7:00pm",
     "event": "Leeds Branch Dance",
+    "event_desc": "AGM",
     "actor": "Music: John Dudley",
     "location_top": "Queens Hall",
     "location": [
@@ -132,6 +133,56 @@
           "Immaculate Heart Church",
           "294 Harrogate Road",
           "LS17 6LE"
+      ]
+    },
+    {
+      "date": "5th Oct",
+      "date2": "2019",
+      "startdate": "2019-10-05",
+      "event": "Highland Day School",
+      "actor": "Teacher: Catherine Livsey",
+      "location_top": "St Giles Church Hall",
+   		"location": [
+   		    "Church Hill",
+   		    "Bramhope",
+   		    "LS16 9BA"
+   		],
+      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481"
+    },
+    {
+      "date": "26th Oct",
+      "date2": "2019",
+      "startdate": "2019-10-26",
+      "times": [
+        {"time": "6.30", "desc": "start"},
+        {"time": "9.00", "desc": "end"}
+      ],
+      "event": "Family Ceilidh",
+      "actor": "Music: Bandiera Rossa",
+      "location_top": "Holy Trinity Church Community Hall",
+      "location": [
+        "Memorial Drive",
+        "Meanwood",
+        "Leeds",
+        "LS6 4LF"
+      ]
+    },
+    {
+      "date": "30th Nov",
+      "date2": "2019",
+      "startdate": "2019-11-30",
+      "times": [
+        {"time": "6.30", "desc": "start"},
+        {"time": "9.00", "desc": "end"}
+      ],
+      "event": "Family Ceilidh",
+      "actor": "Music: Bandiera Rossa",
+      "location_top": "Holy Trinity Church Community Hall",
+      "location": [
+        "Memorial Drive",
+        "Meanwood",
+        "Leeds",
+        "LS6 4LF"
       ]
     }
 ],
