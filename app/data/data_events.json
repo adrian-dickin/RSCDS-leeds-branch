@@ -42,6 +42,7 @@
     "event": "Leeds Branch Dance",
     "event_desc": "AGM",
     "actor": "Music: John Dudley",
+    "actor2": "MC: Alan Fox",
     "location_top": "Queens Hall",
     "location": [
         "Immaculate Heart Church",
@@ -54,7 +55,7 @@
     "date2": "2019",
     "startdate": "2019-11-16T19:30",
     "time": "7:30pm",
-    "event": "Joint Ball Dance",
+    "event": "Joint Ball with York Branch",
     "actor": "Music: Matthew Maclennan",
     "location_top": "Stockton On The Forest Village Hall",
     "location": [
@@ -100,6 +101,20 @@
       "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-dance-summer-special.pdf"
     },
     {
+      "date": "21st Dec",
+      "date2": "2019",
+      "startdate": "2019-12-21T19:30",
+      "time": "7:30pm",
+      "event": "Branch/Club Dance",
+      "actor": "Music: George Meikle trio",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ]
+    },
+    {
       "date": "27th Dec",
       "date2": "2019",
       "startdate": "2019-12-27T19:30",
@@ -138,10 +153,8 @@
       "date": "21st Sep",
       "date2": "2019",
       "startdate": "2019-09-21T10:30",
-      "times": [
-        {"time": "10.30", "desc": "start"},
-        {"time": "16.30", "desc": "end"}
-      ],
+      "event_desc": "10 for 10.30am - 12.45",
+      "event_desc2": "2:00pm - 4.15pm",
       "event": "Day School",
       "actor": "Music: Ian Slater",
       "actor2": "Teacher: Heather Cowan",
