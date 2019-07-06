@@ -30,7 +30,9 @@
         "Immaculate Heart Church",
         "294 Harrogate Road",
         "LS17 6LE"
-    ]
+    ],
+    "programme": "http://my.strathspey.org/dd/list/23319/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-september-21st-2019.pdf"
   },
   {
     "date": "19th Oct",
@@ -53,6 +55,7 @@
     "startdate": "2019-11-16T19:30",
     "time": "7:30pm",
     "event": "Joint Ball Dance",
+    "actor": "Music: Matthew Maclennan",
     "location_top": "Stockton On The Forest Village Hall",
     "location": [
       "Sandy Lane",
@@ -95,6 +98,20 @@
       ],
       "programme": "http://my.strathspey.org/dd/list/1767/",
       "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-dance-summer-special.pdf"
+    },
+    {
+      "date": "27th Dec",
+      "date2": "2019",
+      "startdate": "2019-12-27T19:30",
+      "time": "7:30pm",
+      "event": "St Columba SC Dancers' Hogmanay Dance",
+      "actor": "Music: Ian Slater",
+      "location_top": "West Park United Reformed Church",
+      "location": [
+        "317 Spen Lane",
+        "Leeds",
+        "LS16 5BD"
+      ]
     }
   ],
 
