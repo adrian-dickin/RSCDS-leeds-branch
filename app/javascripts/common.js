@@ -13,12 +13,21 @@ function headerScroll() {
 	handler();
 };
 
+
+function decode(encoded) {
+	return encoded.replace('\xAA', 'e').replace('\xA9', 'a').replace('\xAB', '@').replace('\xAC', '.');
+};
+
 function handleEmailLinks() {
 	$('a.emailLink').each(function() {
-		var encodedEmail = $(this).attr('data-addr');
-		var email = encodedEmail.replace('\xAA', 'e').replace('\xA9', 'a').replace('\xAB', '@').replace('\xAC', '.');
+		var email = encodedEmail.decode($(this).attr('data-addr'));
 		$(this).attr('href', 'mailto:' + email);
-	})
+	});
+
+	$('span.emailLink').each(function() {
+		var email = decode($(this).attr('data-addr'));
+		$(this).text(email);
+	});
 }
 
 function handleMaps() {

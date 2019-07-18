@@ -1,11 +1,15 @@
 module.exports.register = function(Handlebars) {
   'use strict';
 
+  function encode(emailAddr) {
+    return emailAddr.replace('@', '\xAB').replace('a', '\xA9').replace('e', '\xAA').replace('.', '\xAC');
+  }
+
   function doEmail(emailAddr, msg) {
-    var encodeEmail = emailAddr.replace('@', '\xAB').replace('a', '\xA9').replace('e', '\xAA').replace('.', '\xAC');
-    var parts = emailAddr.split('@');
-    var emailBody = '<span>'+parts[0] + '</span>&#64;<span>' + parts[1] + '</span>';
-    var safeEmail = '<a href="" class="btn btn-primary btn-xs emailLink" data-addr="' + encodeEmail + '">' + msg + '</a>';
+    var encodedEmail = encode(emailAddr);
+//    var parts = emailAddr.split('@');
+//    var emailBody = '<span>'+parts[0] + '</span>&#64;<span>' + parts[1] + '</span>';
+    var safeEmail = '<a href="" class="btn btn-primary btn-xs emailLink" data-addr="' + encodedEmail + '">' + msg + '</a>';
     return safeEmail;
   }
 
@@ -15,6 +19,10 @@ module.exports.register = function(Handlebars) {
 
   Handlebars.registerHelper('emailWithLabel', function(emailAddr, label) {
     return doEmail(emailAddr, label);
+  });
+
+  Handlebars.registerHelper('emailText', function(emailAddr) {
+    return '<span class="emailLink" data-addr="' + encode(emailAddr) + '">email</span>';
   });
 
   Handlebars.registerHelper('anchor', function(link) {

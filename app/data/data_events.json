@@ -1,23 +1,6 @@
 {
   "events": [
   {
-    "date": "13th July",
-    "date2": "2019",
-    "startdate": "2019-06-15T19:00",
-    "time": "7:00pm",
-    "event": "White Rose Festival Evening Dance",
-    "actor": "Music: Marian Anderson and her band",
-    "location_top": "The Gateways School",
-    "location": [
-      "Harewood",
-      "Leeds",
-      "LS17 9LE"
-    ],
-    "map": "https://www.google.co.uk/maps/place/Leeds+Rd,+Harewood,+Leeds+LS17+9LE/@53.8920682,-1.5172038,14.66z/data=!4m5!3m4!1s0x48795a7f3ac555f9:0x97f3d865763ba114!8m2!3d53.8991889!4d-1.5102019",
-    "programme": "http://my.strathspey.org/dd/list/22293/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/white-rose-festival-evening-dance-13th-july-2019.pdf"
-  },
-  {
     "date": "21st Sept",
     "date2": "2019",
     "startdate": "2019-09-21T19:00",
@@ -48,6 +31,24 @@
         "Immaculate Heart Church",
         "294 Harrogate Road",
         "LS17 6LE"
+    ],
+    "programme": "http://my.strathspey.org/dd/list/23469/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-19th-october-2019.pdf"
+  },
+  {
+    "date": "26th Oct",
+    "date2": "2019",
+    "startdate": "2019-10-26",
+    "time": "start 6:30pm",
+    "time2": "end 9:00pm",
+    "event": "Family Ceilidh",
+    "actor": "Music: Bandiera Rossa",
+    "location_top": "Holy Trinity Church Community Hall",
+    "location": [
+      "Memorial Drive",
+      "Meanwood",
+      "Leeds",
+      "LS6 4LF"
     ]
   },
   {
@@ -67,6 +68,22 @@
     "map": "https://www.google.co.uk/maps/@54.0001517,-0.9950311,18.34z"
   },
   {
+    "date": "30th Nov",
+    "date2": "2019",
+    "startdate": "2019-11-30",
+    "time": "start 6:30pm",
+    "time2": "end 9:00pm",
+    "event": "Family Ceilidh",
+    "actor": "Music: Bandiera Rossa",
+    "location_top": "Holy Trinity Church Community Hall",
+    "location": [
+      "Memorial Drive",
+      "Meanwood",
+      "Leeds",
+      "LS6 4LF"
+    ]
+  },
+  {
     "date": "21st Dec",
     "date2": "2019",
     "startdate": "2019-12-21T19:30",
@@ -82,24 +99,6 @@
   }
 ],
 "leeds_events": [
-    {
-      "date": "29th June",
-      "date2": "2019",
-      "startdate": "2019-06-29T19:30",
-      "time": "7:30pm",
-      "event": "Leeds Club Dance Summer Special",
-      "event_desc": "Faith Supper",
-      "actor": "Music: Alan Ross Duo",
-      "actor2": "MC: Irene Dracup",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/1767/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-dance-summer-special.pdf"
-    },
     {
       "date": "21st Dec",
       "date2": "2019",
@@ -132,24 +131,6 @@
 
 "special_events": [
     {
-      "date": "7th Jul",
-      "date2": "2019",
-      "startdate": "2019-07-07T13:30",
-      "time": "1.30pm",
-      "event": "Sunday Workshop",
-      "actor": "Teacher: Catherine Livsey",
-      "actor_details": "White Rose Festival dances, mainly the massed dances, but may cover some demonstration, highland and evening dances, time allowing. It is not just for Leeds team dancers or dancers taking part in the white Rose Festival, all dancers welcome with a good knowledge of basic formations.",
-      "location_top": "Askwith Village Hall",
-      "location": [
-        "Askwith",
-        "LS21 2JB"
-      ],
-      "details": [
-        {"name": "details",
-         "link": "sunday_workshop.html"}
-      ]
-    },
-    {
       "date": "21st Sep",
       "date2": "2019",
       "startdate": "2019-09-21T10:30",
@@ -163,7 +144,11 @@
           "Immaculate Heart Church",
           "294 Harrogate Road",
           "LS17 6LE"
-      ]
+      ],
+      "details": [{
+          "link": "documents/Rscds Leeds day school 2019.pdf",
+          "name": "details"
+      }]
     },
     {
       "date": "5th Oct",
@@ -177,43 +162,11 @@
    		    "Bramhope",
    		    "LS16 9BA"
    		],
-      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481"
-    },
-    {
-      "date": "26th Oct",
-      "date2": "2019",
-      "startdate": "2019-10-26",
-      "times": [
-        {"time": "6.30", "desc": "start"},
-        {"time": "9.00", "desc": "end"}
-      ],
-      "event": "Family Ceilidh",
-      "actor": "Music: Bandiera Rossa",
-      "location_top": "Holy Trinity Church Community Hall",
-      "location": [
-        "Memorial Drive",
-        "Meanwood",
-        "Leeds",
-        "LS6 4LF"
-      ]
-    },
-    {
-      "date": "30th Nov",
-      "date2": "2019",
-      "startdate": "2019-11-30",
-      "times": [
-        {"time": "6.30", "desc": "start"},
-        {"time": "9.00", "desc": "end"}
-      ],
-      "event": "Family Ceilidh",
-      "actor": "Music: Bandiera Rossa",
-      "location_top": "Holy Trinity Church Community Hall",
-      "location": [
-        "Memorial Drive",
-        "Meanwood",
-        "Leeds",
-        "LS6 4LF"
-      ]
+      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
+      "details": [{
+          "link": "documents/Highland Day School Oct 19.pdf",
+          "name": "details"
+      }]
     }
 ],
 	"weekend_events": [
