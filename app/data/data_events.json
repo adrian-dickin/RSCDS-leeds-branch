@@ -49,6 +49,10 @@
       "Meanwood",
       "Leeds",
       "LS6 4LF"
+    ],
+    "details": [
+      {"link" : "ceilidh.html"},
+      {"name" : "details"}
     ]
   },
   {
@@ -81,7 +85,11 @@
       "Meanwood",
       "Leeds",
       "LS6 4LF"
-    ]
+    ],
+    "details": [{
+      "link" : "ceilidh.html",
+      "name" : "details"
+    }]
   },
   {
     "date": "21st Dec",
@@ -146,8 +154,8 @@
           "LS17 6LE"
       ],
       "details": [{
-          "link": "documents/Rscds Leeds day school 2019.pdf",
-          "name": "details"
+        "link" : "ceilidh.html",
+        "name" : "details"
       }]
     },
     {
