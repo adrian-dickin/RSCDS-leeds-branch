@@ -190,7 +190,15 @@
       "location": ["Skipton"],
       "details": [
         {"name": "Form",
-         "link": "documents/Malhamdale form 2019.pdf"}
+         "link": "documents/Malhamdale form 2019.pdf"},
+        {"name": "Friday programme",
+         "external-link": "http://my.strathspey.org/dd/list/23690/"},
+        {"name": "Friday crib",
+         "link": "documents/malhamdale-2019-friday-29th-november.pdf"},
+        {"name": "Saturday programme",
+         "external-link": "http://my.strathspey.org/dd/list/23691/"},
+        {"name": "Saturday crib",
+         "link": "documents/malhamdale-2019-saturday-30th-november.pdf"}
       ]
   	}
   ]
