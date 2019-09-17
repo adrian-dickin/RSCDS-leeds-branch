@@ -108,6 +108,20 @@
 ],
 "leeds_events": [
     {
+      "date": "28th Sep",
+      "date2": "2019",
+      "startdate": "2019-09-28T19:30",
+      "time": "7:30pm",
+      "event": "Leeds SCDC",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "programme": "http://www.rscdsleeds.org.uk/Socials/Leeds Club 28sep19.pdf"
+    },
+    {
       "date": "21st Dec",
       "date2": "2019",
       "startdate": "2019-12-21T19:30",
