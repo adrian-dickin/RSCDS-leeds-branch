@@ -24,8 +24,9 @@ function handleEmailLinks() {
 		$(this).attr('href', 'mailto:' + email);
 	});
 
-	$('span.emailLink').each(function() {
+	$('a.emailTextLink').each(function() {
 		var email = decode($(this).attr('data-addr'));
+		$(this).attr('href', 'mailto:' + email);
 		$(this).text(email);
 	});
 }

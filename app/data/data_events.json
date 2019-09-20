@@ -50,10 +50,10 @@
       "Leeds",
       "LS6 4LF"
     ],
-    "details": [
-      {"link" : "ceilidh.html"},
-      {"name" : "details"}
-    ]
+    "details": [{
+      "link" : "ceilidh.html",
+      "name" : "details"
+    }]
   },
   {
     "date": "16th Nov",

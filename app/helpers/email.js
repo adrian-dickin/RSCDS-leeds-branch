@@ -21,8 +21,11 @@ module.exports.register = function(Handlebars) {
     return doEmail(emailAddr, label);
   });
 
-  Handlebars.registerHelper('emailText', function(emailAddr) {
-    return '<span class="emailLink" data-addr="' + encode(emailAddr) + '">email</span>';
+  Handlebars.registerHelper('emailTextLink', function(emailAddr) {
+    // return '<a class="emailLink" data-addr="' + encode(emailAddr) + '">email</span>'; 
+    var encodedEmail = encode(emailAddr);
+    var safeEmail = '<a href="" class="btn btn-primary btn-xs emailTextLink" data-addr="' + encodedEmail + '">email</a>';
+    return safeEmail;
   });
 
   Handlebars.registerHelper('anchor', function(link) {
