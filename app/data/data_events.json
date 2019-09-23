@@ -1,23 +1,6 @@
 {
   "events": [
   {
-    "date": "21st Sept",
-    "date2": "2019",
-    "startdate": "2019-09-21T19:00",
-    "time": "7:00pm",
-    "event": "Leeds Branch Dance",
-    "actor": "Music: Colin Dewar trio",
-    "actor2": "MC: Debbie Crossley",
-    "location_top": "Queens Hall",
-    "location": [
-        "Immaculate Heart Church",
-        "294 Harrogate Road",
-        "LS17 6LE"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/23319/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-september-21st-2019.pdf"
-  },
-  {
     "date": "19th Oct",
     "date2": "2019",
     "startdate": "2019-10-19T19:00",
@@ -152,26 +135,6 @@
   ],
 
 "special_events": [
-    {
-      "date": "21st Sep",
-      "date2": "2019",
-      "startdate": "2019-09-21T10:30",
-      "event_desc": "10 for 10.30am - 12.45",
-      "event_desc2": "2:00pm - 4.15pm",
-      "event": "Day School",
-      "actor": "Music: Ian Slater",
-      "actor2": "Teacher: Heather Cowan",
-      "location_top": "Queens Hall",
-      "location": [
-          "Immaculate Heart Church",
-          "294 Harrogate Road",
-          "LS17 6LE"
-      ],
-      "details": [{
-        "link": "documents/Rscds Leeds day school 2019.pdf",
-        "name" : "details"
-      }]
-    },
     {
       "date": "5th Oct",
       "date2": "2019",
