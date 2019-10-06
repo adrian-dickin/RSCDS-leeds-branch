@@ -91,20 +91,26 @@
 ],
 "leeds_events": [
     {
-      "date": "28th Sep",
+      "date": "30th Nov",
       "date2": "2019",
-      "startdate": "2019-09-28T19:30",
+      "startdate": "2019-11-30T19:30",
       "time": "7:30pm",
-      "event": "Leeds SCDC",
-      "location_top": "St Chad's Parish Centre",
+      "event": "Manchester RSCDS",
+      "event_desc2": "Christmas Dance, Faith Supper and Raffle",
+      "actor": "Music: Martainn Skene",
+      "location_top": "St Matthews Hall",
       "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
+        "Chapel Lane",
+        "Stretford",
+        "M32 9AJ"
       ],
-      "programme": "http://my.strathspey.org/dd/list/9097/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-28-september-2019.pdf"
-
+      "details": [{
+          "link": "socials/2019 xmas dance flyer.pdf",
+          "name": "Event flyer"
+      }, {
+          "external-link": "http://www.rscds-manchester.org.uk/",
+          "name": "Manchester website"
+      }]
     },
     {
       "date": "21st Dec",
@@ -133,28 +139,46 @@
         "Leeds",
         "LS16 5BD"
       ]
+    },
+    {
+      "date": "29th Feb",
+      "date2": "2020",
+      "startdate": "2020-02-29T19:30",
+      "time": "7:30pm",
+      "event": "Manchester RSCDS",
+      "event_desc2": "Nice ‘N’ Easy Spring Dance",
+      "actor": "Music: Susan MacFadyen",
+      "location_top": "St Matthews Hall",
+      "location": [
+        "Chapel Lane",
+        "Stretford",
+        "M32 9AJ"
+      ],
+      "details": [{
+          "link": "socials/2020 - spring dance flyer.pdf",
+          "name": "Event flyer"
+      }, {
+          "external-link": "http://www.rscds-manchester.org.uk/",
+          "name": "Manchester website"
+      }]
     }
   ],
 
 "special_events": [
-    {
-      "date": "5th Oct",
-      "date2": "2019",
-      "startdate": "2019-10-05",
-      "event": "Highland Day School",
-      "actor": "Teacher: Catherine Livsey",
-      "location_top": "St Giles Church Hall",
-   		"location": [
-   		    "Church Hill",
-   		    "Bramhope",
-   		    "LS16 9BA"
-   		],
-      "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
-      "details": [{
-          "link": "documents/Highland Day School Oct 19.pdf",
-          "name": "details"
-      }]
-    }
+  {
+    "date": "25th Apr",
+    "date2": "2020",
+    "startdate": "2020-04-25",
+    "event": "Highland Day School",
+    "actor": "Teacher: Catherine Livsey",
+    "location_top": "St Giles Church Hall",
+    "location": [
+        "Church Hill",
+        "Bramhope",
+        "LS16 9BA"
+    ],
+    "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481"
+  }
 ],
 	"weekend_events": [
     {
