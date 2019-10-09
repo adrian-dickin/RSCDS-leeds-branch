@@ -75,6 +75,27 @@
     }]
   },
   {
+    "date": "16th Dec",
+    "date2": "2018",
+    "startdate": "2018-12-16",
+    "time": "start 1:45pm",
+    "time2": "end 3:45pm",
+    "actor2": "MC: Don Andrews",
+    "actor": "Music: Ian Slater",
+    "event": "Christmas Tea Dance",
+    "event_desc": "Faith tea",
+    "location_top": "West Park United Reform Church",
+    "location": [
+        "Spen Lane",
+        "Leeds",
+        "LS16 5BD"
+    ],
+    "details": [
+      {"name": "details",
+       "link": "documents/Christmas Tea Dance 2019.pdf"}
+     ]
+  },
+  {
     "date": "21st Dec",
     "date2": "2019",
     "startdate": "2019-12-21T19:30",
