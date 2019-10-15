@@ -66,7 +66,20 @@
   		],
   		"notes": ["Continues throughout the year"]
    	},
-
+    {
+  		"day": "Thursday",
+  		"level": "General",
+  		"teacher": [{"name": "Don Andrews", "email": "donaldhbandrews@gmail.com"}],
+  		"time": "19:30 - 21:30",
+  		"venue": [
+  			"West Park United Reformed Church",
+  			"317 Spen Lane",
+        "Leeds",
+  			"LS16 5BD"
+  		],
+      "alert": "new as branch class",
+  		"notes": [""]
+   	},
   	{
   		"day": "Sunday - monthly",
   		"level": "Workshop",

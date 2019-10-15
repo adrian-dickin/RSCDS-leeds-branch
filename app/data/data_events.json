@@ -4,9 +4,9 @@
     "date": "19th Oct",
     "date2": "2019",
     "startdate": "2019-10-19T19:00",
-    "time": "7:00pm",
+    "time": "Dance 7:00pm",
     "event": "Leeds Branch Dance",
-    "event_desc": "AGM",
+    "event_desc": "AGM 6:15pm",
     "actor": "Music: John Dudley",
     "actor2": "MC: Alan Fox",
     "location_top": "Queens Hall",
@@ -52,6 +52,8 @@
       "York",
       "YO32 9UT"
     ],
+    "programme": "http://my.strathspey.org/dd/list/24833/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-york-joint-ball-16-november-2019.pdf",
     "map": "https://www.google.co.uk/maps/@54.0001517,-0.9950311,18.34z"
   },
   {
@@ -108,6 +110,25 @@
       "Leeds",
       "LS16 5JT"
     ]
+  },
+  {
+    "date": "27th Dec",
+    "date2": "2019",
+    "startdate": "2019-12-27T19:30",
+    "time": "7:30pm",
+    "event": "Branch Dance",
+    "actor": "Music: Ian Slater",
+    "actor2": "MC: Don Andrews",
+    "location_top": "West Park URC",
+    "location": [
+      "Spen Lane",
+      "Leeds",
+      "LS16 5BD"
+    ],
+    "details": [
+      {"name": "details",
+       "link": "documents/Hogmanay2019.pdf"}
+     ]
   }
 ],
 "leeds_events": [
