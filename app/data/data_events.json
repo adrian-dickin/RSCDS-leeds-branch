@@ -92,10 +92,8 @@
         "Leeds",
         "LS16 5BD"
     ],
-    "details": [
-      {"name": "details",
-       "link": "documents/Christmas Tea Dance 2019.pdf"}
-     ]
+    "programme": "http://my.strathspey.org/dd/list/1532/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/christmas-tea-dance-16-december-2019.pdf"
   },
   {
     "date": "21st Dec",
@@ -125,10 +123,8 @@
       "Leeds",
       "LS16 5BD"
     ],
-    "details": [
-      {"name": "details",
-       "link": "documents/Hogmanay2019.pdf"}
-     ]
+    "programme": "http://my.strathspey.org/dd/list/5800/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/hogmany-dance-2019.pdf"
   }
 ],
 "leeds_events": [
