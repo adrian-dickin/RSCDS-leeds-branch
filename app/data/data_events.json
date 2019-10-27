@@ -1,44 +1,6 @@
 {
   "events": [
   {
-    "date": "19th Oct",
-    "date2": "2019",
-    "startdate": "2019-10-19T19:00",
-    "time": "Dance 7:00pm",
-    "event": "Leeds Branch Dance",
-    "event_desc": "AGM 6:15pm",
-    "actor": "Music: John Dudley",
-    "actor2": "MC: Alan Fox",
-    "location_top": "Queens Hall",
-    "location": [
-        "Immaculate Heart Church",
-        "294 Harrogate Road",
-        "LS17 6LE"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/23469/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-19th-october-2019.pdf"
-  },
-  {
-    "date": "26th Oct",
-    "date2": "2019",
-    "startdate": "2019-10-26",
-    "time": "start 6:30pm",
-    "time2": "end 9:00pm",
-    "event": "Family Ceilidh",
-    "actor": "Music: Bandiera Rossa",
-    "location_top": "Holy Trinity Church Community Hall",
-    "location": [
-      "Memorial Drive",
-      "Meanwood",
-      "Leeds",
-      "LS6 4LF"
-    ],
-    "details": [{
-      "link" : "ceilidh.html",
-      "name" : "details"
-    }]
-  },
-  {
     "date": "16th Nov",
     "date2": "2019",
     "startdate": "2019-11-16T19:30",

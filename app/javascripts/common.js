@@ -20,7 +20,7 @@ function decode(encoded) {
 
 function handleEmailLinks() {
 	$('a.emailLink').each(function() {
-		var email = encodedEmail.decode($(this).attr('data-addr'));
+		var email = decode($(this).attr('data-addr'));
 		$(this).attr('href', 'mailto:' + email);
 	});
 
