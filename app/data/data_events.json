@@ -12,7 +12,7 @@
       "Sandy Lane",
       "Stockton On The Forest",
       "York",
-      "YO32 9UT"
+      "YO32 9UR"
     ],
     "programme": "http://my.strathspey.org/dd/list/24833/",
     "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-york-joint-ball-16-november-2019.pdf",
@@ -64,19 +64,22 @@
     "time": "7:30pm",
     "event": "Branch/Club Dance",
     "actor": "Music: George Meikle trio",
+    "actor2": "MC: Jan & Geoff Robinson",
     "location_top": "St Chad's Parish Centre",
     "location": [
       "Otley Road",
       "Leeds",
       "LS16 5JT"
-    ]
+    ],
+    "programme": "https://my.strathspey.org/dd/list/25376/",
+    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-and-branch-joint-christmas-dance-21st-dec-2019.pdf"
   },
   {
     "date": "27th Dec",
     "date2": "2019",
     "startdate": "2019-12-27T19:30",
     "time": "7:30pm",
-    "event": "Branch Dance",
+    "event": "St Columba’s Dancers/Branch Hogmanay Dance",
     "actor": "Music: Ian Slater",
     "actor2": "MC: Don Andrews",
     "location_top": "West Park URC",
@@ -174,26 +177,32 @@
       "time": "7:30pm",
       "event": "Branch/Club Dance",
       "actor": "Music: George Meikle trio",
+      "actor2": "MC: Jan & Geoff Robinson",
       "location_top": "St Chad's Parish Centre",
       "location": [
         "Otley Road",
         "Leeds",
         "LS16 5JT"
-      ]
+      ],
+      "programme": "https://my.strathspey.org/dd/list/25376/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-and-branch-joint-christmas-dance-21st-dec-2019.pdf"
     },
     {
       "date": "27th Dec",
       "date2": "2019",
       "startdate": "2019-12-27T19:30",
       "time": "7:30pm",
-      "event": "St Columba SC Dancers' Hogmanay Dance",
+      "event": "St Columba’s Dancers/Branch Hogmanay Dance",
       "actor": "Music: Ian Slater",
+      "actor2": "MC: Don Andrews",
       "location_top": "West Park United Reformed Church",
       "location": [
-        "317 Spen Lane",
+        "Spen Lane",
         "Leeds",
         "LS16 5BD"
-      ]
+      ],
+      "programme": "http://my.strathspey.org/dd/list/5800/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/hogmany-dance-2019.pdf"
     },
     {
       "date": "29th Feb",
