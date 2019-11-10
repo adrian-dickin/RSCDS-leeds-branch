@@ -230,6 +230,25 @@
 
 "special_events": [
   {
+    "date": "22nd Feb",
+    "date2": "2020",
+    "startdate": "2020-02-22",
+    "event": "Musicians Workshop",
+    "actor": "Course Leader: Ian Muir (Craigellachie)",
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "details": [
+      {
+        "link": "documents/Rscds Musician's day school 2020.pdf",
+        "name": "Form"
+      }
+    ]
+  },
+  {
     "date": "25th Apr",
     "date2": "2020",
     "startdate": "2020-04-25",

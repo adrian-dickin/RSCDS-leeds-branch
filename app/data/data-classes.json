@@ -84,6 +84,7 @@
   		"day": "Sunday - monthly",
   		"level": "Workshop",
   		"teacher": [{"name": "Catherine Livsey", "email": "cllivsey@gmail.com"}],
+      "alert": "Dates to be confirmed",
   		"time": "13:30 - 16:00",
   		"venue": [
   			"Askwith Village Hall",
@@ -99,5 +100,9 @@
    	}
   ],
   "sunday-workshop": [
+    {
+      "date": "TBC",
+      "description": ["The next classes haven't been decided yet."]
+    }
   ]
  }
