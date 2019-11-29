@@ -92,24 +92,6 @@
 ],
 "leeds_events": [
     {
-      "date": "23rd Nov",
-      "date2": "2019",
-      "startdate": "2019-11-23T19:30",
-      "time": "7:30pm",
-      "event": "Leeds Club",
-      "actor": "Music: Phil Jones",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "details": [{
-          "link": "Socials/leeds-2019-2.pdf",
-          "name": "Crib"
-      }]
-    },
-    {
       "date": "30th Nov",
       "date2": "2019",
       "startdate": "2019-11-30T19:30",
