@@ -205,10 +205,19 @@
       "Leeds",
       "LS16 5JT"
     ],
+    "map": "https://www.google.com/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8275026,-1.5835686,16.67z/data=!4m5!3m4!1s0x0:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
     "details": [
       {
         "link": "documents/Rscds Musician's day school 2020.pdf",
         "name": "Form"
+      },
+      {
+        "link": "documents/Musician's Workshop Leaflet Feb 2020.pdf",
+        "name": "Flyer"
+      },
+      {
+        "external-link": "https://stchads.co.uk/contact-us/how-to-find-us/",
+        "name": "Venue website (directions)"
       }
     ]
   },
