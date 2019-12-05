@@ -1,26 +1,6 @@
 {
   "events": [
   {
-    "date": "30th Nov",
-    "date2": "2019",
-    "startdate": "2019-11-30",
-    "time": "start 6:30pm",
-    "time2": "end 9:00pm",
-    "event": "Family Ceilidh",
-    "actor": "Music: Bandiera Rossa",
-    "location_top": "Holy Trinity Church Community Hall",
-    "location": [
-      "Memorial Drive",
-      "Meanwood",
-      "Leeds",
-      "LS6 4LF"
-    ],
-    "details": [{
-      "link" : "ceilidh.html",
-      "name" : "details"
-    }]
-  },
-  {
     "date": "16th Dec",
     "date2": "2019",
     "startdate": "2019-12-16",
@@ -91,28 +71,6 @@
   }
 ],
 "leeds_events": [
-    {
-      "date": "30th Nov",
-      "date2": "2019",
-      "startdate": "2019-11-30T19:30",
-      "time": "7:30pm",
-      "event": "Manchester RSCDS",
-      "event_desc2": "Christmas Dance, Faith Supper and Raffle",
-      "actor": "Music: Martainn Skene",
-      "location_top": "St Matthews Hall",
-      "location": [
-        "Chapel Lane",
-        "Stretford",
-        "M32 9AJ"
-      ],
-      "details": [{
-          "link": "socials/2019 xmas dance flyer.pdf",
-          "name": "Event flyer"
-      }, {
-          "external-link": "http://www.rscds-manchester.org.uk/",
-          "name": "Manchester website"
-      }]
-    },
     {
       "date": "7th Dec",
       "date2": "2019",
@@ -238,26 +196,18 @@
 ],
 	"weekend_events": [
     {
-      "date": "29th Nov - 1st Dec",
-      "date2": "2019",
-      "startdate": "2019-11-29",
-      "enddate": "2019-12-01",
+      "date": "27th Nov - 29th Nov",
+      "date2": "2020",
+      "startdate": "2019-11-27",
+      "enddate": "2019-11-29",
       "event": "Malhamdale Weekend",
-      "actor": "Teacher: Ruby Wilkinson",
-      "actor2": "Music: Alan Ross ",
+      "actor": "Teacher: Angela Young",
+      "actor2": "Music: George Meikle ",
       "location_top": "Newfield Hall",
       "location": ["Skipton"],
       "details": [
         {"name": "Form",
-         "link": "documents/Malhamdale form 2019.pdf"},
-        {"name": "Friday programme",
-         "external-link": "http://my.strathspey.org/dd/list/23690/"},
-        {"name": "Friday crib",
-         "link": "documents/malhamdale-2019-friday-29th-november.pdf"},
-        {"name": "Saturday programme",
-         "external-link": "http://my.strathspey.org/dd/list/23691/"},
-        {"name": "Saturday crib",
-         "link": "documents/malhamdale-2019-saturday-30th-november.pdf"}
+         "link": "documents/Application form 2020.pdf"}
       ]
   	}
   ]
