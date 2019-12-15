@@ -72,27 +72,6 @@
 ],
 "leeds_events": [
     {
-      "date": "7th Dec",
-      "date2": "2019",
-      "startdate": "2019-12-07T19:30",
-      "event": "Harrogate Saltire",
-      "event_desc2": "The Saltire’s Winter Rant (faith supper)",
-      "actor": "Music: Matthew MacLennan Duo.",
-      "location_top": "St. John's C.E. Junior School Hall",
-      "location": [
-        "Stockwell Road",
-        "Knaresborough",
-        "HG5 0JN"
-      ],
-      "details": [{
-        "link": "socials/December Rant 19 invite.pdf",
-        "name": "invite"
-      }, {
-        "external-link": "http://harrogatesaltire.com/events-news/",
-        "name": "website"
-      }]
-    },
-    {
       "date": "21st Dec",
       "date2": "2019",
       "startdate": "2019-12-21T19:30",
