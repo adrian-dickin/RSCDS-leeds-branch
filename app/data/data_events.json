@@ -1,29 +1,13 @@
 {
   "events": [
   {
-    "date": "27th Dec",
-    "date2": "2019",
-    "startdate": "2019-12-27T19:30",
-    "time": "7:30pm",
-    "event": "St Columba’s Dancers/Branch Hogmanay Dance",
-    "actor": "Music: Ian Slater",
-    "actor2": "MC: Don Andrews",
-    "location_top": "West Park URC",
-    "location": [
-      "Spen Lane",
-      "Leeds",
-      "LS16 5BD"
-    ],
-    "programme": "http://my.strathspey.org/dd/list/5800/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/hogmany-dance-2019.pdf"
-  },
-  {
     "date": "18th Jan",
     "date2": "2020",
     "startdate": "2020-01-18T19:00",
     "time": "7:00pm",
     "event": "Branch Dance",
     "actor": "Music: Neil Barron Duo",
+    "actor2": "MC: Alan Horsfall",
     "location_top": "St Chad's Parish Centre",
     "location": [
       "Otley Road",
@@ -40,6 +24,7 @@
     "time": "7:00pm",
     "event": "Branch Dance",
     "actor": "Music: Alan Ross",
+    "actor2": "MC: Catherine Livsey",
     "location_top": "",
     "location": []
   },
@@ -70,6 +55,7 @@
     "time": "7:00pm",
     "event": "Branch Dance",
     "actor": "Music: Phill Jones Solo",
+    "actor2": "MC: Irene Dracup",
     "location_top": "",
     "location": []
   },
@@ -81,6 +67,7 @@
     "time2": "end 9:00pm",
     "event": "Family Ceilidh",
     "actor": "Music: Bandiera Rossa",
+    "actor2": "MC: Marion Walbank & Jill Woodman",
     "location_top": "Holy Trinity Church Community Hall",
     "location": [
       "Memorial Drive",
@@ -148,53 +135,9 @@
         "LS24 9AB"
     ],
     "map": "https://www.google.co.uk/maps/place/Riley-Smith+Hall/@53.885156,-1.2664527,17z/data=!3m1!4b1!4m5!3m4!1s0x487947eb074b99af:0x830afd1104bf382a!8m2!3d53.885156!4d-1.264264"
-  },
-  {
-    "date": "19th Dec",
-    "date2": "2020",
-    "startdate": "2020-12-19T19:00",
-    "time": "7:00pm",
-    "event": "Leeds Club & Branch Joint Xmas Dance",
-    "actor": "Music: George Meikle trio",
-    "location_top": "",
-    "location": []
   }
 ],
 "leeds_events": [
-    {
-      "date": "21st Dec",
-      "date2": "2019",
-      "startdate": "2019-12-21T19:30",
-      "time": "7:30pm",
-      "event": "Leeds Club & Branch Joint Xmas Dance",
-      "actor": "Music: George Meikle trio",
-      "actor2": "MC: Jan & Geoff Robinson",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "programme": "https://my.strathspey.org/dd/list/25376/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-and-branch-joint-christmas-dance-21st-dec-2019.pdf"
-    },
-    {
-      "date": "27th Dec",
-      "date2": "2019",
-      "startdate": "2019-12-27T19:30",
-      "time": "7:30pm",
-      "event": "St Columba’s Dancers/Branch Hogmanay Dance",
-      "actor": "Music: Ian Slater",
-      "actor2": "MC: Don Andrews",
-      "location_top": "West Park United Reformed Church",
-      "location": [
-        "Spen Lane",
-        "Leeds",
-        "LS16 5BD"
-      ],
-      "programme": "http://my.strathspey.org/dd/list/5800/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/hogmany-dance-2019.pdf"
-    },
     {
       "date": "29th Feb",
       "date2": "2020",
