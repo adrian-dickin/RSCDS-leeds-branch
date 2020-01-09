@@ -14,6 +14,7 @@
       "Leeds",
       "LS16 5JT"
     ],
+    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
     "programme": "http://my.strathspey.org/dd/list/24953/",
     "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-18th-january-2020.pdf"
   },
@@ -56,8 +57,13 @@
     "event": "Branch Dance",
     "actor": "Music: Phill Jones Solo",
     "actor2": "MC: Irene Dracup",
-    "location_top": "",
-    "location": []
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
   },
   {
     "date": "2nd May",
@@ -67,7 +73,6 @@
     "time2": "end 9:00pm",
     "event": "Family Ceilidh",
     "actor": "Music: Bandiera Rossa",
-    "actor2": "MC: Marion Walbank & Jill Woodman",
     "location_top": "Holy Trinity Church Community Hall",
     "location": [
       "Memorial Drive",
@@ -87,8 +92,14 @@
     "time": "7:00pm",
     "event": "Branch Dance",
     "actor": "Music: Ian Muir",
-    "location_top": "",
-    "location": []
+    "actor2": "MC: Marion Walbank & Jill Woodman",
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
   },
   {
     "date": "20th Jun",
@@ -97,8 +108,13 @@
     "time": "7:00pm",
     "event": "Branch Dance",
     "actor": "Music: Robert Whitehead",
-    "location_top": "",
-    "location": []
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
   },
   {
     "date": "19th Sep",
@@ -107,8 +123,13 @@
     "time": "7:00pm",
     "event": "Branch Dance",
     "actor": "Music: Gaeme Munro trio",
-    "location_top": "",
-    "location": []
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
   },
   {
     "date": "17th Oct",
@@ -118,8 +139,13 @@
     "event": "Branch Dance",
     "event_desc": "AGM",
     "actor": "Music: Ian Slater",
-    "location_top": "",
-    "location": []
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
   },
   {
     "date": "21st Nov",
@@ -138,6 +164,22 @@
   }
 ],
 "leeds_events": [
+    {
+      "date": "25th Jan",
+      "date2": "2020",
+      "startdate": "2020-01-25T19:30",
+      "time": "7:30pm",
+      "event": "Leeds Club",
+      "actor": "Music: Alan Ross",
+      "actor2": "MC: Malcolm and Helen Brown",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
+    },
     {
       "date": "29th Feb",
       "date2": "2020",
