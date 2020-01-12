@@ -23,7 +23,7 @@
   			"Leeds",
   			"LS16 5JT"
   		],
-
+        "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
 
   		"location_top": "The Riley Smith Hall",
   		"location": [
@@ -109,6 +109,7 @@
           "Leeds",
           "LS16 5BD"
         ]
+https://www.google.co.uk/maps/place/West+Park+United+Reformed+Church/@53.8359637,-1.6056641,15.99z/data=!4m5!3m4!1s0x4879591f7df6cf0d:0x7e2f36d7277dc2e1!8m2!3d53.8348068!4d-1.6022598?hl=en
 
         "location_top": "Holy Trinity Church Community Hall",
         "location": [
@@ -117,3 +118,4 @@
           "Leeds",
           "LS6 4LF"
         ]
+https://www.google.co.uk/maps/place/Holy+Trinity/@53.8315159,-1.5689758,17.24z/data=!4m5!3m4!1s0x487959432ffad8d5:0xdb029752b1a9f841!8m2!3d53.8314987!4d-1.5665353?hl=en
