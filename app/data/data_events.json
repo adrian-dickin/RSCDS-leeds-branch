@@ -168,10 +168,8 @@
         "LS16 5JT"
       ],
       "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
-      "details": [{
-        "link": "http://www.rscdsleeds.org.uk/Socials/Leeds-Club-Programme-25-January-2020.pdf",
-        "name": "Programme"
-      }]
+      "programme": "https://my.strathspey.org/dd/list/9103/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-scottish-country-dance-club-25-january-2020.pdf"
     },
     {
       "date": "29th Feb",
