@@ -168,7 +168,9 @@
         "Leeds",
         "LS16 5JT"
       ],
-      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
+      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
+      "programme": "https://my.strathspey.org/dd/list/10873/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-29th-february-2020.pdf"
     },
     {
       "date": "29th Feb",
@@ -235,10 +237,32 @@
         "Bramhope",
         "LS16 9BA"
     ],
-    "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481"
+    "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
+    "details": [
+      {"name": "details",
+        "link": "documents/Highland Day School 25.4.2020.pdf"}
+    ]
+  },
+  {
+    "date": "24th Oct",
+    "date2": "2020",
+    "startdate": "2020-10-24",
+    "event": "Highland Day School",
+    "actor": "Teacher: Catherine Livsey",
+    "location_top": "St Giles Church Hall",
+    "location": [
+      "Church Hill",
+      "Bramhope",
+      "LS16 9BA"
+    ],
+    "map": "https://www.google.co.uk/maps/place/St.+Giles+Bramhope/@53.8863836,-1.6248368,17z/data=!3m1!4b1!4m5!3m4!1s0x4879583a8114dfa5:0x8cce974660977149!8m2!3d53.8863805!4d-1.6226481",
+    "details": [
+      {"name": "details",
+        "link": "documents/Highland Day School 24.10.2020.pdf"}
+    ]
   }
 ],
-	"weekend_events": [
+"weekend_events": [
     {
       "date": "27th Nov - 29th Nov",
       "date2": "2020",
