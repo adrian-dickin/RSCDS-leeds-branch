@@ -1,24 +1,6 @@
 {
   "events": [
   {
-    "date": "15th Feb",
-    "date2": "2020",
-    "startdate": "2020-02-15T19:00",
-    "time": "7:00pm",
-    "event": "Branch Dance",
-    "actor": "Music: Alan Ross",
-    "actor2": "MC: Catherine Livsey",
-    "location_top": "St Chad's Parish Centre",
-    "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
-    ],
-    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
-    "programme": "https://my.strathspey.org/dd/list/26712/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-february-2020.pdf"
-  },
-  {
     "date": "7th Mar",
     "date2": "2020",
     "startdate": "2020-03-07",
