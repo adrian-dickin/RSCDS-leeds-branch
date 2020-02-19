@@ -26,6 +26,7 @@
     "startdate": "2020-03-21T19:00",
     "time": "7:00pm",
     "event": "Branch Dance",
+    "event_desc": "with Faith Supper",
     "actor": "Music: Phill Jones Solo",
     "actor2": "MC: Irene Dracup",
     "location_top": "St Chad's Parish Centre",
@@ -82,6 +83,7 @@
     "time": "7:00pm",
     "event": "Branch Dance",
     "actor": "Music: Robert Whitehead",
+    "actor2": "MC: Katie Husband and Nicola Waugh",
     "location_top": "St Chad's Parish Centre",
     "location": [
       "Otley Road",
@@ -96,7 +98,9 @@
     "startdate": "2020-09-19T19:00",
     "time": "7:00pm",
     "event": "Branch Dance",
+    "event_desc": "following Day School with Ramona Zohm",
     "actor": "Music: Gaeme Munro trio",
+    "actor2": "MC: Claire Johnson",
     "location_top": "St Chad's Parish Centre",
     "location": [
       "Otley Road",
@@ -178,8 +182,60 @@
           "external-link": "http://www.rscds-manchester.org.uk/",
           "name": "Manchester website"
       }]
+    },
+    {
+      "date": "28th Mar",
+      "date2": "2020",
+      "startdate": "2020-03-28",
+      "event": "Leeds Club",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
+    },
+    {
+      "date": "2nd May",
+      "date2": "2020",
+      "startdate": "2020-05-02",
+      "event": "Leeds Club",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
+    },
+    {
+      "date": "30th May",
+      "date2": "2020",
+      "startdate": "2020-05-30",
+      "event": "Leeds Club",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
+    },
+    {
+      "date": "27th June",
+      "date2": "2020",
+      "startdate": "2020-06-27",
+      "event": "Leeds Club",
+      "location_top": "St Chad's Parish Centre",
+      "location": [
+        "Otley Road",
+        "Leeds",
+        "LS16 5JT"
+      ],
+      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
     }
-  ],
+],
 
 "special_events": [
   {
@@ -227,6 +283,23 @@
       {"name": "details",
         "link": "documents/Highland Day School 25.4.2020.pdf"}
     ]
+  },
+  {
+    "date": "19th Sep",
+    "date2": "2020",
+    "startdate": "2020-09-19T10:00",
+    "time": "10.00",
+    "time2": "16.15",
+    "event": "Day School",
+    "actor": "Teacher: Ramona Zohm",
+    "actor2": "Music:  Ian Slater",
+    "location_top": "St Chad's Parish Centre",
+    "location": [
+      "Otley Road",
+      "Leeds",
+      "LS16 5JT"
+    ],
+    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
   },
   {
     "date": "24th Oct",
