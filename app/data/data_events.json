@@ -143,47 +143,6 @@
 ],
 "leeds_events": [
     {
-      "date": "29th Feb",
-      "date2": "2020",
-      "startdate": "2020-02-29T19:30",
-      "time": "7:30pm",
-      "event": "Leeds Club President's Dance",
-      "event_desc2": "faith supper",
-      "actor": "Music: Robert Whitehead duo",
-      "actor2": "MC: Alan Fox",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
-      "programme": "https://my.strathspey.org/dd/list/10873/",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-29th-february-2020.pdf"
-    },
-    {
-      "date": "29th Feb",
-      "date2": "2020",
-      "startdate": "2020-02-29T19:30",
-      "time": "7:30pm",
-      "event": "Manchester RSCDS",
-      "event_desc2": "Nice ‘N’ Easy Spring Dance",
-      "actor": "Music: Susan MacFadyen",
-      "location_top": "St Matthews Hall",
-      "location": [
-        "Chapel Lane",
-        "Stretford",
-        "M32 9AJ"
-      ],
-      "details": [{
-          "link": "socials/2020 - spring dance flyer.pdf",
-          "name": "Event flyer"
-      }, {
-          "external-link": "http://www.rscds-manchester.org.uk/",
-          "name": "Manchester website"
-      }]
-    },
-    {
       "date": "28th Mar",
       "date2": "2020",
       "startdate": "2020-03-28",
@@ -195,6 +154,24 @@
         "LS16 5JT"
       ],
       "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
+    },
+    {
+      "date": "25th Apr",
+      "date2": "2020",
+      "startdate": "2020-04-25",
+      "time": "7:30pm",
+      "event": "Harrogate Saltire Spring Dance",
+      "actor": "Music: George Meikle and the Lothian Band",
+      "location_top": "Knaresborough St John's School",
+      "location": [
+        "Stockwell Road",
+        "Knaresborough",
+        "HG5 0JN"
+      ],
+      "details": [{
+        "external-link": "http://harrogatesaltire.com/events-news/",
+        "name": "details"
+      }]
     },
     {
       "date": "2nd May",
@@ -238,34 +215,6 @@
 ],
 
 "special_events": [
-  {
-    "date": "22nd Feb",
-    "date2": "2020",
-    "startdate": "2020-02-22",
-    "event": "Musicians Workshop",
-    "actor": "Course Leader: Ian Muir (Craigellachie)",
-    "location_top": "St Chad's Parish Centre",
-    "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
-    ],
-    "map": "https://www.google.com/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8275026,-1.5835686,16.67z/data=!4m5!3m4!1s0x0:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
-    "details": [
-      {
-        "link": "documents/Rscds Musician's day school 2020.pdf",
-        "name": "Form"
-      },
-      {
-        "link": "documents/Musician's Workshop Leaflet Feb 2020.pdf",
-        "name": "Flyer"
-      },
-      {
-        "external-link": "https://stchads.co.uk/contact-us/how-to-find-us/",
-        "name": "Venue website (directions)"
-      }
-    ]
-  },
   {
     "date": "25th Apr",
     "date2": "2020",
