@@ -191,7 +191,8 @@
     {
       "date": "30th May",
       "date2": "2020",
-      "startdate": "2020-05-30",
+      "startdate": "2020-05-30T19:30",
+      "time": "7:30pm",
       "event": "Leeds Club",
       "location_top": "St Chad's Parish Centre",
       "location": [
@@ -199,7 +200,11 @@
         "Leeds",
         "LS16 5JT"
       ],
-      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
+      "actor": "Music: Leonard Brown",
+      "actor2" :  "MC: Alan Horsfall",
+      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
+      "programme": "https://my.strathspey.org/dd/list/11531/",
+      "crib": "http://www.rscdsleeds.org.uk/Socials/club-30th-may-2020.pdf"
     },
     {
       "date": "27th June",
