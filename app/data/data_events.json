@@ -1,26 +1,6 @@
 {
   "events": [
   {
-    "date": "7th Mar",
-    "date2": "2020",
-    "startdate": "2020-03-07",
-    "time": "start 6:30pm",
-    "time2": "end 9:00pm",
-    "event": "Family Ceilidh",
-    "actor": "Music: Bandiera Rossa",
-    "location_top": "Holy Trinity Church Community Hall",
-    "location": [
-      "Memorial Drive",
-      "Meanwood",
-      "Leeds",
-      "LS6 4LF"
-    ],
-    "details": [{
-      "link" : "ceilidh.html",
-      "name" : "details"
-    }]
-  },
-  {
     "date": "21st Mar",
     "date2": "2020",
     "startdate": "2020-03-21T19:00",
@@ -76,6 +56,25 @@
     "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
     "programme": "https://my.strathspey.org/dd/list/27708/",
     "crib": "http://www.rscdsleeds.org.uk/Socials/rscds-leeds-branch-dance-saturday-16-may-2020.pdf"
+  },
+  {
+    "date": "21st May",
+    "date2": "2020",
+    "startdate": "2020-05-21T14:30",
+    "time": "2:30pm",
+    "event": "A Spring Fling for Ilkley 2020",
+    "actor": "Music: Ian Slater",
+    "actor2": "MC: Don Andrews",
+    "location_top": "St Margaret’s Church Hall",
+    "location": [
+      "Queen’s Rd",
+      "Ilkley",
+      "LS29 9QL"
+    ],
+    "details": [{
+      "link": ",http://www.rscdsleeds.org.uk/Socials/Spring fling2020.pdf",
+      "name": "details"
+    }]
   },
   {
     "date": "20th Jun",
