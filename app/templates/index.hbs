@@ -20,11 +20,14 @@ jsonLd: |
     </script>
 ---
 <div class="row">
-  {{>home-events title="Branch Events" events=data_events.events page="events.html" note="Branch dances now start at 7:00pm"}}
+  {{>home-events title="Branch Events" events=data_events.events page="events.html"
+        note="Branch dances now start at 7:00pm"
+        warning="All branch events cancelled until further notice"}}
   {{>home-events title="Local Events" events=data_events.leeds_events page="leeds_events.html"}}
 </div>
 <div class="row">
-  {{>home-events title="Day Events" events=data_events.special_events page="special_events.html"}}
+  {{>home-events title="Day Events" events=data_events.special_events page="special_events.html"
+        warning="All branch events cancelled until further notice"}}
   {{>home-events title="Weekend Events" events=data_events.weekend_events page="weekend_events.html"}}
 </div>
 

@@ -168,6 +168,18 @@ table.calendar {
   border-radius: 12px;
 }
 
+.home-warning {
+    margin-top: 8px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 2px 6px;
+    color: black;
+    background: #f2dede;
+    border: 1px solid darkRed;
+    border-radius: 3px;
+}
+
+
 .note {
   margin: 4px 0px 4px 0px;
   font-size: 12px;
