@@ -1,25 +1,6 @@
 {
   "events": [
   {
-    "date": "21st Mar",
-    "date2": "2020",
-    "startdate": "2020-03-21T19:00",
-    "time": "7:00pm",
-    "event": "Branch Dance",
-    "event_desc": "light supper provided",
-    "actor": "Music: Phill Jones Solo",
-    "actor2": "MC: Irene Dracup",
-    "location_top": "St Chad's Parish Centre",
-    "location": [
-      "Otley Road",
-      "Leeds",
-      "LS16 5JT"
-    ],
-    "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
-    "programme": "https://my.strathspey.org/dd/list/27175/",
-    "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-branch-dance-21st-march-2020.pdf"
-  },
-  {
     "date": "2nd May",
     "date2": "2020",
     "startdate": "2020-05-02",
@@ -145,20 +126,6 @@
 ],
 "leeds_events": [
     {
-      "date": "28th Mar",
-      "date2": "2020",
-      "startdate": "2020-03-28",
-      "event": "Leeds Club",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145",
-      "crib": "http://www.rscdsleeds.org.uk/Socials/leeds-club-march-programme (3).pdf"
-    },
-    {
       "date": "25th Apr",
       "date2": "2020",
       "startdate": "2020-04-25",
@@ -175,19 +142,6 @@
         "external-link": "http://harrogatesaltire.com/events-news/",
         "name": "details"
       }]
-    },
-    {
-      "date": "2nd May",
-      "date2": "2020",
-      "startdate": "2020-05-02",
-      "event": "Leeds Club",
-      "location_top": "St Chad's Parish Centre",
-      "location": [
-        "Otley Road",
-        "Leeds",
-        "LS16 5JT"
-      ],
-      "map": "https://www.google.co.uk/maps/place/St+Chad%E2%80%99s+Parish+Centre/@53.8284799,-1.5869032,17z/data=!3m1!4b1!4m5!3m4!1s0x4879593941154ce9:0xfdc33bf1b120c29f!8m2!3d53.8284799!4d-1.5847145"
     },
     {
       "date": "30th May",
